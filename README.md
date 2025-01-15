@@ -1,1 +1,1 @@
-# airbnb-hosts-study
+# airbnb-hosts-visualization
