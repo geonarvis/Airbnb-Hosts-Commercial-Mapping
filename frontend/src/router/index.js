@@ -15,8 +15,8 @@ const routes = [
 ]
 
 const router = createRouter({
-  history: createWebHistory(),
+  history: createWebHistory('/airbnb-hosts-visualization/'),  // 修改这里
   routes
 })
 
-export default router 
+export default router
