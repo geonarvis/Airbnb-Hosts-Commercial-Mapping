@@ -1,7 +1,31 @@
+# Web 框架和相关扩展
+fastapi==0.109.0
+uvicorn==0.27.0
+python-dotenv==1.0.0
+
+# 数据库相关
+psycopg2-binary==2.9.9
+SQLAlchemy==2.0.25
+
+# 数据处理和科学计算
+pandas==2.1.4
+numpy==1.26.3
+scipy==1.11.4
+
+# 地理空间处理
+h3==3.7.6
+shapely==2.0.2
+geopandas==0.14.1
+
+# 数据可视化（用于等值线生成）
+matplotlib==3.8.2
+
+# HTTP 和跨域
+requests==2.31.0
+python-multipart==0.0.6
+
 flask==3.0.0
 flask-cors==4.0.0
-python-dotenv==1.0.0
-requests==2.31.0
 pymongo==4.6.1
 bcrypt==4.1.2
 PyJWT==2.8.0 
