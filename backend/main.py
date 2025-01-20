@@ -19,7 +19,13 @@ app = FastAPI()
 # CORS 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173"],
+    allow_origins=[
+        "http://localhost:5173",
+        "https://www.geonarvis.com",
+        "http://www.geonarvis.com",
+        "https://geonarvis.com",
+        "http://geonarvis.com"
+    ],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -29,9 +35,9 @@ app.add_middleware(
 # database config
 DB_CONFIG = {
     'host': 'localhost',
-    'database': 'listings-airbnb',
+    'database': 'listings_airbnb',
     'user': 'postgres',
-    'password': 'your_password',
+    'password': '7330', 
     'port': '5432'
 }
 

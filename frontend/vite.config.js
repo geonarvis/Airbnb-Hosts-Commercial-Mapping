@@ -2,11 +2,18 @@ import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 
 export default defineConfig({
-  base: '/airbnb-hosts-visualization/',  // 添加这行，指定基础路径
+  base: '/airbnb-hosts-visualization/',
   plugins: [vue()],
   server: {
     hmr: {
       overlay: true
+    },
+    proxy: {
+      '/airbnb-hosts-visualization/api': {
+        target: 'http://localhost:8000',
+        changeOrigin: true,
+        rewrite: (path) => path.replace(/^\/airbnb-hosts-visualization\/api/, '')
+      }
     }
   }
 })
