@@ -130,7 +130,7 @@
 import About from './About.vue'
 import { computed, ref, onMounted, watch, onUnmounted } from 'vue'
 import { useStore } from 'vuex'
-import axios from 'axios'
+import api from '../api'
 import { debounce } from 'lodash'
 import VueApexCharts from 'vue3-apexcharts'
 
@@ -187,9 +187,7 @@ export default {
 
     const fetchCities = async () => {
       try {
-        const response = await axios.get('http://localhost:8000/cities', {
-          withCredentials: true
-        })
+        const response = await api.get('/cities')
         cities.value = response.data.cities
       } catch (error) {
         console.error('Failed to fetch city list:', error)
@@ -204,9 +202,7 @@ export default {
       }
       
       try {
-        const response = await axios.get(`http://localhost:8000/city/${selectedCity.value}`, {
-          withCredentials: true
-        })
+        const response = await api.get(`/city/${selectedCity.value}`)
         cityInfo.value = response.data
         
         selectedHostTypes.value = []

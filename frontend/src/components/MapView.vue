@@ -9,7 +9,7 @@ import mapboxgl from 'mapbox-gl'
 import 'mapbox-gl/dist/mapbox-gl.css'
 import { mapOptions } from '../assets/data'
 import { onMounted, onUnmounted, watch } from 'vue'
-import axios from 'axios'
+import api from '../api'
 import { debounce } from 'lodash'
 
 export default {
@@ -132,14 +132,7 @@ export default {
     })
 
     const updateListings = async (hostType) => {
-      console.log('Checking conditions:', {
-        city: props.selectedLocation?.city,
-        time: props.currentTime,
-        type: hostType
-      })
-
       if (!props.selectedLocation?.city || !props.currentTime) {
-        console.log('Some conditions not met, skipping update')
         return
       }
       
@@ -147,17 +140,12 @@ export default {
       const timeStr = `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, '0')}`
       
       try {
-        const response = await axios.get(
-          `http://localhost:8000/city/${props.selectedLocation.city}/listings_by_categories`,
+        const response = await api.get(
+          `/city/${props.selectedLocation.city}/listings_by_categories`,
           {
             params: {
               time_point: timeStr,
               categories: hostType
-            },
-            withCredentials: true,
-            headers: {
-              'Accept': 'application/json',
-              'Content-Type': 'application/json'
             }
           }
         )
@@ -190,6 +178,7 @@ export default {
         console.error('Failed to fetch listings:', error)
       }
     }
+
 
     // 清除特定类型的图层数据
     const clearListings = (hostType) => {
@@ -278,7 +267,6 @@ export default {
     // 创建防抖的网格更新函数
     const debouncedUpdateHexGrid = debounce(async () => {
       if (!props.selectedLocation?.city || !props.currentTime || props.selectedHostTypes.length === 0) {
-        // 如果没有选中任何房东类型，隐藏网格图层
         if (map.getLayer('hexgrid-layer')) {
           map.setLayoutProperty('hexgrid-layer', 'visibility', 'none')
         }
@@ -289,14 +277,13 @@ export default {
         const date = new Date(Number(props.currentTime))
         const timeStr = `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, '0')}`
         
-        const response = await axios.get(
-          `http://localhost:8000/city/${props.selectedLocation.city}/hexgrid`,
+        const response = await api.get(
+          `/city/${props.selectedLocation.city}/hexgrid`,
           {
             params: {
               time_point: timeStr,
               categories: props.selectedHostTypes.join(',')
-            },
-            withCredentials: true
+            }
           }
         )
         
@@ -395,23 +382,22 @@ export default {
     const updateDensityContours = async () => {
       if (!props.selectedLocation?.city || !props.currentTime || props.selectedHostTypes.length === 0) {
         if (map.getLayer('density-contours')) {
-          map.setLayoutProperty('density-contours', 'visibility', 'none');
+          map.setLayoutProperty('density-contours', 'visibility', 'none')
         }
-        return;
+        return
       }
       
       try {
-        const date = new Date(Number(props.currentTime));
-        const timeStr = `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, '0')}`;
+        const date = new Date(Number(props.currentTime))
+        const timeStr = `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, '0')}`
         
-        const response = await axios.get(
-          `http://localhost:8000/city/${props.selectedLocation.city}/density_contours`,
+        const response = await api.get(
+          `/city/${props.selectedLocation.city}/density_contours`,
           {
             params: {
               time_point: timeStr,
               categories: props.selectedHostTypes.join(',')
-            },
-            withCredentials: true
+            }
           }
         );
         
@@ -448,7 +434,7 @@ export default {
         }
         
       } catch (error) {
-        console.error('Error fetching density contours:', error);
+        console.error('Error fetching density contours:', error)
       }
     };
 
