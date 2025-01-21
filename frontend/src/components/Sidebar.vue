@@ -257,13 +257,12 @@ export default {
         const date = new Date(Number(currentTime.value))
         const timeStr = `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, '0')}`
         
-        const response = await axios.get(
-          `http://localhost:8000/city/${selectedCity.value}/host_ranking`,
+        const response = await api.get(
+          `/city/${selectedCity.value}/host_ranking`,
           {
             params: {
               time_point: timeStr
-            },
-            withCredentials: true
+            }
           }
         )
         
@@ -418,10 +417,7 @@ export default {
 
     const updateYearlyStats = async (cityName) => {
       try {
-        const response = await axios.get(
-          `http://localhost:8000/city/${cityName}/yearly_stats`,
-          { withCredentials: true }
-        )
+        const response = await api.get(`/city/${cityName}/yearly_stats`)
         
         const stats = response.data.yearly_stats
         const startYear = new Date(cityInfo.value.time_window.earliest).getFullYear() + 1

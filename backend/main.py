@@ -1,4 +1,4 @@
-from fastapi import FastAPI, HTTPException
+from fastapi import FastAPI, HTTPException, Request
 from fastapi.middleware.cors import CORSMiddleware
 import pandas as pd
 import numpy as np
@@ -13,6 +13,8 @@ from functools import lru_cache
 from scipy.stats import gaussian_kde
 from shapely.geometry import LineString, MultiLineString
 import geopandas as gpd
+from fastapi.responses import JSONResponse
+from utils.logger import logger
 
 app = FastAPI()
 
@@ -122,16 +124,58 @@ def process_coordinates_batch(coordinates: list, batch_size: int = 1000):
         # 处理批次数据
         yield process_batch(batch)
 
+# 添加请求日志中间件
+@app.middleware("http")
+async def log_requests(request: Request, call_next):
+    start_time = datetime.now()
+    response = await call_next(request)
+    end_time = datetime.now()
+    
+    logger.info(
+        f"Path: {request.url.path} | "
+        f"Method: {request.method} | "
+        f"Status: {response.status_code} | "
+        f"Duration: {(end_time - start_time).total_seconds():.3f}s"
+    )
+    
+    return response
+
+# 错误处理
+@app.exception_handler(HTTPException)
+async def http_exception_handler(request, exc):
+    logger.error(
+        f"HTTP Exception: {exc.status_code} - {exc.detail} | "
+        f"Path: {request.url.path}"
+    )
+    return JSONResponse(
+        status_code=exc.status_code,
+        content={"detail": exc.detail}
+    )
+
+@app.exception_handler(Exception)
+async def general_exception_handler(request, exc):
+    logger.error(
+        f"Unhandled Exception: {str(exc)} | "
+        f"Path: {request.url.path}",
+        exc_info=True
+    )
+    return JSONResponse(
+        status_code=500,
+        content={"detail": "Internal server error"}
+    )
+
 @app.get("/cities")
 async def get_cities():
     try:
+        logger.info("Fetching cities list")
         with get_db_connection() as conn:
             with conn.cursor() as cur:
                 cur.execute("SELECT DISTINCT city FROM listings ORDER BY city")
                 cities = [row['city'] for row in cur.fetchall()]
+                logger.info(f"Found {len(cities)} cities")
                 return {"cities": cities}
     except Exception as e:
-        print(f"Error in get_cities: {str(e)}")
+        logger.error(f"Error in get_cities: {str(e)}", exc_info=True)
         raise HTTPException(status_code=500, detail=str(e))
 
 @app.get("/city/{city_name}")
