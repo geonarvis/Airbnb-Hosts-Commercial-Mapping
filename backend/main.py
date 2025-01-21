@@ -44,7 +44,7 @@ DB_CONFIG = {
     'port': '5432'
 }
 
-DATABASE_URL = "postgresql://postgres:your_password@localhost:5432/listings_airbnb"
+DATABASE_URL = "postgresql://postgres:7330@localhost:5432/listings_airbnb"
 database = Database(DATABASE_URL)
 
 @app.on_event("startup")

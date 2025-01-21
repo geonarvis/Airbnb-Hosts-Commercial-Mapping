@@ -1,0 +1,166 @@
+[2025-01-21 22:54:05,536] INFO in main: Fetching cities list
+[2025-01-21 22:54:06,285] INFO in main: Found 21 cities
+[2025-01-21 22:54:06,288] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.752s
+[2025-01-21 23:10:16,202] INFO in main: Fetching cities list
+[2025-01-21 23:10:16,332] INFO in main: Found 21 cities
+[2025-01-21 23:10:16,334] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.132s
+[2025-01-21 23:10:36,576] INFO in main: Path: /city/CapeTown | Method: GET | Status: 200 | Duration: 16.917s
+[2025-01-21 23:10:37,076] INFO in main: Fetching cities list
+[2025-01-21 23:10:37,211] INFO in main: Found 21 cities
+[2025-01-21 23:10:37,215] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.140s
+[2025-01-21 23:10:39,455] INFO in main: Path: /city/CapeTown/yearly_stats | Method: GET | Status: 200 | Duration: 2.392s
+[2025-01-21 23:10:43,092] INFO in main: Path: /city/CapeTown | Method: GET | Status: 200 | Duration: 3.323s
+[2025-01-21 23:10:43,636] INFO in main: Path: /city/CapeTown/yearly_stats | Method: GET | Status: 200 | Duration: 0.471s
+[2025-01-21 23:10:43,724] INFO in main: Path: /city/CapeTown/host_ranking | Method: GET | Status: 200 | Duration: 0.059s
+[2025-01-21 23:10:49,457] ERROR in main: HTTP Exception: 500 - column "host_type" does not exist
+HINT:  Perhaps you meant to reference the column "listings.host_name" or the column "listings.room_type". | Path: /city/CapeTown/density_contours
+[2025-01-21 23:10:49,458] INFO in main: Path: /city/CapeTown/density_contours | Method: GET | Status: 500 | Duration: 0.177s
+[2025-01-21 23:10:49,593] ERROR in main: HTTP Exception: 500 - column "host_type" does not exist
+HINT:  Perhaps you meant to reference the column "listings.host_name" or the column "listings.room_type". | Path: /city/CapeTown/density_contours
+[2025-01-21 23:10:49,594] INFO in main: Path: /city/CapeTown/density_contours | Method: GET | Status: 500 | Duration: 0.004s
+[2025-01-21 23:10:49,622] INFO in main: Path: /city/CapeTown/listings_by_categories | Method: GET | Status: 200 | Duration: 0.071s
+[2025-01-21 23:10:50,036] INFO in main: Path: /city/CapeTown/listings_by_categories | Method: GET | Status: 200 | Duration: 0.763s
+[2025-01-21 23:10:51,276] INFO in main: Path: /city/CapeTown/listings_by_categories | Method: GET | Status: 200 | Duration: 0.143s
+[2025-01-21 23:10:51,293] ERROR in main: HTTP Exception: 500 - column "host_type" does not exist
+HINT:  Perhaps you meant to reference the column "listings.host_name" or the column "listings.room_type". | Path: /city/CapeTown/density_contours
+[2025-01-21 23:10:51,293] INFO in main: Path: /city/CapeTown/density_contours | Method: GET | Status: 500 | Duration: 0.159s
+[2025-01-21 23:10:51,529] INFO in main: Path: /city/CapeTown/host_ranking | Method: GET | Status: 200 | Duration: 0.895s
+[2025-01-21 23:10:51,587] INFO in main: Path: /city/CapeTown/listings_by_categories | Method: GET | Status: 200 | Duration: 0.175s
+[2025-01-21 23:10:53,684] ERROR in main: HTTP Exception: 500 - column "host_type" does not exist
+HINT:  Perhaps you meant to reference the column "listings.host_name" or the column "listings.room_type". | Path: /city/CapeTown/density_contours
+[2025-01-21 23:10:53,685] INFO in main: Path: /city/CapeTown/density_contours | Method: GET | Status: 500 | Duration: 0.058s
+[2025-01-21 23:10:54,626] INFO in main: Path: /city/CapeTown/listings_by_categories | Method: GET | Status: 200 | Duration: 0.997s
+[2025-01-21 23:10:55,054] INFO in main: Path: /city/CapeTown/listings_by_categories | Method: GET | Status: 200 | Duration: 0.249s
+[2025-01-21 23:10:57,119] INFO in main: Path: /city/CapeTown/host_ranking | Method: GET | Status: 200 | Duration: 3.988s
+[2025-01-21 23:11:05,432] INFO in main: Path: /city/CapeTown/hexgrid | Method: GET | Status: 200 | Duration: 4.839s
+[2025-01-21 23:11:07,987] INFO in main: Path: /city/CapeTown/host_ranking | Method: GET | Status: 200 | Duration: 0.110s
+[2025-01-21 23:11:08,385] ERROR in main: HTTP Exception: 500 - column "host_type" does not exist
+HINT:  Perhaps you meant to reference the column "listings.host_name" or the column "listings.room_type". | Path: /city/CapeTown/density_contours
+[2025-01-21 23:11:08,385] INFO in main: Path: /city/CapeTown/density_contours | Method: GET | Status: 500 | Duration: 0.002s
+[2025-01-21 23:11:09,613] INFO in main: Path: /city/CapeTown/hexgrid | Method: GET | Status: 200 | Duration: 0.230s
+[2025-01-21 23:12:19,985] ERROR in main: HTTP Exception: 500 - column "host_type" does not exist
+HINT:  Perhaps you meant to reference the column "listings.host_name" or the column "listings.room_type". | Path: /city/CapeTown/density_contours
+[2025-01-21 23:12:19,985] INFO in main: Path: /city/CapeTown/density_contours | Method: GET | Status: 500 | Duration: 0.002s
+[2025-01-21 23:13:24,809] INFO in main: Path: /city/CapeTown/host_ranking | Method: GET | Status: 200 | Duration: 0.076s
+[2025-01-21 23:13:25,226] ERROR in main: HTTP Exception: 500 - column "host_type" does not exist
+HINT:  Perhaps you meant to reference the column "listings.host_name" or the column "listings.room_type". | Path: /city/CapeTown/density_contours
+[2025-01-21 23:13:25,226] INFO in main: Path: /city/CapeTown/density_contours | Method: GET | Status: 500 | Duration: 0.006s
+[2025-01-21 23:13:25,254] INFO in main: Path: /city/CapeTown/listings_by_categories | Method: GET | Status: 200 | Duration: 0.073s
+[2025-01-21 23:13:25,371] INFO in main: Path: /city/CapeTown/listings_by_categories | Method: GET | Status: 200 | Duration: 0.058s
+[2025-01-21 23:13:26,626] INFO in main: Path: /city/CapeTown/host_ranking | Method: GET | Status: 200 | Duration: 0.027s
+[2025-01-21 23:13:27,105] ERROR in main: HTTP Exception: 500 - column "host_type" does not exist
+HINT:  Perhaps you meant to reference the column "listings.host_name" or the column "listings.room_type". | Path: /city/CapeTown/density_contours
+[2025-01-21 23:13:27,106] INFO in main: Path: /city/CapeTown/density_contours | Method: GET | Status: 500 | Duration: 0.003s
+[2025-01-21 23:13:27,130] INFO in main: Path: /city/CapeTown/listings_by_categories | Method: GET | Status: 200 | Duration: 0.029s
+[2025-01-21 23:13:27,225] INFO in main: Path: /city/CapeTown/listings_by_categories | Method: GET | Status: 200 | Duration: 0.026s
+[2025-01-21 23:13:32,042] INFO in main: Path: /city/Amsterdam | Method: GET | Status: 200 | Duration: 1.115s
+[2025-01-21 23:13:32,151] ERROR in main: HTTP Exception: 500 - column "host_type" does not exist
+HINT:  Perhaps you meant to reference the column "listings.host_name" or the column "listings.room_type". | Path: /city/CapeTown/density_contours
+[2025-01-21 23:13:32,152] INFO in main: Path: /city/CapeTown/density_contours | Method: GET | Status: 500 | Duration: 0.003s
+[2025-01-21 23:13:32,442] INFO in main: Path: /city/Amsterdam/yearly_stats | Method: GET | Status: 200 | Duration: 0.332s
+[2025-01-21 23:13:32,495] INFO in main: Path: /city/CapeTown/listings_by_categories | Method: GET | Status: 200 | Duration: 0.052s
+[2025-01-21 23:13:33,297] INFO in main: Path: /city/Amsterdam/listings_by_categories | Method: GET | Status: 200 | Duration: 0.065s
+[2025-01-21 23:13:33,305] INFO in main: Path: /city/Amsterdam/host_ranking | Method: GET | Status: 200 | Duration: 0.071s
+[2025-01-21 23:13:38,746] INFO in main: Path: /city/Amsterdam/host_ranking | Method: GET | Status: 200 | Duration: 0.089s
+[2025-01-21 23:13:43,876] ERROR in main: HTTP Exception: 500 - column "host_type" does not exist
+HINT:  Perhaps you meant to reference the column "listings.host_name" or the column "listings.room_type". | Path: /city/Amsterdam/density_contours
+[2025-01-21 23:13:43,877] INFO in main: Path: /city/Amsterdam/density_contours | Method: GET | Status: 500 | Duration: 0.003s
+[2025-01-21 23:13:43,959] INFO in main: Path: /city/Amsterdam/listings_by_categories | Method: GET | Status: 200 | Duration: 0.085s
+[2025-01-21 23:13:44,456] ERROR in main: HTTP Exception: 500 - column "host_type" does not exist
+HINT:  Perhaps you meant to reference the column "listings.host_name" or the column "listings.room_type". | Path: /city/Amsterdam/density_contours
+[2025-01-21 23:13:44,457] INFO in main: Path: /city/Amsterdam/density_contours | Method: GET | Status: 500 | Duration: 0.004s
+[2025-01-21 23:13:44,556] INFO in main: Path: /city/Amsterdam/listings_by_categories | Method: GET | Status: 200 | Duration: 0.103s
+[2025-01-21 23:13:46,328] INFO in main: Path: /city/Amsterdam/host_ranking | Method: GET | Status: 200 | Duration: 0.124s
+[2025-01-21 23:13:46,708] ERROR in main: HTTP Exception: 500 - column "host_type" does not exist
+HINT:  Perhaps you meant to reference the column "listings.host_name" or the column "listings.room_type". | Path: /city/Amsterdam/density_contours
+[2025-01-21 23:13:46,709] INFO in main: Path: /city/Amsterdam/density_contours | Method: GET | Status: 500 | Duration: 0.002s
+[2025-01-21 23:13:46,797] INFO in main: Path: /city/Amsterdam/listings_by_categories | Method: GET | Status: 200 | Duration: 0.091s
+[2025-01-21 23:13:46,956] INFO in main: Path: /city/Amsterdam/listings_by_categories | Method: GET | Status: 200 | Duration: 0.098s
+[2025-01-21 23:13:48,261] ERROR in main: HTTP Exception: 500 - column "host_type" does not exist
+HINT:  Perhaps you meant to reference the column "listings.host_name" or the column "listings.room_type". | Path: /city/Amsterdam/density_contours
+[2025-01-21 23:13:48,262] INFO in main: Path: /city/Amsterdam/density_contours | Method: GET | Status: 500 | Duration: 0.003s
+[2025-01-21 23:13:48,495] INFO in main: Path: /city/Amsterdam/listings_by_categories | Method: GET | Status: 200 | Duration: 0.236s
+[2025-01-21 23:13:51,403] INFO in main: Path: /city/Amsterdam/host_ranking | Method: GET | Status: 200 | Duration: 0.114s
+[2025-01-21 23:13:51,632] ERROR in main: HTTP Exception: 500 - column "host_type" does not exist
+HINT:  Perhaps you meant to reference the column "listings.host_name" or the column "listings.room_type". | Path: /city/Amsterdam/density_contours
+[2025-01-21 23:13:51,632] INFO in main: Path: /city/Amsterdam/density_contours | Method: GET | Status: 500 | Duration: 0.003s
+[2025-01-21 23:13:51,789] ERROR in main: HTTP Exception: 500 - column "host_type" does not exist
+HINT:  Perhaps you meant to reference the column "listings.host_name" or the column "listings.room_type". | Path: /city/Amsterdam/density_contours
+[2025-01-21 23:13:51,789] INFO in main: Path: /city/Amsterdam/density_contours | Method: GET | Status: 500 | Duration: 0.002s
+[2025-01-21 23:13:51,829] INFO in main: Path: /city/Amsterdam/listings_by_categories | Method: GET | Status: 200 | Duration: 0.201s
+[2025-01-21 23:13:51,869] ERROR in main: HTTP Exception: 500 - column "host_type" does not exist
+HINT:  Perhaps you meant to reference the column "listings.host_name" or the column "listings.room_type". | Path: /city/Amsterdam/density_contours
+[2025-01-21 23:13:51,870] INFO in main: Path: /city/Amsterdam/density_contours | Method: GET | Status: 500 | Duration: 0.002s
+[2025-01-21 23:13:52,294] INFO in main: Path: /city/Amsterdam/listings_by_categories | Method: GET | Status: 200 | Duration: 0.427s
+[2025-01-21 23:13:54,669] ERROR in main: HTTP Exception: 500 - column "host_type" does not exist
+HINT:  Perhaps you meant to reference the column "listings.host_name" or the column "listings.room_type". | Path: /city/Amsterdam/density_contours
+[2025-01-21 23:13:54,670] INFO in main: Path: /city/Amsterdam/density_contours | Method: GET | Status: 500 | Duration: 0.004s
+[2025-01-21 23:13:55,575] ERROR in main: HTTP Exception: 500 - column "host_type" does not exist
+HINT:  Perhaps you meant to reference the column "listings.host_name" or the column "listings.room_type". | Path: /city/Amsterdam/density_contours
+[2025-01-21 23:13:55,575] INFO in main: Path: /city/Amsterdam/density_contours | Method: GET | Status: 500 | Duration: 0.003s
+[2025-01-21 23:13:55,966] INFO in main: Path: /city/Amsterdam/listings_by_categories | Method: GET | Status: 200 | Duration: 0.394s
+[2025-01-21 23:14:00,123] ERROR in main: HTTP Exception: 500 - column "host_type" does not exist
+HINT:  Perhaps you meant to reference the column "listings.host_name" or the column "listings.room_type". | Path: /city/Amsterdam/density_contours
+[2025-01-21 23:14:00,124] INFO in main: Path: /city/Amsterdam/density_contours | Method: GET | Status: 500 | Duration: 0.002s
+[2025-01-21 23:14:01,050] ERROR in main: HTTP Exception: 500 - column "host_type" does not exist
+HINT:  Perhaps you meant to reference the column "listings.host_name" or the column "listings.room_type". | Path: /city/Amsterdam/density_contours
+[2025-01-21 23:14:01,050] INFO in main: Path: /city/Amsterdam/density_contours | Method: GET | Status: 500 | Duration: 0.002s
+[2025-01-21 23:14:01,505] ERROR in main: HTTP Exception: 500 - column "host_type" does not exist
+HINT:  Perhaps you meant to reference the column "listings.host_name" or the column "listings.room_type". | Path: /city/Amsterdam/density_contours
+[2025-01-21 23:14:01,505] INFO in main: Path: /city/Amsterdam/density_contours | Method: GET | Status: 500 | Duration: 0.003s
+[2025-01-21 23:14:02,712] ERROR in main: HTTP Exception: 500 - column "host_type" does not exist
+HINT:  Perhaps you meant to reference the column "listings.host_name" or the column "listings.room_type". | Path: /city/Amsterdam/density_contours
+[2025-01-21 23:14:02,712] INFO in main: Path: /city/Amsterdam/density_contours | Method: GET | Status: 500 | Duration: 0.002s
+[2025-01-21 23:14:03,666] ERROR in main: HTTP Exception: 500 - column "host_type" does not exist
+HINT:  Perhaps you meant to reference the column "listings.host_name" or the column "listings.room_type". | Path: /city/Amsterdam/density_contours
+[2025-01-21 23:14:03,666] INFO in main: Path: /city/Amsterdam/density_contours | Method: GET | Status: 500 | Duration: 0.002s
+[2025-01-21 23:14:03,798] INFO in main: Path: /city/Amsterdam/listings_by_categories | Method: GET | Status: 200 | Duration: 0.135s
+[2025-01-21 23:14:04,251] ERROR in main: HTTP Exception: 500 - column "host_type" does not exist
+HINT:  Perhaps you meant to reference the column "listings.host_name" or the column "listings.room_type". | Path: /city/Amsterdam/density_contours
+[2025-01-21 23:14:04,251] INFO in main: Path: /city/Amsterdam/density_contours | Method: GET | Status: 500 | Duration: 0.002s
+[2025-01-21 23:14:04,402] INFO in main: Path: /city/Amsterdam/listings_by_categories | Method: GET | Status: 200 | Duration: 0.153s
+[2025-01-21 23:14:05,127] ERROR in main: HTTP Exception: 500 - column "host_type" does not exist
+HINT:  Perhaps you meant to reference the column "listings.host_name" or the column "listings.room_type". | Path: /city/Amsterdam/density_contours
+[2025-01-21 23:14:05,128] INFO in main: Path: /city/Amsterdam/density_contours | Method: GET | Status: 500 | Duration: 0.003s
+[2025-01-21 23:14:05,251] INFO in main: Path: /city/Amsterdam/listings_by_categories | Method: GET | Status: 200 | Duration: 0.134s
+[2025-01-21 23:14:06,958] ERROR in main: HTTP Exception: 500 - column "host_type" does not exist
+HINT:  Perhaps you meant to reference the column "listings.host_name" or the column "listings.room_type". | Path: /city/Amsterdam/density_contours
+[2025-01-21 23:14:06,959] INFO in main: Path: /city/Amsterdam/density_contours | Method: GET | Status: 500 | Duration: 0.002s
+[2025-01-21 23:14:07,066] INFO in main: Path: /city/Amsterdam/listings_by_categories | Method: GET | Status: 200 | Duration: 0.112s
+[2025-01-21 23:14:12,163] ERROR in main: HTTP Exception: 500 - column "host_type" does not exist
+HINT:  Perhaps you meant to reference the column "listings.host_name" or the column "listings.room_type". | Path: /city/Amsterdam/density_contours
+[2025-01-21 23:14:12,163] INFO in main: Path: /city/Amsterdam/density_contours | Method: GET | Status: 500 | Duration: 0.002s
+[2025-01-21 23:14:12,918] ERROR in main: HTTP Exception: 500 - column "host_type" does not exist
+HINT:  Perhaps you meant to reference the column "listings.host_name" or the column "listings.room_type". | Path: /city/Amsterdam/density_contours
+[2025-01-21 23:14:12,918] INFO in main: Path: /city/Amsterdam/density_contours | Method: GET | Status: 500 | Duration: 0.002s
+[2025-01-21 23:14:13,167] ERROR in main: HTTP Exception: 500 - column "host_type" does not exist
+HINT:  Perhaps you meant to reference the column "listings.host_name" or the column "listings.room_type". | Path: /city/Amsterdam/density_contours
+[2025-01-21 23:14:13,168] INFO in main: Path: /city/Amsterdam/density_contours | Method: GET | Status: 500 | Duration: 0.002s
+[2025-01-21 23:14:13,620] ERROR in main: HTTP Exception: 500 - column "host_type" does not exist
+HINT:  Perhaps you meant to reference the column "listings.host_name" or the column "listings.room_type". | Path: /city/Amsterdam/density_contours
+[2025-01-21 23:14:13,621] INFO in main: Path: /city/Amsterdam/density_contours | Method: GET | Status: 500 | Duration: 0.002s
+[2025-01-21 23:14:16,901] ERROR in main: HTTP Exception: 500 - column "host_type" does not exist
+HINT:  Perhaps you meant to reference the column "listings.host_name" or the column "listings.room_type". | Path: /city/Amsterdam/density_contours
+[2025-01-21 23:14:16,901] INFO in main: Path: /city/Amsterdam/density_contours | Method: GET | Status: 500 | Duration: 0.002s
+[2025-01-21 23:14:18,057] INFO in main: Path: /city/Amsterdam/hexgrid | Method: GET | Status: 200 | Duration: 0.158s
+[2025-01-21 23:14:19,345] ERROR in main: HTTP Exception: 500 - column "host_type" does not exist
+HINT:  Perhaps you meant to reference the column "listings.host_name" or the column "listings.room_type". | Path: /city/Amsterdam/density_contours
+[2025-01-21 23:14:19,345] INFO in main: Path: /city/Amsterdam/density_contours | Method: GET | Status: 500 | Duration: 0.002s
+[2025-01-21 23:14:20,517] INFO in main: Path: /city/Amsterdam/hexgrid | Method: GET | Status: 200 | Duration: 0.169s
+[2025-01-21 23:14:21,073] ERROR in main: HTTP Exception: 500 - column "host_type" does not exist
+HINT:  Perhaps you meant to reference the column "listings.host_name" or the column "listings.room_type". | Path: /city/Amsterdam/density_contours
+[2025-01-21 23:14:21,073] INFO in main: Path: /city/Amsterdam/density_contours | Method: GET | Status: 500 | Duration: 0.002s
+[2025-01-21 23:14:22,257] INFO in main: Path: /city/Amsterdam/hexgrid | Method: GET | Status: 200 | Duration: 0.181s
+[2025-01-21 23:14:23,574] ERROR in main: HTTP Exception: 500 - column "host_type" does not exist
+HINT:  Perhaps you meant to reference the column "listings.host_name" or the column "listings.room_type". | Path: /city/Amsterdam/density_contours
+[2025-01-21 23:14:23,574] INFO in main: Path: /city/Amsterdam/density_contours | Method: GET | Status: 500 | Duration: 0.002s
+[2025-01-21 23:14:24,858] INFO in main: Path: /city/Amsterdam/hexgrid | Method: GET | Status: 200 | Duration: 0.286s
+[2025-01-21 23:14:39,647] INFO in main: Path: /city/London | Method: GET | Status: 200 | Duration: 5.668s
+[2025-01-21 23:14:39,720] ERROR in main: HTTP Exception: 500 - column "host_type" does not exist
+HINT:  Perhaps you meant to reference the column "listings.host_name" or the column "listings.room_type". | Path: /city/Amsterdam/density_contours
+[2025-01-21 23:14:39,721] INFO in main: Path: /city/Amsterdam/density_contours | Method: GET | Status: 500 | Duration: 0.004s
+[2025-01-21 23:14:42,154] INFO in main: Path: /city/London/host_ranking | Method: GET | Status: 200 | Duration: 1.936s
+[2025-01-21 23:14:54,682] INFO in main: Path: /city/London/yearly_stats | Method: GET | Status: 200 | Duration: 14.965s
+[2025-01-21 23:15:17,313] INFO in main: Path: /city/Milan | Method: GET | Status: 200 | Duration: 12.289s
+[2025-01-21 23:15:17,910] INFO in main: Path: /city/Milan/yearly_stats | Method: GET | Status: 200 | Duration: 0.465s
+[2025-01-21 23:15:19,219] INFO in main: Path: /city/Milan/host_ranking | Method: GET | Status: 200 | Duration: 0.123s
