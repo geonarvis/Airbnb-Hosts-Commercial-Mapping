@@ -15,6 +15,7 @@ from shapely.geometry import LineString, MultiLineString
 import geopandas as gpd
 from fastapi.responses import JSONResponse
 from utils.logger import logger
+from databases import Database
 
 app = FastAPI()
 
@@ -42,6 +43,17 @@ DB_CONFIG = {
     'password': '7330', 
     'port': '5432'
 }
+
+DATABASE_URL = "postgresql://postgres:your_password@localhost:5432/listings_airbnb"
+database = Database(DATABASE_URL)
+
+@app.on_event("startup")
+async def startup():
+    await database.connect()
+
+@app.on_event("shutdown")
+async def shutdown():
+    await database.disconnect()
 
 def get_db_connection():
     """获取数据库连接"""
@@ -84,7 +96,7 @@ def get_spatial_data(
 def calculate_hex_grid(coordinates: list, resolution: int = 9) -> dict:
     """统一处理六边形网格计算"""
     hex_counts = Counter(
-        h3.latlng_to_cell(lat, lng, resolution)
+        h3.geo_to_h3(lat, lng, resolution)
         for lat, lng in coordinates
     )
     
@@ -92,8 +104,8 @@ def calculate_hex_grid(coordinates: list, resolution: int = 9) -> dict:
         'hexagons': [
             {
                 'id': str(hex_id),
-                'boundary': [list(p) for p in h3.cell_to_boundary(hex_id)],
-                'center': list(h3.cell_to_latlng(hex_id)),
+                'boundary': [list(p) for p in h3.h3_to_geo_boundary(hex_id)],
+                'center': list(h3.h3_to_geo(hex_id)),
                 'points_count': count
             }
             for hex_id, count in hex_counts.items()
@@ -563,7 +575,7 @@ async def get_city_hexgrid(
                     coords_df = pd.DataFrame(results)
                     resolution = 9
                     hex_ids = [
-                        h3.latlng_to_cell(lat, lng, resolution)
+                        h3.geo_to_h3(lat, lng, resolution)
                         for lat, lng in coords_df[['latitude', 'longitude']].values
                     ]
                     
@@ -573,8 +585,8 @@ async def get_city_hexgrid(
                     # 生成六边形边界
                     hex_boundaries = []
                     for hex_id, count in hex_counts.items():
-                        boundary = h3.cell_to_boundary(hex_id)
-                        center = h3.cell_to_latlng(hex_id)
+                        boundary = h3.h3_to_geo_boundary(hex_id)
+                        center = h3.h3_to_geo(hex_id)
                         
                         hex_boundaries.append({
                             'id': str(hex_id),
@@ -800,7 +812,7 @@ async def get_listings_by_count(
                     coords_df = pd.DataFrame(results)
                     resolution = 9
                     hex_ids = [
-                        h3.latlng_to_cell(lat, lng, resolution)
+                        h3.geo_to_h3(lat, lng, resolution)
                         for lat, lng in coords_df[['latitude', 'longitude']].values
                     ]
                     
@@ -808,8 +820,8 @@ async def get_listings_by_count(
                     hex_boundaries = []
                     
                     for hex_id, count in hex_counts.items():
-                        boundary = h3.cell_to_boundary(hex_id)
-                        center = h3.cell_to_latlng(hex_id)
+                        boundary = h3.h3_to_geo_boundary(hex_id)
+                        center = h3.h3_to_geo(hex_id)
                         
                         hex_boundaries.append({
                             'id': str(hex_id),
@@ -863,78 +875,75 @@ async def get_density_contours(
     categories: str = None,
 ):
     try:
-        async with pool.acquire() as conn:
-            async with conn.cursor() as cur:
-                # 构建基础查询
-                query = """
-                    SELECT ST_X(geom) as longitude, ST_Y(geom) as latitude 
-                    FROM listings 
-                    WHERE city = %s
-                """
-                params = [city_name]
-                
-                # 添加时间和类别过滤
-                if time_point:
-                    query += " AND DATE_TRUNC('month', first_review) <= %s"
-                    params.append(time_point)
-                if categories:
-                    categories_list = categories.split(',')
-                    query += f" AND host_type = ANY(%s)"
-                    params.append(categories_list)
-                
-                await cur.execute(query, params)
-                points = await cur.fetchall()
-                
-                if not points:
-                    return {"contours": []}
-                
-                # 转换为numpy数组
-                points = np.array(points)
-                
-                # 计算KDE
-                kde = gaussian_kde(points.T)
-                
-                # 创建网格
-                x_min, x_max = points[:,0].min(), points[:,0].max()
-                y_min, y_max = points[:,1].min(), points[:,1].max()
-                
-                x = np.linspace(x_min, x_max, 100)
-                y = np.linspace(y_min, y_max, 100)
-                xx, yy = np.meshgrid(x, y)
-                
-                # 计算密度
-                positions = np.vstack([xx.ravel(), yy.ravel()])
-                z = np.reshape(kde(positions).T, xx.shape)
-                
-                # 生成等值线
-                import matplotlib.pyplot as plt
-                contours = plt.contour(xx, yy, z, levels=10)
-                plt.close()
-                
-                # 转换等值线为GeoJSON格式
-                contour_features = []
-                for i, collection in enumerate(contours.collections):
-                    paths = collection.get_paths()
-                    for path in paths:
-                        vertices = path.vertices
-                        if len(vertices) > 2:  # 确保有足够的点形成线
-                            line = LineString(vertices)
-                            contour_features.append({
-                                "type": "Feature",
-                                "geometry": {
-                                    "type": "LineString",
-                                    "coordinates": [[p[0], p[1]] for p in vertices]
-                                },
-                                "properties": {
-                                    "level": i,
-                                    "density": float(contours.levels[i])
-                                }
-                            })
-                
-                return {
-                    "type": "FeatureCollection",
-                    "features": contour_features
-                }
-                
+        # 使用 database 而不是 pool
+        query = """
+            SELECT ST_X(geom) as longitude, ST_Y(geom) as latitude 
+            FROM listings 
+            WHERE city = :city
+        """
+        params = {"city": city_name}
+        
+        if time_point:
+            query += " AND DATE_TRUNC('month', first_review) <= :time_point"
+            params["time_point"] = time_point
+            
+        if categories:
+            categories_list = categories.split(',')
+            query += " AND host_type = ANY(:categories)"
+            params["categories"] = categories_list
+        
+        results = await database.fetch_all(query=query, values=params)
+        
+        if not results:
+            return {"contours": []}
+        
+        # 转换为numpy数组
+        points = np.array(results)
+        
+        # 计算KDE
+        kde = gaussian_kde(points.T)
+        
+        # 创建网格
+        x_min, x_max = points[:,0].min(), points[:,0].max()
+        y_min, y_max = points[:,1].min(), points[:,1].max()
+        
+        x = np.linspace(x_min, x_max, 100)
+        y = np.linspace(y_min, y_max, 100)
+        xx, yy = np.meshgrid(x, y)
+        
+        # 计算密度
+        positions = np.vstack([xx.ravel(), yy.ravel()])
+        z = np.reshape(kde(positions).T, xx.shape)
+        
+        # 生成等值线
+        import matplotlib.pyplot as plt
+        contours = plt.contour(xx, yy, z, levels=10)
+        plt.close()
+        
+        # 转换等值线为GeoJSON格式
+        contour_features = []
+        for i, collection in enumerate(contours.collections):
+            paths = collection.get_paths()
+            for path in paths:
+                vertices = path.vertices
+                if len(vertices) > 2:  # 确保有足够的点形成线
+                    line = LineString(vertices)
+                    contour_features.append({
+                        "type": "Feature",
+                        "geometry": {
+                            "type": "LineString",
+                            "coordinates": [[p[0], p[1]] for p in vertices]
+                        },
+                        "properties": {
+                            "level": i,
+                            "density": float(contours.levels[i])
+                        }
+                    })
+        
+        return {
+            "type": "FeatureCollection",
+            "features": contour_features
+        }
+        
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
