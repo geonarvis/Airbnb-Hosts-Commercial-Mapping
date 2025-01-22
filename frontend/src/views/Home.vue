@@ -31,7 +31,7 @@
 </template>
 
 <script>
-import { ref } from 'vue'
+import { ref, onMounted, onUnmounted } from 'vue'
 import MapView from '../components/MapView.vue'
 import Sidebar from '../components/Sidebar.vue'
 import AboutButton from '../components/AboutButton.vue'
@@ -57,6 +57,31 @@ export default {
     const selectedHostTypes = ref([])
     const currentTime = ref(null)
     const isHexMode = ref(false)
+
+    // 添加事件监听
+    onMounted(() => {
+      window.addEventListener('api-loading-start', () => {
+        loadingState.value = {
+          show: true,
+          progress: 0,
+          step: 'Loading city data...'
+        }
+      })
+      
+      window.addEventListener('api-loading-end', () => {
+        loadingState.value = {
+          show: false,
+          progress: 100,
+          step: 'Complete!'
+        }
+      })
+    })
+    
+    // 清理事件监听
+    onUnmounted(() => {
+      window.removeEventListener('api-loading-start', () => {})
+      window.removeEventListener('api-loading-end', () => {})
+    })
 
     const handleSidebarCollapse = (collapsed) => {
       isSidebarCollapsed.value = collapsed

@@ -1792,3 +1792,15 @@ TypeError: unsupported operand type(s) for *: 'decimal.Decimal' and 'float'
 [2025-01-22 21:16:44,428] INFO in main: Path: /city/Paris | Method: GET | Status: 200 | Duration: 0.000s
 [2025-01-22 21:16:44,788] INFO in main: Path: /city/Paris/yearly_stats | Method: GET | Status: 200 | Duration: 0.354s
 [2025-01-22 21:16:45,023] INFO in main: Path: /city/Paris/host_ranking | Method: GET | Status: 200 | Duration: 0.078s
+[2025-01-22 21:23:40,676] INFO in main: Fetching cities list
+[2025-01-22 21:23:40,731] INFO in main: Found 21 cities
+[2025-01-22 21:23:40,732] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.056s
+[2025-01-22 21:23:41,854] INFO in main: Path: /city/Buenosaires | Method: GET | Status: 200 | Duration: 0.000s
+[2025-01-22 21:23:41,996] INFO in main: Path: /city/Buenosaires/yearly_stats | Method: GET | Status: 200 | Duration: 0.136s
+[2025-01-22 21:23:42,413] INFO in main: Path: /city/Buenosaires/host_ranking | Method: GET | Status: 200 | Duration: 0.037s
+[2025-01-22 21:27:49,684] INFO in main: Fetching cities list
+[2025-01-22 21:27:49,733] INFO in main: Found 21 cities
+[2025-01-22 21:27:49,733] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.049s
+[2025-01-22 21:28:01,585] INFO in main: Fetching cities list
+[2025-01-22 21:28:01,635] INFO in main: Found 21 cities
+[2025-01-22 21:28:01,635] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.050s
