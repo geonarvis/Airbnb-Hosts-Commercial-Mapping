@@ -34,6 +34,13 @@ export default {
     isHexMode: {
       type: Boolean,
       default: false
+    },
+    pointStyle: {
+      type: Object,
+      default: () => ({
+        size: 4,
+        opacity: 0.8
+      })
     }
   },
   setup(props) {
@@ -65,8 +72,17 @@ export default {
 
       map.on('load', () => {
         console.debug('map loaded')
-        // 为每种类型创建图层
-        Object.entries(layerColors).forEach(([type, color]) => {
+        // 按照从下到上的顺序添加图层
+        const hostTypes = [
+          'single_host',      // 最底层
+          'dual_host',        // 第二层
+          'semi_commercial',     // 第三层
+          'commercial',          // 第四层
+          'highly_commercial'    // 最顶层
+        ]
+
+        hostTypes.forEach(type => {
+          // 添加数据源
           map.addSource(`listings-${type}`, {
             type: 'geojson',
             data: {
@@ -74,15 +90,16 @@ export default {
               features: []
             }
           })
-          
+
+          // 添加图层
           map.addLayer({
             id: `listings-layer-${type}`,
             type: 'circle',
             source: `listings-${type}`,
             paint: {
-              'circle-radius': 3,
-              'circle-color': color,
-              'circle-opacity': 0.35
+              'circle-radius': 4,
+              'circle-color': layerColors[type],
+              'circle-opacity': 0.8
             }
           })
         })
@@ -404,6 +421,35 @@ export default {
         console.error('Failed to update city:', error)
       }
     }, 300)
+
+    // 监听点样式变化
+    watch(() => props.pointStyle, (newStyle) => {
+      console.log('Style changed:', newStyle)  // 添加日志
+      if (!map) return
+      
+      const hostTypes = [
+        'single_host',
+        'dual_host',
+        'semi_commercial',
+        'commercial',
+        'highly_commercial'
+      ]
+      
+      hostTypes.forEach(type => {
+        if (map.getLayer(`listings-layer-${type}`)) {
+          map.setPaintProperty(
+            `listings-layer-${type}`,
+            'circle-radius',
+            newStyle.size
+          )
+          map.setPaintProperty(
+            `listings-layer-${type}`,
+            'circle-opacity',
+            newStyle.opacity
+          )
+        }
+      })
+    }, { deep: true })
 
     onUnmounted(() => {
       if (map) {

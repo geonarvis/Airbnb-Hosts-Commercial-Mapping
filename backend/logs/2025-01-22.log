@@ -1891,3 +1891,436 @@ TypeError: unsupported operand type(s) for *: 'decimal.Decimal' and 'float'
 [2025-01-22 22:02:19,658] INFO in main: Fetching cities list
 [2025-01-22 22:02:19,712] INFO in main: Found 21 cities
 [2025-01-22 22:02:19,712] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.054s
+[2025-01-22 22:05:01,353] INFO in main: Fetching cities list
+[2025-01-22 22:05:01,401] INFO in main: Found 21 cities
+[2025-01-22 22:05:01,401] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.049s
+[2025-01-22 22:17:30,365] INFO in main: Fetching cities list
+[2025-01-22 22:17:30,412] INFO in main: Found 21 cities
+[2025-01-22 22:17:30,412] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.047s
+[2025-01-22 22:40:57,257] INFO in main: Path: /city/Barcelona | Method: GET | Status: 200 | Duration: 0.000s
+[2025-01-22 22:40:57,377] INFO in main: Path: /city/Barcelona/yearly_stats | Method: GET | Status: 200 | Duration: 0.088s
+[2025-01-22 22:40:57,819] INFO in main: Path: /city/Barcelona/host_ranking | Method: GET | Status: 200 | Duration: 0.040s
+[2025-01-22 22:47:40,348] INFO in main: Fetching cities list
+[2025-01-22 22:47:40,403] INFO in main: Found 21 cities
+[2025-01-22 22:47:40,403] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.055s
+[2025-01-22 22:48:06,615] INFO in main: Fetching cities list
+[2025-01-22 22:48:06,676] INFO in main: Found 21 cities
+[2025-01-22 22:48:06,677] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.062s
+[2025-01-22 22:50:13,990] INFO in main: Fetching cities list
+[2025-01-22 22:50:14,063] INFO in main: Found 21 cities
+[2025-01-22 22:50:14,065] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.076s
+[2025-01-22 22:51:13,335] INFO in main: Fetching cities list
+[2025-01-22 22:51:13,401] INFO in main: Found 21 cities
+[2025-01-22 22:51:13,403] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.068s
+[2025-01-22 22:52:51,042] INFO in main: Fetching cities list
+[2025-01-22 22:52:51,116] INFO in main: Found 21 cities
+[2025-01-22 22:52:51,117] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.075s
+[2025-01-22 22:52:52,633] INFO in main: Path: /city/London | Method: GET | Status: 200 | Duration: 0.000s
+[2025-01-22 22:52:52,973] INFO in main: Path: /city/London/yearly_stats | Method: GET | Status: 200 | Duration: 0.336s
+[2025-01-22 22:52:53,204] INFO in main: Path: /city/London/host_ranking | Method: GET | Status: 200 | Duration: 0.065s
+[2025-01-22 22:52:56,355] INFO in main: Fetching cities list
+[2025-01-22 22:52:56,445] INFO in main: Found 21 cities
+[2025-01-22 22:52:56,447] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.092s
+[2025-01-22 22:52:57,528] INFO in main: Path: /city/Buenosaires | Method: GET | Status: 200 | Duration: 0.001s
+[2025-01-22 22:52:57,679] INFO in main: Path: /city/Buenosaires/yearly_stats | Method: GET | Status: 200 | Duration: 0.147s
+[2025-01-22 22:52:58,068] INFO in main: Path: /city/Buenosaires/host_ranking | Method: GET | Status: 200 | Duration: 0.034s
+[2025-01-22 22:53:49,466] INFO in main: Fetching cities list
+[2025-01-22 22:53:49,570] INFO in main: Found 21 cities
+[2025-01-22 22:53:49,572] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.106s
+[2025-01-22 22:53:51,230] INFO in main: Path: /city/London | Method: GET | Status: 200 | Duration: 0.000s
+[2025-01-22 22:53:51,578] INFO in main: Path: /city/London/yearly_stats | Method: GET | Status: 200 | Duration: 0.346s
+[2025-01-22 22:53:51,804] INFO in main: Path: /city/London/host_ranking | Method: GET | Status: 200 | Duration: 0.069s
+[2025-01-22 22:53:54,188] INFO in main: Path: /city/Newyorkcity | Method: GET | Status: 200 | Duration: 0.000s
+[2025-01-22 22:53:54,339] INFO in main: Path: /city/Newyorkcity/yearly_stats | Method: GET | Status: 200 | Duration: 0.147s
+[2025-01-22 22:53:54,746] INFO in main: Path: /city/Newyorkcity/host_ranking | Method: GET | Status: 200 | Duration: 0.052s
+[2025-01-22 22:53:55,620] INFO in main: Path: /city/Tokyo | Method: GET | Status: 200 | Duration: 0.000s
+[2025-01-22 22:53:55,700] INFO in main: Path: /city/Tokyo/yearly_stats | Method: GET | Status: 200 | Duration: 0.074s
+[2025-01-22 22:53:56,160] INFO in main: Path: /city/Tokyo/host_ranking | Method: GET | Status: 200 | Duration: 0.032s
+[2025-01-22 22:53:57,810] INFO in main: Path: /city/Paris | Method: GET | Status: 200 | Duration: 0.000s
+[2025-01-22 22:53:58,184] INFO in main: Path: /city/Paris/yearly_stats | Method: GET | Status: 200 | Duration: 0.370s
+[2025-01-22 22:53:58,386] INFO in main: Path: /city/Paris/host_ranking | Method: GET | Status: 200 | Duration: 0.070s
+[2025-01-22 22:53:59,663] INFO in main: Path: /city/Athens | Method: GET | Status: 200 | Duration: 0.000s
+[2025-01-22 22:53:59,750] INFO in main: Path: /city/Athens/yearly_stats | Method: GET | Status: 200 | Duration: 0.082s
+[2025-01-22 22:54:00,202] INFO in main: Path: /city/Athens/host_ranking | Method: GET | Status: 200 | Duration: 0.035s
+[2025-01-22 22:54:18,810] INFO in main: Fetching cities list
+[2025-01-22 22:54:18,882] INFO in main: Found 21 cities
+[2025-01-22 22:54:18,883] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.073s
+[2025-01-22 22:54:21,162] INFO in main: Path: /city/MexicoCity | Method: GET | Status: 200 | Duration: 0.000s
+[2025-01-22 22:54:21,284] INFO in main: Path: /city/MexicoCity/yearly_stats | Method: GET | Status: 200 | Duration: 0.115s
+[2025-01-22 22:54:21,700] INFO in main: Path: /city/MexicoCity/host_ranking | Method: GET | Status: 200 | Duration: 0.032s
+[2025-01-22 22:56:32,218] INFO in main: Fetching cities list
+[2025-01-22 22:56:32,276] INFO in main: Found 21 cities
+[2025-01-22 22:56:32,277] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.060s
+[2025-01-22 22:56:34,400] INFO in main: Path: /city/London | Method: GET | Status: 200 | Duration: 0.000s
+[2025-01-22 22:56:34,754] INFO in main: Path: /city/London/yearly_stats | Method: GET | Status: 200 | Duration: 0.326s
+[2025-01-22 22:56:34,998] INFO in main: Path: /city/London/host_ranking | Method: GET | Status: 200 | Duration: 0.089s
+[2025-01-22 22:56:37,082] INFO in main: Path: /city/Madrid | Method: GET | Status: 200 | Duration: 0.000s
+[2025-01-22 22:56:37,209] INFO in main: Path: /city/Madrid/yearly_stats | Method: GET | Status: 200 | Duration: 0.121s
+[2025-01-22 22:56:37,648] INFO in main: Path: /city/Madrid/host_ranking | Method: GET | Status: 200 | Duration: 0.043s
+[2025-01-22 22:56:43,634] INFO in main: Path: /city/Madrid/host_ranking | Method: GET | Status: 200 | Duration: 0.045s
+[2025-01-22 22:56:44,173] INFO in main: Path: /city/Madrid/listings_by_categories | Method: GET | Status: 200 | Duration: 0.086s
+[2025-01-22 22:56:44,235] INFO in main: Path: /city/Madrid/listings_by_categories | Method: GET | Status: 200 | Duration: 0.058s
+[2025-01-22 22:56:46,570] INFO in main: Path: /city/London | Method: GET | Status: 200 | Duration: 0.000s
+[2025-01-22 22:56:46,931] INFO in main: Path: /city/London/yearly_stats | Method: GET | Status: 200 | Duration: 0.352s
+[2025-01-22 22:56:47,152] INFO in main: Path: /city/London/host_ranking | Method: GET | Status: 200 | Duration: 0.075s
+[2025-01-22 22:56:53,324] INFO in main: Path: /city/Paris | Method: GET | Status: 200 | Duration: 0.000s
+[2025-01-22 22:56:53,683] INFO in main: Path: /city/Paris/yearly_stats | Method: GET | Status: 200 | Duration: 0.355s
+[2025-01-22 22:56:53,937] INFO in main: Path: /city/Paris/host_ranking | Method: GET | Status: 200 | Duration: 0.101s
+[2025-01-22 22:56:56,121] INFO in main: Path: /city/Paris/listings_by_categories | Method: GET | Status: 200 | Duration: 0.122s
+[2025-01-22 22:56:56,377] INFO in main: Path: /city/Paris/listings_by_categories | Method: GET | Status: 200 | Duration: 0.114s
+[2025-01-22 22:56:58,341] INFO in main: Path: /city/Paris/host_ranking | Method: GET | Status: 200 | Duration: 0.160s
+[2025-01-22 22:56:58,783] INFO in main: Path: /city/Paris/listings_by_categories | Method: GET | Status: 200 | Duration: 0.102s
+[2025-01-22 22:56:58,892] INFO in main: Path: /city/Paris/listings_by_categories | Method: GET | Status: 200 | Duration: 0.106s
+[2025-01-22 22:57:00,345] INFO in main: Path: /city/Paris/host_ranking | Method: GET | Status: 200 | Duration: 0.192s
+[2025-01-22 22:57:00,923] INFO in main: Path: /city/Paris/listings_by_categories | Method: GET | Status: 200 | Duration: 0.269s
+[2025-01-22 22:57:01,110] INFO in main: Path: /city/Paris/listings_by_categories | Method: GET | Status: 200 | Duration: 0.183s
+[2025-01-22 22:57:03,441] INFO in main: Path: /city/Paris/host_ranking | Method: GET | Status: 200 | Duration: 0.220s
+[2025-01-22 22:57:05,109] INFO in main: Path: /city/Paris/listings_by_categories | Method: GET | Status: 200 | Duration: 1.415s
+[2025-01-22 22:57:10,994] INFO in main: Path: /city/Paris/listings_by_categories | Method: GET | Status: 200 | Duration: 0.277s
+[2025-01-22 22:57:13,745] INFO in main: Path: /city/Paris/listings_by_categories | Method: GET | Status: 200 | Duration: 0.173s
+[2025-01-22 22:57:17,133] INFO in main: Path: /city/Paris/listings_by_categories | Method: GET | Status: 200 | Duration: 1.212s
+[2025-01-22 22:57:19,568] INFO in main: Path: /city/London | Method: GET | Status: 200 | Duration: 0.000s
+[2025-01-22 22:57:19,920] INFO in main: Path: /city/London/yearly_stats | Method: GET | Status: 200 | Duration: 0.342s
+[2025-01-22 22:57:20,168] INFO in main: Path: /city/London/host_ranking | Method: GET | Status: 200 | Duration: 0.080s
+[2025-01-22 22:57:22,526] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 200 | Duration: 0.794s
+[2025-01-22 22:57:23,615] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 200 | Duration: 1.088s
+[2025-01-22 22:58:33,066] INFO in main: Fetching cities list
+[2025-01-22 22:58:33,132] INFO in main: Found 21 cities
+[2025-01-22 22:58:33,132] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.068s
+[2025-01-22 22:58:36,401] INFO in main: Path: /city/London | Method: GET | Status: 200 | Duration: 0.000s
+[2025-01-22 22:58:36,760] INFO in main: Path: /city/London/yearly_stats | Method: GET | Status: 200 | Duration: 0.334s
+[2025-01-22 22:58:36,996] INFO in main: Path: /city/London/host_ranking | Method: GET | Status: 200 | Duration: 0.082s
+[2025-01-22 22:58:41,885] INFO in main: Path: /city/London/host_ranking | Method: GET | Status: 200 | Duration: 0.106s
+[2025-01-22 22:58:42,782] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 200 | Duration: 0.503s
+[2025-01-22 22:58:42,947] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 200 | Duration: 0.153s
+[2025-01-22 22:58:45,571] INFO in main: Path: /city/London/host_ranking | Method: GET | Status: 200 | Duration: 0.131s
+[2025-01-22 22:58:48,320] INFO in main: Path: /city/London/hexgrid | Method: GET | Status: 200 | Duration: 1.379s
+[2025-01-22 22:58:50,051] INFO in main: Path: /city/London/host_ranking | Method: GET | Status: 200 | Duration: 0.118s
+[2025-01-22 22:58:52,183] INFO in main: Path: /city/London/hexgrid | Method: GET | Status: 200 | Duration: 0.748s
+[2025-01-22 22:58:56,167] INFO in main: Path: /city/London/host_ranking | Method: GET | Status: 200 | Duration: 0.153s
+[2025-01-22 22:58:59,507] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 200 | Duration: 0.716s
+[2025-01-22 22:58:59,682] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 200 | Duration: 0.174s
+[2025-01-22 23:00:28,448] INFO in main: Path: /city/Milan | Method: GET | Status: 200 | Duration: 0.000s
+[2025-01-22 23:00:28,577] INFO in main: Path: /city/Milan/yearly_stats | Method: GET | Status: 200 | Duration: 0.120s
+[2025-01-22 23:00:29,163] INFO in main: Path: /city/Milan/host_ranking | Method: GET | Status: 200 | Duration: 0.116s
+[2025-01-22 23:00:29,902] INFO in main: Fetching cities list
+[2025-01-22 23:00:29,967] INFO in main: Found 21 cities
+[2025-01-22 23:00:29,967] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.066s
+[2025-01-22 23:00:31,349] INFO in main: Path: /city/Berlin | Method: GET | Status: 200 | Duration: 0.000s
+[2025-01-22 23:00:31,461] INFO in main: Path: /city/Berlin/yearly_stats | Method: GET | Status: 200 | Duration: 0.091s
+[2025-01-22 23:00:31,917] INFO in main: Path: /city/Berlin/host_ranking | Method: GET | Status: 200 | Duration: 0.044s
+[2025-01-22 23:00:33,235] INFO in main: Path: /city/Berlin/host_ranking | Method: GET | Status: 200 | Duration: 0.051s
+[2025-01-22 23:00:33,870] INFO in main: Path: /city/Berlin/listings_by_categories | Method: GET | Status: 200 | Duration: 0.150s
+[2025-01-22 23:00:35,495] INFO in main: Path: /city/Berlin/listings_by_categories | Method: GET | Status: 200 | Duration: 0.050s
+[2025-01-22 23:00:38,116] INFO in main: Path: /city/Berlin/listings_by_categories | Method: GET | Status: 200 | Duration: 0.053s
+[2025-01-22 23:00:38,447] INFO in main: Path: /city/Berlin/listings_by_categories | Method: GET | Status: 200 | Duration: 0.042s
+[2025-01-22 23:00:38,970] INFO in main: Path: /city/Berlin/listings_by_categories | Method: GET | Status: 200 | Duration: 0.046s
+[2025-01-22 23:00:44,424] INFO in main: Path: /city/Berlin/host_ranking | Method: GET | Status: 200 | Duration: 0.056s
+[2025-01-22 23:00:44,967] INFO in main: Path: /city/Berlin/listings_by_categories | Method: GET | Status: 200 | Duration: 0.100s
+[2025-01-22 23:00:45,086] INFO in main: Path: /city/Berlin/listings_by_categories | Method: GET | Status: 200 | Duration: 0.114s
+[2025-01-22 23:00:45,151] INFO in main: Path: /city/Berlin/listings_by_categories | Method: GET | Status: 200 | Duration: 0.057s
+[2025-01-22 23:00:45,199] INFO in main: Path: /city/Berlin/listings_by_categories | Method: GET | Status: 200 | Duration: 0.042s
+[2025-01-22 23:00:45,233] INFO in main: Path: /city/Berlin/listings_by_categories | Method: GET | Status: 200 | Duration: 0.031s
+[2025-01-22 23:00:50,621] INFO in main: Path: /city/Berlin/host_ranking | Method: GET | Status: 200 | Duration: 0.058s
+[2025-01-22 23:00:51,136] INFO in main: Path: /city/Berlin/listings_by_categories | Method: GET | Status: 200 | Duration: 0.072s
+[2025-01-22 23:00:51,280] INFO in main: Path: /city/Berlin/listings_by_categories | Method: GET | Status: 200 | Duration: 0.139s
+[2025-01-22 23:00:51,365] INFO in main: Path: /city/Berlin/listings_by_categories | Method: GET | Status: 200 | Duration: 0.068s
+[2025-01-22 23:00:51,419] INFO in main: Path: /city/Berlin/listings_by_categories | Method: GET | Status: 200 | Duration: 0.047s
+[2025-01-22 23:00:51,459] INFO in main: Path: /city/Berlin/listings_by_categories | Method: GET | Status: 200 | Duration: 0.038s
+[2025-01-22 23:00:53,203] INFO in main: Path: /city/Berlin/host_ranking | Method: GET | Status: 200 | Duration: 0.067s
+[2025-01-22 23:00:53,716] INFO in main: Path: /city/Berlin/listings_by_categories | Method: GET | Status: 200 | Duration: 0.079s
+[2025-01-22 23:00:53,883] INFO in main: Path: /city/Berlin/listings_by_categories | Method: GET | Status: 200 | Duration: 0.162s
+[2025-01-22 23:00:53,969] INFO in main: Path: /city/Berlin/listings_by_categories | Method: GET | Status: 200 | Duration: 0.076s
+[2025-01-22 23:00:54,029] INFO in main: Path: /city/Berlin/listings_by_categories | Method: GET | Status: 200 | Duration: 0.053s
+[2025-01-22 23:00:54,081] INFO in main: Path: /city/Berlin/listings_by_categories | Method: GET | Status: 200 | Duration: 0.049s
+[2025-01-22 23:03:51,565] INFO in main: Fetching cities list
+[2025-01-22 23:03:51,635] INFO in main: Found 21 cities
+[2025-01-22 23:03:51,636] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.071s
+[2025-01-22 23:03:53,960] INFO in main: Path: /city/London | Method: GET | Status: 200 | Duration: 0.000s
+[2025-01-22 23:03:54,319] INFO in main: Path: /city/London/yearly_stats | Method: GET | Status: 200 | Duration: 0.330s
+[2025-01-22 23:03:54,573] INFO in main: Path: /city/London/host_ranking | Method: GET | Status: 200 | Duration: 0.088s
+[2025-01-22 23:03:58,548] INFO in main: Path: /city/London/host_ranking | Method: GET | Status: 200 | Duration: 0.123s
+[2025-01-22 23:03:59,469] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 200 | Duration: 0.545s
+[2025-01-22 23:03:59,641] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 200 | Duration: 0.171s
+[2025-01-22 23:03:59,775] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 200 | Duration: 0.134s
+[2025-01-22 23:04:04,474] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 200 | Duration: 0.363s
+[2025-01-22 23:04:07,673] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 200 | Duration: 0.129s
+[2025-01-22 23:04:09,074] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 200 | Duration: 0.130s
+[2025-01-22 23:04:10,061] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 200 | Duration: 0.127s
+[2025-01-22 23:04:12,241] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 200 | Duration: 0.112s
+[2025-01-22 23:04:12,869] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 200 | Duration: 0.095s
+[2025-01-22 23:04:15,610] INFO in main: Path: /city/London/host_ranking | Method: GET | Status: 200 | Duration: 0.086s
+[2025-01-22 23:04:16,104] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 200 | Duration: 0.079s
+[2025-01-22 23:04:16,224] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 200 | Duration: 0.113s
+[2025-01-22 23:04:16,290] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 200 | Duration: 0.062s
+[2025-01-22 23:04:16,348] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 200 | Duration: 0.055s
+[2025-01-22 23:04:17,249] INFO in main: Path: /city/London/host_ranking | Method: GET | Status: 200 | Duration: 0.045s
+[2025-01-22 23:04:17,746] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 200 | Duration: 0.041s
+[2025-01-22 23:04:17,793] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 200 | Duration: 0.042s
+[2025-01-22 23:04:17,843] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 200 | Duration: 0.047s
+[2025-01-22 23:04:17,873] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 200 | Duration: 0.027s
+[2025-01-22 23:04:18,826] INFO in main: Path: /city/London/host_ranking | Method: GET | Status: 200 | Duration: 0.032s
+[2025-01-22 23:04:19,330] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 200 | Duration: 0.037s
+[2025-01-22 23:04:19,371] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 200 | Duration: 0.037s
+[2025-01-22 23:04:19,403] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 200 | Duration: 0.029s
+[2025-01-22 23:04:19,425] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 200 | Duration: 0.019s
+[2025-01-22 23:04:19,964] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 200 | Duration: 0.051s
+[2025-01-22 23:05:53,768] INFO in main: Path: /city/Milan | Method: GET | Status: 200 | Duration: 0.000s
+[2025-01-22 23:05:53,897] INFO in main: Path: /city/Milan/yearly_stats | Method: GET | Status: 200 | Duration: 0.121s
+[2025-01-22 23:05:54,326] INFO in main: Path: /city/Milan/host_ranking | Method: GET | Status: 200 | Duration: 0.044s
+[2025-01-22 23:05:55,722] INFO in main: Path: /city/Milan/host_ranking | Method: GET | Status: 200 | Duration: 0.044s
+[2025-01-22 23:05:56,156] INFO in main: Path: /city/Milan/listings_by_categories | Method: GET | Status: 200 | Duration: 0.046s
+[2025-01-22 23:05:58,418] INFO in main: Path: /city/Milan/listings_by_categories | Method: GET | Status: 200 | Duration: 0.091s
+[2025-01-22 23:06:00,077] INFO in main: Path: /city/Milan/host_ranking | Method: GET | Status: 200 | Duration: 0.048s
+[2025-01-22 23:06:00,680] INFO in main: Path: /city/Milan/listings_by_categories | Method: GET | Status: 200 | Duration: 0.149s
+[2025-01-22 23:06:00,757] INFO in main: Path: /city/Milan/listings_by_categories | Method: GET | Status: 200 | Duration: 0.076s
+[2025-01-22 23:06:00,797] INFO in main: Path: /city/Milan/listings_by_categories | Method: GET | Status: 200 | Duration: 0.040s
+[2025-01-22 23:06:01,439] INFO in main: Path: /city/Milan/listings_by_categories | Method: GET | Status: 200 | Duration: 0.049s
+[2025-01-22 23:06:01,859] INFO in main: Path: /city/Milan/listings_by_categories | Method: GET | Status: 200 | Duration: 0.057s
+[2025-01-22 23:06:04,497] INFO in main: Path: /city/Milan/listings_by_categories | Method: GET | Status: 200 | Duration: 0.063s
+[2025-01-22 23:06:04,741] INFO in main: Path: /city/Milan/listings_by_categories | Method: GET | Status: 200 | Duration: 0.103s
+[2025-01-22 23:06:05,561] INFO in main: Path: /city/Milan/listings_by_categories | Method: GET | Status: 200 | Duration: 0.064s
+[2025-01-22 23:06:07,150] INFO in main: Path: /city/Milan/listings_by_categories | Method: GET | Status: 200 | Duration: 0.121s
+[2025-01-22 23:06:09,762] INFO in main: Path: /city/Milan/listings_by_categories | Method: GET | Status: 200 | Duration: 0.101s
+[2025-01-22 23:06:16,245] INFO in main: Path: /city/Milan/host_ranking | Method: GET | Status: 200 | Duration: 0.044s
+[2025-01-22 23:06:16,766] INFO in main: Path: /city/Milan/listings_by_categories | Method: GET | Status: 200 | Duration: 0.066s
+[2025-01-22 23:06:16,859] INFO in main: Path: /city/Milan/listings_by_categories | Method: GET | Status: 200 | Duration: 0.088s
+[2025-01-22 23:08:27,702] INFO in main: Fetching cities list
+[2025-01-22 23:08:27,789] INFO in main: Found 21 cities
+[2025-01-22 23:08:27,790] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.088s
+[2025-01-22 23:08:30,155] INFO in main: Path: /city/CapeTown | Method: GET | Status: 200 | Duration: 0.000s
+[2025-01-22 23:08:30,282] INFO in main: Path: /city/CapeTown/yearly_stats | Method: GET | Status: 200 | Duration: 0.107s
+[2025-01-22 23:08:30,723] INFO in main: Path: /city/CapeTown/host_ranking | Method: GET | Status: 200 | Duration: 0.044s
+[2025-01-22 23:08:32,463] INFO in main: Path: /city/CapeTown/listings_by_categories | Method: GET | Status: 200 | Duration: 0.067s
+[2025-01-22 23:08:32,935] INFO in main: Path: /city/CapeTown/listings_by_categories | Method: GET | Status: 200 | Duration: 0.061s
+[2025-01-22 23:08:38,512] INFO in main: Path: /city/CapeTown/host_ranking | Method: GET | Status: 200 | Duration: 0.058s
+[2025-01-22 23:08:39,831] INFO in main: Path: /city/CapeTown/listings_by_categories | Method: GET | Status: 200 | Duration: 0.063s
+[2025-01-22 23:08:40,344] INFO in main: Path: /city/CapeTown/listings_by_categories | Method: GET | Status: 200 | Duration: 0.051s
+[2025-01-22 23:08:41,628] INFO in main: Path: /city/CapeTown/listings_by_categories | Method: GET | Status: 200 | Duration: 0.062s
+[2025-01-22 23:08:42,967] INFO in main: Path: /city/CapeTown/listings_by_categories | Method: GET | Status: 200 | Duration: 0.123s
+[2025-01-22 23:08:43,484] INFO in main: Path: /city/CapeTown/listings_by_categories | Method: GET | Status: 200 | Duration: 0.040s
+[2025-01-22 23:09:24,950] INFO in main: Fetching cities list
+[2025-01-22 23:09:25,035] INFO in main: Found 21 cities
+[2025-01-22 23:09:25,065] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.115s
+[2025-01-22 23:09:25,072] INFO in main: Fetching cities list
+[2025-01-22 23:09:25,166] INFO in main: Found 21 cities
+[2025-01-22 23:09:25,169] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.097s
+[2025-01-22 23:09:51,503] INFO in main: Fetching cities list
+[2025-01-22 23:09:51,714] INFO in main: Found 21 cities
+[2025-01-22 23:09:51,716] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.219s
+[2025-01-22 23:09:51,717] INFO in main: Fetching cities list
+[2025-01-22 23:09:51,800] INFO in main: Found 21 cities
+[2025-01-22 23:09:51,802] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.085s
+[2025-01-22 23:10:11,427] INFO in main: Fetching cities list
+[2025-01-22 23:10:11,501] INFO in main: Found 21 cities
+[2025-01-22 23:10:11,502] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.075s
+[2025-01-22 23:10:11,549] INFO in main: Fetching cities list
+[2025-01-22 23:10:11,617] INFO in main: Found 21 cities
+[2025-01-22 23:10:11,618] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.069s
+[2025-01-22 23:10:12,762] INFO in main: Fetching cities list
+[2025-01-22 23:10:12,898] INFO in main: Found 21 cities
+[2025-01-22 23:10:12,899] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.138s
+[2025-01-22 23:10:14,050] INFO in main: Path: /city/Berlin | Method: GET | Status: 200 | Duration: 0.001s
+[2025-01-22 23:10:14,160] INFO in main: Path: /city/Berlin/yearly_stats | Method: GET | Status: 200 | Duration: 0.087s
+[2025-01-22 23:10:14,618] INFO in main: Path: /city/Berlin/host_ranking | Method: GET | Status: 200 | Duration: 0.042s
+[2025-01-22 23:10:16,787] INFO in main: Path: /city/Berlin/host_ranking | Method: GET | Status: 200 | Duration: 0.051s
+[2025-01-22 23:10:20,443] INFO in main: Path: /city/Berlin/listings_by_categories | Method: GET | Status: 200 | Duration: 0.045s
+[2025-01-22 23:10:22,946] INFO in main: Path: /city/Berlin/listings_by_categories | Method: GET | Status: 200 | Duration: 0.044s
+[2025-01-22 23:11:15,193] INFO in main: Fetching cities list
+[2025-01-22 23:11:15,559] INFO in main: Found 21 cities
+[2025-01-22 23:11:15,621] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.429s
+[2025-01-22 23:11:15,631] INFO in main: Fetching cities list
+[2025-01-22 23:11:15,712] INFO in main: Found 21 cities
+[2025-01-22 23:11:15,713] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.083s
+[2025-01-22 23:11:41,432] INFO in main: Fetching cities list
+[2025-01-22 23:11:41,544] INFO in main: Found 21 cities
+[2025-01-22 23:11:41,595] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.164s
+[2025-01-22 23:11:50,719] INFO in main: Fetching cities list
+[2025-01-22 23:11:50,795] INFO in main: Found 21 cities
+[2025-01-22 23:11:50,795] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.076s
+[2025-01-22 23:11:50,886] INFO in main: Fetching cities list
+[2025-01-22 23:11:50,955] INFO in main: Found 21 cities
+[2025-01-22 23:11:50,956] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.070s
+[2025-01-22 23:11:53,141] INFO in main: Path: /city/Berlin | Method: GET | Status: 200 | Duration: 0.000s
+[2025-01-22 23:11:53,250] INFO in main: Path: /city/Berlin/yearly_stats | Method: GET | Status: 200 | Duration: 0.086s
+[2025-01-22 23:11:53,733] INFO in main: Path: /city/Berlin/host_ranking | Method: GET | Status: 200 | Duration: 0.049s
+[2025-01-22 23:11:58,481] INFO in main: Path: /city/Berlin/host_ranking | Method: GET | Status: 200 | Duration: 0.059s
+[2025-01-22 23:12:00,411] INFO in main: Path: /city/Berlin/host_ranking | Method: GET | Status: 200 | Duration: 0.054s
+[2025-01-22 23:12:01,603] INFO in main: Path: /city/Berlin/host_ranking | Method: GET | Status: 200 | Duration: 0.062s
+[2025-01-22 23:12:02,764] INFO in main: Path: /city/Berlin/host_ranking | Method: GET | Status: 200 | Duration: 0.054s
+[2025-01-22 23:12:04,084] INFO in main: Path: /city/Berlin/host_ranking | Method: GET | Status: 200 | Duration: 0.047s
+[2025-01-22 23:13:01,062] INFO in main: Fetching cities list
+[2025-01-22 23:13:01,150] INFO in main: Found 21 cities
+[2025-01-22 23:13:01,155] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.093s
+[2025-01-22 23:13:03,353] INFO in main: Path: /city/Berlin | Method: GET | Status: 200 | Duration: 0.000s
+[2025-01-22 23:13:03,462] INFO in main: Path: /city/Berlin/yearly_stats | Method: GET | Status: 200 | Duration: 0.091s
+[2025-01-22 23:13:03,920] INFO in main: Path: /city/Berlin/host_ranking | Method: GET | Status: 200 | Duration: 0.048s
+[2025-01-22 23:13:05,261] INFO in main: Path: /city/Berlin/host_ranking | Method: GET | Status: 200 | Duration: 0.056s
+[2025-01-22 23:13:44,553] INFO in main: Fetching cities list
+[2025-01-22 23:13:44,621] INFO in main: Found 21 cities
+[2025-01-22 23:13:44,622] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.070s
+[2025-01-22 23:13:44,627] INFO in main: Fetching cities list
+[2025-01-22 23:13:44,732] INFO in main: Found 21 cities
+[2025-01-22 23:13:44,733] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.106s
+[2025-01-22 23:14:14,083] INFO in main: Fetching cities list
+[2025-01-22 23:14:14,162] INFO in main: Found 21 cities
+[2025-01-22 23:14:14,163] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.081s
+[2025-01-22 23:14:29,238] INFO in main: Fetching cities list
+[2025-01-22 23:14:29,301] INFO in main: Found 21 cities
+[2025-01-22 23:14:29,301] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.064s
+[2025-01-22 23:14:29,381] INFO in main: Fetching cities list
+[2025-01-22 23:14:29,468] INFO in main: Found 21 cities
+[2025-01-22 23:14:29,469] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.088s
+[2025-01-22 23:14:31,740] INFO in main: Path: /city/Berlin | Method: GET | Status: 200 | Duration: 0.000s
+[2025-01-22 23:14:31,875] INFO in main: Path: /city/Berlin/yearly_stats | Method: GET | Status: 200 | Duration: 0.103s
+[2025-01-22 23:14:32,312] INFO in main: Path: /city/Berlin/host_ranking | Method: GET | Status: 200 | Duration: 0.046s
+[2025-01-22 23:14:33,753] INFO in main: Path: /city/Berlin/host_ranking | Method: GET | Status: 200 | Duration: 0.057s
+[2025-01-22 23:14:35,981] INFO in main: Path: /city/Berlin/listings_by_categories | Method: GET | Status: 200 | Duration: 0.047s
+[2025-01-22 23:14:37,394] INFO in main: Path: /city/Berlin/listings_by_categories | Method: GET | Status: 200 | Duration: 0.050s
+[2025-01-22 23:14:37,717] INFO in main: Path: /city/Berlin/listings_by_categories | Method: GET | Status: 200 | Duration: 0.035s
+[2025-01-22 23:14:38,286] INFO in main: Path: /city/Berlin/listings_by_categories | Method: GET | Status: 200 | Duration: 0.042s
+[2025-01-22 23:14:56,064] INFO in main: Fetching cities list
+[2025-01-22 23:14:56,162] INFO in main: Found 21 cities
+[2025-01-22 23:14:56,163] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.100s
+[2025-01-22 23:14:56,166] INFO in main: Fetching cities list
+[2025-01-22 23:14:56,227] INFO in main: Found 21 cities
+[2025-01-22 23:14:56,230] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.064s
+[2025-01-22 23:14:59,649] INFO in main: Path: /city/Buenosaires | Method: GET | Status: 200 | Duration: 0.000s
+[2025-01-22 23:14:59,814] INFO in main: Path: /city/Buenosaires/yearly_stats | Method: GET | Status: 200 | Duration: 0.146s
+[2025-01-22 23:15:00,211] INFO in main: Path: /city/Buenosaires/host_ranking | Method: GET | Status: 200 | Duration: 0.047s
+[2025-01-22 23:15:48,250] INFO in main: Fetching cities list
+[2025-01-22 23:15:48,304] INFO in main: Found 21 cities
+[2025-01-22 23:15:48,305] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.056s
+[2025-01-22 23:15:49,649] INFO in main: Path: /city/CapeTown | Method: GET | Status: 200 | Duration: 0.000s
+[2025-01-22 23:15:49,809] INFO in main: Path: /city/CapeTown/yearly_stats | Method: GET | Status: 200 | Duration: 0.135s
+[2025-01-22 23:15:50,209] INFO in main: Path: /city/CapeTown/host_ranking | Method: GET | Status: 200 | Duration: 0.053s
+[2025-01-22 23:15:51,380] INFO in main: Path: /city/CapeTown/host_ranking | Method: GET | Status: 200 | Duration: 0.054s
+[2025-01-22 23:15:52,279] INFO in main: Path: /city/CapeTown/listings_by_categories | Method: GET | Status: 200 | Duration: 0.063s
+[2025-01-22 23:15:52,524] INFO in main: Path: /city/CapeTown/listings_by_categories | Method: GET | Status: 200 | Duration: 0.048s
+[2025-01-22 23:15:52,811] INFO in main: Path: /city/CapeTown/listings_by_categories | Method: GET | Status: 200 | Duration: 0.073s
+[2025-01-22 23:15:53,247] INFO in main: Path: /city/CapeTown/listings_by_categories | Method: GET | Status: 200 | Duration: 0.093s
+[2025-01-22 23:15:53,774] INFO in main: Path: /city/CapeTown/listings_by_categories | Method: GET | Status: 200 | Duration: 0.151s
+[2025-01-22 23:16:01,770] INFO in main: Path: /city/CapeTown/host_ranking | Method: GET | Status: 200 | Duration: 0.075s
+[2025-01-22 23:16:02,272] INFO in main: Path: /city/CapeTown/listings_by_categories | Method: GET | Status: 200 | Duration: 0.077s
+[2025-01-22 23:16:02,322] INFO in main: Path: /city/CapeTown/listings_by_categories | Method: GET | Status: 200 | Duration: 0.043s
+[2025-01-22 23:16:02,396] INFO in main: Path: /city/CapeTown/listings_by_categories | Method: GET | Status: 200 | Duration: 0.072s
+[2025-01-22 23:16:02,465] INFO in main: Path: /city/CapeTown/listings_by_categories | Method: GET | Status: 200 | Duration: 0.065s
+[2025-01-22 23:16:02,580] INFO in main: Path: /city/CapeTown/listings_by_categories | Method: GET | Status: 200 | Duration: 0.111s
+[2025-01-22 23:18:17,785] INFO in main: Fetching cities list
+[2025-01-22 23:18:17,840] INFO in main: Found 21 cities
+[2025-01-22 23:18:17,841] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.056s
+[2025-01-22 23:18:17,842] INFO in main: Fetching cities list
+[2025-01-22 23:18:17,904] INFO in main: Found 21 cities
+[2025-01-22 23:18:17,905] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.064s
+[2025-01-22 23:18:22,669] INFO in main: Path: /city/Berlin | Method: GET | Status: 200 | Duration: 0.000s
+[2025-01-22 23:18:22,791] INFO in main: Path: /city/Berlin/yearly_stats | Method: GET | Status: 200 | Duration: 0.103s
+[2025-01-22 23:18:23,232] INFO in main: Path: /city/Berlin/host_ranking | Method: GET | Status: 200 | Duration: 0.049s
+[2025-01-22 23:18:25,419] INFO in main: Path: /city/Berlin/host_ranking | Method: GET | Status: 200 | Duration: 0.052s
+[2025-01-22 23:18:26,821] INFO in main: Path: /city/Berlin/listings_by_categories | Method: GET | Status: 200 | Duration: 0.041s
+[2025-01-22 23:18:27,362] INFO in main: Path: /city/Berlin/listings_by_categories | Method: GET | Status: 200 | Duration: 0.053s
+[2025-01-22 23:18:28,293] INFO in main: Path: /city/Berlin/listings_by_categories | Method: GET | Status: 200 | Duration: 0.085s
+[2025-01-22 23:18:28,680] INFO in main: Path: /city/Berlin/listings_by_categories | Method: GET | Status: 200 | Duration: 0.153s
+[2025-01-22 23:18:30,188] INFO in main: Path: /city/Berlin/host_ranking | Method: GET | Status: 200 | Duration: 0.057s
+[2025-01-22 23:18:30,692] INFO in main: Path: /city/Berlin/listings_by_categories | Method: GET | Status: 200 | Duration: 0.059s
+[2025-01-22 23:18:30,741] INFO in main: Path: /city/Berlin/listings_by_categories | Method: GET | Status: 200 | Duration: 0.045s
+[2025-01-22 23:18:30,818] INFO in main: Path: /city/Berlin/listings_by_categories | Method: GET | Status: 200 | Duration: 0.074s
+[2025-01-22 23:18:30,865] INFO in main: Path: /city/Berlin/listings_by_categories | Method: GET | Status: 200 | Duration: 0.043s
+[2025-01-22 23:18:30,978] INFO in main: Path: /city/Berlin/listings_by_categories | Method: GET | Status: 200 | Duration: 0.110s
+[2025-01-22 23:18:32,735] INFO in main: Path: /city/Berlin/host_ranking | Method: GET | Status: 200 | Duration: 0.068s
+[2025-01-22 23:18:33,233] INFO in main: Path: /city/Berlin/listings_by_categories | Method: GET | Status: 200 | Duration: 0.065s
+[2025-01-22 23:18:33,296] INFO in main: Path: /city/Berlin/listings_by_categories | Method: GET | Status: 200 | Duration: 0.058s
+[2025-01-22 23:18:33,393] INFO in main: Path: /city/Berlin/listings_by_categories | Method: GET | Status: 200 | Duration: 0.093s
+[2025-01-22 23:18:33,458] INFO in main: Path: /city/Berlin/listings_by_categories | Method: GET | Status: 200 | Duration: 0.061s
+[2025-01-22 23:18:33,611] INFO in main: Path: /city/Berlin/listings_by_categories | Method: GET | Status: 200 | Duration: 0.149s
+[2025-01-22 23:19:46,605] INFO in main: Fetching cities list
+[2025-01-22 23:19:46,665] INFO in main: Found 21 cities
+[2025-01-22 23:19:46,666] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.061s
+[2025-01-22 23:19:46,689] INFO in main: Fetching cities list
+[2025-01-22 23:19:46,801] INFO in main: Found 21 cities
+[2025-01-22 23:19:46,814] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.125s
+[2025-01-22 23:20:35,689] INFO in main: Fetching cities list
+[2025-01-22 23:20:35,761] INFO in main: Found 21 cities
+[2025-01-22 23:20:35,762] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.073s
+[2025-01-22 23:20:35,765] INFO in main: Fetching cities list
+[2025-01-22 23:20:35,859] INFO in main: Found 21 cities
+[2025-01-22 23:20:35,860] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.095s
+[2025-01-22 23:20:40,221] INFO in main: Path: /city/CapeTown | Method: GET | Status: 200 | Duration: 0.000s
+[2025-01-22 23:20:40,351] INFO in main: Path: /city/CapeTown/yearly_stats | Method: GET | Status: 200 | Duration: 0.111s
+[2025-01-22 23:20:40,793] INFO in main: Path: /city/CapeTown/host_ranking | Method: GET | Status: 200 | Duration: 0.054s
+[2025-01-22 23:20:45,058] INFO in main: Path: /city/CapeTown/host_ranking | Method: GET | Status: 200 | Duration: 0.058s
+[2025-01-22 23:20:45,572] INFO in main: Path: /city/CapeTown/listings_by_categories | Method: GET | Status: 200 | Duration: 0.070s
+[2025-01-22 23:20:47,748] INFO in main: Path: /city/CapeTown/host_ranking | Method: GET | Status: 200 | Duration: 0.039s
+[2025-01-22 23:20:48,245] INFO in main: Path: /city/CapeTown/listings_by_categories | Method: GET | Status: 200 | Duration: 0.036s
+[2025-01-22 23:20:49,710] INFO in main: Path: /city/CapeTown/host_ranking | Method: GET | Status: 200 | Duration: 0.036s
+[2025-01-22 23:20:50,209] INFO in main: Path: /city/CapeTown/listings_by_categories | Method: GET | Status: 200 | Duration: 0.033s
+[2025-01-22 23:20:50,744] INFO in main: Path: /city/CapeTown/listings_by_categories | Method: GET | Status: 200 | Duration: 0.033s
+[2025-01-22 23:20:51,225] INFO in main: Path: /city/CapeTown/listings_by_categories | Method: GET | Status: 200 | Duration: 0.035s
+[2025-01-22 23:20:51,619] INFO in main: Path: /city/CapeTown/listings_by_categories | Method: GET | Status: 200 | Duration: 0.037s
+[2025-01-22 23:20:52,541] INFO in main: Path: /city/CapeTown/listings_by_categories | Method: GET | Status: 200 | Duration: 0.052s
+[2025-01-22 23:21:12,271] INFO in main: Path: /city/CapeTown/host_ranking | Method: GET | Status: 200 | Duration: 0.031s
+[2025-01-22 23:21:12,769] INFO in main: Path: /city/CapeTown/listings_by_categories | Method: GET | Status: 200 | Duration: 0.026s
+[2025-01-22 23:21:12,799] INFO in main: Path: /city/CapeTown/listings_by_categories | Method: GET | Status: 200 | Duration: 0.026s
+[2025-01-22 23:21:12,818] INFO in main: Path: /city/CapeTown/listings_by_categories | Method: GET | Status: 200 | Duration: 0.016s
+[2025-01-22 23:21:12,836] INFO in main: Path: /city/CapeTown/listings_by_categories | Method: GET | Status: 200 | Duration: 0.016s
+[2025-01-22 23:21:12,858] INFO in main: Path: /city/CapeTown/listings_by_categories | Method: GET | Status: 200 | Duration: 0.019s
+[2025-01-22 23:21:14,033] INFO in main: Path: /city/CapeTown/host_ranking | Method: GET | Status: 200 | Duration: 0.045s
+[2025-01-22 23:21:14,537] INFO in main: Path: /city/CapeTown/listings_by_categories | Method: GET | Status: 200 | Duration: 0.046s
+[2025-01-22 23:21:14,582] INFO in main: Path: /city/CapeTown/listings_by_categories | Method: GET | Status: 200 | Duration: 0.042s
+[2025-01-22 23:21:14,638] INFO in main: Path: /city/CapeTown/listings_by_categories | Method: GET | Status: 200 | Duration: 0.051s
+[2025-01-22 23:21:14,694] INFO in main: Path: /city/CapeTown/listings_by_categories | Method: GET | Status: 200 | Duration: 0.053s
+[2025-01-22 23:21:14,784] INFO in main: Path: /city/CapeTown/listings_by_categories | Method: GET | Status: 200 | Duration: 0.087s
+[2025-01-22 23:21:15,467] INFO in main: Path: /city/CapeTown/host_ranking | Method: GET | Status: 200 | Duration: 0.055s
+[2025-01-22 23:21:15,988] INFO in main: Path: /city/CapeTown/listings_by_categories | Method: GET | Status: 200 | Duration: 0.074s
+[2025-01-22 23:21:16,046] INFO in main: Path: /city/CapeTown/listings_by_categories | Method: GET | Status: 200 | Duration: 0.052s
+[2025-01-22 23:21:16,116] INFO in main: Path: /city/CapeTown/listings_by_categories | Method: GET | Status: 200 | Duration: 0.067s
+[2025-01-22 23:21:16,191] INFO in main: Path: /city/CapeTown/listings_by_categories | Method: GET | Status: 200 | Duration: 0.068s
+[2025-01-22 23:21:16,311] INFO in main: Path: /city/CapeTown/listings_by_categories | Method: GET | Status: 200 | Duration: 0.116s
+[2025-01-22 23:23:03,458] INFO in main: Fetching cities list
+[2025-01-22 23:23:03,526] INFO in main: Found 21 cities
+[2025-01-22 23:23:03,527] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.070s
+[2025-01-22 23:23:04,869] INFO in main: Path: /city/CapeTown | Method: GET | Status: 200 | Duration: 0.000s
+[2025-01-22 23:23:05,011] INFO in main: Path: /city/CapeTown/yearly_stats | Method: GET | Status: 200 | Duration: 0.117s
+[2025-01-22 23:23:05,457] INFO in main: Path: /city/CapeTown/host_ranking | Method: GET | Status: 200 | Duration: 0.070s
+[2025-01-22 23:23:06,641] INFO in main: Path: /city/CapeTown/host_ranking | Method: GET | Status: 200 | Duration: 0.053s
+[2025-01-22 23:23:09,570] INFO in main: Path: /city/CapeTown/host_ranking | Method: GET | Status: 200 | Duration: 0.051s
+[2025-01-22 23:23:10,011] INFO in main: Path: /city/CapeTown/listings_by_categories | Method: GET | Status: 200 | Duration: 0.041s
+[2025-01-22 23:23:11,274] INFO in main: Path: /city/CapeTown/listings_by_categories | Method: GET | Status: 200 | Duration: 0.052s
+[2025-01-22 23:23:12,193] INFO in main: Path: /city/CapeTown/listings_by_categories | Method: GET | Status: 200 | Duration: 0.045s
+[2025-01-22 23:23:12,773] INFO in main: Path: /city/CapeTown/listings_by_categories | Method: GET | Status: 200 | Duration: 0.065s
+[2025-01-22 23:23:13,392] INFO in main: Path: /city/CapeTown/listings_by_categories | Method: GET | Status: 200 | Duration: 0.070s
+[2025-01-22 23:23:14,254] INFO in main: Path: /city/CapeTown/listings_by_categories | Method: GET | Status: 200 | Duration: 0.111s
+[2025-01-22 23:24:46,334] INFO in main: Fetching cities list
+[2025-01-22 23:24:46,407] INFO in main: Found 21 cities
+[2025-01-22 23:24:46,414] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.080s
+[2025-01-22 23:24:49,387] INFO in main: Path: /city/Istanbul | Method: GET | Status: 200 | Duration: 0.000s
+[2025-01-22 23:24:49,527] INFO in main: Path: /city/Istanbul/yearly_stats | Method: GET | Status: 200 | Duration: 0.122s
+[2025-01-22 23:24:49,941] INFO in main: Path: /city/Istanbul/host_ranking | Method: GET | Status: 200 | Duration: 0.036s
+[2025-01-22 23:24:51,024] INFO in main: Path: /city/Istanbul/host_ranking | Method: GET | Status: 200 | Duration: 0.033s
+[2025-01-22 23:24:51,233] INFO in main: Path: /city/Istanbul/listings_by_categories | Method: GET | Status: 200 | Duration: 0.060s
+[2025-01-22 23:24:51,678] INFO in main: Path: /city/Istanbul/listings_by_categories | Method: GET | Status: 200 | Duration: 0.053s
+[2025-01-22 23:24:52,104] INFO in main: Path: /city/Istanbul/listings_by_categories | Method: GET | Status: 200 | Duration: 0.076s
+[2025-01-22 23:24:52,445] INFO in main: Path: /city/Istanbul/listings_by_categories | Method: GET | Status: 200 | Duration: 0.056s
+[2025-01-22 23:24:53,104] INFO in main: Path: /city/Istanbul/listings_by_categories | Method: GET | Status: 200 | Duration: 0.065s
+[2025-01-22 23:27:10,801] INFO in main: Fetching cities list
+[2025-01-22 23:27:10,856] INFO in main: Found 21 cities
+[2025-01-22 23:27:10,857] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.056s
+[2025-01-22 23:27:14,218] INFO in main: Path: /city/Istanbul | Method: GET | Status: 200 | Duration: 0.000s
+[2025-01-22 23:27:14,339] INFO in main: Path: /city/Istanbul/yearly_stats | Method: GET | Status: 200 | Duration: 0.104s
+[2025-01-22 23:27:14,758] INFO in main: Path: /city/Istanbul/host_ranking | Method: GET | Status: 200 | Duration: 0.034s
+[2025-01-22 23:27:16,760] INFO in main: Path: /city/Istanbul/host_ranking | Method: GET | Status: 200 | Duration: 0.033s
+[2025-01-22 23:27:17,074] INFO in main: Path: /city/Istanbul/listings_by_categories | Method: GET | Status: 200 | Duration: 0.037s
+[2025-01-22 23:27:17,951] INFO in main: Path: /city/Istanbul/listings_by_categories | Method: GET | Status: 200 | Duration: 0.049s
+[2025-01-22 23:27:18,989] INFO in main: Path: /city/Istanbul/listings_by_categories | Method: GET | Status: 200 | Duration: 0.052s
+[2025-01-22 23:27:19,241] INFO in main: Path: /city/Istanbul/listings_by_categories | Method: GET | Status: 200 | Duration: 0.037s
+[2025-01-22 23:27:21,027] INFO in main: Path: /city/Istanbul/listings_by_categories | Method: GET | Status: 200 | Duration: 0.055s
+[2025-01-22 23:28:01,912] INFO in main: Fetching cities list
+[2025-01-22 23:28:01,988] INFO in main: Found 21 cities
+[2025-01-22 23:28:01,991] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.079s
+[2025-01-22 23:28:03,667] INFO in main: Path: /city/Madrid | Method: GET | Status: 200 | Duration: 0.000s
+[2025-01-22 23:28:03,807] INFO in main: Path: /city/Madrid/yearly_stats | Method: GET | Status: 200 | Duration: 0.114s
+[2025-01-22 23:28:04,232] INFO in main: Path: /city/Madrid/host_ranking | Method: GET | Status: 200 | Duration: 0.043s
+[2025-01-22 23:28:06,764] INFO in main: Path: /city/Madrid/host_ranking | Method: GET | Status: 200 | Duration: 0.074s
+[2025-01-22 23:28:08,743] INFO in main: Path: /city/Madrid/listings_by_categories | Method: GET | Status: 200 | Duration: 0.175s
+[2025-01-22 23:28:09,142] INFO in main: Path: /city/Madrid/listings_by_categories | Method: GET | Status: 200 | Duration: 0.174s
+[2025-01-22 23:28:09,402] INFO in main: Path: /city/Madrid/listings_by_categories | Method: GET | Status: 200 | Duration: 0.079s
+[2025-01-22 23:28:09,747] INFO in main: Path: /city/Madrid/listings_by_categories | Method: GET | Status: 200 | Duration: 0.076s

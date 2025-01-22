@@ -6,6 +6,7 @@
       :selectedHostTypes="selectedHostTypes"
       :currentTime="currentTime"
       :isHexMode="isHexMode"
+      :pointStyle="pointStyle"
     />
     <Sidebar 
       :aboutToggle="aboutToggle" 
@@ -15,6 +16,7 @@
       @host-types-changed="handleHostTypesChange"
       @view-mode-changed="handleViewModeChange"
       @loading="handleLoading"
+      @style-changed="handleStyleChange"
       :class="{ 'collapsed': isSidebarCollapsed }"
     />
     <AboutButton 
@@ -57,6 +59,10 @@ export default {
     const selectedHostTypes = ref([])
     const currentTime = ref(null)
     const isHexMode = ref(false)
+    const pointStyle = ref({
+      size: 4,
+      opacity: 0.8
+    })
 
     const handleSidebarCollapse = (collapsed) => {
       isSidebarCollapsed.value = collapsed
@@ -85,6 +91,10 @@ export default {
       loadingState.value = state
     }
 
+    const handleStyleChange = (style) => {
+      pointStyle.value = style
+    }
+
     return {
       aboutToggle,
       loadingState,
@@ -98,7 +108,9 @@ export default {
       handleHostTypesChange,
       isHexMode,
       handleViewModeChange,
-      handleLoading
+      handleLoading,
+      pointStyle,
+      handleStyleChange
     }
   }
 }

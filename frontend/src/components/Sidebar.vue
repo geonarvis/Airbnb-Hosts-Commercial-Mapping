@@ -99,15 +99,68 @@
           <apexchart
             type="bar"
             height="350"
-            :options="chartOptions"
+            :options="{
+              ...chartOptions,
+              chart: {
+                ...chartOptions.chart,
+                zoom: {
+                  enabled: false
+                }
+              }
+            }"
             :series="chartSeries"
           />
           <apexchart
             type="line"
             height="250"
-            :options="lineChartOptions"
+            :options="{
+              ...lineChartOptions,
+              chart: {
+                ...lineChartOptions.chart,
+                zoom: {
+                  enabled: false
+                }
+              }
+            }"
             :series="lineChartSeries"
           />
+        </div>
+
+        <!-- 点样式控制 -->
+        <div class="style-controls mt-4">
+          <label class="block text-sm font-medium text-gray-500 mb-2">Point Style Controls</label>
+          
+          <div class="control-group mb-3">
+            <div class="flex justify-between text-xs text-gray-500 mb-1">
+              <span>Point Size</span>
+              <span>{{ pointSize }}px</span>
+            </div>
+            <input
+              type="range"
+              v-model="pointSize"
+              min="2"
+              max="8"
+              step="0.5"
+              class="w-full range-slider"
+              @input="updatePointStyle"
+            />
+          </div>
+          
+          <div class="control-group">
+            <div class="flex justify-between text-xs text-gray-500 mb-1">
+              <span>Opacity</span>
+              <span>{{ Math.round(pointOpacity * 100) }}%</span>
+            </div>
+            <input
+              type="range"
+              v-model="pointOpacity"
+              min="0.1"
+              max="1"
+              step="0.1"
+              class="w-full range-slider"
+              @input="updatePointStyle"
+            />
+          </div>
         </div>
       </div>
 
@@ -167,6 +220,9 @@ export default {
 
     const internalTime = ref(0)
     const isListingMode = ref(true)  // 默认显示房源数据
+
+    const pointSize = ref(4)
+    const pointOpacity = ref(0.8)
 
     const debouncedTimeChange = debounce((value) => {
       emit('time-changed', value)
@@ -553,6 +609,13 @@ export default {
       }
     })
 
+    const updatePointStyle = () => {
+      emit('style-changed', {
+        size: Number(pointSize.value),
+        opacity: Number(pointOpacity.value)
+      })
+    }
+
     onMounted(() => {
       fetchCities()
     })
@@ -583,13 +646,20 @@ export default {
       chartSeries,
       lineChartOptions,
       lineChartSeries,
-      isListingMode
+      isListingMode,
+      pointSize,
+      pointOpacity,
+      updatePointStyle
     }
   }
 }
 </script>
 
 <style>
+:root {
+  --sidebar-width: 25vw;  /* 改为视窗宽度的四分之一 */
+}
+
 .sidebar-container {
   width: var(--sidebar-width);
   min-width: var(--sidebar-width);
@@ -799,5 +869,16 @@ export default {
 
 .host-types label:last-child {
   margin-bottom: 0;
+}
+
+.style-controls {
+  border-top: 1px solid #e5e7eb;
+  padding-top: 1rem;
+}
+
+.control-group {
+  background-color: #f9fafb;
+  padding: 0.75rem;
+  border-radius: 0.5rem;
 }
 </style> 
