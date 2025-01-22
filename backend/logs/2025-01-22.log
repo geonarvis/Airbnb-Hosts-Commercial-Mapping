@@ -1390,3 +1390,405 @@ LINE 50: ...                     ORDER BY total_listings DESC as multi_h...
 [2025-01-22 20:16:36,419] INFO in main: Successfully preloaded data for Sydney
 [2025-01-22 20:16:36,434] INFO in main: Successfully preloaded data for Tokyo
 [2025-01-22 20:16:36,459] INFO in main: Successfully preloaded data for Toronto
+[2025-01-22 20:53:52,049] INFO in main: Successfully preloaded data for Amsterdam
+[2025-01-22 20:53:52,062] INFO in main: Successfully preloaded data for Athens
+[2025-01-22 20:53:52,079] INFO in main: Successfully preloaded data for Bangkok
+[2025-01-22 20:53:52,097] INFO in main: Successfully preloaded data for Barcelona
+[2025-01-22 20:53:52,109] INFO in main: Successfully preloaded data for Berlin
+[2025-01-22 20:53:52,141] INFO in main: Successfully preloaded data for Buenosaires
+[2025-01-22 20:53:52,163] INFO in main: Successfully preloaded data for CapeTown
+[2025-01-22 20:53:52,188] INFO in main: Successfully preloaded data for Istanbul
+[2025-01-22 20:53:52,264] INFO in main: Successfully preloaded data for London
+[2025-01-22 20:53:52,291] INFO in main: Successfully preloaded data for Madrid
+[2025-01-22 20:53:52,315] INFO in main: Successfully preloaded data for Melbourne
+[2025-01-22 20:53:52,338] INFO in main: Successfully preloaded data for MexicoCity
+[2025-01-22 20:53:52,359] INFO in main: Successfully preloaded data for Milan
+[2025-01-22 20:53:52,390] INFO in main: Successfully preloaded data for Newyorkcity
+[2025-01-22 20:53:52,465] INFO in main: Successfully preloaded data for Paris
+[2025-01-22 20:53:52,494] INFO in main: Successfully preloaded data for RiodeJaneiro
+[2025-01-22 20:53:52,528] INFO in main: Successfully preloaded data for Rome
+[2025-01-22 20:53:52,601] INFO in main: Successfully preloaded data for Sicily
+[2025-01-22 20:53:52,622] INFO in main: Successfully preloaded data for Sydney
+[2025-01-22 20:53:52,645] INFO in main: Successfully preloaded data for Tokyo
+[2025-01-22 20:53:52,675] INFO in main: Successfully preloaded data for Toronto
+[2025-01-22 20:53:55,017] INFO in main: Successfully preloaded data for Amsterdam
+[2025-01-22 20:53:55,029] INFO in main: Successfully preloaded data for Athens
+[2025-01-22 20:53:55,048] INFO in main: Successfully preloaded data for Bangkok
+[2025-01-22 20:53:55,072] INFO in main: Successfully preloaded data for Barcelona
+[2025-01-22 20:53:55,084] INFO in main: Successfully preloaded data for Berlin
+[2025-01-22 20:53:55,116] INFO in main: Successfully preloaded data for Buenosaires
+[2025-01-22 20:53:55,137] INFO in main: Successfully preloaded data for CapeTown
+[2025-01-22 20:53:55,161] INFO in main: Successfully preloaded data for Istanbul
+[2025-01-22 20:53:55,238] INFO in main: Successfully preloaded data for London
+[2025-01-22 20:53:55,260] INFO in main: Successfully preloaded data for Madrid
+[2025-01-22 20:53:55,281] INFO in main: Successfully preloaded data for Melbourne
+[2025-01-22 20:53:55,304] INFO in main: Successfully preloaded data for MexicoCity
+[2025-01-22 20:53:55,325] INFO in main: Successfully preloaded data for Milan
+[2025-01-22 20:53:55,355] INFO in main: Successfully preloaded data for Newyorkcity
+[2025-01-22 20:53:55,432] INFO in main: Successfully preloaded data for Paris
+[2025-01-22 20:53:55,459] INFO in main: Successfully preloaded data for RiodeJaneiro
+[2025-01-22 20:53:55,490] INFO in main: Successfully preloaded data for Rome
+[2025-01-22 20:53:55,536] INFO in main: Successfully preloaded data for Sicily
+[2025-01-22 20:53:55,551] INFO in main: Successfully preloaded data for Sydney
+[2025-01-22 20:53:55,565] INFO in main: Successfully preloaded data for Tokyo
+[2025-01-22 20:53:55,582] INFO in main: Successfully preloaded data for Toronto
+[2025-01-22 20:54:23,373] INFO in main: Successfully preloaded data for Amsterdam
+[2025-01-22 20:54:23,385] INFO in main: Successfully preloaded data for Athens
+[2025-01-22 20:54:23,403] INFO in main: Successfully preloaded data for Bangkok
+[2025-01-22 20:54:23,419] INFO in main: Successfully preloaded data for Barcelona
+[2025-01-22 20:54:23,432] INFO in main: Successfully preloaded data for Berlin
+[2025-01-22 20:54:23,465] INFO in main: Successfully preloaded data for Buenosaires
+[2025-01-22 20:54:23,487] INFO in main: Successfully preloaded data for CapeTown
+[2025-01-22 20:54:23,510] INFO in main: Successfully preloaded data for Istanbul
+[2025-01-22 20:54:23,587] INFO in main: Successfully preloaded data for London
+[2025-01-22 20:54:23,610] INFO in main: Successfully preloaded data for Madrid
+[2025-01-22 20:54:23,633] INFO in main: Successfully preloaded data for Melbourne
+[2025-01-22 20:54:23,659] INFO in main: Successfully preloaded data for MexicoCity
+[2025-01-22 20:54:23,682] INFO in main: Successfully preloaded data for Milan
+[2025-01-22 20:54:23,714] INFO in main: Successfully preloaded data for Newyorkcity
+[2025-01-22 20:54:23,790] INFO in main: Successfully preloaded data for Paris
+[2025-01-22 20:54:23,819] INFO in main: Successfully preloaded data for RiodeJaneiro
+[2025-01-22 20:54:23,850] INFO in main: Successfully preloaded data for Rome
+[2025-01-22 20:54:23,897] INFO in main: Successfully preloaded data for Sicily
+[2025-01-22 20:54:23,913] INFO in main: Successfully preloaded data for Sydney
+[2025-01-22 20:54:23,929] INFO in main: Successfully preloaded data for Tokyo
+[2025-01-22 20:54:23,947] INFO in main: Successfully preloaded data for Toronto
+[2025-01-22 20:54:27,586] INFO in main: Fetching cities list
+[2025-01-22 20:54:27,665] INFO in main: Found 21 cities
+[2025-01-22 20:54:27,667] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.081s
+[2025-01-22 20:54:28,982] INFO in main: Path: /city/Buenosaires | Method: GET | Status: 200 | Duration: 0.001s
+[2025-01-22 20:54:29,022] ERROR in main: Error in get_yearly_stats: column "host_categories.cumulative_count" must appear in the GROUP BY clause or be used in an aggregate function
+LINE 35:                             FIRST_VALUE(cumulative_count) OV...
+                                                 ^
+
+[2025-01-22 20:54:29,023] ERROR in main: HTTP Exception: 500 - column "host_categories.cumulative_count" must appear in the GROUP BY clause or be used in an aggregate function
+LINE 35:                             FIRST_VALUE(cumulative_count) OV...
+                                                 ^
+ | Path: /city/Buenosaires/yearly_stats
+[2025-01-22 20:54:29,023] INFO in main: Path: /city/Buenosaires/yearly_stats | Method: GET | Status: 500 | Duration: 0.036s
+[2025-01-22 20:54:29,537] INFO in main: Path: /city/Buenosaires/host_ranking | Method: GET | Status: 200 | Duration: 0.049s
+[2025-01-22 20:55:36,561] INFO in main: Successfully preloaded data for Amsterdam
+[2025-01-22 20:55:36,575] INFO in main: Successfully preloaded data for Athens
+[2025-01-22 20:55:36,592] INFO in main: Successfully preloaded data for Bangkok
+[2025-01-22 20:55:36,608] INFO in main: Successfully preloaded data for Barcelona
+[2025-01-22 20:55:36,621] INFO in main: Successfully preloaded data for Berlin
+[2025-01-22 20:55:36,653] INFO in main: Successfully preloaded data for Buenosaires
+[2025-01-22 20:55:36,674] INFO in main: Successfully preloaded data for CapeTown
+[2025-01-22 20:55:36,697] INFO in main: Successfully preloaded data for Istanbul
+[2025-01-22 20:55:36,773] INFO in main: Successfully preloaded data for London
+[2025-01-22 20:55:36,797] INFO in main: Successfully preloaded data for Madrid
+[2025-01-22 20:55:36,818] INFO in main: Successfully preloaded data for Melbourne
+[2025-01-22 20:55:36,842] INFO in main: Successfully preloaded data for MexicoCity
+[2025-01-22 20:55:36,862] INFO in main: Successfully preloaded data for Milan
+[2025-01-22 20:55:36,891] INFO in main: Successfully preloaded data for Newyorkcity
+[2025-01-22 20:55:36,966] INFO in main: Successfully preloaded data for Paris
+[2025-01-22 20:55:36,993] INFO in main: Successfully preloaded data for RiodeJaneiro
+[2025-01-22 20:55:37,023] INFO in main: Successfully preloaded data for Rome
+[2025-01-22 20:55:37,069] INFO in main: Successfully preloaded data for Sicily
+[2025-01-22 20:55:37,083] INFO in main: Successfully preloaded data for Sydney
+[2025-01-22 20:55:37,098] INFO in main: Successfully preloaded data for Tokyo
+[2025-01-22 20:55:37,116] INFO in main: Successfully preloaded data for Toronto
+[2025-01-22 20:55:39,246] INFO in main: Fetching cities list
+[2025-01-22 20:55:39,329] INFO in main: Found 21 cities
+[2025-01-22 20:55:39,330] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.084s
+[2025-01-22 20:55:40,548] INFO in main: Path: /city/CapeTown | Method: GET | Status: 200 | Duration: 0.000s
+[2025-01-22 20:55:40,627] INFO in main: Path: /city/CapeTown/yearly_stats | Method: GET | Status: 200 | Duration: 0.074s
+[2025-01-22 20:55:41,135] INFO in main: Path: /city/CapeTown/host_ranking | Method: GET | Status: 200 | Duration: 0.067s
+[2025-01-22 20:55:44,658] INFO in main: Path: /city/Amsterdam | Method: GET | Status: 200 | Duration: 0.000s
+[2025-01-22 20:55:44,711] INFO in main: Path: /city/Amsterdam/yearly_stats | Method: GET | Status: 200 | Duration: 0.047s
+[2025-01-22 20:55:45,224] INFO in main: Path: /city/Amsterdam/host_ranking | Method: GET | Status: 200 | Duration: 0.041s
+[2025-01-22 20:55:48,073] INFO in main: Path: /city/Milan | Method: GET | Status: 200 | Duration: 0.000s
+[2025-01-22 20:55:48,145] INFO in main: Path: /city/Milan/yearly_stats | Method: GET | Status: 200 | Duration: 0.068s
+[2025-01-22 20:55:48,662] INFO in main: Path: /city/Milan/host_ranking | Method: GET | Status: 200 | Duration: 0.068s
+[2025-01-22 20:57:31,763] INFO in main: Successfully preloaded data for Amsterdam
+[2025-01-22 20:57:31,776] INFO in main: Successfully preloaded data for Athens
+[2025-01-22 20:57:31,793] INFO in main: Successfully preloaded data for Bangkok
+[2025-01-22 20:57:31,809] INFO in main: Successfully preloaded data for Barcelona
+[2025-01-22 20:57:31,822] INFO in main: Successfully preloaded data for Berlin
+[2025-01-22 20:57:31,855] INFO in main: Successfully preloaded data for Buenosaires
+[2025-01-22 20:57:31,875] INFO in main: Successfully preloaded data for CapeTown
+[2025-01-22 20:57:31,899] INFO in main: Successfully preloaded data for Istanbul
+[2025-01-22 20:57:31,974] INFO in main: Successfully preloaded data for London
+[2025-01-22 20:57:31,997] INFO in main: Successfully preloaded data for Madrid
+[2025-01-22 20:57:32,017] INFO in main: Successfully preloaded data for Melbourne
+[2025-01-22 20:57:32,040] INFO in main: Successfully preloaded data for MexicoCity
+[2025-01-22 20:57:32,060] INFO in main: Successfully preloaded data for Milan
+[2025-01-22 20:57:32,090] INFO in main: Successfully preloaded data for Newyorkcity
+[2025-01-22 20:57:32,166] INFO in main: Successfully preloaded data for Paris
+[2025-01-22 20:57:32,195] INFO in main: Successfully preloaded data for RiodeJaneiro
+[2025-01-22 20:57:32,226] INFO in main: Successfully preloaded data for Rome
+[2025-01-22 20:57:32,271] INFO in main: Successfully preloaded data for Sicily
+[2025-01-22 20:57:32,285] INFO in main: Successfully preloaded data for Sydney
+[2025-01-22 20:57:32,300] INFO in main: Successfully preloaded data for Tokyo
+[2025-01-22 20:57:32,319] INFO in main: Successfully preloaded data for Toronto
+[2025-01-22 20:57:34,232] INFO in main: Fetching cities list
+[2025-01-22 20:57:34,306] INFO in main: Found 21 cities
+[2025-01-22 20:57:34,308] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.076s
+[2025-01-22 20:57:35,441] INFO in main: Path: /city/Melbourne | Method: GET | Status: 200 | Duration: 0.000s
+[2025-01-22 20:57:35,514] ERROR in main: Error in get_yearly_stats: 'cumulative_count'
+[2025-01-22 20:57:35,514] ERROR in main: Traceback: 
+Traceback (most recent call last):
+  File "/Users/jia/Library/CloudStorage/OneDrive-个人/projects/airbnb-hosts-visualization/backend/main.py", line 730, in get_yearly_stats
+    'cumulative_count': sorted([row['cumulative_count']] * row['host_count'], reverse=True)  # 按数量排序
+                                ~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: 'cumulative_count'
+[2025-01-22 20:57:35,515] ERROR in main: HTTP Exception: 500 - 'cumulative_count' | Path: /city/Melbourne/yearly_stats
+[2025-01-22 20:57:35,515] INFO in main: Path: /city/Melbourne/yearly_stats | Method: GET | Status: 500 | Duration: 0.069s
+[2025-01-22 20:57:36,007] INFO in main: Path: /city/Melbourne/host_ranking | Method: GET | Status: 200 | Duration: 0.059s
+[2025-01-22 20:58:49,920] INFO in main: Successfully preloaded data for Amsterdam
+[2025-01-22 20:58:49,933] INFO in main: Successfully preloaded data for Athens
+[2025-01-22 20:58:49,951] INFO in main: Successfully preloaded data for Bangkok
+[2025-01-22 20:58:49,968] INFO in main: Successfully preloaded data for Barcelona
+[2025-01-22 20:58:49,980] INFO in main: Successfully preloaded data for Berlin
+[2025-01-22 20:58:50,012] INFO in main: Successfully preloaded data for Buenosaires
+[2025-01-22 20:58:50,033] INFO in main: Successfully preloaded data for CapeTown
+[2025-01-22 20:58:50,057] INFO in main: Successfully preloaded data for Istanbul
+[2025-01-22 20:58:50,134] INFO in main: Successfully preloaded data for London
+[2025-01-22 20:58:50,157] INFO in main: Successfully preloaded data for Madrid
+[2025-01-22 20:58:50,178] INFO in main: Successfully preloaded data for Melbourne
+[2025-01-22 20:58:50,202] INFO in main: Successfully preloaded data for MexicoCity
+[2025-01-22 20:58:50,223] INFO in main: Successfully preloaded data for Milan
+[2025-01-22 20:58:50,254] INFO in main: Successfully preloaded data for Newyorkcity
+[2025-01-22 20:58:50,330] INFO in main: Successfully preloaded data for Paris
+[2025-01-22 20:58:50,358] INFO in main: Successfully preloaded data for RiodeJaneiro
+[2025-01-22 20:58:50,389] INFO in main: Successfully preloaded data for Rome
+[2025-01-22 20:58:50,436] INFO in main: Successfully preloaded data for Sicily
+[2025-01-22 20:58:50,450] INFO in main: Successfully preloaded data for Sydney
+[2025-01-22 20:58:50,466] INFO in main: Successfully preloaded data for Tokyo
+[2025-01-22 20:58:50,484] INFO in main: Successfully preloaded data for Toronto
+[2025-01-22 20:58:53,341] INFO in main: Fetching cities list
+[2025-01-22 20:58:53,430] INFO in main: Found 21 cities
+[2025-01-22 20:58:53,432] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.091s
+[2025-01-22 20:58:54,695] INFO in main: Path: /city/London | Method: GET | Status: 200 | Duration: 0.000s
+[2025-01-22 20:58:54,859] ERROR in main: Error in get_yearly_stats: unsupported operand type(s) for *: 'decimal.Decimal' and 'float'
+[2025-01-22 20:58:54,859] ERROR in main: Traceback: 
+Traceback (most recent call last):
+  File "/Users/jia/Library/CloudStorage/OneDrive-个人/projects/airbnb-hosts-visualization/backend/main.py", line 729, in get_yearly_stats
+    highly_commercial_listings = int(total_listings * 0.35)  # 35% 的房源给 highly commercial
+                                     ~~~~~~~~~~~~~~~^~~~~~
+TypeError: unsupported operand type(s) for *: 'decimal.Decimal' and 'float'
+[2025-01-22 20:58:54,860] ERROR in main: HTTP Exception: 500 - unsupported operand type(s) for *: 'decimal.Decimal' and 'float' | Path: /city/London/yearly_stats
+[2025-01-22 20:58:54,860] INFO in main: Path: /city/London/yearly_stats | Method: GET | Status: 500 | Duration: 0.159s
+[2025-01-22 20:58:55,301] INFO in main: Path: /city/London/host_ranking | Method: GET | Status: 200 | Duration: 0.099s
+[2025-01-22 21:00:39,289] INFO in main: Successfully preloaded data for Amsterdam
+[2025-01-22 21:00:39,301] INFO in main: Successfully preloaded data for Athens
+[2025-01-22 21:00:39,319] INFO in main: Successfully preloaded data for Bangkok
+[2025-01-22 21:00:39,336] INFO in main: Successfully preloaded data for Barcelona
+[2025-01-22 21:00:39,349] INFO in main: Successfully preloaded data for Berlin
+[2025-01-22 21:00:39,381] INFO in main: Successfully preloaded data for Buenosaires
+[2025-01-22 21:00:39,402] INFO in main: Successfully preloaded data for CapeTown
+[2025-01-22 21:00:39,425] INFO in main: Successfully preloaded data for Istanbul
+[2025-01-22 21:00:39,502] INFO in main: Successfully preloaded data for London
+[2025-01-22 21:00:39,526] INFO in main: Successfully preloaded data for Madrid
+[2025-01-22 21:00:39,547] INFO in main: Successfully preloaded data for Melbourne
+[2025-01-22 21:00:39,570] INFO in main: Successfully preloaded data for MexicoCity
+[2025-01-22 21:00:39,592] INFO in main: Successfully preloaded data for Milan
+[2025-01-22 21:00:39,623] INFO in main: Successfully preloaded data for Newyorkcity
+[2025-01-22 21:00:39,701] INFO in main: Successfully preloaded data for Paris
+[2025-01-22 21:00:39,729] INFO in main: Successfully preloaded data for RiodeJaneiro
+[2025-01-22 21:00:39,759] INFO in main: Successfully preloaded data for Rome
+[2025-01-22 21:00:39,804] INFO in main: Successfully preloaded data for Sicily
+[2025-01-22 21:00:39,819] INFO in main: Successfully preloaded data for Sydney
+[2025-01-22 21:00:39,834] INFO in main: Successfully preloaded data for Tokyo
+[2025-01-22 21:00:39,853] INFO in main: Successfully preloaded data for Toronto
+[2025-01-22 21:00:41,683] INFO in main: Fetching cities list
+[2025-01-22 21:00:41,752] INFO in main: Found 21 cities
+[2025-01-22 21:00:41,754] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.071s
+[2025-01-22 21:00:42,960] INFO in main: Path: /city/Istanbul | Method: GET | Status: 200 | Duration: 0.000s
+[2025-01-22 21:00:42,988] INFO in main: Starting yearly stats query for Istanbul
+[2025-01-22 21:00:43,021] INFO in main: Query completed. Found 40 records
+[2025-01-22 21:00:43,021] ERROR in main: Error processing row: unsupported operand type(s) for *: 'decimal.Decimal' and 'float', row data: RealDictRow([('year', Decimal('2012')), ('host_type', 'multi'), ('host_count', 7), ('listing_count', Decimal('25')), ('max_listings', Decimal('4')), ('min_listings', Decimal('3'))])
+[2025-01-22 21:00:43,021] ERROR in main: Error processing row: unsupported operand type(s) for *: 'decimal.Decimal' and 'float', row data: RealDictRow([('year', Decimal('2013')), ('host_type', 'multi'), ('host_count', 19), ('listing_count', Decimal('74')), ('max_listings', Decimal('8')), ('min_listings', Decimal('3'))])
+[2025-01-22 21:00:43,021] ERROR in main: Error processing row: unsupported operand type(s) for *: 'decimal.Decimal' and 'float', row data: RealDictRow([('year', Decimal('2014')), ('host_type', 'multi'), ('host_count', 17), ('listing_count', Decimal('83')), ('max_listings', Decimal('8')), ('min_listings', Decimal('3'))])
+[2025-01-22 21:00:43,022] ERROR in main: Error processing row: unsupported operand type(s) for *: 'decimal.Decimal' and 'float', row data: RealDictRow([('year', Decimal('2015')), ('host_type', 'multi'), ('host_count', 40), ('listing_count', Decimal('241')), ('max_listings', Decimal('50')), ('min_listings', Decimal('3'))])
+[2025-01-22 21:00:43,022] ERROR in main: Error processing row: unsupported operand type(s) for *: 'decimal.Decimal' and 'float', row data: RealDictRow([('year', Decimal('2016')), ('host_type', 'multi'), ('host_count', 33), ('listing_count', Decimal('233')), ('max_listings', Decimal('55')), ('min_listings', Decimal('3'))])
+[2025-01-22 21:00:43,022] ERROR in main: Error processing row: unsupported operand type(s) for *: 'decimal.Decimal' and 'float', row data: RealDictRow([('year', Decimal('2017')), ('host_type', 'multi'), ('host_count', 35), ('listing_count', Decimal('236')), ('max_listings', Decimal('67')), ('min_listings', Decimal('3'))])
+[2025-01-22 21:00:43,022] ERROR in main: Error processing row: unsupported operand type(s) for *: 'decimal.Decimal' and 'float', row data: RealDictRow([('year', Decimal('2018')), ('host_type', 'multi'), ('host_count', 81), ('listing_count', Decimal('468')), ('max_listings', Decimal('71')), ('min_listings', Decimal('3'))])
+[2025-01-22 21:00:43,022] ERROR in main: Error processing row: unsupported operand type(s) for *: 'decimal.Decimal' and 'float', row data: RealDictRow([('year', Decimal('2019')), ('host_type', 'multi'), ('host_count', 137), ('listing_count', Decimal('841')), ('max_listings', Decimal('72')), ('min_listings', Decimal('3'))])
+[2025-01-22 21:00:43,022] ERROR in main: Error processing row: unsupported operand type(s) for *: 'decimal.Decimal' and 'float', row data: RealDictRow([('year', Decimal('2020')), ('host_type', 'multi'), ('host_count', 172), ('listing_count', Decimal('1067')), ('max_listings', Decimal('24')), ('min_listings', Decimal('3'))])
+[2025-01-22 21:00:43,022] ERROR in main: Error processing row: unsupported operand type(s) for *: 'decimal.Decimal' and 'float', row data: RealDictRow([('year', Decimal('2021')), ('host_type', 'multi'), ('host_count', 276), ('listing_count', Decimal('1782')), ('max_listings', Decimal('36')), ('min_listings', Decimal('3'))])
+[2025-01-22 21:00:43,022] ERROR in main: Error processing row: unsupported operand type(s) for *: 'decimal.Decimal' and 'float', row data: RealDictRow([('year', Decimal('2022')), ('host_type', 'multi'), ('host_count', 598), ('listing_count', Decimal('3854')), ('max_listings', Decimal('74')), ('min_listings', Decimal('3'))])
+[2025-01-22 21:00:43,022] ERROR in main: Error processing row: unsupported operand type(s) for *: 'decimal.Decimal' and 'float', row data: RealDictRow([('year', Decimal('2023')), ('host_type', 'multi'), ('host_count', 976), ('listing_count', Decimal('6849')), ('max_listings', Decimal('173')), ('min_listings', Decimal('3'))])
+[2025-01-22 21:00:43,022] ERROR in main: Error processing row: unsupported operand type(s) for *: 'decimal.Decimal' and 'float', row data: RealDictRow([('year', Decimal('2024')), ('host_type', 'multi'), ('host_count', 706), ('listing_count', Decimal('6200')), ('max_listings', Decimal('262')), ('min_listings', Decimal('3'))])
+[2025-01-22 21:00:43,022] INFO in main: Data processing completed. Years processed: [2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024]
+[2025-01-22 21:00:43,023] INFO in main: Path: /city/Istanbul/yearly_stats | Method: GET | Status: 200 | Duration: 0.059s
+[2025-01-22 21:00:43,517] INFO in main: Path: /city/Istanbul/host_ranking | Method: GET | Status: 200 | Duration: 0.043s
+[2025-01-22 21:01:04,967] INFO in main: Successfully preloaded data for Amsterdam
+[2025-01-22 21:01:04,979] INFO in main: Successfully preloaded data for Athens
+[2025-01-22 21:01:04,997] INFO in main: Successfully preloaded data for Bangkok
+[2025-01-22 21:01:05,014] INFO in main: Successfully preloaded data for Barcelona
+[2025-01-22 21:01:05,026] INFO in main: Successfully preloaded data for Berlin
+[2025-01-22 21:01:05,057] INFO in main: Successfully preloaded data for Buenosaires
+[2025-01-22 21:01:05,078] INFO in main: Successfully preloaded data for CapeTown
+[2025-01-22 21:01:05,101] INFO in main: Successfully preloaded data for Istanbul
+[2025-01-22 21:01:05,182] INFO in main: Successfully preloaded data for London
+[2025-01-22 21:01:05,205] INFO in main: Successfully preloaded data for Madrid
+[2025-01-22 21:01:05,227] INFO in main: Successfully preloaded data for Melbourne
+[2025-01-22 21:01:05,251] INFO in main: Successfully preloaded data for MexicoCity
+[2025-01-22 21:01:05,271] INFO in main: Successfully preloaded data for Milan
+[2025-01-22 21:01:05,303] INFO in main: Successfully preloaded data for Newyorkcity
+[2025-01-22 21:01:05,380] INFO in main: Successfully preloaded data for Paris
+[2025-01-22 21:01:05,408] INFO in main: Successfully preloaded data for RiodeJaneiro
+[2025-01-22 21:01:05,439] INFO in main: Successfully preloaded data for Rome
+[2025-01-22 21:01:05,485] INFO in main: Successfully preloaded data for Sicily
+[2025-01-22 21:01:05,498] INFO in main: Successfully preloaded data for Sydney
+[2025-01-22 21:01:05,513] INFO in main: Successfully preloaded data for Tokyo
+[2025-01-22 21:01:05,532] INFO in main: Successfully preloaded data for Toronto
+[2025-01-22 21:02:34,650] INFO in main: Successfully preloaded data for Amsterdam
+[2025-01-22 21:02:34,663] INFO in main: Successfully preloaded data for Athens
+[2025-01-22 21:02:34,681] INFO in main: Successfully preloaded data for Bangkok
+[2025-01-22 21:02:34,697] INFO in main: Successfully preloaded data for Barcelona
+[2025-01-22 21:02:34,710] INFO in main: Successfully preloaded data for Berlin
+[2025-01-22 21:02:34,742] INFO in main: Successfully preloaded data for Buenosaires
+[2025-01-22 21:02:34,763] INFO in main: Successfully preloaded data for CapeTown
+[2025-01-22 21:02:34,786] INFO in main: Successfully preloaded data for Istanbul
+[2025-01-22 21:02:34,864] INFO in main: Successfully preloaded data for London
+[2025-01-22 21:02:34,887] INFO in main: Successfully preloaded data for Madrid
+[2025-01-22 21:02:34,908] INFO in main: Successfully preloaded data for Melbourne
+[2025-01-22 21:02:34,931] INFO in main: Successfully preloaded data for MexicoCity
+[2025-01-22 21:02:34,951] INFO in main: Successfully preloaded data for Milan
+[2025-01-22 21:02:34,982] INFO in main: Successfully preloaded data for Newyorkcity
+[2025-01-22 21:02:35,059] INFO in main: Successfully preloaded data for Paris
+[2025-01-22 21:02:35,088] INFO in main: Successfully preloaded data for RiodeJaneiro
+[2025-01-22 21:02:35,117] INFO in main: Successfully preloaded data for Rome
+[2025-01-22 21:02:35,163] INFO in main: Successfully preloaded data for Sicily
+[2025-01-22 21:02:35,178] INFO in main: Successfully preloaded data for Sydney
+[2025-01-22 21:02:35,193] INFO in main: Successfully preloaded data for Tokyo
+[2025-01-22 21:02:35,211] INFO in main: Successfully preloaded data for Toronto
+[2025-01-22 21:05:05,290] INFO in main: Path: /city/RiodeJaneiro | Method: GET | Status: 200 | Duration: 0.001s
+[2025-01-22 21:05:05,455] INFO in main: Path: /city/RiodeJaneiro/yearly_stats | Method: GET | Status: 200 | Duration: 0.159s
+[2025-01-22 21:05:05,884] INFO in main: Path: /city/RiodeJaneiro/host_ranking | Method: GET | Status: 200 | Duration: 0.071s
+[2025-01-22 21:05:07,743] INFO in main: Path: /city/Sicily | Method: GET | Status: 200 | Duration: 0.000s
+[2025-01-22 21:05:07,942] INFO in main: Path: /city/Sicily/yearly_stats | Method: GET | Status: 200 | Duration: 0.194s
+[2025-01-22 21:05:08,315] INFO in main: Path: /city/Sicily/host_ranking | Method: GET | Status: 200 | Duration: 0.051s
+[2025-01-22 21:05:10,575] INFO in main: Path: /city/Sicily/host_ranking | Method: GET | Status: 200 | Duration: 0.093s
+[2025-01-22 21:05:12,573] INFO in main: Path: /city/Sicily/hexgrid | Method: GET | Status: 200 | Duration: 0.217s
+[2025-01-22 21:05:14,531] INFO in main: Path: /city/Toronto | Method: GET | Status: 200 | Duration: 0.000s
+[2025-01-22 21:05:14,646] INFO in main: Path: /city/Toronto/yearly_stats | Method: GET | Status: 200 | Duration: 0.110s
+[2025-01-22 21:05:15,093] INFO in main: Path: /city/Toronto/host_ranking | Method: GET | Status: 200 | Duration: 0.033s
+[2025-01-22 21:05:18,395] INFO in main: Path: /city/Toronto/hexgrid | Method: GET | Status: 200 | Duration: 0.077s
+[2025-01-22 21:05:20,386] INFO in main: Path: /city/Toronto/host_ranking | Method: GET | Status: 200 | Duration: 0.054s
+[2025-01-22 21:05:20,904] INFO in main: Path: /city/Toronto/listings_by_categories | Method: GET | Status: 200 | Duration: 0.068s
+[2025-01-22 21:05:20,957] INFO in main: Path: /city/Toronto/listings_by_categories | Method: GET | Status: 200 | Duration: 0.044s
+[2025-01-22 21:05:25,290] INFO in main: Path: /city/Toronto/hexgrid | Method: GET | Status: 200 | Duration: 0.101s
+[2025-01-22 21:06:44,658] INFO in main: Path: /city/Buenosaires | Method: GET | Status: 200 | Duration: 0.000s
+[2025-01-22 21:06:44,804] INFO in main: Path: /city/Buenosaires/yearly_stats | Method: GET | Status: 200 | Duration: 0.140s
+[2025-01-22 21:06:45,247] INFO in main: Path: /city/Buenosaires/host_ranking | Method: GET | Status: 200 | Duration: 0.048s
+[2025-01-22 21:06:47,655] INFO in main: Path: /city/Buenosaires/listings_by_categories | Method: GET | Status: 200 | Duration: 0.040s
+[2025-01-22 21:06:47,914] INFO in main: Path: /city/Buenosaires/listings_by_categories | Method: GET | Status: 200 | Duration: 0.050s
+[2025-01-22 21:06:49,092] INFO in main: Path: /city/Buenosaires/host_ranking | Method: GET | Status: 200 | Duration: 0.088s
+[2025-01-22 21:06:49,594] INFO in main: Path: /city/Buenosaires/listings_by_categories | Method: GET | Status: 200 | Duration: 0.089s
+[2025-01-22 21:06:49,654] INFO in main: Path: /city/Buenosaires/listings_by_categories | Method: GET | Status: 200 | Duration: 0.054s
+[2025-01-22 21:06:50,750] INFO in main: Path: /city/Buenosaires/hexgrid | Method: GET | Status: 200 | Duration: 0.147s
+[2025-01-22 21:07:14,778] INFO in main: Successfully preloaded data for Amsterdam
+[2025-01-22 21:07:14,792] INFO in main: Successfully preloaded data for Athens
+[2025-01-22 21:07:14,811] INFO in main: Successfully preloaded data for Bangkok
+[2025-01-22 21:07:14,828] INFO in main: Successfully preloaded data for Barcelona
+[2025-01-22 21:07:14,841] INFO in main: Successfully preloaded data for Berlin
+[2025-01-22 21:07:14,873] INFO in main: Successfully preloaded data for Buenosaires
+[2025-01-22 21:07:14,893] INFO in main: Successfully preloaded data for CapeTown
+[2025-01-22 21:07:14,916] INFO in main: Successfully preloaded data for Istanbul
+[2025-01-22 21:07:14,993] INFO in main: Successfully preloaded data for London
+[2025-01-22 21:07:15,015] INFO in main: Successfully preloaded data for Madrid
+[2025-01-22 21:07:15,036] INFO in main: Successfully preloaded data for Melbourne
+[2025-01-22 21:07:15,060] INFO in main: Successfully preloaded data for MexicoCity
+[2025-01-22 21:07:15,082] INFO in main: Successfully preloaded data for Milan
+[2025-01-22 21:07:15,113] INFO in main: Successfully preloaded data for Newyorkcity
+[2025-01-22 21:07:15,190] INFO in main: Successfully preloaded data for Paris
+[2025-01-22 21:07:15,219] INFO in main: Successfully preloaded data for RiodeJaneiro
+[2025-01-22 21:07:15,249] INFO in main: Successfully preloaded data for Rome
+[2025-01-22 21:07:15,296] INFO in main: Successfully preloaded data for Sicily
+[2025-01-22 21:07:15,312] INFO in main: Successfully preloaded data for Sydney
+[2025-01-22 21:07:15,328] INFO in main: Successfully preloaded data for Tokyo
+[2025-01-22 21:07:15,346] INFO in main: Successfully preloaded data for Toronto
+[2025-01-22 21:07:19,458] INFO in main: Fetching cities list
+[2025-01-22 21:07:19,530] INFO in main: Found 21 cities
+[2025-01-22 21:07:19,531] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.073s
+[2025-01-22 21:07:20,627] INFO in main: Path: /city/Istanbul | Method: GET | Status: 200 | Duration: 0.000s
+[2025-01-22 21:07:20,728] ERROR in main: HTTP Exception: 500 - 'cumulative_count' | Path: /city/Istanbul/yearly_stats
+[2025-01-22 21:07:20,728] INFO in main: Path: /city/Istanbul/yearly_stats | Method: GET | Status: 500 | Duration: 0.091s
+[2025-01-22 21:07:21,185] INFO in main: Path: /city/Istanbul/host_ranking | Method: GET | Status: 200 | Duration: 0.047s
+[2025-01-22 21:08:12,118] INFO in main: Successfully preloaded data for Amsterdam
+[2025-01-22 21:08:12,131] INFO in main: Successfully preloaded data for Athens
+[2025-01-22 21:08:12,149] INFO in main: Successfully preloaded data for Bangkok
+[2025-01-22 21:08:12,166] INFO in main: Successfully preloaded data for Barcelona
+[2025-01-22 21:08:12,179] INFO in main: Successfully preloaded data for Berlin
+[2025-01-22 21:08:12,212] INFO in main: Successfully preloaded data for Buenosaires
+[2025-01-22 21:08:12,234] INFO in main: Successfully preloaded data for CapeTown
+[2025-01-22 21:08:12,256] INFO in main: Successfully preloaded data for Istanbul
+[2025-01-22 21:08:12,335] INFO in main: Successfully preloaded data for London
+[2025-01-22 21:08:12,359] INFO in main: Successfully preloaded data for Madrid
+[2025-01-22 21:08:12,380] INFO in main: Successfully preloaded data for Melbourne
+[2025-01-22 21:08:12,404] INFO in main: Successfully preloaded data for MexicoCity
+[2025-01-22 21:08:12,425] INFO in main: Successfully preloaded data for Milan
+[2025-01-22 21:08:12,457] INFO in main: Successfully preloaded data for Newyorkcity
+[2025-01-22 21:08:12,535] INFO in main: Successfully preloaded data for Paris
+[2025-01-22 21:08:12,565] INFO in main: Successfully preloaded data for RiodeJaneiro
+[2025-01-22 21:08:12,596] INFO in main: Successfully preloaded data for Rome
+[2025-01-22 21:08:12,643] INFO in main: Successfully preloaded data for Sicily
+[2025-01-22 21:08:12,658] INFO in main: Successfully preloaded data for Sydney
+[2025-01-22 21:08:12,674] INFO in main: Successfully preloaded data for Tokyo
+[2025-01-22 21:08:12,692] INFO in main: Successfully preloaded data for Toronto
+[2025-01-22 21:08:54,630] INFO in main: Fetching cities list
+[2025-01-22 21:08:54,715] INFO in main: Found 21 cities
+[2025-01-22 21:08:54,716] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.086s
+[2025-01-22 21:08:54,720] INFO in main: Fetching cities list
+[2025-01-22 21:08:54,802] INFO in main: Found 21 cities
+[2025-01-22 21:08:54,804] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.084s
+[2025-01-22 21:08:58,284] INFO in main: Fetching cities list
+[2025-01-22 21:08:58,335] INFO in main: Found 21 cities
+[2025-01-22 21:08:58,335] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.051s
+[2025-01-22 21:08:59,716] INFO in main: Path: /city/Berlin | Method: GET | Status: 200 | Duration: 0.001s
+[2025-01-22 21:08:59,815] INFO in main: Path: /city/Berlin/yearly_stats | Method: GET | Status: 200 | Duration: 0.092s
+[2025-01-22 21:09:00,259] INFO in main: Path: /city/Berlin/host_ranking | Method: GET | Status: 200 | Duration: 0.037s
+[2025-01-22 21:09:04,950] INFO in main: Path: /city/Madrid | Method: GET | Status: 200 | Duration: 0.001s
+[2025-01-22 21:09:05,085] INFO in main: Path: /city/Madrid/yearly_stats | Method: GET | Status: 200 | Duration: 0.129s
+[2025-01-22 21:09:05,512] INFO in main: Path: /city/Madrid/host_ranking | Method: GET | Status: 200 | Duration: 0.036s
+[2025-01-22 21:09:36,004] INFO in main: Fetching cities list
+[2025-01-22 21:09:36,056] INFO in main: Found 21 cities
+[2025-01-22 21:09:36,056] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.053s
+[2025-01-22 21:09:37,509] INFO in main: Path: /city/CapeTown | Method: GET | Status: 200 | Duration: 0.000s
+[2025-01-22 21:09:37,632] INFO in main: Path: /city/CapeTown/yearly_stats | Method: GET | Status: 200 | Duration: 0.115s
+[2025-01-22 21:09:38,054] INFO in main: Path: /city/CapeTown/host_ranking | Method: GET | Status: 200 | Duration: 0.036s
+[2025-01-22 21:10:29,263] INFO in main: Fetching cities list
+[2025-01-22 21:10:29,317] INFO in main: Found 21 cities
+[2025-01-22 21:10:29,321] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.057s
+[2025-01-22 21:10:30,682] INFO in main: Path: /city/Buenosaires | Method: GET | Status: 200 | Duration: 0.000s
+[2025-01-22 21:10:30,841] INFO in main: Path: /city/Buenosaires/yearly_stats | Method: GET | Status: 200 | Duration: 0.153s
+[2025-01-22 21:10:31,235] INFO in main: Path: /city/Buenosaires/host_ranking | Method: GET | Status: 200 | Duration: 0.043s
+[2025-01-22 21:10:34,221] INFO in main: Path: /city/Sicily | Method: GET | Status: 200 | Duration: 0.001s
+[2025-01-22 21:10:34,448] INFO in main: Path: /city/Sicily/yearly_stats | Method: GET | Status: 200 | Duration: 0.222s
+[2025-01-22 21:10:34,799] INFO in main: Path: /city/Sicily/host_ranking | Method: GET | Status: 200 | Duration: 0.053s
+[2025-01-22 21:11:57,668] INFO in main: Fetching cities list
+[2025-01-22 21:11:57,732] INFO in main: Found 21 cities
+[2025-01-22 21:11:57,733] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.066s
+[2025-01-22 21:11:59,321] INFO in main: Path: /city/Istanbul | Method: GET | Status: 200 | Duration: 0.000s
+[2025-01-22 21:11:59,422] INFO in main: Path: /city/Istanbul/yearly_stats | Method: GET | Status: 200 | Duration: 0.095s
+[2025-01-22 21:11:59,912] INFO in main: Path: /city/Istanbul/host_ranking | Method: GET | Status: 200 | Duration: 0.057s
+[2025-01-22 21:12:05,252] INFO in main: Path: /city/Paris | Method: GET | Status: 200 | Duration: 0.000s
+[2025-01-22 21:12:05,639] INFO in main: Path: /city/Paris/yearly_stats | Method: GET | Status: 200 | Duration: 0.382s
+[2025-01-22 21:12:05,863] INFO in main: Path: /city/Paris/host_ranking | Method: GET | Status: 200 | Duration: 0.077s
+[2025-01-22 21:12:08,802] INFO in main: Path: /city/Milan | Method: GET | Status: 200 | Duration: 0.000s
+[2025-01-22 21:12:08,922] INFO in main: Path: /city/Milan/yearly_stats | Method: GET | Status: 200 | Duration: 0.114s
+[2025-01-22 21:12:09,380] INFO in main: Path: /city/Milan/host_ranking | Method: GET | Status: 200 | Duration: 0.041s
+[2025-01-22 21:13:26,194] INFO in main: Fetching cities list
+[2025-01-22 21:13:26,276] INFO in main: Found 21 cities
+[2025-01-22 21:13:26,277] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.084s
+[2025-01-22 21:13:26,282] INFO in main: Fetching cities list
+[2025-01-22 21:13:26,365] INFO in main: Found 21 cities
+[2025-01-22 21:13:26,366] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.084s
+[2025-01-22 21:13:29,506] INFO in main: Fetching cities list
+[2025-01-22 21:13:29,556] INFO in main: Found 21 cities
+[2025-01-22 21:13:29,557] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.051s
+[2025-01-22 21:13:31,608] INFO in main: Path: /city/London | Method: GET | Status: 200 | Duration: 0.000s
+[2025-01-22 21:13:31,945] INFO in main: Path: /city/London/yearly_stats | Method: GET | Status: 200 | Duration: 0.332s
+[2025-01-22 21:13:32,242] INFO in main: Path: /city/London/host_ranking | Method: GET | Status: 200 | Duration: 0.112s
+[2025-01-22 21:16:30,885] INFO in main: Fetching cities list
+[2025-01-22 21:16:30,950] INFO in main: Found 21 cities
+[2025-01-22 21:16:30,951] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.067s
+[2025-01-22 21:16:34,753] INFO in main: Path: /city/London | Method: GET | Status: 200 | Duration: 0.000s
+[2025-01-22 21:16:35,100] INFO in main: Path: /city/London/yearly_stats | Method: GET | Status: 200 | Duration: 0.340s
+[2025-01-22 21:16:35,406] INFO in main: Path: /city/London/host_ranking | Method: GET | Status: 200 | Duration: 0.135s
+[2025-01-22 21:16:44,428] INFO in main: Path: /city/Paris | Method: GET | Status: 200 | Duration: 0.000s
+[2025-01-22 21:16:44,788] INFO in main: Path: /city/Paris/yearly_stats | Method: GET | Status: 200 | Duration: 0.354s
+[2025-01-22 21:16:45,023] INFO in main: Path: /city/Paris/host_ranking | Method: GET | Status: 200 | Duration: 0.078s

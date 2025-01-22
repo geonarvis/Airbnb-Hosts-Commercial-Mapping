@@ -14,6 +14,7 @@
       @time-changed="handleTimeChange"
       @host-types-changed="handleHostTypesChange"
       @view-mode-changed="handleViewModeChange"
+      @loading="handleLoading"
       :class="{ 'collapsed': isSidebarCollapsed }"
     />
     <AboutButton 
@@ -21,7 +22,11 @@
       @toggle="aboutToggle = !aboutToggle" 
       :class="{ 'z-20': true }"
     />
-    <LoadingSpinner v-if="loading" />
+    <LoadingSpinner 
+      v-if="loadingState.show" 
+      :progress="loadingState.progress"
+      :currentStep="loadingState.step"
+    />
   </div>
 </template>
 
@@ -42,7 +47,11 @@ export default {
   },
   setup() {
     const aboutToggle = ref(false)
-    const loading = ref(false)
+    const loadingState = ref({
+      show: false,
+      progress: 0,
+      step: ''
+    })
     const isSidebarCollapsed = ref(false)
     const selectedLocation = ref(null)
     const selectedHostTypes = ref([])
@@ -71,9 +80,13 @@ export default {
       isHexMode.value = mode
     }
 
+    const handleLoading = (state) => {
+      loadingState.value = state
+    }
+
     return {
       aboutToggle,
-      loading,
+      loadingState,
       isSidebarCollapsed,
       handleSidebarCollapse,
       selectedLocation,
@@ -83,7 +96,8 @@ export default {
       currentTime,
       handleHostTypesChange,
       isHexMode,
-      handleViewModeChange
+      handleViewModeChange,
+      handleLoading
     }
   }
 }
@@ -106,5 +120,21 @@ export default {
   justify-content: center;
   align-items: center;
   margin: 1rem;
+}
+
+.loading-spinner {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1000;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
 }
 </style>

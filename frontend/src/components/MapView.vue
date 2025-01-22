@@ -187,6 +187,10 @@ export default {
     }
 
     watch(() => props.selectedLocation, (newLocation) => {
+      if (!newLocation?.center?.latitude || !newLocation?.center?.longitude) {
+        return;
+      }
+
       if (newLocation && map) {
         const offset = [
           window.innerWidth * 0.2,
@@ -194,11 +198,17 @@ export default {
         ]
 
         map.flyTo({
-          center: newLocation.center,
-          zoom: newLocation.zoom,
+          center: [
+            Number(newLocation.center.longitude),
+            Number(newLocation.center.latitude)
+          ],
+          zoom: newLocation.zoom || 12,
           duration: 1000,
           offset: offset,
-          around: mousePosition || newLocation.center
+          around: mousePosition || [
+            Number(newLocation.center.longitude),
+            Number(newLocation.center.latitude)
+          ]
         })
       }
     })

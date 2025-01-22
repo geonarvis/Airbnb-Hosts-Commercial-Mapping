@@ -198,13 +198,25 @@ export default {
       if (!selectedCity.value) {
         cityInfo.value = null
         selectedHostTypes.value = []
+        emit('loading', { show: false })
         return
       }
       
       try {
-        const response = await api.get(`/city/${selectedCity.value}`)
-        cityInfo.value = response.data
+        emit('loading', { 
+          show: true, 
+          progress: 0, 
+          step: 'Loading basic info...' 
+        })
         
+        const response = await api.get(`/city/${selectedCity.value}`)
+        emit('loading', { 
+          show: true, 
+          progress: 30, 
+          step: 'Loading city statistics...' 
+        })
+        
+        cityInfo.value = response.data
         selectedHostTypes.value = []
         
         // Update time range
@@ -213,34 +225,43 @@ export default {
           new Date(cityInfo.value.time_window.latest).getTime()
         ]
         
-        // 计算时间窗口的中间值
         const timeWindowMiddle = Math.floor(
           (timeRange.value[0] + timeRange.value[1]) / 2
         )
         currentTime.value = timeWindowMiddle
-        internalTime.value = timeWindowMiddle  // 同时更新内部时间值以保持UI同步
+        internalTime.value = timeWindowMiddle
         
-        // 获取初始的房东分类门槛值
-        updateHostRanking()
+        emit('loading', { 
+          show: true, 
+          progress: 60, 
+          step: 'Loading host rankings...' 
+        })
+        await updateHostRanking()
         
-        // 手动触发时间变化事件
-        emit('time-changed', timeWindowMiddle)
-
-        // 获取年度统计数据
+        emit('loading', { 
+          show: true, 
+          progress: 80, 
+          step: 'Loading yearly statistics...' 
+        })
         await updateYearlyStats(selectedCity.value)
-
-        // Move the map to the selected city, adjust zoom level
+        
         emit('city-selected', {
           city: selectedCity.value,
-          center: [
-            cityInfo.value.center.longitude,
-            cityInfo.value.center.latitude
-          ],
-          zoom: 11
+          center: {
+            latitude: cityInfo.value.center.latitude,
+            longitude: cityInfo.value.center.longitude
+          },
+          zoom: 12
         })
+        emit('loading', { show: true, progress: 100, step: 'Complete!' })
       } catch (error) {
-        console.error('Failed to fetch city data:', error)
-        cityInfo.value = null
+        console.error('Failed to fetch city info:', error)
+        emit('loading', { show: false })
+        return
+      } finally {
+        setTimeout(() => {
+          emit('loading', { show: false })
+        }, 500) // 给用户一个短暂的时间看到100%
       }
     }
 
