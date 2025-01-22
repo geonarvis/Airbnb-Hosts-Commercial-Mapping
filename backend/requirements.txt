@@ -5,12 +5,11 @@ python-dotenv==1.0.0
 
 # 数据库相关
 psycopg2-binary==2.9.9
-SQLAlchemy==2.0.25
+SQLAlchemy>=2.0.7
 
 # 数据处理和科学计算
 pandas==2.1.4
 numpy==1.26.3
-scipy==1.11.4
 
 # 地理空间处理
 h3==3.7.6
@@ -18,7 +17,6 @@ shapely==2.0.2
 geopandas==0.14.1
 
 # 数据可视化（用于等值线生成）
-matplotlib==3.8.2
 
 # HTTP 和跨域
 requests==2.31.0
@@ -34,5 +32,5 @@ PyJWT==2.8.0
 python-json-logger==2.0.7
 
 # 添加到现有依赖中
-databases[postgresql]==0.8.0
+databases[postgresql]>=0.9.0
 asyncpg==0.29.0 

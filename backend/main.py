@@ -10,8 +10,6 @@ from typing import List, Dict
 from collections import Counter
 import json
 from functools import lru_cache
-from scipy.stats import gaussian_kde
-from shapely.geometry import LineString, MultiLineString
 import geopandas as gpd
 from fastapi.responses import JSONResponse
 from utils.logger import logger
@@ -866,84 +864,4 @@ async def get_listings_by_count(
         print(f"Error: {str(e)}")
         import traceback
         print(traceback.format_exc())
-        raise HTTPException(status_code=500, detail=str(e))
-
-@app.get("/city/{city_name}/density_contours")
-async def get_density_contours(
-    city_name: str,
-    time_point: str = None,
-    categories: str = None,
-):
-    try:
-        # 使用 database 而不是 pool
-        query = """
-            SELECT ST_X(geom) as longitude, ST_Y(geom) as latitude 
-            FROM listings 
-            WHERE city = :city
-        """
-        params = {"city": city_name}
-        
-        if time_point:
-            query += " AND DATE_TRUNC('month', first_review) <= :time_point"
-            params["time_point"] = time_point
-            
-        if categories:
-            categories_list = categories.split(',')
-            query += " AND host_type = ANY(:categories)"
-            params["categories"] = categories_list
-        
-        results = await database.fetch_all(query=query, values=params)
-        
-        if not results:
-            return {"contours": []}
-        
-        # 转换为numpy数组
-        points = np.array(results)
-        
-        # 计算KDE
-        kde = gaussian_kde(points.T)
-        
-        # 创建网格
-        x_min, x_max = points[:,0].min(), points[:,0].max()
-        y_min, y_max = points[:,1].min(), points[:,1].max()
-        
-        x = np.linspace(x_min, x_max, 100)
-        y = np.linspace(y_min, y_max, 100)
-        xx, yy = np.meshgrid(x, y)
-        
-        # 计算密度
-        positions = np.vstack([xx.ravel(), yy.ravel()])
-        z = np.reshape(kde(positions).T, xx.shape)
-        
-        # 生成等值线
-        import matplotlib.pyplot as plt
-        contours = plt.contour(xx, yy, z, levels=10)
-        plt.close()
-        
-        # 转换等值线为GeoJSON格式
-        contour_features = []
-        for i, collection in enumerate(contours.collections):
-            paths = collection.get_paths()
-            for path in paths:
-                vertices = path.vertices
-                if len(vertices) > 2:  # 确保有足够的点形成线
-                    line = LineString(vertices)
-                    contour_features.append({
-                        "type": "Feature",
-                        "geometry": {
-                            "type": "LineString",
-                            "coordinates": [[p[0], p[1]] for p in vertices]
-                        },
-                        "properties": {
-                            "level": i,
-                            "density": float(contours.levels[i])
-                        }
-                    })
-        
-        return {
-            "type": "FeatureCollection",
-            "features": contour_features
-        }
-        
-    except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))

@@ -1,0 +1,30 @@
+[2025-01-22 09:39:35,136] INFO in main: Fetching cities list
+[2025-01-22 09:39:35,226] INFO in main: Found 21 cities
+[2025-01-22 09:39:35,227] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.094s
+[2025-01-22 09:39:37,377] INFO in main: Path: /city/Madrid | Method: GET | Status: 200 | Duration: 0.154s
+[2025-01-22 09:39:37,539] INFO in main: Path: /city/Madrid/yearly_stats | Method: GET | Status: 200 | Duration: 0.153s
+[2025-01-22 09:39:37,945] INFO in main: Path: /city/Madrid/host_ranking | Method: GET | Status: 200 | Duration: 0.056s
+[2025-01-22 09:39:39,637] INFO in main: Path: /city/Madrid/host_ranking | Method: GET | Status: 200 | Duration: 0.098s
+[2025-01-22 09:39:40,949] INFO in main: Path: /city/Madrid/listings_by_categories | Method: GET | Status: 200 | Duration: 0.146s
+[2025-01-22 09:39:41,160] INFO in main: Path: /city/Madrid/listings_by_categories | Method: GET | Status: 200 | Duration: 0.091s
+[2025-01-22 09:51:31,306] INFO in main: Fetching cities list
+[2025-01-22 09:51:31,375] INFO in main: Found 21 cities
+[2025-01-22 09:51:31,376] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.073s
+[2025-01-22 09:51:32,847] INFO in main: Path: /city/Buenosaires | Method: GET | Status: 200 | Duration: 0.112s
+[2025-01-22 09:51:32,989] INFO in main: Path: /city/Buenosaires/yearly_stats | Method: GET | Status: 200 | Duration: 0.134s
+[2025-01-22 09:51:33,408] INFO in main: Path: /city/Buenosaires/host_ranking | Method: GET | Status: 200 | Duration: 0.053s
+[2025-01-22 09:51:34,898] INFO in main: Path: /city/Newyorkcity | Method: GET | Status: 200 | Duration: 0.122s
+[2025-01-22 09:51:35,055] INFO in main: Path: /city/Newyorkcity/yearly_stats | Method: GET | Status: 200 | Duration: 0.150s
+[2025-01-22 09:51:35,494] INFO in main: Path: /city/Newyorkcity/host_ranking | Method: GET | Status: 200 | Duration: 0.060s
+[2025-01-22 09:51:38,010] INFO in main: Path: /city/Sydney | Method: GET | Status: 200 | Duration: 0.072s
+[2025-01-22 09:51:38,085] INFO in main: Path: /city/Sydney/yearly_stats | Method: GET | Status: 200 | Duration: 0.067s
+[2025-01-22 09:51:38,581] INFO in main: Path: /city/Sydney/host_ranking | Method: GET | Status: 200 | Duration: 0.043s
+[2025-01-22 10:02:22,221] INFO in main: Fetching cities list
+[2025-01-22 10:02:22,301] INFO in main: Found 21 cities
+[2025-01-22 10:02:22,302] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.082s
+[2025-01-22 15:26:01,282] INFO in main: Path: /city/Istanbul | Method: GET | Status: 200 | Duration: 0.198s
+[2025-01-22 15:26:01,399] INFO in main: Path: /city/Istanbul/yearly_stats | Method: GET | Status: 200 | Duration: 0.108s
+[2025-01-22 15:26:01,833] INFO in main: Path: /city/Istanbul/host_ranking | Method: GET | Status: 200 | Duration: 0.035s
+[2025-01-22 15:26:03,398] INFO in main: Path: /city/Newyorkcity | Method: GET | Status: 200 | Duration: 0.173s
+[2025-01-22 15:26:03,602] INFO in main: Path: /city/Newyorkcity/yearly_stats | Method: GET | Status: 200 | Duration: 0.195s
+[2025-01-22 15:26:03,984] INFO in main: Path: /city/Newyorkcity/host_ranking | Method: GET | Status: 200 | Duration: 0.054s
