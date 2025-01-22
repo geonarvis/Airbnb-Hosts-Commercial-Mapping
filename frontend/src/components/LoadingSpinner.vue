@@ -25,6 +25,18 @@ export default {
       type: String,
       default: 'Loading basic info...'
     }
+  },
+  mounted() {
+    console.log('LoadingSpinner mounted:', {
+      progress: this.progress,
+      step: this.currentStep
+    })
+  },
+  updated() {
+    console.log('LoadingSpinner updated:', {
+      progress: this.progress,
+      step: this.currentStep
+    })
   }
 }
 </script>
@@ -35,7 +47,7 @@ export default {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  z-index: 9999;
+  z-index: 1000;
   background-color: rgba(255, 255, 255, 0.95);
   padding: 2rem;
   border-radius: 1rem;
@@ -45,7 +57,6 @@ export default {
   align-items: center;
   gap: 1.5rem;
   min-width: 300px;
-  pointer-events: none;
 }
 
 .progress-container {

@@ -31,7 +31,7 @@
 </template>
 
 <script>
-import { ref, onMounted, onUnmounted } from 'vue'
+import { ref } from 'vue'
 import MapView from '../components/MapView.vue'
 import Sidebar from '../components/Sidebar.vue'
 import AboutButton from '../components/AboutButton.vue'
@@ -58,48 +58,6 @@ export default {
     const currentTime = ref(null)
     const isHexMode = ref(false)
 
-    // 添加事件监听
-    onMounted(() => {
-      console.log('[Home] Setting up event listeners');
-      const handleLoadingStart = () => {
-        console.log('[Home] Loading start event received');
-        loadingState.value = {
-          show: true,
-          progress: 0,
-          step: 'Loading city data...'
-        }
-        console.log('[Home] Loading state updated:', loadingState.value);
-      }
-      
-      const handleLoadingEnd = () => {
-        console.log('[Home] Loading end event received');
-        loadingState.value = {
-          show: false,
-          progress: 100,
-          step: 'Complete!'
-        }
-        console.log('[Home] Loading state updated:', loadingState.value);
-      }
-      
-      window.addEventListener('api-loading-start', handleLoadingStart)
-      window.addEventListener('api-loading-end', handleLoadingEnd)
-      
-      // 保存事件处理函数的引用
-      window._loadingHandlers = {
-        start: handleLoadingStart,
-        end: handleLoadingEnd
-      }
-    })
-    
-    // 清理事件监听
-    onUnmounted(() => {
-      if (window._loadingHandlers) {
-        window.removeEventListener('api-loading-start', window._loadingHandlers.start)
-        window.removeEventListener('api-loading-end', window._loadingHandlers.end)
-        delete window._loadingHandlers
-      }
-    })
-
     const handleSidebarCollapse = (collapsed) => {
       isSidebarCollapsed.value = collapsed
     }
@@ -123,6 +81,7 @@ export default {
     }
 
     const handleLoading = (state) => {
+      console.log('Loading state changed:', state)
       loadingState.value = state
     }
 

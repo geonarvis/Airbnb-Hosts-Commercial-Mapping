@@ -1822,3 +1822,72 @@ TypeError: unsupported operand type(s) for *: 'decimal.Decimal' and 'float'
 [2025-01-22 21:42:38,006] INFO in main: Fetching cities list
 [2025-01-22 21:42:38,059] INFO in main: Found 21 cities
 [2025-01-22 21:42:38,059] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.054s
+[2025-01-22 21:54:39,661] INFO in main: Fetching cities list
+[2025-01-22 21:54:39,709] INFO in main: Found 21 cities
+[2025-01-22 21:54:39,709] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.049s
+[2025-01-22 21:56:47,728] INFO in main: Fetching cities list
+[2025-01-22 21:56:47,795] INFO in main: Found 21 cities
+[2025-01-22 21:56:47,796] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.068s
+[2025-01-22 21:56:48,356] INFO in main: Fetching cities list
+[2025-01-22 21:56:48,403] INFO in main: Found 21 cities
+[2025-01-22 21:56:48,403] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.047s
+[2025-01-22 21:56:53,872] INFO in main: Fetching cities list
+[2025-01-22 21:56:53,918] INFO in main: Found 21 cities
+[2025-01-22 21:56:53,918] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.046s
+[2025-01-22 21:57:29,437] INFO in main: Fetching cities list
+[2025-01-22 21:57:29,500] INFO in main: Found 21 cities
+[2025-01-22 21:57:29,504] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.067s
+[2025-01-22 21:57:30,313] INFO in main: Path: /city/Berlin | Method: GET | Status: 200 | Duration: 0.000s
+[2025-01-22 21:57:30,462] INFO in main: Path: /city/Berlin/yearly_stats | Method: GET | Status: 200 | Duration: 0.123s
+[2025-01-22 21:57:30,869] INFO in main: Path: /city/Berlin/host_ranking | Method: GET | Status: 200 | Duration: 0.046s
+[2025-01-22 21:57:33,634] INFO in main: Path: /city/London | Method: GET | Status: 200 | Duration: 0.000s
+[2025-01-22 21:57:34,001] INFO in main: Path: /city/London/yearly_stats | Method: GET | Status: 200 | Duration: 0.361s
+[2025-01-22 21:57:34,216] INFO in main: Path: /city/London/host_ranking | Method: GET | Status: 200 | Duration: 0.066s
+[2025-01-22 21:57:35,941] INFO in main: Path: /city/Paris | Method: GET | Status: 200 | Duration: 0.000s
+[2025-01-22 21:57:36,305] INFO in main: Path: /city/Paris/yearly_stats | Method: GET | Status: 200 | Duration: 0.355s
+[2025-01-22 21:57:36,530] INFO in main: Path: /city/Paris/host_ranking | Method: GET | Status: 200 | Duration: 0.076s
+[2025-01-22 21:57:37,989] INFO in main: Path: /city/Sydney | Method: GET | Status: 200 | Duration: 0.000s
+[2025-01-22 21:57:38,088] INFO in main: Path: /city/Sydney/yearly_stats | Method: GET | Status: 200 | Duration: 0.091s
+[2025-01-22 21:57:38,563] INFO in main: Path: /city/Sydney/host_ranking | Method: GET | Status: 200 | Duration: 0.037s
+[2025-01-22 21:57:41,277] INFO in main: Path: /city/RiodeJaneiro | Method: GET | Status: 200 | Duration: 0.000s
+[2025-01-22 21:57:41,429] INFO in main: Path: /city/RiodeJaneiro/yearly_stats | Method: GET | Status: 200 | Duration: 0.141s
+[2025-01-22 21:57:41,855] INFO in main: Path: /city/RiodeJaneiro/host_ranking | Method: GET | Status: 200 | Duration: 0.043s
+[2025-01-22 21:58:25,308] INFO in main: Path: /city/Paris | Method: GET | Status: 200 | Duration: 0.001s
+[2025-01-22 21:58:25,689] INFO in main: Path: /city/Paris/yearly_stats | Method: GET | Status: 200 | Duration: 0.372s
+[2025-01-22 21:58:26,013] INFO in main: Path: /city/Paris/host_ranking | Method: GET | Status: 200 | Duration: 0.153s
+[2025-01-22 21:59:18,062] INFO in main: Fetching cities list
+[2025-01-22 21:59:18,137] INFO in main: Found 21 cities
+[2025-01-22 21:59:18,138] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.076s
+[2025-01-22 21:59:18,140] INFO in main: Fetching cities list
+[2025-01-22 21:59:18,244] INFO in main: Found 21 cities
+[2025-01-22 21:59:18,245] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.105s
+[2025-01-22 21:59:29,778] INFO in main: Fetching cities list
+[2025-01-22 21:59:29,839] INFO in main: Found 21 cities
+[2025-01-22 21:59:29,839] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.062s
+[2025-01-22 22:00:17,315] INFO in main: Fetching cities list
+[2025-01-22 22:00:17,372] INFO in main: Found 21 cities
+[2025-01-22 22:00:17,372] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.058s
+[2025-01-22 22:00:19,541] INFO in main: Path: /city/Buenosaires | Method: GET | Status: 200 | Duration: 0.000s
+[2025-01-22 22:00:19,710] INFO in main: Path: /city/Buenosaires/yearly_stats | Method: GET | Status: 200 | Duration: 0.140s
+[2025-01-22 22:00:20,095] INFO in main: Path: /city/Buenosaires/host_ranking | Method: GET | Status: 200 | Duration: 0.044s
+[2025-01-22 22:00:24,011] INFO in main: Path: /city/London | Method: GET | Status: 200 | Duration: 0.000s
+[2025-01-22 22:00:24,347] INFO in main: Path: /city/London/yearly_stats | Method: GET | Status: 200 | Duration: 0.323s
+[2025-01-22 22:00:24,617] INFO in main: Path: /city/London/host_ranking | Method: GET | Status: 200 | Duration: 0.086s
+[2025-01-22 22:00:53,874] INFO in main: Fetching cities list
+[2025-01-22 22:00:53,935] INFO in main: Found 21 cities
+[2025-01-22 22:00:53,936] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.062s
+[2025-01-22 22:00:54,246] INFO in main: Fetching cities list
+[2025-01-22 22:00:54,396] INFO in main: Found 21 cities
+[2025-01-22 22:00:54,524] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.279s
+[2025-01-22 22:00:55,272] INFO in main: Fetching cities list
+[2025-01-22 22:00:55,328] INFO in main: Found 21 cities
+[2025-01-22 22:00:55,329] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.057s
+[2025-01-22 22:00:57,633] INFO in main: Path: /city/London | Method: GET | Status: 200 | Duration: 0.000s
+[2025-01-22 22:00:57,981] INFO in main: Path: /city/London/yearly_stats | Method: GET | Status: 200 | Duration: 0.341s
+[2025-01-22 22:00:58,257] INFO in main: Path: /city/London/host_ranking | Method: GET | Status: 200 | Duration: 0.105s
+[2025-01-22 22:02:19,294] INFO in main: Fetching cities list
+[2025-01-22 22:02:19,366] INFO in main: Found 21 cities
+[2025-01-22 22:02:19,367] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.073s
+[2025-01-22 22:02:19,658] INFO in main: Fetching cities list
+[2025-01-22 22:02:19,712] INFO in main: Found 21 cities
+[2025-01-22 22:02:19,712] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.054s

@@ -195,18 +195,32 @@ export default {
     }
 
     const onCityChange = async () => {
+      console.log('City change started:', selectedCity.value)
       if (!selectedCity.value) {
         cityInfo.value = null
         selectedHostTypes.value = []
-        window.dispatchEvent(new CustomEvent('api-loading-end'))
+        emit('loading', { show: false })
         return
       }
       
       try {
-        window.dispatchEvent(new CustomEvent('api-loading-start'))
+        emit('loading', { 
+          show: true, 
+          progress: 0, 
+          step: 'Loading basic info...' 
+        })
         
         const response = await api.get(`/city/${selectedCity.value}`)
+        console.log('Basic info loaded:', response.data)
+        
+        emit('loading', { 
+          show: true, 
+          progress: 30, 
+          step: 'Loading city statistics...' 
+        })
+        
         cityInfo.value = response.data
+        selectedHostTypes.value = []
         
         // Update time range
         timeRange.value = [
@@ -220,8 +234,18 @@ export default {
         currentTime.value = timeWindowMiddle
         internalTime.value = timeWindowMiddle
         
+        emit('loading', { 
+          show: true, 
+          progress: 60, 
+          step: 'Loading host rankings...' 
+        })
         await updateHostRanking()
         
+        emit('loading', { 
+          show: true, 
+          progress: 80, 
+          step: 'Loading yearly statistics...' 
+        })
         await updateYearlyStats(selectedCity.value)
         
         emit('city-selected', {
@@ -232,11 +256,20 @@ export default {
           },
           zoom: 12
         })
-        window.dispatchEvent(new CustomEvent('api-loading-end'))
+        emit('loading', { show: true, progress: 100, step: 'Complete!' })
       } catch (error) {
-        console.error('Failed to fetch city info:', error)
-        window.dispatchEvent(new CustomEvent('api-loading-end'))
+        console.error('Failed to fetch city info:', {
+          error,
+          city: selectedCity.value,
+          stack: error.stack
+        })
+        emit('loading', { show: false })
         return
+      } finally {
+        console.log('City change completed')
+        setTimeout(() => {
+          emit('loading', { show: false })
+        }, 500)
       }
     }
 
