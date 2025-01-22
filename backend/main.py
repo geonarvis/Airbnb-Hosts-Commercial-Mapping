@@ -14,6 +14,7 @@ import geopandas as gpd
 from fastapi.responses import JSONResponse
 from utils.logger import logger
 from databases import Database
+from fastapi.middleware.gzip import GZipMiddleware
 
 app = FastAPI()
 
@@ -33,6 +34,8 @@ app.add_middleware(
     expose_headers=["*"]
 )
 
+app.add_middleware(GZipMiddleware, minimum_size=1000)
+
 # database config
 DB_CONFIG = {
     'host': 'localhost',
@@ -45,9 +48,26 @@ DB_CONFIG = {
 DATABASE_URL = "postgresql://postgres:7330@localhost:5432/listings_airbnb"
 database = Database(DATABASE_URL)
 
+# 添加一个简单的内存缓存
+city_cache = {}
+
 @app.on_event("startup")
 async def startup():
     await database.connect()
+    
+    # 从数据库获取所有城市
+    query = "SELECT DISTINCT city FROM listings WHERE geom IS NOT NULL AND first_review IS NOT NULL"
+    cities = await database.fetch_all(query=query)
+    
+    # 预热所有有效城市的数据
+    for record in cities:
+        city = record['city']
+        try:
+            # 预加载城市数据到缓存
+            await get_city_listings(city)
+            logger.info(f"Successfully preloaded data for {city}")
+        except Exception as e:
+            logger.error(f"Failed to preload data for {city}: {e}")
 
 @app.on_event("shutdown")
 async def shutdown():
@@ -191,67 +211,52 @@ async def get_cities():
 @app.get("/city/{city_name}")
 async def get_city_listings(city_name: str):
     try:
-        print(f"Processing request for city: {city_name}")
+        # 检查缓存
+        if city_name in city_cache:
+            return city_cache[city_name]
+
+        query = """
+            WITH stats AS (
+                SELECT 
+                    MIN(first_review) as earliest,
+                    MAX(first_review) as latest,
+                    AVG(ST_Y(geom)) as avg_lat,
+                    AVG(ST_X(geom)) as avg_lng,
+                    COUNT(*) as total_listings
+                FROM listings 
+                WHERE city = :city 
+                AND first_review IS NOT NULL 
+                AND geom IS NOT NULL
+            )
+            SELECT * FROM stats
+        """
         
-        with get_db_connection() as conn:
-            with conn.cursor() as cur:
-                # 获取时间窗口，直接使用 TIMESTAMP 类型的列
-                print("Executing time window query...")
-                cur.execute("""
-                    SELECT 
-                        MIN(first_review) as earliest,
-                        MAX(first_review) as latest
-                    FROM listings 
-                    WHERE city = %s 
-                    AND first_review IS NOT NULL
-                """, (city_name,))
-                time_window = cur.fetchone()
-                print(f"Time window result: {time_window}")
-                
-                # 获取中心坐标
-                print("Executing center coordinates query...")
-                cur.execute("""
-                    SELECT 
-                        AVG(CAST(latitude AS FLOAT)) as lat,
-                        AVG(CAST(longitude AS FLOAT)) as lng
-                    FROM listings 
-                    WHERE city = %s 
-                    AND latitude IS NOT NULL 
-                    AND longitude IS NOT NULL
-                """, (city_name,))
-                center = cur.fetchone()
-                print(f"Center coordinates result: {center}")
-                
-                if not center or not time_window:
-                    print(f"No data found for city: {city_name}")
-                    raise HTTPException(status_code=404, detail=f"City not found: {city_name}")
-                
-                # 检查数据有效性
-                if center['lat'] is None or center['lng'] is None:
-                    print(f"Invalid coordinates for city: {city_name}")
-                    raise HTTPException(status_code=500, detail=f"Invalid coordinates for city: {city_name}")
-                
-                result = {
-                    "center": {
-                        "latitude": float(center['lat']),
-                        "longitude": float(center['lng'])
-                    },
-                    "time_window": {
-                        "earliest": time_window['earliest'].strftime('%Y-%m-%d') if time_window['earliest'] else None,
-                        "latest": time_window['latest'].strftime('%Y-%m-%d') if time_window['latest'] else None
-                    }
-                }
-                print(f"Returning result: {result}")
-                return result
-                
-    except HTTPException as he:
-        print(f"HTTP Exception: {str(he)}")
-        raise he
+        result = await database.fetch_one(
+            query=query,
+            values={"city": city_name}
+        )
+        
+        if not result:
+            raise HTTPException(status_code=404, detail=f"City not found: {city_name}")
+        
+        response_data = {
+            "center": {
+                "latitude": float(result['avg_lat']),
+                "longitude": float(result['avg_lng'])
+            },
+            "time_window": {
+                "earliest": result['earliest'].strftime('%Y-%m-%d') if result['earliest'] else None,
+                "latest": result['latest'].strftime('%Y-%m-%d') if result['latest'] else None
+            },
+            "total_listings": result['total_listings']
+        }
+        
+        # 存入缓存
+        city_cache[city_name] = response_data
+        return response_data
+        
     except Exception as e:
-        print(f"Unexpected error: {str(e)}")
-        print(f"Error type: {type(e)}")
-        import traceback
-        print(traceback.format_exc())
+        logger.error(f"Error in get_city_listings: {str(e)}")
         raise HTTPException(status_code=500, detail=str(e))
 
 @app.get("/city/{city_name}/host_ranking")
@@ -865,3 +870,24 @@ async def get_listings_by_count(
         import traceback
         print(traceback.format_exc())
         raise HTTPException(status_code=500, detail=str(e))
+
+@app.get("/city/{city_name}/updates")
+async def get_city_updates(
+    city_name: str,
+    last_update: datetime = None
+):
+    """只返回上次更新后变化的数据"""
+    if not last_update:
+        return await get_city_listings(city_name)
+        
+    query = """
+        SELECT *
+        FROM listings
+        WHERE city = :city
+        AND updated_at > :last_update
+    """
+    updates = await database.fetch_all(
+        query=query,
+        values={"city": city_name, "last_update": last_update}
+    )
+    return {"updates": updates}

@@ -28,3 +28,252 @@
 [2025-01-22 15:26:03,398] INFO in main: Path: /city/Newyorkcity | Method: GET | Status: 200 | Duration: 0.173s
 [2025-01-22 15:26:03,602] INFO in main: Path: /city/Newyorkcity/yearly_stats | Method: GET | Status: 200 | Duration: 0.195s
 [2025-01-22 15:26:03,984] INFO in main: Path: /city/Newyorkcity/host_ranking | Method: GET | Status: 200 | Duration: 0.054s
+[2025-01-22 15:27:14,091] INFO in main: Path: /city/Newyorkcity/listings_by_categories | Method: GET | Status: 200 | Duration: 0.062s
+[2025-01-22 15:27:14,310] INFO in main: Path: /city/Newyorkcity/listings_by_categories | Method: GET | Status: 200 | Duration: 0.063s
+[2025-01-22 15:27:15,458] INFO in main: Path: /city/Newyorkcity/host_ranking | Method: GET | Status: 200 | Duration: 0.087s
+[2025-01-22 15:27:15,998] INFO in main: Path: /city/Newyorkcity/listings_by_categories | Method: GET | Status: 200 | Duration: 0.125s
+[2025-01-22 15:27:16,105] INFO in main: Path: /city/Newyorkcity/listings_by_categories | Method: GET | Status: 200 | Duration: 0.103s
+[2025-01-22 15:27:17,507] INFO in main: Path: /city/Newyorkcity/host_ranking | Method: GET | Status: 200 | Duration: 0.104s
+[2025-01-22 15:27:18,057] INFO in main: Path: /city/Newyorkcity/listings_by_categories | Method: GET | Status: 200 | Duration: 0.150s
+[2025-01-22 15:27:18,160] INFO in main: Path: /city/Newyorkcity/listings_by_categories | Method: GET | Status: 200 | Duration: 0.097s
+[2025-01-22 15:27:20,627] INFO in main: Path: /city/Newyorkcity/host_ranking | Method: GET | Status: 200 | Duration: 0.096s
+[2025-01-22 15:27:21,173] INFO in main: Path: /city/Newyorkcity/listings_by_categories | Method: GET | Status: 200 | Duration: 0.141s
+[2025-01-22 15:27:21,283] INFO in main: Path: /city/Newyorkcity/listings_by_categories | Method: GET | Status: 200 | Duration: 0.103s
+[2025-01-22 15:27:22,579] INFO in main: Path: /city/Newyorkcity/host_ranking | Method: GET | Status: 200 | Duration: 0.091s
+[2025-01-22 15:27:23,120] INFO in main: Path: /city/Newyorkcity/listings_by_categories | Method: GET | Status: 200 | Duration: 0.132s
+[2025-01-22 15:27:23,222] INFO in main: Path: /city/Newyorkcity/listings_by_categories | Method: GET | Status: 200 | Duration: 0.095s
+[2025-01-22 15:27:27,602] INFO in main: Path: /city/Newyorkcity/listings_by_categories | Method: GET | Status: 200 | Duration: 0.171s
+[2025-01-22 15:27:27,837] INFO in main: Path: /city/Newyorkcity/listings_by_categories | Method: GET | Status: 200 | Duration: 0.122s
+[2025-01-22 15:27:29,282] INFO in main: Path: /city/Newyorkcity/host_ranking | Method: GET | Status: 200 | Duration: 0.082s
+[2025-01-22 15:27:29,821] INFO in main: Path: /city/Newyorkcity/listings_by_categories | Method: GET | Status: 200 | Duration: 0.119s
+[2025-01-22 15:27:29,923] INFO in main: Path: /city/Newyorkcity/listings_by_categories | Method: GET | Status: 200 | Duration: 0.093s
+[2025-01-22 15:27:31,835] INFO in main: Path: /city/Newyorkcity/hexgrid | Method: GET | Status: 200 | Duration: 0.423s
+[2025-01-22 16:28:10,900] ERROR in main: Error in get_city_listings: float() argument must be a string or a real number, not 'NoneType'
+[2025-01-22 16:28:10,901] ERROR in main: Failed to preload data for Beijing: 500: float() argument must be a string or a real number, not 'NoneType'
+[2025-01-22 16:29:55,549] ERROR in main: Error in get_city_listings: float() argument must be a string or a real number, not 'NoneType'
+[2025-01-22 16:29:55,549] ERROR in main: Failed to preload data for Beijing: 500: float() argument must be a string or a real number, not 'NoneType'
+[2025-01-22 16:31:10,265] ERROR in main: Error in get_city_listings: float() argument must be a string or a real number, not 'NoneType'
+[2025-01-22 16:31:10,265] ERROR in main: Failed to preload data for Beijing: 500: float() argument must be a string or a real number, not 'NoneType'
+[2025-01-22 16:39:54,005] INFO in main: Successfully preloaded data for Amsterdam
+[2025-01-22 16:39:54,019] INFO in main: Successfully preloaded data for Athens
+[2025-01-22 16:39:54,038] INFO in main: Successfully preloaded data for Bangkok
+[2025-01-22 16:39:54,054] INFO in main: Successfully preloaded data for Barcelona
+[2025-01-22 16:39:54,067] INFO in main: Successfully preloaded data for Berlin
+[2025-01-22 16:39:54,100] INFO in main: Successfully preloaded data for Buenosaires
+[2025-01-22 16:39:54,120] INFO in main: Successfully preloaded data for CapeTown
+[2025-01-22 16:39:54,144] INFO in main: Successfully preloaded data for Istanbul
+[2025-01-22 16:39:54,222] INFO in main: Successfully preloaded data for London
+[2025-01-22 16:39:54,246] INFO in main: Successfully preloaded data for Madrid
+[2025-01-22 16:39:54,268] INFO in main: Successfully preloaded data for Melbourne
+[2025-01-22 16:39:54,291] INFO in main: Successfully preloaded data for MexicoCity
+[2025-01-22 16:39:54,314] INFO in main: Successfully preloaded data for Milan
+[2025-01-22 16:39:54,365] INFO in main: Successfully preloaded data for Newyorkcity
+[2025-01-22 16:39:54,443] INFO in main: Successfully preloaded data for Paris
+[2025-01-22 16:39:54,471] INFO in main: Successfully preloaded data for RiodeJaneiro
+[2025-01-22 16:39:54,503] INFO in main: Successfully preloaded data for Rome
+[2025-01-22 16:39:54,551] INFO in main: Successfully preloaded data for Sicily
+[2025-01-22 16:39:54,567] INFO in main: Successfully preloaded data for Sydney
+[2025-01-22 16:39:54,583] INFO in main: Successfully preloaded data for Tokyo
+[2025-01-22 16:39:54,602] INFO in main: Successfully preloaded data for Toronto
+[2025-01-22 16:39:59,111] INFO in main: Fetching cities list
+[2025-01-22 16:39:59,241] INFO in main: Found 21 cities
+[2025-01-22 16:39:59,242] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.131s
+[2025-01-22 16:40:03,171] ERROR in main: Unhandled Exception: [TypeError("'coroutine' object is not iterable"), TypeError('vars() argument must have __dict__ attribute')] | Path: /city/CapeTown
+Traceback (most recent call last):
+  File "/Users/jia/anaconda3/envs/airbnb-backend/lib/python3.11/site-packages/fastapi/encoders.py", line 322, in jsonable_encoder
+    data = dict(obj)
+           ^^^^^^^^^
+TypeError: 'coroutine' object is not iterable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/jia/anaconda3/envs/airbnb-backend/lib/python3.11/site-packages/fastapi/encoders.py", line 327, in jsonable_encoder
+    data = vars(obj)
+           ^^^^^^^^^
+TypeError: vars() argument must have __dict__ attribute
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/jia/anaconda3/envs/airbnb-backend/lib/python3.11/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/Users/jia/anaconda3/envs/airbnb-backend/lib/python3.11/site-packages/starlette/middleware/base.py", line 189, in __call__
+    with collapse_excgroups():
+  File "/Users/jia/anaconda3/envs/airbnb-backend/lib/python3.11/contextlib.py", line 158, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/Users/jia/anaconda3/envs/airbnb-backend/lib/python3.11/site-packages/starlette/_utils.py", line 91, in collapse_excgroups
+    raise exc
+  File "/Users/jia/anaconda3/envs/airbnb-backend/lib/python3.11/site-packages/starlette/middleware/base.py", line 191, in __call__
+    response = await self.dispatch_func(request, call_next)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jia/Library/CloudStorage/OneDrive-个人/projects/airbnb-hosts-visualization/backend/main.py", line 158, in log_requests
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jia/anaconda3/envs/airbnb-backend/lib/python3.11/site-packages/starlette/middleware/base.py", line 165, in call_next
+    raise app_exc
+  File "/Users/jia/anaconda3/envs/airbnb-backend/lib/python3.11/site-packages/starlette/middleware/base.py", line 151, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "/Users/jia/anaconda3/envs/airbnb-backend/lib/python3.11/site-packages/starlette/middleware/gzip.py", line 24, in __call__
+    await responder(scope, receive, send)
+  File "/Users/jia/anaconda3/envs/airbnb-backend/lib/python3.11/site-packages/starlette/middleware/gzip.py", line 44, in __call__
+    await self.app(scope, receive, self.send_with_gzip)
+  File "/Users/jia/anaconda3/envs/airbnb-backend/lib/python3.11/site-packages/starlette/middleware/cors.py", line 83, in __call__
+    await self.app(scope, receive, send)
+  File "/Users/jia/anaconda3/envs/airbnb-backend/lib/python3.11/site-packages/starlette/middleware/exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/Users/jia/anaconda3/envs/airbnb-backend/lib/python3.11/site-packages/starlette/_exception_handler.py", line 64, in wrapped_app
+    raise exc
+  File "/Users/jia/anaconda3/envs/airbnb-backend/lib/python3.11/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/jia/anaconda3/envs/airbnb-backend/lib/python3.11/site-packages/starlette/routing.py", line 762, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Users/jia/anaconda3/envs/airbnb-backend/lib/python3.11/site-packages/starlette/routing.py", line 782, in app
+    await route.handle(scope, receive, send)
+  File "/Users/jia/anaconda3/envs/airbnb-backend/lib/python3.11/site-packages/starlette/routing.py", line 297, in handle
+    await self.app(scope, receive, send)
+  File "/Users/jia/anaconda3/envs/airbnb-backend/lib/python3.11/site-packages/starlette/routing.py", line 77, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/Users/jia/anaconda3/envs/airbnb-backend/lib/python3.11/site-packages/starlette/_exception_handler.py", line 64, in wrapped_app
+    raise exc
+  File "/Users/jia/anaconda3/envs/airbnb-backend/lib/python3.11/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/jia/anaconda3/envs/airbnb-backend/lib/python3.11/site-packages/starlette/routing.py", line 72, in app
+    response = await func(request)
+               ^^^^^^^^^^^^^^^^^^^
+  File "/Users/jia/anaconda3/envs/airbnb-backend/lib/python3.11/site-packages/fastapi/routing.py", line 315, in app
+    content = await serialize_response(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jia/anaconda3/envs/airbnb-backend/lib/python3.11/site-packages/fastapi/routing.py", line 180, in serialize_response
+    return jsonable_encoder(response_content)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jia/anaconda3/envs/airbnb-backend/lib/python3.11/site-packages/fastapi/encoders.py", line 330, in jsonable_encoder
+    raise ValueError(errors) from e
+ValueError: [TypeError("'coroutine' object is not iterable"), TypeError('vars() argument must have __dict__ attribute')]
+[2025-01-22 16:41:52,405] INFO in main: Successfully preloaded data for Amsterdam
+[2025-01-22 16:41:52,417] INFO in main: Successfully preloaded data for Athens
+[2025-01-22 16:41:52,435] INFO in main: Successfully preloaded data for Bangkok
+[2025-01-22 16:41:52,452] INFO in main: Successfully preloaded data for Barcelona
+[2025-01-22 16:41:52,466] INFO in main: Successfully preloaded data for Berlin
+[2025-01-22 16:41:52,499] INFO in main: Successfully preloaded data for Buenosaires
+[2025-01-22 16:41:52,520] INFO in main: Successfully preloaded data for CapeTown
+[2025-01-22 16:41:52,546] INFO in main: Successfully preloaded data for Istanbul
+[2025-01-22 16:41:52,622] INFO in main: Successfully preloaded data for London
+[2025-01-22 16:41:52,648] INFO in main: Successfully preloaded data for Madrid
+[2025-01-22 16:41:52,670] INFO in main: Successfully preloaded data for Melbourne
+[2025-01-22 16:41:52,696] INFO in main: Successfully preloaded data for MexicoCity
+[2025-01-22 16:41:52,739] INFO in main: Successfully preloaded data for Milan
+[2025-01-22 16:41:52,771] INFO in main: Successfully preloaded data for Newyorkcity
+[2025-01-22 16:41:52,848] INFO in main: Successfully preloaded data for Paris
+[2025-01-22 16:41:52,878] INFO in main: Successfully preloaded data for RiodeJaneiro
+[2025-01-22 16:41:52,908] INFO in main: Successfully preloaded data for Rome
+[2025-01-22 16:41:52,953] INFO in main: Successfully preloaded data for Sicily
+[2025-01-22 16:41:52,968] INFO in main: Successfully preloaded data for Sydney
+[2025-01-22 16:41:52,985] INFO in main: Successfully preloaded data for Tokyo
+[2025-01-22 16:41:53,003] INFO in main: Successfully preloaded data for Toronto
+[2025-01-22 16:41:55,842] INFO in main: Fetching cities list
+[2025-01-22 16:41:55,983] INFO in main: Found 21 cities
+[2025-01-22 16:41:55,985] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.143s
+[2025-01-22 16:42:00,924] ERROR in main: Unhandled Exception: [TypeError("'coroutine' object is not iterable"), TypeError('vars() argument must have __dict__ attribute')] | Path: /city/Istanbul
+Traceback (most recent call last):
+  File "/Users/jia/anaconda3/envs/airbnb-backend/lib/python3.11/site-packages/fastapi/encoders.py", line 322, in jsonable_encoder
+    data = dict(obj)
+           ^^^^^^^^^
+TypeError: 'coroutine' object is not iterable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/jia/anaconda3/envs/airbnb-backend/lib/python3.11/site-packages/fastapi/encoders.py", line 327, in jsonable_encoder
+    data = vars(obj)
+           ^^^^^^^^^
+TypeError: vars() argument must have __dict__ attribute
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/jia/anaconda3/envs/airbnb-backend/lib/python3.11/site-packages/starlette/middleware/errors.py", line 164, in __call__
+    await self.app(scope, receive, _send)
+  File "/Users/jia/anaconda3/envs/airbnb-backend/lib/python3.11/site-packages/starlette/middleware/base.py", line 189, in __call__
+    with collapse_excgroups():
+  File "/Users/jia/anaconda3/envs/airbnb-backend/lib/python3.11/contextlib.py", line 158, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "/Users/jia/anaconda3/envs/airbnb-backend/lib/python3.11/site-packages/starlette/_utils.py", line 91, in collapse_excgroups
+    raise exc
+  File "/Users/jia/anaconda3/envs/airbnb-backend/lib/python3.11/site-packages/starlette/middleware/base.py", line 191, in __call__
+    response = await self.dispatch_func(request, call_next)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jia/Library/CloudStorage/OneDrive-个人/projects/airbnb-hosts-visualization/backend/main.py", line 194, in log_requests
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jia/anaconda3/envs/airbnb-backend/lib/python3.11/site-packages/starlette/middleware/base.py", line 165, in call_next
+    raise app_exc
+  File "/Users/jia/anaconda3/envs/airbnb-backend/lib/python3.11/site-packages/starlette/middleware/base.py", line 151, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "/Users/jia/anaconda3/envs/airbnb-backend/lib/python3.11/site-packages/starlette/middleware/gzip.py", line 24, in __call__
+    await responder(scope, receive, send)
+  File "/Users/jia/anaconda3/envs/airbnb-backend/lib/python3.11/site-packages/starlette/middleware/gzip.py", line 44, in __call__
+    await self.app(scope, receive, self.send_with_gzip)
+  File "/Users/jia/anaconda3/envs/airbnb-backend/lib/python3.11/site-packages/starlette/middleware/cors.py", line 83, in __call__
+    await self.app(scope, receive, send)
+  File "/Users/jia/anaconda3/envs/airbnb-backend/lib/python3.11/site-packages/starlette/middleware/exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "/Users/jia/anaconda3/envs/airbnb-backend/lib/python3.11/site-packages/starlette/_exception_handler.py", line 64, in wrapped_app
+    raise exc
+  File "/Users/jia/anaconda3/envs/airbnb-backend/lib/python3.11/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/jia/anaconda3/envs/airbnb-backend/lib/python3.11/site-packages/starlette/routing.py", line 762, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Users/jia/anaconda3/envs/airbnb-backend/lib/python3.11/site-packages/starlette/routing.py", line 782, in app
+    await route.handle(scope, receive, send)
+  File "/Users/jia/anaconda3/envs/airbnb-backend/lib/python3.11/site-packages/starlette/routing.py", line 297, in handle
+    await self.app(scope, receive, send)
+  File "/Users/jia/anaconda3/envs/airbnb-backend/lib/python3.11/site-packages/starlette/routing.py", line 77, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "/Users/jia/anaconda3/envs/airbnb-backend/lib/python3.11/site-packages/starlette/_exception_handler.py", line 64, in wrapped_app
+    raise exc
+  File "/Users/jia/anaconda3/envs/airbnb-backend/lib/python3.11/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+  File "/Users/jia/anaconda3/envs/airbnb-backend/lib/python3.11/site-packages/starlette/routing.py", line 72, in app
+    response = await func(request)
+               ^^^^^^^^^^^^^^^^^^^
+  File "/Users/jia/anaconda3/envs/airbnb-backend/lib/python3.11/site-packages/fastapi/routing.py", line 315, in app
+    content = await serialize_response(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jia/anaconda3/envs/airbnb-backend/lib/python3.11/site-packages/fastapi/routing.py", line 180, in serialize_response
+    return jsonable_encoder(response_content)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jia/anaconda3/envs/airbnb-backend/lib/python3.11/site-packages/fastapi/encoders.py", line 330, in jsonable_encoder
+    raise ValueError(errors) from e
+ValueError: [TypeError("'coroutine' object is not iterable"), TypeError('vars() argument must have __dict__ attribute')]
+[2025-01-22 16:43:05,779] INFO in main: Successfully preloaded data for Amsterdam
+[2025-01-22 16:43:05,791] INFO in main: Successfully preloaded data for Athens
+[2025-01-22 16:43:05,808] INFO in main: Successfully preloaded data for Bangkok
+[2025-01-22 16:43:05,824] INFO in main: Successfully preloaded data for Barcelona
+[2025-01-22 16:43:05,837] INFO in main: Successfully preloaded data for Berlin
+[2025-01-22 16:43:05,868] INFO in main: Successfully preloaded data for Buenosaires
+[2025-01-22 16:43:05,889] INFO in main: Successfully preloaded data for CapeTown
+[2025-01-22 16:43:05,912] INFO in main: Successfully preloaded data for Istanbul
+[2025-01-22 16:43:05,986] INFO in main: Successfully preloaded data for London
+[2025-01-22 16:43:06,012] INFO in main: Successfully preloaded data for Madrid
+[2025-01-22 16:43:06,033] INFO in main: Successfully preloaded data for Melbourne
+[2025-01-22 16:43:06,057] INFO in main: Successfully preloaded data for MexicoCity
+[2025-01-22 16:43:06,079] INFO in main: Successfully preloaded data for Milan
+[2025-01-22 16:43:06,110] INFO in main: Successfully preloaded data for Newyorkcity
+[2025-01-22 16:43:06,188] INFO in main: Successfully preloaded data for Paris
+[2025-01-22 16:43:06,219] INFO in main: Successfully preloaded data for RiodeJaneiro
+[2025-01-22 16:43:06,250] INFO in main: Successfully preloaded data for Rome
+[2025-01-22 16:43:06,297] INFO in main: Successfully preloaded data for Sicily
+[2025-01-22 16:43:06,311] INFO in main: Successfully preloaded data for Sydney
+[2025-01-22 16:43:06,327] INFO in main: Successfully preloaded data for Tokyo
+[2025-01-22 16:43:06,346] INFO in main: Successfully preloaded data for Toronto
+[2025-01-22 16:43:15,825] INFO in main: Fetching cities list
+[2025-01-22 16:43:15,941] INFO in main: Found 21 cities
+[2025-01-22 16:43:15,943] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.118s
+[2025-01-22 16:43:18,244] INFO in main: Path: /city/Buenosaires | Method: GET | Status: 200 | Duration: 0.000s
+[2025-01-22 16:43:18,402] INFO in main: Path: /city/Buenosaires/yearly_stats | Method: GET | Status: 200 | Duration: 0.155s
+[2025-01-22 16:43:18,805] INFO in main: Path: /city/Buenosaires/host_ranking | Method: GET | Status: 200 | Duration: 0.046s
+[2025-01-22 16:43:20,302] INFO in main: Path: /city/Buenosaires/host_ranking | Method: GET | Status: 200 | Duration: 0.071s
+[2025-01-22 16:43:21,528] INFO in main: Path: /city/Newyorkcity | Method: GET | Status: 200 | Duration: 0.000s
+[2025-01-22 16:43:21,682] INFO in main: Path: /city/Newyorkcity/yearly_stats | Method: GET | Status: 200 | Duration: 0.151s
+[2025-01-22 16:43:22,134] INFO in main: Path: /city/Newyorkcity/host_ranking | Method: GET | Status: 200 | Duration: 0.070s
