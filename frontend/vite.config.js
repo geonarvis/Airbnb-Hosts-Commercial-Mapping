@@ -9,10 +9,10 @@ export default defineConfig({
       overlay: true
     },
     proxy: {
-      '/airbnb-hosts-visualization/api': {
+      '/api': {
         target: 'http://localhost:8000',
         changeOrigin: true,
-        rewrite: (path) => path.replace(/^\/airbnb-hosts-visualization\/api/, '')
+        rewrite: (path) => path.replace(/^\/api/, '')
       }
     }
   }

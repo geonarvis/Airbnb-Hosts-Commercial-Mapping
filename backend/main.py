@@ -623,7 +623,7 @@ async def get_yearly_stats(city_name: str):
     try:
         with get_db_connection() as conn:
             with conn.cursor() as cur:
-                # 获取所有年份的数据
+                # 进一步优化查询，直接在数据库层计算累计值
                 cur.execute("""
                     WITH yearly_data AS (
                         SELECT 
@@ -633,11 +633,39 @@ async def get_yearly_stats(city_name: str):
                         FROM listings
                         WHERE city = %s 
                         AND first_review IS NOT NULL
+                        AND EXTRACT(YEAR FROM first_review) IS NOT NULL
+                        AND host_id IS NOT NULL
                         GROUP BY host_id, EXTRACT(YEAR FROM first_review)
+                    ),
+                    cumulative_data AS (
+                        SELECT 
+                            year,
+                            host_id,
+                            SUM(listing_count) OVER (
+                                PARTITION BY host_id 
+                                ORDER BY year
+                                ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW
+                            ) as cumulative_listings
+                        FROM yearly_data
+                    ),
+                    yearly_summary AS (
+                        SELECT 
+                            year,
+                            host_id,
+                            cumulative_listings,
+                            ROW_NUMBER() OVER (
+                                PARTITION BY year 
+                                ORDER BY cumulative_listings DESC
+                            ) as rank
+                        FROM cumulative_data
                     )
-                    SELECT year, host_id, listing_count
-                    FROM yearly_data
-                    ORDER BY year, listing_count DESC
+                    SELECT 
+                        year,
+                        host_id,
+                        cumulative_listings,
+                        rank
+                    FROM yearly_summary
+                    ORDER BY year, cumulative_listings DESC
                 """, (city_name,))
                 
                 results = cur.fetchall()
@@ -650,21 +678,39 @@ async def get_yearly_stats(city_name: str):
                         }
                     }
                 
-                # 按年份组织数据
-                yearly_stats = {}
+                # 使用 numpy 加速数据处理
                 df = pd.DataFrame(results)
                 min_year = int(df['year'].min())
                 max_year = int(df['year'].max())
                 
-                # 对每一年进行统计（除了第一年）
+                # 预计算年度数据
+                yearly_data = {}
                 for year in range(min_year + 1, max_year + 1):
-                    year_df = df[df['year'] <= year].groupby('host_id')['listing_count'].sum().reset_index()
-                    year_df = year_df.sort_values('listing_count', ascending=False)
+                    year_data = df[df['year'] == year].copy()
+                    yearly_data[year] = year_data
+                
+                # 使用 numpy 向量化操作进行分类计算
+                @np.vectorize
+                def get_host_category(listings):
+                    if listings == 1:
+                        return 'single'
+                    elif listings == 2:
+                        return 'dual'
+                    else:
+                        return 'multi'
+                
+                # 对每一年进行统计
+                yearly_stats = {}
+                for year in range(min_year + 1, max_year + 1):
+                    year_df = yearly_data[year]
                     
-                    # 单房源和双房源房东
-                    single_hosts = year_df[year_df['listing_count'] == 1]
-                    dual_hosts = year_df[year_df['listing_count'] == 2]
-                    multi_hosts = year_df[year_df['listing_count'] > 2]
+                    # 使用向量化操作进行分类
+                    categories = get_host_category(year_df['cumulative_listings'].values)
+                    year_df['category'] = categories
+                    
+                    single_hosts = year_df[year_df['category'] == 'single']
+                    dual_hosts = year_df[year_df['category'] == 'dual']
+                    multi_hosts = year_df[year_df['category'] == 'multi']
                     
                     stats = {
                         "thresholds": {
@@ -688,16 +734,16 @@ async def get_yearly_stats(city_name: str):
                         
                         stats["thresholds"].update({
                             "highly_commercial": {
-                                "min": int(highly_commercial['listing_count'].min()) if len(highly_commercial) > 0 else None,
-                                "max": int(highly_commercial['listing_count'].max()) if len(highly_commercial) > 0 else None
+                                "min": int(highly_commercial['cumulative_listings'].min()) if len(highly_commercial) > 0 else None,
+                                "max": int(highly_commercial['cumulative_listings'].max()) if len(highly_commercial) > 0 else None
                             },
                             "commercial": {
-                                "min": int(commercial['listing_count'].min()) if len(commercial) > 0 else None,
-                                "max": int(commercial['listing_count'].max()) if len(commercial) > 0 else None
+                                "min": int(commercial['cumulative_listings'].min()) if len(commercial) > 0 else None,
+                                "max": int(commercial['cumulative_listings'].max()) if len(commercial) > 0 else None
                             },
                             "semi_commercial": {
-                                "min": int(semi_commercial['listing_count'].min()) if len(semi_commercial) > 0 else None,
-                                "max": int(semi_commercial['listing_count'].max()) if len(semi_commercial) > 0 else None
+                                "min": int(semi_commercial['cumulative_listings'].min()) if len(semi_commercial) > 0 else None,
+                                "max": int(semi_commercial['cumulative_listings'].max()) if len(semi_commercial) > 0 else None
                             }
                         })
                         
@@ -733,9 +779,9 @@ async def get_yearly_stats(city_name: str):
                     
                     if len(multi_hosts) > 0:
                         stats["listing_counts"].update({
-                            "highly_commercial": int(highly_commercial['listing_count'].sum()) if len(highly_commercial) > 0 else 0,
-                            "commercial": int(commercial['listing_count'].sum()) if len(commercial) > 0 else 0,
-                            "semi_commercial": int(semi_commercial['listing_count'].sum()) if len(semi_commercial) > 0 else 0
+                            "highly_commercial": int(highly_commercial['cumulative_listings'].sum()) if len(highly_commercial) > 0 else 0,
+                            "commercial": int(commercial['cumulative_listings'].sum()) if len(commercial) > 0 else 0,
+                            "semi_commercial": int(semi_commercial['cumulative_listings'].sum()) if len(semi_commercial) > 0 else 0
                         })
                     else:
                         stats["listing_counts"].update({

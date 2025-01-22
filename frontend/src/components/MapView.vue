@@ -121,14 +121,10 @@ export default {
       })
 
       // 添加对密度轮廓的更新
-      watch([() => props.selectedLocation, () => props.currentTime, () => props.selectedHostTypes], 
-        () => {
-          if (props.isHexMode) {
-            debouncedUpdateHexGrid();
-          }
-          updateDensityContours();
-        }
-      );
+      const updateDensityContours = async () => {
+        // 直接返回，不执行密度轮廓的更新
+        return;
+      }
     })
 
     const updateListings = async (hostType) => {
@@ -378,65 +374,26 @@ export default {
       }
     })
 
-    // 在现有的 debouncedUpdateHexGrid 函数之后添加新的函数
-    const updateDensityContours = async () => {
-      if (!props.selectedLocation?.city || !props.currentTime || props.selectedHostTypes.length === 0) {
-        if (map.getLayer('density-contours')) {
-          map.setLayoutProperty('density-contours', 'visibility', 'none')
-        }
-        return
-      }
+    // 使用防抖和批处理
+    const updateCity = debounce(async (cityName) => {
+      if (!cityName) return
       
       try {
-        const date = new Date(Number(props.currentTime))
-        const timeStr = `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, '0')}`
+        const [basicData, listingsData] = await Promise.all([
+          api.get(`/city/${cityName}`),
+          api.get(`/city/${cityName}/listings_by_categories`)
+        ])
         
-        const response = await api.get(
-          `/city/${props.selectedLocation.city}/density_contours`,
-          {
-            params: {
-              time_point: timeStr,
-              categories: props.selectedHostTypes.join(',')
-            }
-          }
-        );
-        
-        // 添加或更新源数据
-        if (!map.getSource('density-contours')) {
-          map.addSource('density-contours', {
-            type: 'geojson',
-            data: response.data
-          });
-          
-          // 为每个选中的房东类型添加轮廓图层
-          props.selectedHostTypes.forEach((hostType, index) => {
-            const color = getHostTypeColor(hostType); // 假设有这个函数返回每种类型的基础颜色
-            
-            map.addLayer({
-              id: `density-contours-${hostType}`,
-              type: 'line',
-              source: 'density-contours',
-              paint: {
-                'line-color': [
-                  'interpolate',
-                  ['linear'],
-                  ['get', 'density'],
-                  0, color.replace('rgb', 'rgba').replace(')', ',0.1)'),
-                  1, color
-                ],
-                'line-width': 1,
-                'line-opacity': 0.8
-              }
-            });
-          });
-        } else {
-          map.getSource('density-contours').setData(response.data);
-        }
+        // 批量处理数据更新
+        requestAnimationFrame(() => {
+          updateMapData(basicData.data)
+          updateListings(listingsData.data)
+        })
         
       } catch (error) {
-        console.error('Error fetching density contours:', error)
+        console.error('Failed to update city:', error)
       }
-    };
+    }, 300)
 
     onUnmounted(() => {
       if (map) {
