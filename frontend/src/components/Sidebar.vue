@@ -198,26 +198,15 @@ export default {
       if (!selectedCity.value) {
         cityInfo.value = null
         selectedHostTypes.value = []
-        emit('loading', { show: false })
+        window.dispatchEvent(new CustomEvent('api-loading-end'))
         return
       }
       
       try {
-        emit('loading', { 
-          show: true, 
-          progress: 0, 
-          step: 'Loading basic info...' 
-        })
+        window.dispatchEvent(new CustomEvent('api-loading-start'))
         
         const response = await api.get(`/city/${selectedCity.value}`)
-        emit('loading', { 
-          show: true, 
-          progress: 30, 
-          step: 'Loading city statistics...' 
-        })
-        
         cityInfo.value = response.data
-        selectedHostTypes.value = []
         
         // Update time range
         timeRange.value = [
@@ -231,18 +220,8 @@ export default {
         currentTime.value = timeWindowMiddle
         internalTime.value = timeWindowMiddle
         
-        emit('loading', { 
-          show: true, 
-          progress: 60, 
-          step: 'Loading host rankings...' 
-        })
         await updateHostRanking()
         
-        emit('loading', { 
-          show: true, 
-          progress: 80, 
-          step: 'Loading yearly statistics...' 
-        })
         await updateYearlyStats(selectedCity.value)
         
         emit('city-selected', {
@@ -253,15 +232,11 @@ export default {
           },
           zoom: 12
         })
-        emit('loading', { show: true, progress: 100, step: 'Complete!' })
+        window.dispatchEvent(new CustomEvent('api-loading-end'))
       } catch (error) {
         console.error('Failed to fetch city info:', error)
-        emit('loading', { show: false })
+        window.dispatchEvent(new CustomEvent('api-loading-end'))
         return
-      } finally {
-        setTimeout(() => {
-          emit('loading', { show: false })
-        }, 500) // 给用户一个短暂的时间看到100%
       }
     }
 

@@ -1804,3 +1804,21 @@ TypeError: unsupported operand type(s) for *: 'decimal.Decimal' and 'float'
 [2025-01-22 21:28:01,585] INFO in main: Fetching cities list
 [2025-01-22 21:28:01,635] INFO in main: Found 21 cities
 [2025-01-22 21:28:01,635] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.050s
+[2025-01-22 21:29:43,799] INFO in main: Fetching cities list
+[2025-01-22 21:29:43,850] INFO in main: Found 21 cities
+[2025-01-22 21:29:43,850] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.052s
+[2025-01-22 21:38:53,688] INFO in main: Fetching cities list
+[2025-01-22 21:38:53,737] INFO in main: Found 21 cities
+[2025-01-22 21:38:53,738] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.050s
+[2025-01-22 21:40:04,744] INFO in main: Fetching cities list
+[2025-01-22 21:40:04,793] INFO in main: Found 21 cities
+[2025-01-22 21:40:04,793] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.049s
+[2025-01-22 21:41:07,200] INFO in main: Fetching cities list
+[2025-01-22 21:41:07,252] INFO in main: Found 21 cities
+[2025-01-22 21:41:07,253] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.053s
+[2025-01-22 21:41:07,947] INFO in main: Fetching cities list
+[2025-01-22 21:41:07,993] INFO in main: Found 21 cities
+[2025-01-22 21:41:07,994] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.046s
+[2025-01-22 21:42:38,006] INFO in main: Fetching cities list
+[2025-01-22 21:42:38,059] INFO in main: Found 21 cities
+[2025-01-22 21:42:38,059] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.054s
