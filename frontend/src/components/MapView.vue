@@ -38,8 +38,8 @@ export default {
     pointStyle: {
       type: Object,
       default: () => ({
-        size: 4,
-        opacity: 0.8
+        size: 2.5,
+        opacity: 0.5
       })
     }
   },
@@ -49,19 +49,21 @@ export default {
     let mousePosition = null
     let hexLayer = null
     const layerColors = {
-      highly_commercial: '#FF0000',  // 红色
-      commercial: '#FFA500',         // 橙色
-      semi_commercial: '#FFFF00',    // 黄色
-      dual_host: '#00FF00',         // 绿色
-      single_host: '#0000FF'        // 蓝色
+      highly_commercial: '#1b4e6b',  // 深蓝
+      commercial: '#5c63a2',        // 蓝紫
+      semi_commercial: '#c068a8',   // 紫红
+      dual_host: '#ec7176',        // 粉红
+      single_host: '#f4ab33'       // 橙色
     }
     let popup = null
 
     onMounted(() => {
-      mapboxgl.accessToken = 'pk.eyJ1Ijoia3BmdWkiLCJhIjoiY2p6MWcxMXl4MDFlbTNsbDc1bnp6N3FjYSJ9.66qFOXwI661MOPOf7x96yA'
+      mapboxgl.accessToken = 'pk.eyJ1Ijoiemhhb2ppYTIwMjQiLCJhIjoiY200ZmhzamIyMDgwNjJtcXIwaWNudWllbSJ9._-NLC8BDDwDt__sVALSBXg'
       map = new mapboxgl.Map({
-        ...mapOptions,
-        container: 'map'
+        container: 'map',
+        style: 'mapbox://styles/zhaojia2024/cm6cri5yh007h01s2dy643axe',
+        center: [0, 20],
+        zoom: 2
       })
 
       // 创建 popup
@@ -97,10 +99,48 @@ export default {
             type: 'circle',
             source: `listings-${type}`,
             paint: {
-              'circle-radius': 4,
+              // 使用 processed_price 作为基础大小
+              'circle-radius': [
+                'interpolate',
+                ['linear'],
+                ['get', 'processed_price'],
+                2, 2,  // 最小值改为 2px
+                20, 20 // 最大值改为 20px
+              ],
               'circle-color': layerColors[type],
-              'circle-opacity': 0.8
+              'circle-opacity': 0.8,
+              'circle-stroke-width': 1,
+              'circle-stroke-color': layerColors[type],
+              'circle-stroke-opacity': 0.3
             }
+          })
+
+          // 为每种类型的散点添加鼠标交互事件
+          map.on('mousemove', `listings-layer-${type}`, (e) => {
+            if (e.features.length > 0) {
+              map.getCanvas().style.cursor = 'pointer'
+              
+              const feature = e.features[0]
+              const coordinates = e.lngLat
+              
+              const content = `
+                <div class="popup-content">
+                  <p>Price: ${feature.properties.price}</p>
+                  <p>Processed Price: ${feature.properties.processed_price}</p>
+                </div>
+              `
+              
+              popup
+                .setLngLat(coordinates)
+                .setHTML(content)
+                .addTo(map)
+            }
+          })
+          
+          // 鼠标移出事件
+          map.on('mouseleave', `listings-layer-${type}`, () => {
+            map.getCanvas().style.cursor = ''
+            popup.remove()
           })
         })
 
@@ -112,11 +152,11 @@ export default {
             const feature = e.features[0]
             const coordinates = e.lngLat
             
-            // 构建弹出框内容
+            // 创建弹出框内容
             const content = `
               <div class="popup-content">
-                <div class="font-medium">Hex ID: ${feature.properties.id}</div>
-                <div>Listings Count: ${feature.properties.points_count}</div>
+                <p>Price: ${feature.properties.price}</p>
+                <p>Processed Price: ${feature.properties.processed_price}</p>
               </div>
             `
             
@@ -168,19 +208,42 @@ export default {
           return
         }
         
-        const features = response.data.listings.map(listing => ({
-          type: 'Feature',
-          geometry: {
-            type: 'Point',
-            coordinates: [listing.longitude, listing.latitude]
-          },
-          properties: {
-            host_id: listing.host_id,
-            name: listing.name,
-            price: listing.price
-          }
-        }))
+        // 添加日志检查接收到的数据
+        if (response.data.listings && response.data.listings.length > 0) {
+          console.log('Sample listing data:', response.data.listings[0])
+        }
         
+        // 分批处理数据
+        const batchSize = 1000
+        const features = []
+        const listings = response.data.listings
+        
+        for (let i = 0; i < listings.length; i += batchSize) {
+          const batch = listings.slice(i, i + batchSize).map(listing => ({
+            type: 'Feature',
+            geometry: {
+              type: 'Point',
+              coordinates: [listing.longitude, listing.latitude]
+            },
+            properties: {
+              host_id: listing.host_id,
+              host_category: listing.host_category,
+              first_review: listing.first_review,
+              last_review: listing.last_review,
+              price: listing.price,
+              processed_price: listing.processed_price,
+              geom: listing.geom
+            }
+          }))
+          features.push(...batch)
+          
+          // 使用 requestAnimationFrame 分批更新地图
+          if (i + batchSize < listings.length) {
+            await new Promise(resolve => requestAnimationFrame(resolve))
+          }
+        }
+        
+        // 最后一次性更新地图
         if (map.getSource(`listings-${hostType}`)) {
           map.getSource(`listings-${hostType}`).setData({
             type: 'FeatureCollection',
@@ -192,6 +255,11 @@ export default {
       }
     }
 
+    // 使用节流控制并发更新
+    const updateAllListings = debounce(async (types) => {
+      const updatePromises = types.map(type => updateListings(type))
+      await Promise.all(updatePromises)
+    }, 100)
 
     // 清除特定类型的图层数据
     const clearListings = (hostType) => {
@@ -233,25 +301,11 @@ export default {
     // 添加一个变量来跟踪最后更新时间
     let lastUpdateTime = 0
 
-    // 监听房东类型和时间变化
+    // 修改监听函数
     watch(
       [() => props.selectedHostTypes, () => props.currentTime],
-      async (newValue, oldValue) => {
-        if (!map) {
-          console.log('Map not ready yet')
-          return
-        }
-        
-        const [newTypes, newTime] = newValue
-        const [oldTypes, oldTime] = oldValue || [[], null]
-        
-        // 如果只是时间变化，并且变化间隔小于 1000ms，不更新
-        if (newTime !== oldTime && Date.now() - lastUpdateTime < 1000) {
-          return
-        }
-        
-        // 更新最后更新时间
-        lastUpdateTime = Date.now()
+      async ([newTypes, newTime], [oldTypes, oldTime]) => {
+        if (!map) return
         
         if (props.isHexMode) {
           updateHexGrid()
@@ -260,20 +314,15 @@ export default {
         
         // 如果时间发生变化，更新所有已选类型的房源
         if (newTime !== oldTime) {
-          console.log('Time changed, updating all selected types')
-          for (const type of newTypes) {
-            await updateListings(type)
-          }
+          updateAllListings(newTypes)
         } else {
           // 如果只是类型发生变化，则只处理变化的类型
           const oldSet = new Set(oldTypes || [])
           const newSet = new Set(newTypes)
           
-          // 处理新增的类型
-          for (const type of newSet) {
-            if (!oldSet.has(type)) {
-              await updateListings(type)
-            }
+          const typesToUpdate = [...newSet].filter(type => !oldSet.has(type))
+          if (typesToUpdate.length > 0) {
+            updateAllListings(typesToUpdate)
           }
           
           // 处理移除的类型
@@ -283,8 +332,7 @@ export default {
             }
           }
         }
-      },
-      { deep: true }
+      }
     )
 
     // 创建防抖的网格更新函数
@@ -424,7 +472,6 @@ export default {
 
     // 监听点样式变化
     watch(() => props.pointStyle, (newStyle) => {
-      console.log('Style changed:', newStyle)  // 添加日志
       if (!map) return
       
       const hostTypes = [
@@ -440,7 +487,16 @@ export default {
           map.setPaintProperty(
             `listings-layer-${type}`,
             'circle-radius',
-            newStyle.size
+            [
+              '*',
+              ['interpolate',
+               ['linear'],
+               ['get', 'processed_price'],
+               2, 2,
+               20, 20
+              ],
+              newStyle.size  // 现在作为乘数系数使用
+            ]
           )
           map.setPaintProperty(
             `listings-layer-${type}`,
@@ -508,4 +564,4 @@ export default {
   background-color: rgba(255, 255, 255, 0.95);
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
-</style> 
+</style>

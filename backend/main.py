@@ -1,4 +1,4 @@
-from fastapi import FastAPI, HTTPException, Request
+from fastapi import FastAPI, HTTPException, Request, Query
 from fastapi.middleware.cors import CORSMiddleware
 import pandas as pd
 import numpy as np
@@ -350,9 +350,9 @@ async def get_host_ranking(city_name: str, time_point: str):
 
 @app.get("/city/{city_name}/listings_by_categories")
 async def get_listings_by_categories(
-    city_name: str, 
-    time_point: str, 
-    categories: str
+    city_name: str,
+    time_point: str,
+    categories: str = Query(None)
 ):
     try:
         target_date = datetime.strptime(time_point, "%Y-%m")
@@ -413,7 +413,9 @@ async def get_listings_by_categories(
                         latitude,
                         longitude,
                         name,
-                        price
+                        price,
+                        processed_price,
+                        ST_AsGeoJSON(geom) as geom
                     FROM listings
                     WHERE city = %s 
                     AND first_review <= %s
@@ -423,6 +425,11 @@ async def get_listings_by_categories(
                 """, (city_name, target_date, list(host_ids)))
                 
                 listings = cur.fetchall()
+                
+                # 添加一条示例数据的日志
+                if listings and len(listings) > 0:
+                    logger.info(f"Sample listing data: {dict(listings[0])}")
+                
                 return {
                     "listings": listings,
                     "total_listings": len(listings)

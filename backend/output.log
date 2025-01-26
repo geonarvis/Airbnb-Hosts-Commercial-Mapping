@@ -6,3 +6,164 @@ ERROR:    [Errno 98] error while attempting to bind on address ('0.0.0.0INFO:   
 INFO:     Waiting for application shutdown.
 INFO:     Application shutdown complete.
 INFO:     Finished server process [23637]
+2025-01-26 19:35:16.189 | INFO     | main:startup:74 - Successfully preloaded data for Amsterdam
+2025-01-26 19:35:16.202 | INFO     | main:startup:74 - Successfully preloaded data for Athens
+2025-01-26 19:35:16.221 | INFO     | main:startup:74 - Successfully preloaded data for Bangkok
+2025-01-26 19:35:16.237 | INFO     | main:startup:74 - Successfully preloaded data for Barcelona
+2025-01-26 19:35:16.250 | INFO     | main:startup:74 - Successfully preloaded data for Berlin
+2025-01-26 19:35:16.289 | INFO     | main:startup:74 - Successfully preloaded data for Buenosaires
+2025-01-26 19:35:16.310 | INFO     | main:startup:74 - Successfully preloaded data for CapeTown
+2025-01-26 19:35:16.334 | INFO     | main:startup:74 - Successfully preloaded data for Istanbul
+2025-01-26 19:35:16.413 | INFO     | main:startup:74 - Successfully preloaded data for London
+2025-01-26 19:35:16.436 | INFO     | main:startup:74 - Successfully preloaded data for Madrid
+2025-01-26 19:35:16.459 | INFO     | main:startup:74 - Successfully preloaded data for Melbourne
+2025-01-26 19:35:16.485 | INFO     | main:startup:74 - Successfully preloaded data for MexicoCity
+2025-01-26 19:35:16.507 | INFO     | main:startup:74 - Successfully preloaded data for Milan
+2025-01-26 19:35:16.539 | INFO     | main:startup:74 - Successfully preloaded data for Newyorkcity
+2025-01-26 19:35:16.618 | INFO     | main:startup:74 - Successfully preloaded data for Paris
+2025-01-26 19:35:16.647 | INFO     | main:startup:74 - Successfully preloaded data for RiodeJaneiro
+2025-01-26 19:35:16.682 | INFO     | main:startup:74 - Successfully preloaded data for Rome
+2025-01-26 19:35:16.737 | INFO     | main:startup:74 - Successfully preloaded data for Sicily
+2025-01-26 19:35:16.751 | INFO     | main:startup:74 - Successfully preloaded data for Sydney
+2025-01-26 19:35:16.767 | INFO     | main:startup:74 - Successfully preloaded data for Tokyo
+2025-01-26 19:35:16.786 | INFO     | main:startup:74 - Successfully preloaded data for Toronto
+2025-01-26 19:35:16.786 | INFO     | main:startup:79 - Starting price data preprocessing...
+2025-01-26 19:35:16.786 | INFO     | utils.price_processor:save_stats:74 - Price statistics saved to price_stats.json
+2025-01-26 19:35:16.786 | INFO     | main:startup:95 - Price preprocessing completed successfully
+2025-01-26 19:37:17,143 - INFO - Connected to database postgresql://postgres:********@localhost:5432/listings_airbnb
+2025-01-26 19:37:18,893 - INFO - Successfully preloaded data for Amsterdam
+2025-01-26 19:37:18,906 - INFO - Successfully preloaded data for Athens
+2025-01-26 19:37:18,924 - INFO - Successfully preloaded data for Bangkok
+2025-01-26 19:37:18,941 - INFO - Successfully preloaded data for Barcelona
+2025-01-26 19:37:18,953 - INFO - Successfully preloaded data for Berlin
+2025-01-26 19:37:18,985 - INFO - Successfully preloaded data for Buenosaires
+2025-01-26 19:37:19,006 - INFO - Successfully preloaded data for CapeTown
+2025-01-26 19:37:19,029 - INFO - Successfully preloaded data for Istanbul
+2025-01-26 19:37:19,115 - INFO - Successfully preloaded data for London
+2025-01-26 19:37:19,138 - INFO - Successfully preloaded data for Madrid
+2025-01-26 19:37:19,160 - INFO - Successfully preloaded data for Melbourne
+2025-01-26 19:37:19,183 - INFO - Successfully preloaded data for MexicoCity
+2025-01-26 19:37:19,204 - INFO - Successfully preloaded data for Milan
+2025-01-26 19:37:19,234 - INFO - Successfully preloaded data for Newyorkcity
+2025-01-26 19:37:19,313 - INFO - Successfully preloaded data for Paris
+2025-01-26 19:37:19,342 - INFO - Successfully preloaded data for RiodeJaneiro
+2025-01-26 19:37:19,374 - INFO - Successfully preloaded data for Rome
+2025-01-26 19:37:19,427 - INFO - Successfully preloaded data for Sicily
+2025-01-26 19:37:19,442 - INFO - Successfully preloaded data for Sydney
+2025-01-26 19:37:19,457 - INFO - Successfully preloaded data for Tokyo
+2025-01-26 19:37:19,476 - INFO - Successfully preloaded data for Toronto
+2025-01-26 19:39:16,107 - INFO - Disconnected from database postgresql://postgres:********@localhost:5432/listings_airbnb
+2025-01-26 19:39:17,040 - INFO - Connected to database postgresql://postgres:********@localhost:5432/listings_airbnb
+2025-01-26 19:39:18,593 - INFO - Successfully preloaded data for Amsterdam
+2025-01-26 19:39:18,605 - INFO - Successfully preloaded data for Athens
+2025-01-26 19:39:18,624 - INFO - Successfully preloaded data for Bangkok
+2025-01-26 19:39:18,641 - INFO - Successfully preloaded data for Barcelona
+2025-01-26 19:39:18,654 - INFO - Successfully preloaded data for Berlin
+2025-01-26 19:39:18,686 - INFO - Successfully preloaded data for Buenosaires
+2025-01-26 19:39:18,706 - INFO - Successfully preloaded data for CapeTown
+2025-01-26 19:39:18,729 - INFO - Successfully preloaded data for Istanbul
+2025-01-26 19:39:18,807 - INFO - Successfully preloaded data for London
+2025-01-26 19:39:18,830 - INFO - Successfully preloaded data for Madrid
+2025-01-26 19:39:18,852 - INFO - Successfully preloaded data for Melbourne
+2025-01-26 19:39:18,880 - INFO - Successfully preloaded data for MexicoCity
+2025-01-26 19:39:18,902 - INFO - Successfully preloaded data for Milan
+2025-01-26 19:39:18,933 - INFO - Successfully preloaded data for Newyorkcity
+2025-01-26 19:39:19,013 - INFO - Successfully preloaded data for Paris
+2025-01-26 19:39:19,043 - INFO - Successfully preloaded data for RiodeJaneiro
+2025-01-26 19:39:19,076 - INFO - Successfully preloaded data for Rome
+2025-01-26 19:39:19,133 - INFO - Successfully preloaded data for Sicily
+2025-01-26 19:39:19,148 - INFO - Successfully preloaded data for Sydney
+2025-01-26 19:39:19,163 - INFO - Successfully preloaded data for Tokyo
+2025-01-26 19:39:19,182 - INFO - Successfully preloaded data for Toronto
+2025-01-26 19:39:24,602 - ERROR - Error getting price stats: column "processed_price" does not exist
+LINE 5:                         COUNT(processed_price) as processed_...
+                                      ^
+
+2025-01-26 19:39:24,603 - ERROR - HTTP Exception: 500 - column "processed_price" does not exist
+LINE 5:                         COUNT(processed_price) as processed_...
+                                      ^
+ | Path: /city/Paris/price_stats
+2025-01-26 19:39:24,603 - INFO - Path: /city/Paris/price_stats | Method: GET | Status: 500 | Duration: 0.048s
+2025-01-26 19:39:24,724 - INFO - Path: /favicon.ico | Method: GET | Status: 404 | Duration: 0.000s
+2025-01-26 19:39:31,844 - INFO - Path: /doc | Method: GET | Status: 404 | Duration: 0.000s
+2025-01-26 19:39:34,763 - INFO - Path: /doc | Method: GET | Status: 404 | Duration: 0.000s
+2025-01-26 19:39:43,716 - INFO - Path: /docs | Method: GET | Status: 200 | Duration: 0.000s
+2025-01-26 19:39:43,876 - INFO - Path: /openapi.json | Method: GET | Status: 200 | Duration: 0.004s
+2025-01-26 19:39:53,743 - ERROR - Error getting price stats: column "processed_price" does not exist
+LINE 5:                         COUNT(processed_price) as processed_...
+                                      ^
+
+2025-01-26 19:39:53,744 - ERROR - HTTP Exception: 500 - column "processed_price" does not exist
+LINE 5:                         COUNT(processed_price) as processed_...
+                                      ^
+ | Path: /city/bangkok/price_stats
+2025-01-26 19:39:53,744 - INFO - Path: /city/bangkok/price_stats | Method: GET | Status: 500 | Duration: 0.027s
+2025-01-26 19:40:15,324 - ERROR - Error getting price stats: column "processed_price" does not exist
+LINE 5:                         COUNT(processed_price) as processed_...
+                                      ^
+
+2025-01-26 19:40:15,325 - ERROR - HTTP Exception: 500 - column "processed_price" does not exist
+LINE 5:                         COUNT(processed_price) as processed_...
+                                      ^
+ | Path: /city/London/price_stats
+2025-01-26 19:40:15,325 - INFO - Path: /city/London/price_stats | Method: GET | Status: 500 | Duration: 0.025s
+2025-01-26 19:42:54,641 - INFO - Disconnected from database postgresql://postgres:********@localhost:5432/listings_airbnb
+2025-01-26 19:42:55,610 - INFO - Connected to database postgresql://postgres:********@localhost:5432/listings_airbnb
+2025-01-26 19:42:56,896 - INFO - Successfully preloaded data for Amsterdam
+2025-01-26 19:42:56,908 - INFO - Successfully preloaded data for Athens
+2025-01-26 19:42:56,929 - INFO - Successfully preloaded data for Bangkok
+2025-01-26 19:42:56,947 - INFO - Successfully preloaded data for Barcelona
+2025-01-26 19:42:56,959 - INFO - Successfully preloaded data for Berlin
+2025-01-26 19:42:56,993 - INFO - Successfully preloaded data for Buenosaires
+2025-01-26 19:42:57,014 - INFO - Successfully preloaded data for CapeTown
+2025-01-26 19:42:57,038 - INFO - Successfully preloaded data for Istanbul
+2025-01-26 19:42:57,117 - INFO - Successfully preloaded data for London
+2025-01-26 19:42:57,139 - INFO - Successfully preloaded data for Madrid
+2025-01-26 19:42:57,160 - INFO - Successfully preloaded data for Melbourne
+2025-01-26 19:42:57,183 - INFO - Successfully preloaded data for MexicoCity
+2025-01-26 19:42:57,204 - INFO - Successfully preloaded data for Milan
+2025-01-26 19:42:57,235 - INFO - Successfully preloaded data for Newyorkcity
+2025-01-26 19:42:57,312 - INFO - Successfully preloaded data for Paris
+2025-01-26 19:42:57,342 - INFO - Successfully preloaded data for RiodeJaneiro
+2025-01-26 19:42:57,374 - INFO - Successfully preloaded data for Rome
+2025-01-26 19:42:57,433 - INFO - Successfully preloaded data for Sicily
+2025-01-26 19:42:57,447 - INFO - Successfully preloaded data for Sydney
+2025-01-26 19:42:57,463 - INFO - Successfully preloaded data for Tokyo
+2025-01-26 19:42:57,481 - INFO - Successfully preloaded data for Toronto
+2025-01-26 19:42:59,795 - INFO - Path: /docs | Method: GET | Status: 200 | Duration: 0.000s
+2025-01-26 19:42:59,953 - INFO - Path: /openapi.json | Method: GET | Status: 200 | Duration: 0.003s
+2025-01-26 19:43:06,363 - ERROR - Error getting price stats: column "processed_price" does not exist
+LINE 5:                         COUNT(processed_price) as processed_...
+                                      ^
+
+2025-01-26 19:43:06,363 - ERROR - HTTP Exception: 500 - column "processed_price" does not exist
+LINE 5:                         COUNT(processed_price) as processed_...
+                                      ^
+ | Path: /city/London/price_stats
+2025-01-26 19:43:06,363 - INFO - Path: /city/London/price_stats | Method: GET | Status: 500 | Duration: 0.042s
+2025-01-26 19:45:14,059 - INFO - Disconnected from database postgresql://postgres:********@localhost:5432/listings_airbnb
+2025-01-26 19:53:52,725 - databases - INFO - Connected to database postgresql://postgres:********@localhost:5432/listings_airbnb
+2025-01-26 19:53:53,104 - main - INFO - Successfully preloaded data for Amsterdam
+2025-01-26 19:53:53,116 - main - INFO - Successfully preloaded data for Athens
+2025-01-26 19:53:53,134 - main - INFO - Successfully preloaded data for Bangkok
+2025-01-26 19:53:53,151 - main - INFO - Successfully preloaded data for Barcelona
+2025-01-26 19:53:53,163 - main - INFO - Successfully preloaded data for Berlin
+2025-01-26 19:53:53,196 - main - INFO - Successfully preloaded data for Buenosaires
+2025-01-26 19:53:53,216 - main - INFO - Successfully preloaded data for CapeTown
+2025-01-26 19:53:53,240 - main - INFO - Successfully preloaded data for Istanbul
+2025-01-26 19:53:53,322 - main - INFO - Successfully preloaded data for London
+2025-01-26 19:53:53,345 - main - INFO - Successfully preloaded data for Madrid
+2025-01-26 19:53:53,366 - main - INFO - Successfully preloaded data for Melbourne
+2025-01-26 19:53:53,391 - main - INFO - Successfully preloaded data for MexicoCity
+2025-01-26 19:53:53,413 - main - INFO - Successfully preloaded data for Milan
+2025-01-26 19:53:53,444 - main - INFO - Successfully preloaded data for Newyorkcity
+2025-01-26 19:53:53,520 - main - INFO - Successfully preloaded data for Paris
+2025-01-26 19:53:53,549 - main - INFO - Successfully preloaded data for RiodeJaneiro
+2025-01-26 19:53:53,579 - main - INFO - Successfully preloaded data for Rome
+2025-01-26 19:53:53,624 - main - INFO - Successfully preloaded data for Sicily
+2025-01-26 19:53:53,639 - main - INFO - Successfully preloaded data for Sydney
+2025-01-26 19:53:53,654 - main - INFO - Successfully preloaded data for Tokyo
+2025-01-26 19:53:53,673 - main - INFO - Successfully preloaded data for Toronto
+2025-01-26 19:54:45,690 - main - INFO - Path: /docs | Method: GET | Status: 200 | Duration: 0.000s
+2025-01-26 19:54:45,794 - main - INFO - Path: /openapi.json | Method: GET | Status: 200 | Duration: 0.005s
+2025-01-26 19:55:41,648 - databases - INFO - Disconnected from database postgresql://postgres:********@localhost:5432/listings_airbnb

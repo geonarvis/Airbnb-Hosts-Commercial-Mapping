@@ -58,6 +58,8 @@ def create_table_sql(column_types):
     """生成创建表的SQL语句，添加PostGIS几何字段"""
     columns = [f'"{col}" {dtype}' for col, dtype in column_types.items()]
     columns.append('"city" TEXT')
+    columns.append('"price" TEXT')
+    columns.append('"processed_price" INTEGER')
     columns.append('geom geometry(Point, 4326)')  # 添加PostGIS几何字段
     
     columns_str = ',\n        '.join(columns)
@@ -76,6 +78,8 @@ def create_indices_sql():
     CREATE INDEX IF NOT EXISTS idx_listings_host_id ON listings(host_id);
     CREATE INDEX IF NOT EXISTS idx_listings_first_review ON listings(first_review);
     CREATE INDEX IF NOT EXISTS idx_listings_geom ON listings USING GIST(geom);
+    CREATE INDEX IF NOT EXISTS idx_listings_processed_price ON listings(processed_price);
+    CREATE INDEX IF NOT EXISTS idx_listings_price ON listings(price);
     """
 
 def analyze_data_structure():

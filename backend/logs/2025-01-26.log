@@ -1,0 +1,1747 @@
+[2025-01-26 19:34:17,442] INFO in main: Successfully preloaded data for Amsterdam
+[2025-01-26 19:34:17,455] INFO in main: Successfully preloaded data for Athens
+[2025-01-26 19:34:17,476] INFO in main: Successfully preloaded data for Bangkok
+[2025-01-26 19:34:17,497] INFO in main: Successfully preloaded data for Barcelona
+[2025-01-26 19:34:17,516] INFO in main: Successfully preloaded data for Berlin
+[2025-01-26 19:34:17,550] INFO in main: Successfully preloaded data for Buenosaires
+[2025-01-26 19:34:17,571] INFO in main: Successfully preloaded data for CapeTown
+[2025-01-26 19:34:17,594] INFO in main: Successfully preloaded data for Istanbul
+[2025-01-26 19:34:17,736] INFO in main: Successfully preloaded data for London
+[2025-01-26 19:34:17,789] INFO in main: Successfully preloaded data for Madrid
+[2025-01-26 19:34:17,811] INFO in main: Successfully preloaded data for Melbourne
+[2025-01-26 19:34:17,834] INFO in main: Successfully preloaded data for MexicoCity
+[2025-01-26 19:34:17,856] INFO in main: Successfully preloaded data for Milan
+[2025-01-26 19:34:17,887] INFO in main: Successfully preloaded data for Newyorkcity
+[2025-01-26 19:34:17,964] INFO in main: Successfully preloaded data for Paris
+[2025-01-26 19:34:17,993] INFO in main: Successfully preloaded data for RiodeJaneiro
+[2025-01-26 19:34:18,023] INFO in main: Successfully preloaded data for Rome
+[2025-01-26 19:34:18,204] INFO in main: Successfully preloaded data for Sicily
+[2025-01-26 19:34:18,219] INFO in main: Successfully preloaded data for Sydney
+[2025-01-26 19:34:18,234] INFO in main: Successfully preloaded data for Tokyo
+[2025-01-26 19:34:18,253] INFO in main: Successfully preloaded data for Toronto
+[2025-01-26 19:36:33,210] INFO in main: Successfully preloaded data for Amsterdam
+[2025-01-26 19:36:33,223] INFO in main: Successfully preloaded data for Athens
+[2025-01-26 19:36:33,242] INFO in main: Successfully preloaded data for Bangkok
+[2025-01-26 19:36:33,259] INFO in main: Successfully preloaded data for Barcelona
+[2025-01-26 19:36:33,271] INFO in main: Successfully preloaded data for Berlin
+[2025-01-26 19:36:33,304] INFO in main: Successfully preloaded data for Buenosaires
+[2025-01-26 19:36:33,325] INFO in main: Successfully preloaded data for CapeTown
+[2025-01-26 19:36:33,348] INFO in main: Successfully preloaded data for Istanbul
+[2025-01-26 19:36:33,425] INFO in main: Successfully preloaded data for London
+[2025-01-26 19:36:33,448] INFO in main: Successfully preloaded data for Madrid
+[2025-01-26 19:36:33,471] INFO in main: Successfully preloaded data for Melbourne
+[2025-01-26 19:36:33,495] INFO in main: Successfully preloaded data for MexicoCity
+[2025-01-26 19:36:33,517] INFO in main: Successfully preloaded data for Milan
+[2025-01-26 19:36:33,547] INFO in main: Successfully preloaded data for Newyorkcity
+[2025-01-26 19:36:33,624] INFO in main: Successfully preloaded data for Paris
+[2025-01-26 19:36:33,653] INFO in main: Successfully preloaded data for RiodeJaneiro
+[2025-01-26 19:36:33,683] INFO in main: Successfully preloaded data for Rome
+[2025-01-26 19:36:33,738] INFO in main: Successfully preloaded data for Sicily
+[2025-01-26 19:36:33,753] INFO in main: Successfully preloaded data for Sydney
+[2025-01-26 19:36:33,768] INFO in main: Successfully preloaded data for Tokyo
+[2025-01-26 19:36:33,786] INFO in main: Successfully preloaded data for Toronto
+[2025-01-26 19:37:18,893] INFO in main: Successfully preloaded data for Amsterdam
+[2025-01-26 19:37:18,906] INFO in main: Successfully preloaded data for Athens
+[2025-01-26 19:37:18,924] INFO in main: Successfully preloaded data for Bangkok
+[2025-01-26 19:37:18,941] INFO in main: Successfully preloaded data for Barcelona
+[2025-01-26 19:37:18,953] INFO in main: Successfully preloaded data for Berlin
+[2025-01-26 19:37:18,985] INFO in main: Successfully preloaded data for Buenosaires
+[2025-01-26 19:37:19,006] INFO in main: Successfully preloaded data for CapeTown
+[2025-01-26 19:37:19,029] INFO in main: Successfully preloaded data for Istanbul
+[2025-01-26 19:37:19,115] INFO in main: Successfully preloaded data for London
+[2025-01-26 19:37:19,138] INFO in main: Successfully preloaded data for Madrid
+[2025-01-26 19:37:19,160] INFO in main: Successfully preloaded data for Melbourne
+[2025-01-26 19:37:19,183] INFO in main: Successfully preloaded data for MexicoCity
+[2025-01-26 19:37:19,204] INFO in main: Successfully preloaded data for Milan
+[2025-01-26 19:37:19,234] INFO in main: Successfully preloaded data for Newyorkcity
+[2025-01-26 19:37:19,313] INFO in main: Successfully preloaded data for Paris
+[2025-01-26 19:37:19,342] INFO in main: Successfully preloaded data for RiodeJaneiro
+[2025-01-26 19:37:19,374] INFO in main: Successfully preloaded data for Rome
+[2025-01-26 19:37:19,427] INFO in main: Successfully preloaded data for Sicily
+[2025-01-26 19:37:19,442] INFO in main: Successfully preloaded data for Sydney
+[2025-01-26 19:37:19,457] INFO in main: Successfully preloaded data for Tokyo
+[2025-01-26 19:37:19,476] INFO in main: Successfully preloaded data for Toronto
+[2025-01-26 19:39:18,593] INFO in main: Successfully preloaded data for Amsterdam
+[2025-01-26 19:39:18,605] INFO in main: Successfully preloaded data for Athens
+[2025-01-26 19:39:18,624] INFO in main: Successfully preloaded data for Bangkok
+[2025-01-26 19:39:18,641] INFO in main: Successfully preloaded data for Barcelona
+[2025-01-26 19:39:18,654] INFO in main: Successfully preloaded data for Berlin
+[2025-01-26 19:39:18,686] INFO in main: Successfully preloaded data for Buenosaires
+[2025-01-26 19:39:18,706] INFO in main: Successfully preloaded data for CapeTown
+[2025-01-26 19:39:18,729] INFO in main: Successfully preloaded data for Istanbul
+[2025-01-26 19:39:18,807] INFO in main: Successfully preloaded data for London
+[2025-01-26 19:39:18,830] INFO in main: Successfully preloaded data for Madrid
+[2025-01-26 19:39:18,852] INFO in main: Successfully preloaded data for Melbourne
+[2025-01-26 19:39:18,880] INFO in main: Successfully preloaded data for MexicoCity
+[2025-01-26 19:39:18,902] INFO in main: Successfully preloaded data for Milan
+[2025-01-26 19:39:18,933] INFO in main: Successfully preloaded data for Newyorkcity
+[2025-01-26 19:39:19,013] INFO in main: Successfully preloaded data for Paris
+[2025-01-26 19:39:19,043] INFO in main: Successfully preloaded data for RiodeJaneiro
+[2025-01-26 19:39:19,076] INFO in main: Successfully preloaded data for Rome
+[2025-01-26 19:39:19,133] INFO in main: Successfully preloaded data for Sicily
+[2025-01-26 19:39:19,148] INFO in main: Successfully preloaded data for Sydney
+[2025-01-26 19:39:19,163] INFO in main: Successfully preloaded data for Tokyo
+[2025-01-26 19:39:19,182] INFO in main: Successfully preloaded data for Toronto
+[2025-01-26 19:39:24,603] ERROR in main: HTTP Exception: 500 - column "processed_price" does not exist
+LINE 5:                         COUNT(processed_price) as processed_...
+                                      ^
+ | Path: /city/Paris/price_stats
+[2025-01-26 19:39:24,603] INFO in main: Path: /city/Paris/price_stats | Method: GET | Status: 500 | Duration: 0.048s
+[2025-01-26 19:39:24,724] INFO in main: Path: /favicon.ico | Method: GET | Status: 404 | Duration: 0.000s
+[2025-01-26 19:39:31,844] INFO in main: Path: /doc | Method: GET | Status: 404 | Duration: 0.000s
+[2025-01-26 19:39:34,763] INFO in main: Path: /doc | Method: GET | Status: 404 | Duration: 0.000s
+[2025-01-26 19:39:43,716] INFO in main: Path: /docs | Method: GET | Status: 200 | Duration: 0.000s
+[2025-01-26 19:39:43,876] INFO in main: Path: /openapi.json | Method: GET | Status: 200 | Duration: 0.004s
+[2025-01-26 19:39:53,744] ERROR in main: HTTP Exception: 500 - column "processed_price" does not exist
+LINE 5:                         COUNT(processed_price) as processed_...
+                                      ^
+ | Path: /city/bangkok/price_stats
+[2025-01-26 19:39:53,744] INFO in main: Path: /city/bangkok/price_stats | Method: GET | Status: 500 | Duration: 0.027s
+[2025-01-26 19:40:15,325] ERROR in main: HTTP Exception: 500 - column "processed_price" does not exist
+LINE 5:                         COUNT(processed_price) as processed_...
+                                      ^
+ | Path: /city/London/price_stats
+[2025-01-26 19:40:15,325] INFO in main: Path: /city/London/price_stats | Method: GET | Status: 500 | Duration: 0.025s
+[2025-01-26 19:42:56,896] INFO in main: Successfully preloaded data for Amsterdam
+[2025-01-26 19:42:56,908] INFO in main: Successfully preloaded data for Athens
+[2025-01-26 19:42:56,929] INFO in main: Successfully preloaded data for Bangkok
+[2025-01-26 19:42:56,947] INFO in main: Successfully preloaded data for Barcelona
+[2025-01-26 19:42:56,959] INFO in main: Successfully preloaded data for Berlin
+[2025-01-26 19:42:56,993] INFO in main: Successfully preloaded data for Buenosaires
+[2025-01-26 19:42:57,014] INFO in main: Successfully preloaded data for CapeTown
+[2025-01-26 19:42:57,038] INFO in main: Successfully preloaded data for Istanbul
+[2025-01-26 19:42:57,117] INFO in main: Successfully preloaded data for London
+[2025-01-26 19:42:57,139] INFO in main: Successfully preloaded data for Madrid
+[2025-01-26 19:42:57,160] INFO in main: Successfully preloaded data for Melbourne
+[2025-01-26 19:42:57,183] INFO in main: Successfully preloaded data for MexicoCity
+[2025-01-26 19:42:57,204] INFO in main: Successfully preloaded data for Milan
+[2025-01-26 19:42:57,235] INFO in main: Successfully preloaded data for Newyorkcity
+[2025-01-26 19:42:57,312] INFO in main: Successfully preloaded data for Paris
+[2025-01-26 19:42:57,342] INFO in main: Successfully preloaded data for RiodeJaneiro
+[2025-01-26 19:42:57,374] INFO in main: Successfully preloaded data for Rome
+[2025-01-26 19:42:57,433] INFO in main: Successfully preloaded data for Sicily
+[2025-01-26 19:42:57,447] INFO in main: Successfully preloaded data for Sydney
+[2025-01-26 19:42:57,463] INFO in main: Successfully preloaded data for Tokyo
+[2025-01-26 19:42:57,481] INFO in main: Successfully preloaded data for Toronto
+[2025-01-26 19:42:59,795] INFO in main: Path: /docs | Method: GET | Status: 200 | Duration: 0.000s
+[2025-01-26 19:42:59,953] INFO in main: Path: /openapi.json | Method: GET | Status: 200 | Duration: 0.003s
+[2025-01-26 19:43:06,363] ERROR in main: HTTP Exception: 500 - column "processed_price" does not exist
+LINE 5:                         COUNT(processed_price) as processed_...
+                                      ^
+ | Path: /city/London/price_stats
+[2025-01-26 19:43:06,363] INFO in main: Path: /city/London/price_stats | Method: GET | Status: 500 | Duration: 0.042s
+[2025-01-26 19:45:16,450] INFO in main: Successfully preloaded data for Amsterdam
+[2025-01-26 19:45:16,464] INFO in main: Successfully preloaded data for Athens
+[2025-01-26 19:45:16,486] INFO in main: Successfully preloaded data for Bangkok
+[2025-01-26 19:45:16,502] INFO in main: Successfully preloaded data for Barcelona
+[2025-01-26 19:45:16,515] INFO in main: Successfully preloaded data for Berlin
+[2025-01-26 19:45:16,547] INFO in main: Successfully preloaded data for Buenosaires
+[2025-01-26 19:45:16,568] INFO in main: Successfully preloaded data for CapeTown
+[2025-01-26 19:45:16,591] INFO in main: Successfully preloaded data for Istanbul
+[2025-01-26 19:45:16,669] INFO in main: Successfully preloaded data for London
+[2025-01-26 19:45:16,692] INFO in main: Successfully preloaded data for Madrid
+[2025-01-26 19:45:16,714] INFO in main: Successfully preloaded data for Melbourne
+[2025-01-26 19:45:16,738] INFO in main: Successfully preloaded data for MexicoCity
+[2025-01-26 19:45:16,761] INFO in main: Successfully preloaded data for Milan
+[2025-01-26 19:45:16,792] INFO in main: Successfully preloaded data for Newyorkcity
+[2025-01-26 19:45:16,868] INFO in main: Successfully preloaded data for Paris
+[2025-01-26 19:45:16,897] INFO in main: Successfully preloaded data for RiodeJaneiro
+[2025-01-26 19:45:16,928] INFO in main: Successfully preloaded data for Rome
+[2025-01-26 19:45:16,985] INFO in main: Successfully preloaded data for Sicily
+[2025-01-26 19:45:17,000] INFO in main: Successfully preloaded data for Sydney
+[2025-01-26 19:45:17,015] INFO in main: Successfully preloaded data for Tokyo
+[2025-01-26 19:45:17,035] INFO in main: Successfully preloaded data for Toronto
+[2025-01-26 19:51:37,058] INFO in main: Successfully preloaded data for Amsterdam
+[2025-01-26 19:51:37,069] INFO in main: Successfully preloaded data for Athens
+[2025-01-26 19:51:37,088] INFO in main: Successfully preloaded data for Bangkok
+[2025-01-26 19:51:37,104] INFO in main: Successfully preloaded data for Barcelona
+[2025-01-26 19:51:37,117] INFO in main: Successfully preloaded data for Berlin
+[2025-01-26 19:51:37,149] INFO in main: Successfully preloaded data for Buenosaires
+[2025-01-26 19:51:37,170] INFO in main: Successfully preloaded data for CapeTown
+[2025-01-26 19:51:37,192] INFO in main: Successfully preloaded data for Istanbul
+[2025-01-26 19:51:37,273] INFO in main: Successfully preloaded data for London
+[2025-01-26 19:51:37,298] INFO in main: Successfully preloaded data for Madrid
+[2025-01-26 19:51:37,321] INFO in main: Successfully preloaded data for Melbourne
+[2025-01-26 19:51:37,344] INFO in main: Successfully preloaded data for MexicoCity
+[2025-01-26 19:51:37,366] INFO in main: Successfully preloaded data for Milan
+[2025-01-26 19:51:37,397] INFO in main: Successfully preloaded data for Newyorkcity
+[2025-01-26 19:51:37,474] INFO in main: Successfully preloaded data for Paris
+[2025-01-26 19:51:37,503] INFO in main: Successfully preloaded data for RiodeJaneiro
+[2025-01-26 19:51:37,534] INFO in main: Successfully preloaded data for Rome
+[2025-01-26 19:51:37,588] INFO in main: Successfully preloaded data for Sicily
+[2025-01-26 19:51:37,603] INFO in main: Successfully preloaded data for Sydney
+[2025-01-26 19:51:37,618] INFO in main: Successfully preloaded data for Tokyo
+[2025-01-26 19:51:37,636] INFO in main: Successfully preloaded data for Toronto
+[2025-01-26 19:52:17,244] INFO in main: Successfully preloaded data for Amsterdam
+[2025-01-26 19:52:17,257] INFO in main: Successfully preloaded data for Athens
+[2025-01-26 19:52:17,276] INFO in main: Successfully preloaded data for Bangkok
+[2025-01-26 19:52:17,294] INFO in main: Successfully preloaded data for Barcelona
+[2025-01-26 19:52:17,306] INFO in main: Successfully preloaded data for Berlin
+[2025-01-26 19:52:17,340] INFO in main: Successfully preloaded data for Buenosaires
+[2025-01-26 19:52:17,360] INFO in main: Successfully preloaded data for CapeTown
+[2025-01-26 19:52:17,385] INFO in main: Successfully preloaded data for Istanbul
+[2025-01-26 19:52:17,462] INFO in main: Successfully preloaded data for London
+[2025-01-26 19:52:17,485] INFO in main: Successfully preloaded data for Madrid
+[2025-01-26 19:52:17,509] INFO in main: Successfully preloaded data for Melbourne
+[2025-01-26 19:52:17,532] INFO in main: Successfully preloaded data for MexicoCity
+[2025-01-26 19:52:17,555] INFO in main: Successfully preloaded data for Milan
+[2025-01-26 19:52:17,586] INFO in main: Successfully preloaded data for Newyorkcity
+[2025-01-26 19:52:17,663] INFO in main: Successfully preloaded data for Paris
+[2025-01-26 19:52:17,692] INFO in main: Successfully preloaded data for RiodeJaneiro
+[2025-01-26 19:52:17,723] INFO in main: Successfully preloaded data for Rome
+[2025-01-26 19:52:17,777] INFO in main: Successfully preloaded data for Sicily
+[2025-01-26 19:52:17,791] INFO in main: Successfully preloaded data for Sydney
+[2025-01-26 19:52:17,807] INFO in main: Successfully preloaded data for Tokyo
+[2025-01-26 19:52:17,825] INFO in main: Successfully preloaded data for Toronto
+[2025-01-26 19:55:43,166] INFO in main: Successfully preloaded data for Amsterdam
+[2025-01-26 19:55:43,179] INFO in main: Successfully preloaded data for Athens
+[2025-01-26 19:55:43,198] INFO in main: Successfully preloaded data for Bangkok
+[2025-01-26 19:55:43,214] INFO in main: Successfully preloaded data for Barcelona
+[2025-01-26 19:55:43,227] INFO in main: Successfully preloaded data for Berlin
+[2025-01-26 19:55:43,259] INFO in main: Successfully preloaded data for Buenosaires
+[2025-01-26 19:55:43,280] INFO in main: Successfully preloaded data for CapeTown
+[2025-01-26 19:55:43,303] INFO in main: Successfully preloaded data for Istanbul
+[2025-01-26 19:55:43,380] INFO in main: Successfully preloaded data for London
+[2025-01-26 19:55:43,404] INFO in main: Successfully preloaded data for Madrid
+[2025-01-26 19:55:43,425] INFO in main: Successfully preloaded data for Melbourne
+[2025-01-26 19:55:43,448] INFO in main: Successfully preloaded data for MexicoCity
+[2025-01-26 19:55:43,470] INFO in main: Successfully preloaded data for Milan
+[2025-01-26 19:55:43,501] INFO in main: Successfully preloaded data for Newyorkcity
+[2025-01-26 19:55:43,579] INFO in main: Successfully preloaded data for Paris
+[2025-01-26 19:55:43,609] INFO in main: Successfully preloaded data for RiodeJaneiro
+[2025-01-26 19:55:43,640] INFO in main: Successfully preloaded data for Rome
+[2025-01-26 19:55:43,685] INFO in main: Successfully preloaded data for Sicily
+[2025-01-26 19:55:43,699] INFO in main: Successfully preloaded data for Sydney
+[2025-01-26 19:55:43,716] INFO in main: Successfully preloaded data for Tokyo
+[2025-01-26 19:55:43,735] INFO in main: Successfully preloaded data for Toronto
+[2025-01-26 19:57:38,613] INFO in main: Successfully preloaded data for Amsterdam
+[2025-01-26 19:57:38,626] INFO in main: Successfully preloaded data for Athens
+[2025-01-26 19:57:38,644] INFO in main: Successfully preloaded data for Bangkok
+[2025-01-26 19:57:38,661] INFO in main: Successfully preloaded data for Barcelona
+[2025-01-26 19:57:38,673] INFO in main: Successfully preloaded data for Berlin
+[2025-01-26 19:57:38,705] INFO in main: Successfully preloaded data for Buenosaires
+[2025-01-26 19:57:38,726] INFO in main: Successfully preloaded data for CapeTown
+[2025-01-26 19:57:38,750] INFO in main: Successfully preloaded data for Istanbul
+[2025-01-26 19:57:38,827] INFO in main: Successfully preloaded data for London
+[2025-01-26 19:57:38,850] INFO in main: Successfully preloaded data for Madrid
+[2025-01-26 19:57:38,872] INFO in main: Successfully preloaded data for Melbourne
+[2025-01-26 19:57:38,894] INFO in main: Successfully preloaded data for MexicoCity
+[2025-01-26 19:57:38,916] INFO in main: Successfully preloaded data for Milan
+[2025-01-26 19:57:38,946] INFO in main: Successfully preloaded data for Newyorkcity
+[2025-01-26 19:57:39,020] INFO in main: Successfully preloaded data for Paris
+[2025-01-26 19:57:39,048] INFO in main: Successfully preloaded data for RiodeJaneiro
+[2025-01-26 19:57:39,079] INFO in main: Successfully preloaded data for Rome
+[2025-01-26 19:57:39,124] INFO in main: Successfully preloaded data for Sicily
+[2025-01-26 19:57:39,138] INFO in main: Successfully preloaded data for Sydney
+[2025-01-26 19:57:39,154] INFO in main: Successfully preloaded data for Tokyo
+[2025-01-26 19:57:39,172] INFO in main: Successfully preloaded data for Toronto
+[2025-01-26 19:58:18,559] INFO in main: Fetching cities list
+[2025-01-26 19:58:18,675] INFO in main: Found 21 cities
+[2025-01-26 19:58:18,677] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.119s
+[2025-01-26 19:58:26,395] INFO in main: Fetching cities list
+[2025-01-26 19:58:26,456] INFO in main: Found 21 cities
+[2025-01-26 19:58:26,456] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.062s
+[2025-01-26 19:58:31,562] INFO in main: Path: /city/London | Method: GET | Status: 200 | Duration: 0.001s
+[2025-01-26 19:58:31,938] INFO in main: Path: /city/London/yearly_stats | Method: GET | Status: 200 | Duration: 0.351s
+[2025-01-26 19:58:32,166] INFO in main: Path: /city/London/host_ranking | Method: GET | Status: 200 | Duration: 0.091s
+[2025-01-26 20:02:13,134] INFO in main: Starting price data preprocessing...
+[2025-01-26 20:02:22,761] INFO in main: Price preprocessing completed successfully
+[2025-01-26 20:03:25,945] INFO in main: Starting price data preprocessing...
+[2025-01-26 20:03:35,097] INFO in main: Price preprocessing completed successfully
+[2025-01-26 20:04:36,106] INFO in main: Starting price data preprocessing...
+[2025-01-26 20:04:45,234] INFO in main: Price preprocessing completed successfully
+[2025-01-26 20:07:09,383] INFO in main: Successfully preloaded data for Amsterdam
+[2025-01-26 20:07:09,397] INFO in main: Successfully preloaded data for Athens
+[2025-01-26 20:07:09,416] INFO in main: Successfully preloaded data for Bangkok
+[2025-01-26 20:07:09,434] INFO in main: Successfully preloaded data for Barcelona
+[2025-01-26 20:07:09,447] INFO in main: Successfully preloaded data for Berlin
+[2025-01-26 20:07:09,479] INFO in main: Successfully preloaded data for Buenosaires
+[2025-01-26 20:07:09,499] INFO in main: Successfully preloaded data for CapeTown
+[2025-01-26 20:07:09,522] INFO in main: Successfully preloaded data for Istanbul
+[2025-01-26 20:07:09,601] INFO in main: Successfully preloaded data for London
+[2025-01-26 20:07:09,624] INFO in main: Successfully preloaded data for Madrid
+[2025-01-26 20:07:09,647] INFO in main: Successfully preloaded data for Melbourne
+[2025-01-26 20:07:09,671] INFO in main: Successfully preloaded data for MexicoCity
+[2025-01-26 20:07:09,695] INFO in main: Successfully preloaded data for Milan
+[2025-01-26 20:07:09,725] INFO in main: Successfully preloaded data for Newyorkcity
+[2025-01-26 20:07:09,803] INFO in main: Successfully preloaded data for Paris
+[2025-01-26 20:07:09,833] INFO in main: Successfully preloaded data for RiodeJaneiro
+[2025-01-26 20:07:09,865] INFO in main: Successfully preloaded data for Rome
+[2025-01-26 20:07:09,911] INFO in main: Successfully preloaded data for Sicily
+[2025-01-26 20:07:09,925] INFO in main: Successfully preloaded data for Sydney
+[2025-01-26 20:07:09,941] INFO in main: Successfully preloaded data for Tokyo
+[2025-01-26 20:07:09,960] INFO in main: Successfully preloaded data for Toronto
+[2025-01-26 20:08:40,601] INFO in main: Fetching cities list
+[2025-01-26 20:08:40,678] INFO in main: Found 21 cities
+[2025-01-26 20:08:40,679] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.078s
+[2025-01-26 20:08:55,070] INFO in main: Path: /city/London | Method: GET | Status: 200 | Duration: 0.001s
+[2025-01-26 20:08:55,432] INFO in main: Path: /city/London/yearly_stats | Method: GET | Status: 200 | Duration: 0.338s
+[2025-01-26 20:08:55,657] INFO in main: Path: /city/London/host_ranking | Method: GET | Status: 200 | Duration: 0.067s
+[2025-01-26 20:08:57,300] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 200 | Duration: 0.053s
+[2025-01-26 20:08:58,352] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 200 | Duration: 0.061s
+[2025-01-26 20:08:59,762] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 200 | Duration: 0.053s
+[2025-01-26 20:09:01,003] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 200 | Duration: 0.072s
+[2025-01-26 20:09:02,348] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 200 | Duration: 0.049s
+[2025-01-26 20:11:36,912] INFO in main: Successfully preloaded data for Amsterdam
+[2025-01-26 20:11:36,925] INFO in main: Successfully preloaded data for Athens
+[2025-01-26 20:11:36,943] INFO in main: Successfully preloaded data for Bangkok
+[2025-01-26 20:11:36,960] INFO in main: Successfully preloaded data for Barcelona
+[2025-01-26 20:11:36,973] INFO in main: Successfully preloaded data for Berlin
+[2025-01-26 20:11:37,006] INFO in main: Successfully preloaded data for Buenosaires
+[2025-01-26 20:11:37,026] INFO in main: Successfully preloaded data for CapeTown
+[2025-01-26 20:11:37,086] INFO in main: Successfully preloaded data for Istanbul
+[2025-01-26 20:11:37,165] INFO in main: Successfully preloaded data for London
+[2025-01-26 20:11:37,188] INFO in main: Successfully preloaded data for Madrid
+[2025-01-26 20:11:37,210] INFO in main: Successfully preloaded data for Melbourne
+[2025-01-26 20:11:37,233] INFO in main: Successfully preloaded data for MexicoCity
+[2025-01-26 20:11:37,255] INFO in main: Successfully preloaded data for Milan
+[2025-01-26 20:11:37,286] INFO in main: Successfully preloaded data for Newyorkcity
+[2025-01-26 20:11:37,363] INFO in main: Successfully preloaded data for Paris
+[2025-01-26 20:11:37,392] INFO in main: Successfully preloaded data for RiodeJaneiro
+[2025-01-26 20:11:37,423] INFO in main: Successfully preloaded data for Rome
+[2025-01-26 20:11:37,469] INFO in main: Successfully preloaded data for Sicily
+[2025-01-26 20:11:37,483] INFO in main: Successfully preloaded data for Sydney
+[2025-01-26 20:11:37,499] INFO in main: Successfully preloaded data for Tokyo
+[2025-01-26 20:11:37,518] INFO in main: Successfully preloaded data for Toronto
+[2025-01-26 20:17:08,671] INFO in main: Successfully preloaded data for Amsterdam
+[2025-01-26 20:17:08,684] INFO in main: Successfully preloaded data for Athens
+[2025-01-26 20:17:08,702] INFO in main: Successfully preloaded data for Bangkok
+[2025-01-26 20:17:08,720] INFO in main: Successfully preloaded data for Barcelona
+[2025-01-26 20:17:08,733] INFO in main: Successfully preloaded data for Berlin
+[2025-01-26 20:17:08,764] INFO in main: Successfully preloaded data for Buenosaires
+[2025-01-26 20:17:08,783] INFO in main: Successfully preloaded data for CapeTown
+[2025-01-26 20:17:08,807] INFO in main: Successfully preloaded data for Istanbul
+[2025-01-26 20:17:08,882] INFO in main: Successfully preloaded data for London
+[2025-01-26 20:17:08,905] INFO in main: Successfully preloaded data for Madrid
+[2025-01-26 20:17:08,928] INFO in main: Successfully preloaded data for Melbourne
+[2025-01-26 20:17:08,951] INFO in main: Successfully preloaded data for MexicoCity
+[2025-01-26 20:17:08,973] INFO in main: Successfully preloaded data for Milan
+[2025-01-26 20:17:09,007] INFO in main: Successfully preloaded data for Newyorkcity
+[2025-01-26 20:17:09,084] INFO in main: Successfully preloaded data for Paris
+[2025-01-26 20:17:09,113] INFO in main: Successfully preloaded data for RiodeJaneiro
+[2025-01-26 20:17:09,143] INFO in main: Successfully preloaded data for Rome
+[2025-01-26 20:17:09,189] INFO in main: Successfully preloaded data for Sicily
+[2025-01-26 20:17:09,204] INFO in main: Successfully preloaded data for Sydney
+[2025-01-26 20:17:09,219] INFO in main: Successfully preloaded data for Tokyo
+[2025-01-26 20:17:09,239] INFO in main: Successfully preloaded data for Toronto
+[2025-01-26 20:18:00,844] INFO in main: Successfully preloaded data for Amsterdam
+[2025-01-26 20:18:00,857] INFO in main: Successfully preloaded data for Athens
+[2025-01-26 20:18:00,876] INFO in main: Successfully preloaded data for Bangkok
+[2025-01-26 20:18:00,893] INFO in main: Successfully preloaded data for Barcelona
+[2025-01-26 20:18:00,908] INFO in main: Successfully preloaded data for Berlin
+[2025-01-26 20:18:00,945] INFO in main: Successfully preloaded data for Buenosaires
+[2025-01-26 20:18:00,966] INFO in main: Successfully preloaded data for CapeTown
+[2025-01-26 20:18:00,990] INFO in main: Successfully preloaded data for Istanbul
+[2025-01-26 20:18:01,071] INFO in main: Successfully preloaded data for London
+[2025-01-26 20:18:01,096] INFO in main: Successfully preloaded data for Madrid
+[2025-01-26 20:18:01,120] INFO in main: Successfully preloaded data for Melbourne
+[2025-01-26 20:18:01,145] INFO in main: Successfully preloaded data for MexicoCity
+[2025-01-26 20:18:01,167] INFO in main: Successfully preloaded data for Milan
+[2025-01-26 20:18:01,209] INFO in main: Successfully preloaded data for Newyorkcity
+[2025-01-26 20:18:01,285] INFO in main: Successfully preloaded data for Paris
+[2025-01-26 20:18:01,318] INFO in main: Successfully preloaded data for RiodeJaneiro
+[2025-01-26 20:18:01,350] INFO in main: Successfully preloaded data for Rome
+[2025-01-26 20:18:01,395] INFO in main: Successfully preloaded data for Sicily
+[2025-01-26 20:18:01,410] INFO in main: Successfully preloaded data for Sydney
+[2025-01-26 20:18:01,426] INFO in main: Successfully preloaded data for Tokyo
+[2025-01-26 20:18:01,444] INFO in main: Successfully preloaded data for Toronto
+[2025-01-26 20:18:26,748] INFO in main: Fetching cities list
+[2025-01-26 20:18:26,815] INFO in main: Found 21 cities
+[2025-01-26 20:18:26,815] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.067s
+[2025-01-26 20:18:31,963] INFO in main: Fetching cities list
+[2025-01-26 20:18:32,026] INFO in main: Found 21 cities
+[2025-01-26 20:18:32,028] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.066s
+[2025-01-26 20:19:40,581] INFO in main: Path: /city/London | Method: GET | Status: 200 | Duration: 0.002s
+[2025-01-26 20:19:40,966] INFO in main: Path: /city/London/yearly_stats | Method: GET | Status: 200 | Duration: 0.350s
+[2025-01-26 20:19:41,180] INFO in main: Path: /city/London/host_ranking | Method: GET | Status: 200 | Duration: 0.069s
+[2025-01-26 20:19:43,563] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 200 | Duration: 0.055s
+[2025-01-26 20:20:15,943] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 200 | Duration: 0.179s
+[2025-01-26 20:20:19,726] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 200 | Duration: 0.068s
+[2025-01-26 20:20:25,463] INFO in main: Fetching cities list
+[2025-01-26 20:20:25,547] INFO in main: Found 21 cities
+[2025-01-26 20:20:25,548] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.086s
+[2025-01-26 20:20:28,549] INFO in main: Path: /city/Melbourne | Method: GET | Status: 200 | Duration: 0.000s
+[2025-01-26 20:20:28,684] INFO in main: Path: /city/Melbourne/yearly_stats | Method: GET | Status: 200 | Duration: 0.110s
+[2025-01-26 20:20:29,155] INFO in main: Path: /city/Melbourne/host_ranking | Method: GET | Status: 200 | Duration: 0.044s
+[2025-01-26 20:20:30,137] INFO in main: Path: /city/Melbourne/listings_by_categories | Method: GET | Status: 200 | Duration: 0.041s
+[2025-01-26 20:21:31,957] INFO in main: Fetching cities list
+[2025-01-26 20:21:32,027] INFO in main: Found 21 cities
+[2025-01-26 20:21:32,028] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.071s
+[2025-01-26 20:22:04,808] INFO in main: Path: /city/London | Method: GET | Status: 200 | Duration: 0.000s
+[2025-01-26 20:22:05,187] INFO in main: Path: /city/London/yearly_stats | Method: GET | Status: 200 | Duration: 0.355s
+[2025-01-26 20:22:05,401] INFO in main: Path: /city/London/host_ranking | Method: GET | Status: 200 | Duration: 0.082s
+[2025-01-26 20:22:06,655] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 200 | Duration: 0.054s
+[2025-01-26 21:14:38,451] INFO in main: Path: /city/Newyorkcity | Method: GET | Status: 200 | Duration: 0.010s
+[2025-01-26 21:14:38,713] INFO in main: Path: /city/Newyorkcity/yearly_stats | Method: GET | Status: 200 | Duration: 0.189s
+[2025-01-26 21:14:39,069] INFO in main: Path: /city/Newyorkcity/host_ranking | Method: GET | Status: 200 | Duration: 0.052s
+[2025-01-26 21:14:41,754] INFO in main: Path: /city/Newyorkcity/listings_by_categories | Method: GET | Status: 200 | Duration: 0.045s
+[2025-01-26 21:14:57,743] INFO in main: Path: /city/Newyorkcity/listings_by_categories | Method: GET | Status: 200 | Duration: 0.084s
+[2025-01-26 21:15:12,590] INFO in main: Path: /city/Newyorkcity/listings_by_categories | Method: GET | Status: 200 | Duration: 0.140s
+[2025-01-26 21:15:41,931] INFO in main: Fetching cities list
+[2025-01-26 21:15:42,024] INFO in main: Found 21 cities
+[2025-01-26 21:15:42,025] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.093s
+[2025-01-26 21:15:43,845] INFO in main: Path: /city/London | Method: GET | Status: 200 | Duration: 0.000s
+[2025-01-26 21:15:44,225] INFO in main: Path: /city/London/yearly_stats | Method: GET | Status: 200 | Duration: 0.343s
+[2025-01-26 21:15:44,434] INFO in main: Path: /city/London/host_ranking | Method: GET | Status: 200 | Duration: 0.068s
+[2025-01-26 21:16:09,239] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 200 | Duration: 0.053s
+[2025-01-26 21:35:57,651] INFO in main: Path: /city/Newyorkcity | Method: GET | Status: 200 | Duration: 0.002s
+[2025-01-26 21:35:57,887] INFO in main: Path: /city/Newyorkcity/yearly_stats | Method: GET | Status: 200 | Duration: 0.174s
+[2025-01-26 21:35:58,313] INFO in main: Path: /city/Newyorkcity/host_ranking | Method: GET | Status: 200 | Duration: 0.090s
+[2025-01-26 21:36:00,357] INFO in main: Path: /city/Newyorkcity/listings_by_categories | Method: GET | Status: 200 | Duration: 0.077s
+[2025-01-26 21:43:05,382] INFO in main: Successfully preloaded data for Amsterdam
+[2025-01-26 21:43:05,399] INFO in main: Successfully preloaded data for Athens
+[2025-01-26 21:43:05,423] INFO in main: Successfully preloaded data for Bangkok
+[2025-01-26 21:43:05,446] INFO in main: Successfully preloaded data for Barcelona
+[2025-01-26 21:43:05,461] INFO in main: Successfully preloaded data for Berlin
+[2025-01-26 21:43:05,497] INFO in main: Successfully preloaded data for Buenosaires
+[2025-01-26 21:43:05,521] INFO in main: Successfully preloaded data for CapeTown
+[2025-01-26 21:43:05,547] INFO in main: Successfully preloaded data for Istanbul
+[2025-01-26 21:43:05,652] INFO in main: Successfully preloaded data for London
+[2025-01-26 21:43:05,677] INFO in main: Successfully preloaded data for Madrid
+[2025-01-26 21:43:05,702] INFO in main: Successfully preloaded data for Melbourne
+[2025-01-26 21:43:05,726] INFO in main: Successfully preloaded data for MexicoCity
+[2025-01-26 21:43:05,764] INFO in main: Successfully preloaded data for Milan
+[2025-01-26 21:43:05,796] INFO in main: Successfully preloaded data for Newyorkcity
+[2025-01-26 21:43:05,896] INFO in main: Successfully preloaded data for Paris
+[2025-01-26 21:43:05,946] INFO in main: Successfully preloaded data for RiodeJaneiro
+[2025-01-26 21:43:06,002] INFO in main: Successfully preloaded data for Rome
+[2025-01-26 21:43:06,151] INFO in main: Successfully preloaded data for Sicily
+[2025-01-26 21:43:06,174] INFO in main: Successfully preloaded data for Sydney
+[2025-01-26 21:43:06,190] INFO in main: Successfully preloaded data for Tokyo
+[2025-01-26 21:43:06,229] INFO in main: Successfully preloaded data for Toronto
+[2025-01-26 21:43:06,235] INFO in main: Fetching cities list
+[2025-01-26 21:43:06,319] INFO in main: Found 21 cities
+[2025-01-26 21:43:06,320] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.086s
+[2025-01-26 21:43:10,700] INFO in main: Path: /city/London | Method: GET | Status: 200 | Duration: 0.000s
+[2025-01-26 21:43:11,079] INFO in main: Path: /city/London/yearly_stats | Method: GET | Status: 200 | Duration: 0.345s
+[2025-01-26 21:43:11,279] INFO in main: Path: /city/London/host_ranking | Method: GET | Status: 200 | Duration: 0.073s
+[2025-01-26 21:43:13,010] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 422 | Duration: 0.002s
+[2025-01-26 21:43:51,948] INFO in main: Successfully preloaded data for Amsterdam
+[2025-01-26 21:43:51,963] INFO in main: Successfully preloaded data for Athens
+[2025-01-26 21:43:51,986] INFO in main: Successfully preloaded data for Bangkok
+[2025-01-26 21:43:52,006] INFO in main: Successfully preloaded data for Barcelona
+[2025-01-26 21:43:52,021] INFO in main: Successfully preloaded data for Berlin
+[2025-01-26 21:43:52,058] INFO in main: Successfully preloaded data for Buenosaires
+[2025-01-26 21:43:52,083] INFO in main: Successfully preloaded data for CapeTown
+[2025-01-26 21:43:52,108] INFO in main: Successfully preloaded data for Istanbul
+[2025-01-26 21:43:52,191] INFO in main: Successfully preloaded data for London
+[2025-01-26 21:43:52,215] INFO in main: Successfully preloaded data for Madrid
+[2025-01-26 21:43:52,238] INFO in main: Successfully preloaded data for Melbourne
+[2025-01-26 21:43:52,265] INFO in main: Successfully preloaded data for MexicoCity
+[2025-01-26 21:43:52,289] INFO in main: Successfully preloaded data for Milan
+[2025-01-26 21:43:52,321] INFO in main: Successfully preloaded data for Newyorkcity
+[2025-01-26 21:43:52,401] INFO in main: Successfully preloaded data for Paris
+[2025-01-26 21:43:52,430] INFO in main: Successfully preloaded data for RiodeJaneiro
+[2025-01-26 21:43:52,463] INFO in main: Successfully preloaded data for Rome
+[2025-01-26 21:43:52,509] INFO in main: Successfully preloaded data for Sicily
+[2025-01-26 21:43:52,523] INFO in main: Successfully preloaded data for Sydney
+[2025-01-26 21:43:52,540] INFO in main: Successfully preloaded data for Tokyo
+[2025-01-26 21:43:52,561] INFO in main: Successfully preloaded data for Toronto
+[2025-01-26 21:43:52,597] INFO in main: Path: /city/Newyorkcity | Method: GET | Status: 200 | Duration: 0.001s
+[2025-01-26 21:43:52,816] INFO in main: Path: /city/Newyorkcity/yearly_stats | Method: GET | Status: 200 | Duration: 0.154s
+[2025-01-26 21:43:53,224] INFO in main: Path: /city/Newyorkcity/host_ranking | Method: GET | Status: 200 | Duration: 0.081s
+[2025-01-26 21:43:54,691] ERROR in main: HTTP Exception: 500 - column "host_category" does not exist
+LINE 9:                         host_category
+                                ^
+ | Path: /city/Newyorkcity/listings_by_categories
+[2025-01-26 21:43:54,692] INFO in main: Path: /city/Newyorkcity/listings_by_categories | Method: GET | Status: 500 | Duration: 0.030s
+[2025-01-26 21:44:58,320] INFO in main: Fetching cities list
+[2025-01-26 21:44:58,439] INFO in main: Found 21 cities
+[2025-01-26 21:44:58,440] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.120s
+[2025-01-26 21:44:59,860] INFO in main: Path: /city/London | Method: GET | Status: 200 | Duration: 0.000s
+[2025-01-26 21:45:00,248] INFO in main: Path: /city/London/yearly_stats | Method: GET | Status: 200 | Duration: 0.364s
+[2025-01-26 21:45:00,450] INFO in main: Path: /city/London/host_ranking | Method: GET | Status: 200 | Duration: 0.079s
+[2025-01-26 21:45:01,773] ERROR in main: HTTP Exception: 500 - column "host_category" does not exist
+LINE 9:                         host_category
+                                ^
+ | Path: /city/London/listings_by_categories
+[2025-01-26 21:45:01,774] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 500 | Duration: 0.028s
+[2025-01-26 21:46:25,739] INFO in main: Path: /city/Milan | Method: GET | Status: 200 | Duration: 0.002s
+[2025-01-26 21:46:25,962] INFO in main: Path: /city/Milan/yearly_stats | Method: GET | Status: 200 | Duration: 0.128s
+[2025-01-26 21:46:26,362] INFO in main: Path: /city/Milan/host_ranking | Method: GET | Status: 200 | Duration: 0.050s
+[2025-01-26 21:46:27,436] ERROR in main: HTTP Exception: 500 - column "host_category" does not exist
+LINE 9:                         host_category
+                                ^
+ | Path: /city/Milan/listings_by_categories
+[2025-01-26 21:46:27,436] INFO in main: Path: /city/Milan/listings_by_categories | Method: GET | Status: 500 | Duration: 0.028s
+[2025-01-26 21:46:28,725] ERROR in main: HTTP Exception: 500 - column "host_category" does not exist
+LINE 9:                         host_category
+                                ^
+ | Path: /city/Milan/listings_by_categories
+[2025-01-26 21:46:28,726] INFO in main: Path: /city/Milan/listings_by_categories | Method: GET | Status: 500 | Duration: 0.027s
+[2025-01-26 21:48:10,593] INFO in main: Successfully preloaded data for Amsterdam
+[2025-01-26 21:48:10,609] INFO in main: Successfully preloaded data for Athens
+[2025-01-26 21:48:10,630] INFO in main: Successfully preloaded data for Bangkok
+[2025-01-26 21:48:10,651] INFO in main: Successfully preloaded data for Barcelona
+[2025-01-26 21:48:10,667] INFO in main: Successfully preloaded data for Berlin
+[2025-01-26 21:48:10,701] INFO in main: Successfully preloaded data for Buenosaires
+[2025-01-26 21:48:10,721] INFO in main: Successfully preloaded data for CapeTown
+[2025-01-26 21:48:10,746] INFO in main: Successfully preloaded data for Istanbul
+[2025-01-26 21:48:10,827] INFO in main: Successfully preloaded data for London
+[2025-01-26 21:48:10,850] INFO in main: Successfully preloaded data for Madrid
+[2025-01-26 21:48:10,872] INFO in main: Successfully preloaded data for Melbourne
+[2025-01-26 21:48:10,896] INFO in main: Successfully preloaded data for MexicoCity
+[2025-01-26 21:48:10,918] INFO in main: Successfully preloaded data for Milan
+[2025-01-26 21:48:10,949] INFO in main: Successfully preloaded data for Newyorkcity
+[2025-01-26 21:48:11,029] INFO in main: Successfully preloaded data for Paris
+[2025-01-26 21:48:11,059] INFO in main: Successfully preloaded data for RiodeJaneiro
+[2025-01-26 21:48:11,090] INFO in main: Successfully preloaded data for Rome
+[2025-01-26 21:48:11,137] INFO in main: Successfully preloaded data for Sicily
+[2025-01-26 21:48:11,152] INFO in main: Successfully preloaded data for Sydney
+[2025-01-26 21:48:11,168] INFO in main: Successfully preloaded data for Tokyo
+[2025-01-26 21:48:11,187] INFO in main: Successfully preloaded data for Toronto
+[2025-01-26 21:50:16,608] INFO in main: Fetching cities list
+[2025-01-26 21:50:16,752] INFO in main: Found 21 cities
+[2025-01-26 21:50:16,753] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.146s
+[2025-01-26 21:50:19,069] INFO in main: Successfully preloaded data for Amsterdam
+[2025-01-26 21:50:19,086] INFO in main: Successfully preloaded data for Athens
+[2025-01-26 21:50:19,108] INFO in main: Successfully preloaded data for Bangkok
+[2025-01-26 21:50:19,128] INFO in main: Successfully preloaded data for Barcelona
+[2025-01-26 21:50:19,143] INFO in main: Successfully preloaded data for Berlin
+[2025-01-26 21:50:19,180] INFO in main: Successfully preloaded data for Buenosaires
+[2025-01-26 21:50:19,200] INFO in main: Successfully preloaded data for CapeTown
+[2025-01-26 21:50:19,225] INFO in main: Successfully preloaded data for Istanbul
+[2025-01-26 21:50:19,305] INFO in main: Successfully preloaded data for London
+[2025-01-26 21:50:19,330] INFO in main: Successfully preloaded data for Madrid
+[2025-01-26 21:50:19,352] INFO in main: Successfully preloaded data for Melbourne
+[2025-01-26 21:50:19,377] INFO in main: Successfully preloaded data for MexicoCity
+[2025-01-26 21:50:19,399] INFO in main: Successfully preloaded data for Milan
+[2025-01-26 21:50:19,431] INFO in main: Successfully preloaded data for Newyorkcity
+[2025-01-26 21:50:19,509] INFO in main: Successfully preloaded data for Paris
+[2025-01-26 21:50:19,538] INFO in main: Successfully preloaded data for RiodeJaneiro
+[2025-01-26 21:50:19,569] INFO in main: Successfully preloaded data for Rome
+[2025-01-26 21:50:19,616] INFO in main: Successfully preloaded data for Sicily
+[2025-01-26 21:50:19,631] INFO in main: Successfully preloaded data for Sydney
+[2025-01-26 21:50:19,646] INFO in main: Successfully preloaded data for Tokyo
+[2025-01-26 21:50:19,670] INFO in main: Successfully preloaded data for Toronto
+[2025-01-26 21:50:19,675] INFO in main: Path: /city/London | Method: GET | Status: 200 | Duration: 0.001s
+[2025-01-26 21:50:20,038] INFO in main: Path: /city/London/yearly_stats | Method: GET | Status: 200 | Duration: 0.344s
+[2025-01-26 21:50:20,270] INFO in main: Path: /city/London/host_ranking | Method: GET | Status: 200 | Duration: 0.088s
+[2025-01-26 21:50:21,636] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 200 | Duration: 0.074s
+[2025-01-26 21:51:25,203] INFO in main: Successfully preloaded data for Amsterdam
+[2025-01-26 21:51:25,219] INFO in main: Successfully preloaded data for Athens
+[2025-01-26 21:51:25,241] INFO in main: Successfully preloaded data for Bangkok
+[2025-01-26 21:51:25,262] INFO in main: Successfully preloaded data for Barcelona
+[2025-01-26 21:51:25,277] INFO in main: Successfully preloaded data for Berlin
+[2025-01-26 21:51:25,313] INFO in main: Successfully preloaded data for Buenosaires
+[2025-01-26 21:51:25,334] INFO in main: Successfully preloaded data for CapeTown
+[2025-01-26 21:51:25,358] INFO in main: Successfully preloaded data for Istanbul
+[2025-01-26 21:51:25,442] INFO in main: Successfully preloaded data for London
+[2025-01-26 21:51:25,466] INFO in main: Successfully preloaded data for Madrid
+[2025-01-26 21:51:25,489] INFO in main: Successfully preloaded data for Melbourne
+[2025-01-26 21:51:25,513] INFO in main: Successfully preloaded data for MexicoCity
+[2025-01-26 21:51:25,535] INFO in main: Successfully preloaded data for Milan
+[2025-01-26 21:51:25,567] INFO in main: Successfully preloaded data for Newyorkcity
+[2025-01-26 21:51:25,646] INFO in main: Successfully preloaded data for Paris
+[2025-01-26 21:51:25,678] INFO in main: Successfully preloaded data for RiodeJaneiro
+[2025-01-26 21:51:25,709] INFO in main: Successfully preloaded data for Rome
+[2025-01-26 21:51:25,755] INFO in main: Successfully preloaded data for Sicily
+[2025-01-26 21:51:25,771] INFO in main: Successfully preloaded data for Sydney
+[2025-01-26 21:51:25,786] INFO in main: Successfully preloaded data for Tokyo
+[2025-01-26 21:51:25,805] INFO in main: Successfully preloaded data for Toronto
+[2025-01-26 21:51:25,811] INFO in main: Fetching cities list
+[2025-01-26 21:51:25,874] INFO in main: Found 21 cities
+[2025-01-26 21:51:25,875] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.064s
+[2025-01-26 21:51:46,419] INFO in main: Fetching cities list
+[2025-01-26 21:51:46,559] INFO in main: Found 21 cities
+[2025-01-26 21:51:46,560] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.141s
+[2025-01-26 21:51:48,670] INFO in main: Path: /city/London | Method: GET | Status: 200 | Duration: 0.001s
+[2025-01-26 21:51:49,070] INFO in main: Path: /city/London/yearly_stats | Method: GET | Status: 200 | Duration: 0.377s
+[2025-01-26 21:51:49,282] INFO in main: Path: /city/London/host_ranking | Method: GET | Status: 200 | Duration: 0.089s
+[2025-01-26 21:51:50,854] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 200 | Duration: 0.062s
+[2025-01-26 21:52:06,767] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 200 | Duration: 0.063s
+[2025-01-26 21:52:09,788] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 200 | Duration: 0.053s
+[2025-01-26 22:00:08,830] INFO in main: Fetching cities list
+[2025-01-26 22:00:08,907] INFO in main: Found 21 cities
+[2025-01-26 22:00:08,908] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.078s
+[2025-01-26 22:00:10,946] INFO in main: Path: /city/London | Method: GET | Status: 200 | Duration: 0.000s
+[2025-01-26 22:00:11,345] INFO in main: Path: /city/London/yearly_stats | Method: GET | Status: 200 | Duration: 0.369s
+[2025-01-26 22:00:11,532] INFO in main: Path: /city/London/host_ranking | Method: GET | Status: 200 | Duration: 0.069s
+[2025-01-26 22:00:12,829] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 200 | Duration: 0.050s
+[2025-01-26 22:02:12,732] INFO in main: Path: /city/Paris | Method: GET | Status: 200 | Duration: 0.000s
+[2025-01-26 22:02:13,221] INFO in main: Path: /city/Paris/yearly_stats | Method: GET | Status: 200 | Duration: 0.413s
+[2025-01-26 22:02:13,474] INFO in main: Path: /city/Paris/host_ranking | Method: GET | Status: 200 | Duration: 0.072s
+[2025-01-26 22:02:15,350] INFO in main: Path: /city/Paris/listings_by_categories | Method: GET | Status: 200 | Duration: 0.054s
+[2025-01-26 22:02:16,068] INFO in main: Path: /city/Paris/listings_by_categories | Method: GET | Status: 200 | Duration: 0.050s
+[2025-01-26 22:04:21,565] INFO in main: Successfully preloaded data for Amsterdam
+[2025-01-26 22:04:21,581] INFO in main: Successfully preloaded data for Athens
+[2025-01-26 22:04:21,603] INFO in main: Successfully preloaded data for Bangkok
+[2025-01-26 22:04:21,625] INFO in main: Successfully preloaded data for Barcelona
+[2025-01-26 22:04:21,639] INFO in main: Successfully preloaded data for Berlin
+[2025-01-26 22:04:21,677] INFO in main: Successfully preloaded data for Buenosaires
+[2025-01-26 22:04:21,699] INFO in main: Successfully preloaded data for CapeTown
+[2025-01-26 22:04:21,724] INFO in main: Successfully preloaded data for Istanbul
+[2025-01-26 22:04:21,805] INFO in main: Successfully preloaded data for London
+[2025-01-26 22:04:21,830] INFO in main: Successfully preloaded data for Madrid
+[2025-01-26 22:04:21,854] INFO in main: Successfully preloaded data for Melbourne
+[2025-01-26 22:04:21,878] INFO in main: Successfully preloaded data for MexicoCity
+[2025-01-26 22:04:21,901] INFO in main: Successfully preloaded data for Milan
+[2025-01-26 22:04:21,934] INFO in main: Successfully preloaded data for Newyorkcity
+[2025-01-26 22:04:22,014] INFO in main: Successfully preloaded data for Paris
+[2025-01-26 22:04:22,046] INFO in main: Successfully preloaded data for RiodeJaneiro
+[2025-01-26 22:04:22,078] INFO in main: Successfully preloaded data for Rome
+[2025-01-26 22:04:22,128] INFO in main: Successfully preloaded data for Sicily
+[2025-01-26 22:04:22,144] INFO in main: Successfully preloaded data for Sydney
+[2025-01-26 22:04:22,160] INFO in main: Successfully preloaded data for Tokyo
+[2025-01-26 22:04:22,180] INFO in main: Successfully preloaded data for Toronto
+[2025-01-26 22:04:23,068] INFO in main: Fetching cities list
+[2025-01-26 22:04:23,214] INFO in main: Found 21 cities
+[2025-01-26 22:04:23,216] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.149s
+[2025-01-26 22:04:25,052] INFO in main: Path: /city/London | Method: GET | Status: 200 | Duration: 0.001s
+[2025-01-26 22:04:25,438] INFO in main: Path: /city/London/yearly_stats | Method: GET | Status: 200 | Duration: 0.356s
+[2025-01-26 22:04:25,642] INFO in main: Path: /city/London/host_ranking | Method: GET | Status: 200 | Duration: 0.072s
+[2025-01-26 22:04:28,540] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 422 | Duration: 0.000s
+[2025-01-26 22:08:01,905] INFO in main: Successfully preloaded data for Amsterdam
+[2025-01-26 22:08:01,922] INFO in main: Successfully preloaded data for Athens
+[2025-01-26 22:08:01,945] INFO in main: Successfully preloaded data for Bangkok
+[2025-01-26 22:08:01,966] INFO in main: Successfully preloaded data for Barcelona
+[2025-01-26 22:08:01,981] INFO in main: Successfully preloaded data for Berlin
+[2025-01-26 22:08:02,016] INFO in main: Successfully preloaded data for Buenosaires
+[2025-01-26 22:08:02,036] INFO in main: Successfully preloaded data for CapeTown
+[2025-01-26 22:08:02,061] INFO in main: Successfully preloaded data for Istanbul
+[2025-01-26 22:08:02,141] INFO in main: Successfully preloaded data for London
+[2025-01-26 22:08:02,165] INFO in main: Successfully preloaded data for Madrid
+[2025-01-26 22:08:02,188] INFO in main: Successfully preloaded data for Melbourne
+[2025-01-26 22:08:02,212] INFO in main: Successfully preloaded data for MexicoCity
+[2025-01-26 22:08:02,235] INFO in main: Successfully preloaded data for Milan
+[2025-01-26 22:08:02,267] INFO in main: Successfully preloaded data for Newyorkcity
+[2025-01-26 22:08:02,348] INFO in main: Successfully preloaded data for Paris
+[2025-01-26 22:08:02,379] INFO in main: Successfully preloaded data for RiodeJaneiro
+[2025-01-26 22:08:02,411] INFO in main: Successfully preloaded data for Rome
+[2025-01-26 22:08:02,458] INFO in main: Successfully preloaded data for Sicily
+[2025-01-26 22:08:02,474] INFO in main: Successfully preloaded data for Sydney
+[2025-01-26 22:08:02,490] INFO in main: Successfully preloaded data for Tokyo
+[2025-01-26 22:08:02,510] INFO in main: Successfully preloaded data for Toronto
+[2025-01-26 22:08:14,762] INFO in main: Successfully preloaded data for Amsterdam
+[2025-01-26 22:08:14,777] INFO in main: Successfully preloaded data for Athens
+[2025-01-26 22:08:14,799] INFO in main: Successfully preloaded data for Bangkok
+[2025-01-26 22:08:14,820] INFO in main: Successfully preloaded data for Barcelona
+[2025-01-26 22:08:14,835] INFO in main: Successfully preloaded data for Berlin
+[2025-01-26 22:08:14,872] INFO in main: Successfully preloaded data for Buenosaires
+[2025-01-26 22:08:14,892] INFO in main: Successfully preloaded data for CapeTown
+[2025-01-26 22:08:14,916] INFO in main: Successfully preloaded data for Istanbul
+[2025-01-26 22:08:14,996] INFO in main: Successfully preloaded data for London
+[2025-01-26 22:08:15,021] INFO in main: Successfully preloaded data for Madrid
+[2025-01-26 22:08:15,043] INFO in main: Successfully preloaded data for Melbourne
+[2025-01-26 22:08:15,068] INFO in main: Successfully preloaded data for MexicoCity
+[2025-01-26 22:08:15,091] INFO in main: Successfully preloaded data for Milan
+[2025-01-26 22:08:15,123] INFO in main: Successfully preloaded data for Newyorkcity
+[2025-01-26 22:08:15,202] INFO in main: Successfully preloaded data for Paris
+[2025-01-26 22:08:15,231] INFO in main: Successfully preloaded data for RiodeJaneiro
+[2025-01-26 22:08:15,262] INFO in main: Successfully preloaded data for Rome
+[2025-01-26 22:08:15,312] INFO in main: Successfully preloaded data for Sicily
+[2025-01-26 22:08:15,327] INFO in main: Successfully preloaded data for Sydney
+[2025-01-26 22:08:15,343] INFO in main: Successfully preloaded data for Tokyo
+[2025-01-26 22:08:15,362] INFO in main: Successfully preloaded data for Toronto
+[2025-01-26 22:09:07,438] INFO in main: Path: /city/Newyorkcity | Method: GET | Status: 200 | Duration: 0.000s
+[2025-01-26 22:09:07,688] INFO in main: Path: /city/Newyorkcity/yearly_stats | Method: GET | Status: 200 | Duration: 0.164s
+[2025-01-26 22:09:08,143] INFO in main: Path: /city/Newyorkcity/host_ranking | Method: GET | Status: 200 | Duration: 0.104s
+[2025-01-26 22:09:09,445] INFO in main: Path: /city/Newyorkcity/listings_by_categories | Method: GET | Status: 200 | Duration: 0.054s
+[2025-01-26 22:10:29,515] INFO in main: Path: /city/London | Method: GET | Status: 200 | Duration: 0.000s
+[2025-01-26 22:10:29,962] INFO in main: Path: /city/London/yearly_stats | Method: GET | Status: 200 | Duration: 0.355s
+[2025-01-26 22:10:30,211] INFO in main: Path: /city/London/host_ranking | Method: GET | Status: 200 | Duration: 0.070s
+[2025-01-26 22:10:32,595] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 200 | Duration: 0.054s
+[2025-01-26 22:10:38,046] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 200 | Duration: 0.064s
+[2025-01-26 22:13:32,422] INFO in main: Fetching cities list
+[2025-01-26 22:13:32,570] INFO in main: Found 21 cities
+[2025-01-26 22:13:32,571] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.150s
+[2025-01-26 22:13:35,234] INFO in main: Path: /city/London | Method: GET | Status: 200 | Duration: 0.000s
+[2025-01-26 22:13:35,606] INFO in main: Path: /city/London/yearly_stats | Method: GET | Status: 200 | Duration: 0.351s
+[2025-01-26 22:13:35,854] INFO in main: Path: /city/London/host_ranking | Method: GET | Status: 200 | Duration: 0.109s
+[2025-01-26 22:13:37,385] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 422 | Duration: 0.000s
+[2025-01-26 22:17:50,334] INFO in main: Path: /city/Newyorkcity | Method: GET | Status: 200 | Duration: 0.001s
+[2025-01-26 22:17:50,612] INFO in main: Path: /city/Newyorkcity/yearly_stats | Method: GET | Status: 200 | Duration: 0.180s
+[2025-01-26 22:17:50,953] INFO in main: Path: /city/Newyorkcity/host_ranking | Method: GET | Status: 200 | Duration: 0.063s
+[2025-01-26 22:17:51,949] INFO in main: Path: /city/Newyorkcity/listings_by_categories | Method: GET | Status: 422 | Duration: 0.001s
+[2025-01-26 22:21:07,462] INFO in main: Fetching cities list
+[2025-01-26 22:21:07,557] INFO in main: Found 21 cities
+[2025-01-26 22:21:07,558] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.096s
+[2025-01-26 22:21:08,842] INFO in main: Path: /city/London | Method: GET | Status: 200 | Duration: 0.000s
+[2025-01-26 22:21:09,224] INFO in main: Path: /city/London/yearly_stats | Method: GET | Status: 200 | Duration: 0.347s
+[2025-01-26 22:21:09,423] INFO in main: Path: /city/London/host_ranking | Method: GET | Status: 200 | Duration: 0.068s
+[2025-01-26 22:21:10,621] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 200 | Duration: 0.060s
+[2025-01-26 22:24:00,324] INFO in main: Fetching cities list
+[2025-01-26 22:24:00,414] INFO in main: Found 21 cities
+[2025-01-26 22:24:00,415] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.092s
+[2025-01-26 22:24:02,706] INFO in main: Path: /city/London | Method: GET | Status: 200 | Duration: 0.000s
+[2025-01-26 22:24:03,074] INFO in main: Path: /city/London/yearly_stats | Method: GET | Status: 200 | Duration: 0.337s
+[2025-01-26 22:24:03,308] INFO in main: Path: /city/London/host_ranking | Method: GET | Status: 200 | Duration: 0.098s
+[2025-01-26 22:24:04,920] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 200 | Duration: 0.061s
+[2025-01-26 22:24:49,799] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 200 | Duration: 0.089s
+[2025-01-26 22:34:00,302] INFO in main: Fetching cities list
+[2025-01-26 22:34:00,414] INFO in main: Found 21 cities
+[2025-01-26 22:34:00,416] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.114s
+[2025-01-26 22:34:03,168] INFO in main: Path: /city/London | Method: GET | Status: 200 | Duration: 0.000s
+[2025-01-26 22:34:03,563] INFO in main: Path: /city/London/yearly_stats | Method: GET | Status: 200 | Duration: 0.362s
+[2025-01-26 22:34:03,755] INFO in main: Path: /city/London/host_ranking | Method: GET | Status: 200 | Duration: 0.079s
+[2025-01-26 22:34:05,112] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 200 | Duration: 0.057s
+[2025-01-26 22:34:29,327] INFO in main: Path: /city/London/host_ranking | Method: GET | Status: 200 | Duration: 0.142s
+[2025-01-26 22:34:29,903] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 200 | Duration: 0.131s
+[2025-01-26 22:34:47,971] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 200 | Duration: 0.640s
+[2025-01-26 22:35:39,363] INFO in main: Path: /city/Newyorkcity | Method: GET | Status: 200 | Duration: 0.001s
+[2025-01-26 22:35:39,606] INFO in main: Path: /city/Newyorkcity/yearly_stats | Method: GET | Status: 200 | Duration: 0.157s
+[2025-01-26 22:35:39,984] INFO in main: Path: /city/Newyorkcity/host_ranking | Method: GET | Status: 200 | Duration: 0.071s
+[2025-01-26 22:35:41,129] INFO in main: Path: /city/Newyorkcity/listings_by_categories | Method: GET | Status: 200 | Duration: 0.054s
+[2025-01-26 22:37:10,320] INFO in main: Successfully preloaded data for Amsterdam
+[2025-01-26 22:37:10,339] INFO in main: Successfully preloaded data for Athens
+[2025-01-26 22:37:10,362] INFO in main: Successfully preloaded data for Bangkok
+[2025-01-26 22:37:10,384] INFO in main: Successfully preloaded data for Barcelona
+[2025-01-26 22:37:10,398] INFO in main: Successfully preloaded data for Berlin
+[2025-01-26 22:37:10,433] INFO in main: Successfully preloaded data for Buenosaires
+[2025-01-26 22:37:10,454] INFO in main: Successfully preloaded data for CapeTown
+[2025-01-26 22:37:10,478] INFO in main: Successfully preloaded data for Istanbul
+[2025-01-26 22:37:10,559] INFO in main: Successfully preloaded data for London
+[2025-01-26 22:37:10,583] INFO in main: Successfully preloaded data for Madrid
+[2025-01-26 22:37:10,606] INFO in main: Successfully preloaded data for Melbourne
+[2025-01-26 22:37:10,632] INFO in main: Successfully preloaded data for MexicoCity
+[2025-01-26 22:37:10,665] INFO in main: Successfully preloaded data for Milan
+[2025-01-26 22:37:10,697] INFO in main: Successfully preloaded data for Newyorkcity
+[2025-01-26 22:37:10,777] INFO in main: Successfully preloaded data for Paris
+[2025-01-26 22:37:10,831] INFO in main: Successfully preloaded data for RiodeJaneiro
+[2025-01-26 22:37:10,862] INFO in main: Successfully preloaded data for Rome
+[2025-01-26 22:37:10,910] INFO in main: Successfully preloaded data for Sicily
+[2025-01-26 22:37:10,926] INFO in main: Successfully preloaded data for Sydney
+[2025-01-26 22:37:10,942] INFO in main: Successfully preloaded data for Tokyo
+[2025-01-26 22:37:10,961] INFO in main: Successfully preloaded data for Toronto
+[2025-01-26 22:37:11,908] INFO in main: Path: /city/London | Method: GET | Status: 200 | Duration: 0.000s
+[2025-01-26 22:37:12,384] INFO in main: Path: /city/London/yearly_stats | Method: GET | Status: 200 | Duration: 0.406s
+[2025-01-26 22:37:12,806] INFO in main: Path: /city/London/host_ranking | Method: GET | Status: 200 | Duration: 0.255s
+[2025-01-26 22:37:15,506] INFO in main: Sample listing data: {'host_id': 28820321, 'listing_count': 30}
+[2025-01-26 22:37:15,508] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 200 | Duration: 0.071s
+[2025-01-26 22:37:43,546] INFO in main: Sample listing data: {'host_id': 28820321, 'listing_count': 30}
+[2025-01-26 22:37:43,637] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 200 | Duration: 0.310s
+[2025-01-26 22:40:25,766] INFO in main: Successfully preloaded data for Amsterdam
+[2025-01-26 22:40:25,782] INFO in main: Successfully preloaded data for Athens
+[2025-01-26 22:40:25,805] INFO in main: Successfully preloaded data for Bangkok
+[2025-01-26 22:40:25,825] INFO in main: Successfully preloaded data for Barcelona
+[2025-01-26 22:40:25,840] INFO in main: Successfully preloaded data for Berlin
+[2025-01-26 22:40:25,875] INFO in main: Successfully preloaded data for Buenosaires
+[2025-01-26 22:40:25,896] INFO in main: Successfully preloaded data for CapeTown
+[2025-01-26 22:40:25,921] INFO in main: Successfully preloaded data for Istanbul
+[2025-01-26 22:40:26,003] INFO in main: Successfully preloaded data for London
+[2025-01-26 22:40:26,028] INFO in main: Successfully preloaded data for Madrid
+[2025-01-26 22:40:26,049] INFO in main: Successfully preloaded data for Melbourne
+[2025-01-26 22:40:26,072] INFO in main: Successfully preloaded data for MexicoCity
+[2025-01-26 22:40:26,095] INFO in main: Successfully preloaded data for Milan
+[2025-01-26 22:40:26,127] INFO in main: Successfully preloaded data for Newyorkcity
+[2025-01-26 22:40:26,208] INFO in main: Successfully preloaded data for Paris
+[2025-01-26 22:40:26,238] INFO in main: Successfully preloaded data for RiodeJaneiro
+[2025-01-26 22:40:26,269] INFO in main: Successfully preloaded data for Rome
+[2025-01-26 22:40:26,317] INFO in main: Successfully preloaded data for Sicily
+[2025-01-26 22:40:26,333] INFO in main: Successfully preloaded data for Sydney
+[2025-01-26 22:40:26,348] INFO in main: Successfully preloaded data for Tokyo
+[2025-01-26 22:40:26,368] INFO in main: Successfully preloaded data for Toronto
+[2025-01-26 22:41:20,473] INFO in main: Successfully preloaded data for Amsterdam
+[2025-01-26 22:41:20,490] INFO in main: Successfully preloaded data for Athens
+[2025-01-26 22:41:20,511] INFO in main: Successfully preloaded data for Bangkok
+[2025-01-26 22:41:20,533] INFO in main: Successfully preloaded data for Barcelona
+[2025-01-26 22:41:20,548] INFO in main: Successfully preloaded data for Berlin
+[2025-01-26 22:41:20,583] INFO in main: Successfully preloaded data for Buenosaires
+[2025-01-26 22:41:20,604] INFO in main: Successfully preloaded data for CapeTown
+[2025-01-26 22:41:20,629] INFO in main: Successfully preloaded data for Istanbul
+[2025-01-26 22:41:20,708] INFO in main: Successfully preloaded data for London
+[2025-01-26 22:41:20,733] INFO in main: Successfully preloaded data for Madrid
+[2025-01-26 22:41:20,755] INFO in main: Successfully preloaded data for Melbourne
+[2025-01-26 22:41:20,779] INFO in main: Successfully preloaded data for MexicoCity
+[2025-01-26 22:41:20,802] INFO in main: Successfully preloaded data for Milan
+[2025-01-26 22:41:20,837] INFO in main: Successfully preloaded data for Newyorkcity
+[2025-01-26 22:41:20,917] INFO in main: Successfully preloaded data for Paris
+[2025-01-26 22:41:20,951] INFO in main: Successfully preloaded data for RiodeJaneiro
+[2025-01-26 22:41:20,983] INFO in main: Successfully preloaded data for Rome
+[2025-01-26 22:41:21,034] INFO in main: Successfully preloaded data for Sicily
+[2025-01-26 22:41:21,049] INFO in main: Successfully preloaded data for Sydney
+[2025-01-26 22:41:21,066] INFO in main: Successfully preloaded data for Tokyo
+[2025-01-26 22:41:21,086] INFO in main: Successfully preloaded data for Toronto
+[2025-01-26 22:41:33,996] INFO in main: Path: /city/Paris | Method: GET | Status: 200 | Duration: 0.001s
+[2025-01-26 22:41:34,503] INFO in main: Path: /city/Paris/yearly_stats | Method: GET | Status: 200 | Duration: 0.415s
+[2025-01-26 22:41:34,734] INFO in main: Path: /city/Paris/host_ranking | Method: GET | Status: 200 | Duration: 0.079s
+[2025-01-26 22:41:35,908] INFO in main: Sample listing data: {'host_id': 152242, 'latitude': 48.86751965494359, 'longitude': 2.331969013773704, 'name': 'Saint-Honoré Louvre Vendôme', 'price': '$182.00', 'processed_price': 9, 'geom': '{"type":"Point","coordinates":[2.331969014,48.867519655]}'}
+[2025-01-26 22:41:35,911] INFO in main: Path: /city/Paris/listings_by_categories | Method: GET | Status: 200 | Duration: 0.082s
+[2025-01-26 22:41:48,986] INFO in main: Path: /city/London | Method: GET | Status: 200 | Duration: 0.000s
+[2025-01-26 22:41:49,412] INFO in main: Path: /city/London/yearly_stats | Method: GET | Status: 200 | Duration: 0.359s
+[2025-01-26 22:41:49,692] INFO in main: Path: /city/London/host_ranking | Method: GET | Status: 200 | Duration: 0.118s
+[2025-01-26 22:41:52,155] INFO in main: Sample listing data: {'host_id': 216660, 'latitude': 51.4934, 'longitude': -0.22929, 'name': 'Cosy Double studio in Zone 2 Hammersmith (6)', 'price': '$87.00', 'processed_price': 9, 'geom': '{"type":"Point","coordinates":[-0.22929,51.4934]}'}
+[2025-01-26 22:41:52,158] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 200 | Duration: 0.082s
+[2025-01-26 22:42:39,928] INFO in main: Sample listing data: {'host_id': 1941185, 'latitude': 51.52668, 'longitude': -0.05811, 'name': 'Bethnal Green / Shoreditch Room', 'price': None, 'processed_price': 10, 'geom': '{"type":"Point","coordinates":[-0.05811,51.52668]}'}
+[2025-01-26 22:42:40,040] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 200 | Duration: 0.322s
+[2025-01-26 22:43:23,028] INFO in main: Path: /city/Newyorkcity | Method: GET | Status: 200 | Duration: 0.000s
+[2025-01-26 22:43:23,248] INFO in main: Path: /city/Newyorkcity/yearly_stats | Method: GET | Status: 200 | Duration: 0.155s
+[2025-01-26 22:43:23,690] INFO in main: Path: /city/Newyorkcity/host_ranking | Method: GET | Status: 200 | Duration: 0.114s
+[2025-01-26 22:43:25,186] INFO in main: Sample listing data: {'host_id': 417504, 'latitude': 40.73777, 'longitude': -73.95366, 'name': 'Loft w/ Terrace @ Box House Hotel', 'price': None, 'processed_price': 9, 'geom': '{"type":"Point","coordinates":[-73.95366,40.73777]}'}
+[2025-01-26 22:43:25,188] INFO in main: Path: /city/Newyorkcity/listings_by_categories | Method: GET | Status: 200 | Duration: 0.068s
+[2025-01-26 22:46:07,569] INFO in main: Sample listing data: {'host_id': 22188911, 'latitude': 40.76719, 'longitude': -73.96296, 'name': 'UPPER EAST SIDE DOORMAN BUILDING', 'price': None, 'processed_price': 9, 'geom': '{"type":"Point","coordinates":[-73.96296,40.76719]}'}
+[2025-01-26 22:46:07,641] INFO in main: Path: /city/Newyorkcity/listings_by_categories | Method: GET | Status: 200 | Duration: 0.175s
+[2025-01-26 22:53:53,256] INFO in main: Successfully preloaded data for Amsterdam
+[2025-01-26 22:53:53,281] INFO in main: Successfully preloaded data for Athens
+[2025-01-26 22:53:53,314] INFO in main: Successfully preloaded data for Bangkok
+[2025-01-26 22:53:53,400] INFO in main: Successfully preloaded data for Barcelona
+[2025-01-26 22:53:53,472] INFO in main: Successfully preloaded data for Berlin
+[2025-01-26 22:53:53,531] INFO in main: Successfully preloaded data for Buenosaires
+[2025-01-26 22:53:53,665] INFO in main: Successfully preloaded data for CapeTown
+[2025-01-26 22:53:53,799] INFO in main: Successfully preloaded data for Istanbul
+[2025-01-26 22:53:53,925] INFO in main: Successfully preloaded data for London
+[2025-01-26 22:53:53,950] INFO in main: Successfully preloaded data for Madrid
+[2025-01-26 22:53:53,973] INFO in main: Successfully preloaded data for Melbourne
+[2025-01-26 22:53:53,998] INFO in main: Successfully preloaded data for MexicoCity
+[2025-01-26 22:53:54,021] INFO in main: Successfully preloaded data for Milan
+[2025-01-26 22:53:54,054] INFO in main: Successfully preloaded data for Newyorkcity
+[2025-01-26 22:53:54,136] INFO in main: Successfully preloaded data for Paris
+[2025-01-26 22:53:54,168] INFO in main: Successfully preloaded data for RiodeJaneiro
+[2025-01-26 22:53:54,200] INFO in main: Successfully preloaded data for Rome
+[2025-01-26 22:53:54,251] INFO in main: Successfully preloaded data for Sicily
+[2025-01-26 22:53:54,266] INFO in main: Successfully preloaded data for Sydney
+[2025-01-26 22:53:54,282] INFO in main: Successfully preloaded data for Tokyo
+[2025-01-26 22:53:54,303] INFO in main: Successfully preloaded data for Toronto
+[2025-01-26 22:53:55,895] INFO in main: Fetching cities list
+[2025-01-26 22:53:56,111] INFO in main: Found 21 cities
+[2025-01-26 22:53:56,112] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.217s
+[2025-01-26 22:53:58,638] INFO in main: Path: /city/Newyorkcity | Method: GET | Status: 200 | Duration: 0.001s
+[2025-01-26 22:53:58,830] INFO in main: Path: /city/Newyorkcity/yearly_stats | Method: GET | Status: 200 | Duration: 0.157s
+[2025-01-26 22:53:59,286] INFO in main: Path: /city/Newyorkcity/host_ranking | Method: GET | Status: 200 | Duration: 0.118s
+[2025-01-26 22:54:00,877] INFO in main: Sample listing data: {'host_id': 417504, 'latitude': 40.73777, 'longitude': -73.95366, 'name': 'Loft w/ Terrace @ Box House Hotel', 'price': None, 'processed_price': 8, 'geom': '{"type":"Point","coordinates":[-73.95366,40.73777]}'}
+[2025-01-26 22:54:00,879] INFO in main: Path: /city/Newyorkcity/listings_by_categories | Method: GET | Status: 200 | Duration: 0.067s
+[2025-01-26 22:54:13,028] INFO in main: Sample listing data: {'host_id': 177233, 'latitude': 40.79859, 'longitude': -73.96442, 'name': 'Cheerful, Comfortable & Convenient', 'price': '$139.00', 'processed_price': 6, 'geom': '{"type":"Point","coordinates":[-73.96442,40.79859]}'}
+[2025-01-26 22:54:13,096] INFO in main: Path: /city/Newyorkcity/listings_by_categories | Method: GET | Status: 200 | Duration: 0.178s
+[2025-01-26 22:54:18,172] INFO in main: Path: /city/Newyorkcity/host_ranking | Method: GET | Status: 200 | Duration: 0.103s
+[2025-01-26 22:54:18,733] INFO in main: Sample listing data: {'host_id': 417504, 'latitude': 40.73777, 'longitude': -73.95366, 'name': 'Loft w/ Terrace @ Box House Hotel', 'price': None, 'processed_price': 8, 'geom': '{"type":"Point","coordinates":[-73.95366,40.73777]}'}
+[2025-01-26 22:54:18,752] INFO in main: Path: /city/Newyorkcity/listings_by_categories | Method: GET | Status: 200 | Duration: 0.098s
+[2025-01-26 22:54:18,922] INFO in main: Sample listing data: {'host_id': 2234, 'latitude': 40.63947, 'longitude': -74.08374, 'name': 'St George Sunny, large 2 bdrm w/yard Monthly only', 'price': '$100.00', 'processed_price': 6, 'geom': '{"type":"Point","coordinates":[-74.08374,40.63947]}'}
+[2025-01-26 22:54:19,095] INFO in main: Path: /city/Newyorkcity/listings_by_categories | Method: GET | Status: 200 | Duration: 0.342s
+[2025-01-26 22:57:28,973] INFO in main: Fetching cities list
+[2025-01-26 22:57:29,059] INFO in main: Found 21 cities
+[2025-01-26 22:57:29,060] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.088s
+[2025-01-26 22:57:29,165] INFO in main: Fetching cities list
+[2025-01-26 22:57:29,243] INFO in main: Found 21 cities
+[2025-01-26 22:57:29,245] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.081s
+[2025-01-26 22:57:31,007] INFO in main: Path: /city/London | Method: GET | Status: 200 | Duration: 0.000s
+[2025-01-26 22:57:31,392] INFO in main: Path: /city/London/yearly_stats | Method: GET | Status: 200 | Duration: 0.354s
+[2025-01-26 22:57:31,594] INFO in main: Path: /city/London/host_ranking | Method: GET | Status: 200 | Duration: 0.077s
+[2025-01-26 22:57:34,837] INFO in main: Sample listing data: {'host_id': 216660, 'latitude': 51.4934, 'longitude': -0.22929, 'name': 'Cosy Double studio in Zone 2 Hammersmith (6)', 'price': '$87.00', 'processed_price': 6, 'geom': '{"type":"Point","coordinates":[-0.22929,51.4934]}'}
+[2025-01-26 22:57:34,841] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 200 | Duration: 0.095s
+[2025-01-26 22:57:45,233] INFO in main: Sample listing data: {'host_id': 44775341, 'latitude': 51.39926, 'longitude': -0.09785, 'name': 'Cosy Flat for two', 'price': None, 'processed_price': 8, 'geom': '{"type":"Point","coordinates":[-0.09785,51.39926]}'}
+[2025-01-26 22:57:45,342] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 200 | Duration: 0.246s
+[2025-01-26 22:59:39,294] INFO in main: Fetching cities list
+[2025-01-26 22:59:39,402] INFO in main: Found 21 cities
+[2025-01-26 22:59:39,403] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.110s
+[2025-01-26 22:59:41,778] INFO in main: Path: /city/London | Method: GET | Status: 200 | Duration: 0.001s
+[2025-01-26 22:59:42,147] INFO in main: Path: /city/London/yearly_stats | Method: GET | Status: 200 | Duration: 0.346s
+[2025-01-26 22:59:42,397] INFO in main: Path: /city/London/host_ranking | Method: GET | Status: 200 | Duration: 0.108s
+[2025-01-26 22:59:43,619] INFO in main: Sample listing data: {'host_id': 216660, 'latitude': 51.4934, 'longitude': -0.22929, 'name': 'Cosy Double studio in Zone 2 Hammersmith (6)', 'price': '$87.00', 'processed_price': 6, 'geom': '{"type":"Point","coordinates":[-0.22929,51.4934]}'}
+[2025-01-26 22:59:43,622] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 200 | Duration: 0.068s
+[2025-01-26 23:00:07,651] INFO in main: Sample listing data: {'host_id': 44775341, 'latitude': 51.39926, 'longitude': -0.09785, 'name': 'Cosy Flat for two', 'price': None, 'processed_price': 8, 'geom': '{"type":"Point","coordinates":[-0.09785,51.39926]}'}
+[2025-01-26 23:00:07,761] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 200 | Duration: 0.229s
+[2025-01-26 23:01:17,240] INFO in main: Sample listing data: {'host_id': 381894, 'latitude': 51.42328, 'longitude': -0.17789, 'name': 'Large 2Bedroom  Apartment (B), 4 Beds, sleeps 6', 'price': '$150.00', 'processed_price': 6, 'geom': '{"type":"Point","coordinates":[-0.17789,51.42328]}'}
+[2025-01-26 23:01:17,244] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 200 | Duration: 0.076s
+[2025-01-26 23:01:21,391] INFO in main: Path: /city/London/host_ranking | Method: GET | Status: 200 | Duration: 0.167s
+[2025-01-26 23:01:21,921] INFO in main: Sample listing data: {'host_id': 54987, 'latitude': 51.50168, 'longitude': -0.02068, 'name': 'Spacious One Bedroom Flat in Canary Wharf', 'price': '$188.00', 'processed_price': 8, 'geom': '{"type":"Point","coordinates":[-0.02068,51.50168]}'}
+[2025-01-26 23:01:21,937] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 200 | Duration: 0.116s
+[2025-01-26 23:08:42,253] INFO in main: Path: /city/Newyorkcity | Method: GET | Status: 200 | Duration: 0.001s
+[2025-01-26 23:08:42,554] INFO in main: Path: /city/Newyorkcity/yearly_stats | Method: GET | Status: 200 | Duration: 0.210s
+[2025-01-26 23:08:42,881] INFO in main: Path: /city/Newyorkcity/host_ranking | Method: GET | Status: 200 | Duration: 0.080s
+[2025-01-26 23:08:44,212] INFO in main: Sample listing data: {'host_id': 417504, 'latitude': 40.73777, 'longitude': -73.95366, 'name': 'Loft w/ Terrace @ Box House Hotel', 'price': None, 'processed_price': 10, 'geom': '{"type":"Point","coordinates":[-73.95366,40.73777]}'}
+[2025-01-26 23:08:44,214] INFO in main: Path: /city/Newyorkcity/listings_by_categories | Method: GET | Status: 200 | Duration: 0.083s
+[2025-01-26 23:09:03,098] INFO in main: Sample listing data: {'host_id': 15523, 'latitude': 40.63139, 'longitude': -74.08169, 'name': 'Enjoy and discover New York Citi', 'price': '$71.00', 'processed_price': 5, 'geom': '{"type":"Point","coordinates":[-74.08169,40.63139]}'}
+[2025-01-26 23:09:03,107] INFO in main: Path: /city/Newyorkcity/listings_by_categories | Method: GET | Status: 200 | Duration: 0.076s
+[2025-01-26 23:11:48,370] INFO in main: Sample listing data: {'host_id': 15523, 'latitude': 40.63139, 'longitude': -74.08169, 'name': 'Enjoy and discover New York Citi', 'price': '$71.00', 'processed_price': 5, 'geom': '{"type":"Point","coordinates":[-74.08169,40.63139]}'}
+[2025-01-26 23:11:48,379] INFO in main: Path: /city/Newyorkcity/listings_by_categories | Method: GET | Status: 200 | Duration: 0.067s
+[2025-01-26 23:11:49,735] INFO in main: Sample listing data: {'host_id': 417504, 'latitude': 40.73777, 'longitude': -73.95366, 'name': 'Loft w/ Terrace @ Box House Hotel', 'price': None, 'processed_price': 10, 'geom': '{"type":"Point","coordinates":[-73.95366,40.73777]}'}
+[2025-01-26 23:11:49,737] INFO in main: Path: /city/Newyorkcity/listings_by_categories | Method: GET | Status: 200 | Duration: 0.060s
+[2025-01-26 23:17:53,162] INFO in main: Fetching cities list
+[2025-01-26 23:17:53,242] INFO in main: Found 21 cities
+[2025-01-26 23:17:53,243] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.082s
+[2025-01-26 23:17:55,705] INFO in main: Fetching cities list
+[2025-01-26 23:17:55,792] INFO in main: Found 21 cities
+[2025-01-26 23:17:55,793] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.088s
+[2025-01-26 23:17:57,951] INFO in main: Path: /city/London | Method: GET | Status: 200 | Duration: 0.001s
+[2025-01-26 23:17:58,322] INFO in main: Path: /city/London/yearly_stats | Method: GET | Status: 200 | Duration: 0.344s
+[2025-01-26 23:17:58,540] INFO in main: Path: /city/London/host_ranking | Method: GET | Status: 200 | Duration: 0.079s
+[2025-01-26 23:18:00,417] INFO in main: Sample listing data: {'host_id': 216660, 'latitude': 51.4934, 'longitude': -0.22929, 'name': 'Cosy Double studio in Zone 2 Hammersmith (6)', 'price': '$87.00', 'processed_price': 10, 'geom': '{"type":"Point","coordinates":[-0.22929,51.4934]}'}
+[2025-01-26 23:18:00,420] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 200 | Duration: 0.071s
+[2025-01-26 23:18:17,389] INFO in main: Path: /city/Newyorkcity | Method: GET | Status: 200 | Duration: 0.000s
+[2025-01-26 23:18:17,644] INFO in main: Path: /city/Newyorkcity/yearly_stats | Method: GET | Status: 200 | Duration: 0.198s
+[2025-01-26 23:18:18,004] INFO in main: Path: /city/Newyorkcity/host_ranking | Method: GET | Status: 200 | Duration: 0.067s
+[2025-01-26 23:18:19,859] INFO in main: Sample listing data: {'host_id': 417504, 'latitude': 40.73777, 'longitude': -73.95366, 'name': 'Loft w/ Terrace @ Box House Hotel', 'price': None, 'processed_price': 10, 'geom': '{"type":"Point","coordinates":[-73.95366,40.73777]}'}
+[2025-01-26 23:18:19,862] INFO in main: Path: /city/Newyorkcity/listings_by_categories | Method: GET | Status: 200 | Duration: 0.059s
+[2025-01-26 23:18:30,383] INFO in main: Sample listing data: {'host_id': 836168, 'latitude': 40.7751, 'longitude': -73.98595, 'name': 'Luxury 2Bed/2.5Bath Central Park View', 'price': '$2,500.00', 'processed_price': 20, 'geom': '{"type":"Point","coordinates":[-73.98595,40.7751]}'}
+[2025-01-26 23:18:30,386] INFO in main: Path: /city/Newyorkcity/listings_by_categories | Method: GET | Status: 200 | Duration: 0.057s
+[2025-01-26 23:18:32,815] INFO in main: Sample listing data: {'host_id': 417504, 'latitude': 40.73777, 'longitude': -73.95366, 'name': 'Loft w/ Terrace @ Box House Hotel', 'price': None, 'processed_price': 10, 'geom': '{"type":"Point","coordinates":[-73.95366,40.73777]}'}
+[2025-01-26 23:18:32,818] INFO in main: Path: /city/Newyorkcity/listings_by_categories | Method: GET | Status: 200 | Duration: 0.060s
+[2025-01-26 23:18:33,811] INFO in main: Sample listing data: {'host_id': 836168, 'latitude': 40.7751, 'longitude': -73.98595, 'name': 'Luxury 2Bed/2.5Bath Central Park View', 'price': '$2,500.00', 'processed_price': 20, 'geom': '{"type":"Point","coordinates":[-73.98595,40.7751]}'}
+[2025-01-26 23:18:33,814] INFO in main: Path: /city/Newyorkcity/listings_by_categories | Method: GET | Status: 200 | Duration: 0.068s
+[2025-01-26 23:18:36,336] INFO in main: Sample listing data: {'host_id': 836168, 'latitude': 40.7751, 'longitude': -73.98595, 'name': 'Luxury 2Bed/2.5Bath Central Park View', 'price': '$2,500.00', 'processed_price': 20, 'geom': '{"type":"Point","coordinates":[-73.98595,40.7751]}'}
+[2025-01-26 23:18:36,338] INFO in main: Path: /city/Newyorkcity/listings_by_categories | Method: GET | Status: 200 | Duration: 0.060s
+[2025-01-26 23:18:37,682] INFO in main: Sample listing data: {'host_id': 836168, 'latitude': 40.7751, 'longitude': -73.98595, 'name': 'Luxury 2Bed/2.5Bath Central Park View', 'price': '$2,500.00', 'processed_price': 20, 'geom': '{"type":"Point","coordinates":[-73.98595,40.7751]}'}
+[2025-01-26 23:18:37,684] INFO in main: Path: /city/Newyorkcity/listings_by_categories | Method: GET | Status: 200 | Duration: 0.084s
+[2025-01-26 23:18:38,731] INFO in main: Sample listing data: {'host_id': 15523, 'latitude': 40.63139, 'longitude': -74.08169, 'name': 'Enjoy and discover New York Citi', 'price': '$71.00', 'processed_price': 5, 'geom': '{"type":"Point","coordinates":[-74.08169,40.63139]}'}
+[2025-01-26 23:18:38,740] INFO in main: Path: /city/Newyorkcity/listings_by_categories | Method: GET | Status: 200 | Duration: 0.069s
+[2025-01-26 23:18:40,390] INFO in main: Sample listing data: {'host_id': 87494, 'latitude': 40.83455, 'longitude': -73.9387, 'name': 'Private Bedroom in Renovated Apt', 'price': None, 'processed_price': 10, 'geom': '{"type":"Point","coordinates":[-73.9387,40.83455]}'}
+[2025-01-26 23:18:40,458] INFO in main: Path: /city/Newyorkcity/listings_by_categories | Method: GET | Status: 200 | Duration: 0.176s
+[2025-01-26 23:18:42,397] INFO in main: Sample listing data: {'host_id': 15523, 'latitude': 40.63139, 'longitude': -74.08169, 'name': 'Enjoy and discover New York Citi', 'price': '$71.00', 'processed_price': 5, 'geom': '{"type":"Point","coordinates":[-74.08169,40.63139]}'}
+[2025-01-26 23:18:42,406] INFO in main: Path: /city/Newyorkcity/listings_by_categories | Method: GET | Status: 200 | Duration: 0.066s
+[2025-01-26 23:18:43,360] INFO in main: Sample listing data: {'host_id': 15523, 'latitude': 40.63139, 'longitude': -74.08169, 'name': 'Enjoy and discover New York Citi', 'price': '$71.00', 'processed_price': 5, 'geom': '{"type":"Point","coordinates":[-74.08169,40.63139]}'}
+[2025-01-26 23:18:43,369] INFO in main: Path: /city/Newyorkcity/listings_by_categories | Method: GET | Status: 200 | Duration: 0.069s
+[2025-01-26 23:18:45,667] INFO in main: Sample listing data: {'host_id': 15523, 'latitude': 40.63139, 'longitude': -74.08169, 'name': 'Enjoy and discover New York Citi', 'price': '$71.00', 'processed_price': 5, 'geom': '{"type":"Point","coordinates":[-74.08169,40.63139]}'}
+[2025-01-26 23:18:45,677] INFO in main: Path: /city/Newyorkcity/listings_by_categories | Method: GET | Status: 200 | Duration: 0.072s
+[2025-01-26 23:18:47,731] INFO in main: Sample listing data: {'host_id': 87494, 'latitude': 40.83455, 'longitude': -73.9387, 'name': 'Private Bedroom in Renovated Apt', 'price': None, 'processed_price': 10, 'geom': '{"type":"Point","coordinates":[-73.9387,40.83455]}'}
+[2025-01-26 23:18:47,800] INFO in main: Path: /city/Newyorkcity/listings_by_categories | Method: GET | Status: 200 | Duration: 0.156s
+[2025-01-26 23:18:51,970] INFO in main: Path: /city/Newyorkcity/host_ranking | Method: GET | Status: 200 | Duration: 0.102s
+[2025-01-26 23:18:52,541] INFO in main: Sample listing data: {'host_id': 417504, 'latitude': 40.73777, 'longitude': -73.95366, 'name': 'Loft w/ Terrace @ Box House Hotel', 'price': None, 'processed_price': 10, 'geom': '{"type":"Point","coordinates":[-73.95366,40.73777]}'}
+[2025-01-26 23:18:52,551] INFO in main: Path: /city/Newyorkcity/listings_by_categories | Method: GET | Status: 200 | Duration: 0.089s
+[2025-01-26 23:18:52,627] INFO in main: Sample listing data: {'host_id': 2845, 'latitude': 40.75356, 'longitude': -73.98559, 'name': 'Skylit Midtown Castle', 'price': '$240.00', 'processed_price': 15, 'geom': '{"type":"Point","coordinates":[-73.98559,40.75356]}'}
+[2025-01-26 23:18:52,652] INFO in main: Path: /city/Newyorkcity/listings_by_categories | Method: GET | Status: 200 | Duration: 0.100s
+[2025-01-26 23:18:55,065] INFO in main: Sample listing data: {'host_id': 2234, 'latitude': 40.63947, 'longitude': -74.08374, 'name': 'St George Sunny, large 2 bdrm w/yard Monthly only', 'price': '$100.00', 'processed_price': 10, 'geom': '{"type":"Point","coordinates":[-74.08374,40.63947]}'}
+[2025-01-26 23:18:55,209] INFO in main: Path: /city/Newyorkcity/listings_by_categories | Method: GET | Status: 200 | Duration: 0.306s
+[2025-01-26 23:20:18,321] INFO in main: Path: /city/London | Method: GET | Status: 200 | Duration: 0.000s
+[2025-01-26 23:20:18,805] INFO in main: Path: /city/London/yearly_stats | Method: GET | Status: 200 | Duration: 0.397s
+[2025-01-26 23:20:19,026] INFO in main: Path: /city/London/host_ranking | Method: GET | Status: 200 | Duration: 0.075s
+[2025-01-26 23:20:20,831] INFO in main: Sample listing data: {'host_id': 44775341, 'latitude': 51.39926, 'longitude': -0.09785, 'name': 'Cosy Flat for two', 'price': None, 'processed_price': 10, 'geom': '{"type":"Point","coordinates":[-0.09785,51.39926]}'}
+[2025-01-26 23:20:20,942] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 200 | Duration: 0.267s
+[2025-01-26 23:20:26,050] INFO in main: Sample listing data: {'host_id': 216660, 'latitude': 51.4934, 'longitude': -0.22929, 'name': 'Cosy Double studio in Zone 2 Hammersmith (6)', 'price': '$87.00', 'processed_price': 10, 'geom': '{"type":"Point","coordinates":[-0.22929,51.4934]}'}
+[2025-01-26 23:20:26,054] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 200 | Duration: 0.077s
+[2025-01-26 23:20:36,658] INFO in main: Sample listing data: {'host_id': 216660, 'latitude': 51.4934, 'longitude': -0.22929, 'name': 'Cosy Double studio in Zone 2 Hammersmith (6)', 'price': '$87.00', 'processed_price': 10, 'geom': '{"type":"Point","coordinates":[-0.22929,51.4934]}'}
+[2025-01-26 23:20:36,662] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 200 | Duration: 0.073s
+[2025-01-26 23:20:37,337] INFO in main: Sample listing data: {'host_id': 44775341, 'latitude': 51.39926, 'longitude': -0.09785, 'name': 'Cosy Flat for two', 'price': None, 'processed_price': 10, 'geom': '{"type":"Point","coordinates":[-0.09785,51.39926]}'}
+[2025-01-26 23:20:37,446] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 200 | Duration: 0.241s
+[2025-01-26 23:20:38,242] INFO in main: Path: /city/London/host_ranking | Method: GET | Status: 200 | Duration: 0.146s
+[2025-01-26 23:20:38,839] INFO in main: Sample listing data: {'host_id': 580475, 'latitude': 51.48962, 'longitude': -0.13924, 'name': 'Double Studio in Victoria 5A', 'price': None, 'processed_price': 10, 'geom': '{"type":"Point","coordinates":[-0.13924,51.48962]}'}
+[2025-01-26 23:20:38,862] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 200 | Duration: 0.159s
+[2025-01-26 23:20:39,080] INFO in main: Sample listing data: {'host_id': 9323, 'latitude': 51.44257, 'longitude': -0.12247, 'name': 'Charming room in lovely art-deco flat', 'price': None, 'processed_price': 10, 'geom': '{"type":"Point","coordinates":[-0.12247,51.44257]}'}
+[2025-01-26 23:20:39,369] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 200 | Duration: 0.506s
+[2025-01-26 23:21:04,487] INFO in main: Fetching cities list
+[2025-01-26 23:21:04,634] INFO in main: Found 21 cities
+[2025-01-26 23:21:04,636] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.163s
+[2025-01-26 23:21:06,201] INFO in main: Path: /city/London | Method: GET | Status: 200 | Duration: 0.000s
+[2025-01-26 23:21:06,575] INFO in main: Path: /city/London/yearly_stats | Method: GET | Status: 200 | Duration: 0.353s
+[2025-01-26 23:21:06,774] INFO in main: Path: /city/London/host_ranking | Method: GET | Status: 200 | Duration: 0.068s
+[2025-01-26 23:21:07,559] INFO in main: Sample listing data: {'host_id': 216660, 'latitude': 51.4934, 'longitude': -0.22929, 'name': 'Cosy Double studio in Zone 2 Hammersmith (6)', 'price': '$87.00', 'processed_price': 10, 'geom': '{"type":"Point","coordinates":[-0.22929,51.4934]}'}
+[2025-01-26 23:21:07,564] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 200 | Duration: 0.080s
+[2025-01-26 23:21:08,724] INFO in main: Sample listing data: {'host_id': 381894, 'latitude': 51.42328, 'longitude': -0.17789, 'name': 'Large 2Bedroom  Apartment (B), 4 Beds, sleeps 6', 'price': '$150.00', 'processed_price': 15, 'geom': '{"type":"Point","coordinates":[-0.17789,51.42328]}'}
+[2025-01-26 23:21:08,728] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 200 | Duration: 0.066s
+[2025-01-26 23:21:43,387] INFO in main: Path: /city/Newyorkcity | Method: GET | Status: 200 | Duration: 0.000s
+[2025-01-26 23:21:43,596] INFO in main: Path: /city/Newyorkcity/yearly_stats | Method: GET | Status: 200 | Duration: 0.150s
+[2025-01-26 23:21:44,023] INFO in main: Path: /city/Newyorkcity/host_ranking | Method: GET | Status: 200 | Duration: 0.078s
+[2025-01-26 23:21:44,926] INFO in main: Sample listing data: {'host_id': 417504, 'latitude': 40.73777, 'longitude': -73.95366, 'name': 'Loft w/ Terrace @ Box House Hotel', 'price': None, 'processed_price': 10, 'geom': '{"type":"Point","coordinates":[-73.95366,40.73777]}'}
+[2025-01-26 23:21:44,928] INFO in main: Path: /city/Newyorkcity/listings_by_categories | Method: GET | Status: 200 | Duration: 0.069s
+[2025-01-26 23:21:45,897] INFO in main: Sample listing data: {'host_id': 2787, 'latitude': 40.64733, 'longitude': -73.97281, 'name': 'Clean apt home near Prospect Park', 'price': '$249.00', 'processed_price': 15, 'geom': '{"type":"Point","coordinates":[-73.97281,40.64733]}'}
+[2025-01-26 23:21:45,903] INFO in main: Path: /city/Newyorkcity/listings_by_categories | Method: GET | Status: 200 | Duration: 0.073s
+[2025-01-26 23:21:46,578] INFO in main: Sample listing data: {'host_id': 836168, 'latitude': 40.7751, 'longitude': -73.98595, 'name': 'Luxury 2Bed/2.5Bath Central Park View', 'price': '$2,500.00', 'processed_price': 20, 'geom': '{"type":"Point","coordinates":[-73.98595,40.7751]}'}
+[2025-01-26 23:21:46,581] INFO in main: Path: /city/Newyorkcity/listings_by_categories | Method: GET | Status: 200 | Duration: 0.062s
+[2025-01-26 23:24:57,896] INFO in main: Fetching cities list
+[2025-01-26 23:24:57,984] INFO in main: Found 21 cities
+[2025-01-26 23:24:57,985] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.089s
+[2025-01-26 23:24:59,655] INFO in main: Path: /city/London | Method: GET | Status: 200 | Duration: 0.001s
+[2025-01-26 23:25:00,020] INFO in main: Path: /city/London/yearly_stats | Method: GET | Status: 200 | Duration: 0.337s
+[2025-01-26 23:25:00,266] INFO in main: Path: /city/London/host_ranking | Method: GET | Status: 200 | Duration: 0.104s
+[2025-01-26 23:25:01,254] INFO in main: Sample listing data: {'host_id': 216660, 'latitude': 51.4934, 'longitude': -0.22929, 'name': 'Cosy Double studio in Zone 2 Hammersmith (6)', 'price': '$87.00', 'processed_price': 10, 'geom': '{"type":"Point","coordinates":[-0.22929,51.4934]}'}
+[2025-01-26 23:25:01,258] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 200 | Duration: 0.081s
+[2025-01-26 23:26:00,756] INFO in main: Sample listing data: {'host_id': 44775341, 'latitude': 51.39926, 'longitude': -0.09785, 'name': 'Cosy Flat for two', 'price': None, 'processed_price': 10, 'geom': '{"type":"Point","coordinates":[-0.09785,51.39926]}'}
+[2025-01-26 23:26:00,866] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 200 | Duration: 0.246s
+[2025-01-26 23:26:07,694] INFO in main: Sample listing data: {'host_id': 32851, 'latitude': 51.54588, 'longitude': -0.0684, 'name': 'Stunning Bright Architect’s Home & Garden Hackney', 'price': '$280.00', 'processed_price': 18, 'geom': '{"type":"Point","coordinates":[-0.0684,51.54588]}'}
+[2025-01-26 23:26:07,713] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 200 | Duration: 0.091s
+[2025-01-26 23:27:05,263] INFO in main: Successfully preloaded data for Amsterdam
+[2025-01-26 23:27:05,280] INFO in main: Successfully preloaded data for Athens
+[2025-01-26 23:27:05,303] INFO in main: Successfully preloaded data for Bangkok
+[2025-01-26 23:27:05,324] INFO in main: Successfully preloaded data for Barcelona
+[2025-01-26 23:27:05,338] INFO in main: Successfully preloaded data for Berlin
+[2025-01-26 23:27:05,381] INFO in main: Successfully preloaded data for Buenosaires
+[2025-01-26 23:27:05,408] INFO in main: Successfully preloaded data for CapeTown
+[2025-01-26 23:27:05,437] INFO in main: Successfully preloaded data for Istanbul
+[2025-01-26 23:27:05,527] INFO in main: Successfully preloaded data for London
+[2025-01-26 23:27:05,552] INFO in main: Successfully preloaded data for Madrid
+[2025-01-26 23:27:05,575] INFO in main: Successfully preloaded data for Melbourne
+[2025-01-26 23:27:05,600] INFO in main: Successfully preloaded data for MexicoCity
+[2025-01-26 23:27:05,623] INFO in main: Successfully preloaded data for Milan
+[2025-01-26 23:27:05,655] INFO in main: Successfully preloaded data for Newyorkcity
+[2025-01-26 23:27:05,733] INFO in main: Successfully preloaded data for Paris
+[2025-01-26 23:27:05,763] INFO in main: Successfully preloaded data for RiodeJaneiro
+[2025-01-26 23:27:05,795] INFO in main: Successfully preloaded data for Rome
+[2025-01-26 23:27:05,841] INFO in main: Successfully preloaded data for Sicily
+[2025-01-26 23:27:05,856] INFO in main: Successfully preloaded data for Sydney
+[2025-01-26 23:27:05,872] INFO in main: Successfully preloaded data for Tokyo
+[2025-01-26 23:27:05,890] INFO in main: Successfully preloaded data for Toronto
+[2025-01-26 23:27:06,975] INFO in main: Fetching cities list
+[2025-01-26 23:27:07,165] INFO in main: Found 21 cities
+[2025-01-26 23:27:07,166] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.191s
+[2025-01-26 23:27:09,786] INFO in main: Path: /city/London | Method: GET | Status: 200 | Duration: 0.001s
+[2025-01-26 23:27:10,154] INFO in main: Path: /city/London/yearly_stats | Method: GET | Status: 200 | Duration: 0.341s
+[2025-01-26 23:27:10,375] INFO in main: Path: /city/London/host_ranking | Method: GET | Status: 200 | Duration: 0.079s
+[2025-01-26 23:27:10,869] ERROR in main: HTTP Exception: 500 - syntax error at or near ":"
+LINE 5:                 WHERE city = :city
+                                     ^
+ | Path: /city/London/listings_by_categories
+[2025-01-26 23:27:10,869] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 500 | Duration: 0.034s
+[2025-01-26 23:27:10,915] ERROR in main: HTTP Exception: 500 - syntax error at or near ":"
+LINE 5:                 WHERE city = :city
+                                     ^
+ | Path: /city/London/listings_by_categories
+[2025-01-26 23:27:10,915] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 500 | Duration: 0.045s
+[2025-01-26 23:27:10,941] ERROR in main: HTTP Exception: 500 - syntax error at or near ":"
+LINE 5:                 WHERE city = :city
+                                     ^
+ | Path: /city/London/listings_by_categories
+[2025-01-26 23:27:10,942] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 500 | Duration: 0.025s
+[2025-01-26 23:27:10,959] ERROR in main: HTTP Exception: 500 - syntax error at or near ":"
+LINE 5:                 WHERE city = :city
+                                     ^
+ | Path: /city/London/listings_by_categories
+[2025-01-26 23:27:10,959] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 500 | Duration: 0.016s
+[2025-01-26 23:27:10,976] ERROR in main: HTTP Exception: 500 - syntax error at or near ":"
+LINE 5:                 WHERE city = :city
+                                     ^
+ | Path: /city/London/listings_by_categories
+[2025-01-26 23:27:10,976] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 500 | Duration: 0.016s
+[2025-01-26 23:27:10,992] ERROR in main: HTTP Exception: 500 - syntax error at or near ":"
+LINE 5:                 WHERE city = :city
+                                     ^
+ | Path: /city/London/listings_by_categories
+[2025-01-26 23:27:10,993] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 500 | Duration: 0.015s
+[2025-01-26 23:27:11,007] ERROR in main: HTTP Exception: 500 - syntax error at or near ":"
+LINE 5:                 WHERE city = :city
+                                     ^
+ | Path: /city/London/listings_by_categories
+[2025-01-26 23:27:11,007] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 500 | Duration: 0.014s
+[2025-01-26 23:27:11,022] ERROR in main: HTTP Exception: 500 - syntax error at or near ":"
+LINE 5:                 WHERE city = :city
+                                     ^
+ | Path: /city/London/listings_by_categories
+[2025-01-26 23:27:11,022] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 500 | Duration: 0.014s
+[2025-01-26 23:27:11,037] ERROR in main: HTTP Exception: 500 - syntax error at or near ":"
+LINE 5:                 WHERE city = :city
+                                     ^
+ | Path: /city/London/listings_by_categories
+[2025-01-26 23:27:11,037] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 500 | Duration: 0.014s
+[2025-01-26 23:27:11,052] ERROR in main: HTTP Exception: 500 - syntax error at or near ":"
+LINE 5:                 WHERE city = :city
+                                     ^
+ | Path: /city/London/listings_by_categories
+[2025-01-26 23:27:11,052] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 500 | Duration: 0.014s
+[2025-01-26 23:27:11,066] ERROR in main: HTTP Exception: 500 - syntax error at or near ":"
+LINE 5:                 WHERE city = :city
+                                     ^
+ | Path: /city/London/listings_by_categories
+[2025-01-26 23:27:11,066] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 500 | Duration: 0.013s
+[2025-01-26 23:27:11,082] ERROR in main: HTTP Exception: 500 - syntax error at or near ":"
+LINE 5:                 WHERE city = :city
+                                     ^
+ | Path: /city/London/listings_by_categories
+[2025-01-26 23:27:11,082] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 500 | Duration: 0.014s
+[2025-01-26 23:27:11,096] ERROR in main: HTTP Exception: 500 - syntax error at or near ":"
+LINE 5:                 WHERE city = :city
+                                     ^
+ | Path: /city/London/listings_by_categories
+[2025-01-26 23:27:11,096] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 500 | Duration: 0.013s
+[2025-01-26 23:27:11,111] ERROR in main: HTTP Exception: 500 - syntax error at or near ":"
+LINE 5:                 WHERE city = :city
+                                     ^
+ | Path: /city/London/listings_by_categories
+[2025-01-26 23:27:11,111] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 500 | Duration: 0.014s
+[2025-01-26 23:27:11,126] ERROR in main: HTTP Exception: 500 - syntax error at or near ":"
+LINE 5:                 WHERE city = :city
+                                     ^
+ | Path: /city/London/listings_by_categories
+[2025-01-26 23:27:11,127] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 500 | Duration: 0.014s
+[2025-01-26 23:27:11,141] ERROR in main: HTTP Exception: 500 - syntax error at or near ":"
+LINE 5:                 WHERE city = :city
+                                     ^
+ | Path: /city/London/listings_by_categories
+[2025-01-26 23:27:11,141] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 500 | Duration: 0.014s
+[2025-01-26 23:27:11,155] ERROR in main: HTTP Exception: 500 - syntax error at or near ":"
+LINE 5:                 WHERE city = :city
+                                     ^
+ | Path: /city/London/listings_by_categories
+[2025-01-26 23:27:11,156] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 500 | Duration: 0.014s
+[2025-01-26 23:27:11,172] ERROR in main: HTTP Exception: 500 - syntax error at or near ":"
+LINE 5:                 WHERE city = :city
+                                     ^
+ | Path: /city/London/listings_by_categories
+[2025-01-26 23:27:11,172] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 500 | Duration: 0.015s
+[2025-01-26 23:27:11,187] ERROR in main: HTTP Exception: 500 - syntax error at or near ":"
+LINE 5:                 WHERE city = :city
+                                     ^
+ | Path: /city/London/listings_by_categories
+[2025-01-26 23:27:11,187] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 500 | Duration: 0.014s
+[2025-01-26 23:27:11,201] ERROR in main: HTTP Exception: 500 - syntax error at or near ":"
+LINE 5:                 WHERE city = :city
+                                     ^
+ | Path: /city/London/listings_by_categories
+[2025-01-26 23:27:11,201] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 500 | Duration: 0.014s
+[2025-01-26 23:27:11,215] ERROR in main: HTTP Exception: 500 - syntax error at or near ":"
+LINE 5:                 WHERE city = :city
+                                     ^
+ | Path: /city/London/listings_by_categories
+[2025-01-26 23:27:11,216] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 500 | Duration: 0.014s
+[2025-01-26 23:27:11,230] ERROR in main: HTTP Exception: 500 - syntax error at or near ":"
+LINE 5:                 WHERE city = :city
+                                     ^
+ | Path: /city/London/listings_by_categories
+[2025-01-26 23:27:11,230] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 500 | Duration: 0.014s
+[2025-01-26 23:27:11,249] ERROR in main: HTTP Exception: 500 - syntax error at or near ":"
+LINE 5:                 WHERE city = :city
+                                     ^
+ | Path: /city/London/listings_by_categories
+[2025-01-26 23:27:11,250] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 500 | Duration: 0.019s
+[2025-01-26 23:27:11,277] ERROR in main: HTTP Exception: 500 - syntax error at or near ":"
+LINE 5:                 WHERE city = :city
+                                     ^
+ | Path: /city/London/listings_by_categories
+[2025-01-26 23:27:11,279] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 500 | Duration: 0.028s
+[2025-01-26 23:27:11,303] ERROR in main: HTTP Exception: 500 - syntax error at or near ":"
+LINE 5:                 WHERE city = :city
+                                     ^
+ | Path: /city/London/listings_by_categories
+[2025-01-26 23:27:11,303] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 500 | Duration: 0.023s
+[2025-01-26 23:27:11,318] ERROR in main: HTTP Exception: 500 - syntax error at or near ":"
+LINE 5:                 WHERE city = :city
+                                     ^
+ | Path: /city/London/listings_by_categories
+[2025-01-26 23:27:11,318] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 500 | Duration: 0.014s
+[2025-01-26 23:27:11,333] ERROR in main: HTTP Exception: 500 - syntax error at or near ":"
+LINE 5:                 WHERE city = :city
+                                     ^
+ | Path: /city/London/listings_by_categories
+[2025-01-26 23:27:11,333] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 500 | Duration: 0.015s
+[2025-01-26 23:27:11,349] ERROR in main: HTTP Exception: 500 - syntax error at or near ":"
+LINE 5:                 WHERE city = :city
+                                     ^
+ | Path: /city/London/listings_by_categories
+[2025-01-26 23:27:11,350] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 500 | Duration: 0.015s
+[2025-01-26 23:27:11,365] ERROR in main: HTTP Exception: 500 - syntax error at or near ":"
+LINE 5:                 WHERE city = :city
+                                     ^
+ | Path: /city/London/listings_by_categories
+[2025-01-26 23:27:11,365] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 500 | Duration: 0.015s
+[2025-01-26 23:27:11,380] ERROR in main: HTTP Exception: 500 - syntax error at or near ":"
+LINE 5:                 WHERE city = :city
+                                     ^
+ | Path: /city/London/listings_by_categories
+[2025-01-26 23:27:11,380] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 500 | Duration: 0.014s
+[2025-01-26 23:27:11,396] ERROR in main: HTTP Exception: 500 - syntax error at or near ":"
+LINE 5:                 WHERE city = :city
+                                     ^
+ | Path: /city/London/listings_by_categories
+[2025-01-26 23:27:11,396] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 500 | Duration: 0.016s
+[2025-01-26 23:27:11,411] ERROR in main: HTTP Exception: 500 - syntax error at or near ":"
+LINE 5:                 WHERE city = :city
+                                     ^
+ | Path: /city/London/listings_by_categories
+[2025-01-26 23:27:11,412] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 500 | Duration: 0.015s
+[2025-01-26 23:27:11,426] ERROR in main: HTTP Exception: 500 - syntax error at or near ":"
+LINE 5:                 WHERE city = :city
+                                     ^
+ | Path: /city/London/listings_by_categories
+[2025-01-26 23:27:11,426] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 500 | Duration: 0.013s
+[2025-01-26 23:27:11,440] ERROR in main: HTTP Exception: 500 - syntax error at or near ":"
+LINE 5:                 WHERE city = :city
+                                     ^
+ | Path: /city/London/listings_by_categories
+[2025-01-26 23:27:11,441] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 500 | Duration: 0.013s
+[2025-01-26 23:27:11,454] ERROR in main: HTTP Exception: 500 - syntax error at or near ":"
+LINE 5:                 WHERE city = :city
+                                     ^
+ | Path: /city/London/listings_by_categories
+[2025-01-26 23:27:11,454] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 500 | Duration: 0.013s
+[2025-01-26 23:27:11,468] ERROR in main: HTTP Exception: 500 - syntax error at or near ":"
+LINE 5:                 WHERE city = :city
+                                     ^
+ | Path: /city/London/listings_by_categories
+[2025-01-26 23:27:11,469] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 500 | Duration: 0.014s
+[2025-01-26 23:27:11,483] ERROR in main: HTTP Exception: 500 - syntax error at or near ":"
+LINE 5:                 WHERE city = :city
+                                     ^
+ | Path: /city/London/listings_by_categories
+[2025-01-26 23:27:11,483] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 500 | Duration: 0.013s
+[2025-01-26 23:27:11,722] ERROR in main: HTTP Exception: 500 - syntax error at or near ":"
+LINE 5:                 WHERE city = :city
+                                     ^
+ | Path: /city/London/listings_by_categories
+[2025-01-26 23:27:11,722] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 500 | Duration: 0.029s
+[2025-01-26 23:27:12,980] ERROR in main: HTTP Exception: 500 - syntax error at or near ":"
+LINE 5:                 WHERE city = :city
+                                     ^
+ | Path: /city/London/listings_by_categories
+[2025-01-26 23:27:12,984] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 500 | Duration: 0.030s
+[2025-01-26 23:27:13,409] ERROR in main: HTTP Exception: 500 - syntax error at or near ":"
+LINE 5:                 WHERE city = :city
+                                     ^
+ | Path: /city/London/listings_by_categories
+[2025-01-26 23:27:13,410] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 500 | Duration: 0.028s
+[2025-01-26 23:27:13,429] ERROR in main: HTTP Exception: 500 - syntax error at or near ":"
+LINE 5:                 WHERE city = :city
+                                     ^
+ | Path: /city/London/listings_by_categories
+[2025-01-26 23:27:13,430] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 500 | Duration: 0.019s
+[2025-01-26 23:27:13,444] ERROR in main: HTTP Exception: 500 - syntax error at or near ":"
+LINE 5:                 WHERE city = :city
+                                     ^
+ | Path: /city/London/listings_by_categories
+[2025-01-26 23:27:13,444] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 500 | Duration: 0.014s
+[2025-01-26 23:27:13,459] ERROR in main: HTTP Exception: 500 - syntax error at or near ":"
+LINE 5:                 WHERE city = :city
+                                     ^
+ | Path: /city/London/listings_by_categories
+[2025-01-26 23:27:13,459] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 500 | Duration: 0.014s
+[2025-01-26 23:27:13,478] ERROR in main: HTTP Exception: 500 - syntax error at or near ":"
+LINE 5:                 WHERE city = :city
+                                     ^
+ | Path: /city/London/listings_by_categories
+[2025-01-26 23:27:13,480] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 500 | Duration: 0.019s
+[2025-01-26 23:27:13,506] ERROR in main: HTTP Exception: 500 - syntax error at or near ":"
+LINE 5:                 WHERE city = :city
+                                     ^
+ | Path: /city/London/listings_by_categories
+[2025-01-26 23:27:13,507] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 500 | Duration: 0.027s
+[2025-01-26 23:27:13,526] ERROR in main: HTTP Exception: 500 - syntax error at or near ":"
+LINE 5:                 WHERE city = :city
+                                     ^
+ | Path: /city/London/listings_by_categories
+[2025-01-26 23:27:13,527] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 500 | Duration: 0.019s
+[2025-01-26 23:27:13,540] ERROR in main: HTTP Exception: 500 - syntax error at or near ":"
+LINE 5:                 WHERE city = :city
+                                     ^
+ | Path: /city/London/listings_by_categories
+[2025-01-26 23:27:13,540] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 500 | Duration: 0.014s
+[2025-01-26 23:27:13,563] ERROR in main: HTTP Exception: 500 - syntax error at or near ":"
+LINE 5:                 WHERE city = :city
+                                     ^
+ | Path: /city/London/listings_by_categories
+[2025-01-26 23:27:13,563] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 500 | Duration: 0.022s
+[2025-01-26 23:27:13,608] ERROR in main: HTTP Exception: 500 - syntax error at or near ":"
+LINE 5:                 WHERE city = :city
+                                     ^
+ | Path: /city/London/listings_by_categories
+[2025-01-26 23:27:13,608] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 500 | Duration: 0.044s
+[2025-01-26 23:27:13,629] ERROR in main: HTTP Exception: 500 - syntax error at or near ":"
+LINE 5:                 WHERE city = :city
+                                     ^
+ | Path: /city/London/listings_by_categories
+[2025-01-26 23:27:13,630] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 500 | Duration: 0.021s
+[2025-01-26 23:27:13,649] ERROR in main: HTTP Exception: 500 - syntax error at or near ":"
+LINE 5:                 WHERE city = :city
+                                     ^
+ | Path: /city/London/listings_by_categories
+[2025-01-26 23:27:13,649] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 500 | Duration: 0.018s
+[2025-01-26 23:27:13,668] ERROR in main: HTTP Exception: 500 - syntax error at or near ":"
+LINE 5:                 WHERE city = :city
+                                     ^
+ | Path: /city/London/listings_by_categories
+[2025-01-26 23:27:13,669] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 500 | Duration: 0.019s
+[2025-01-26 23:27:13,688] ERROR in main: HTTP Exception: 500 - syntax error at or near ":"
+LINE 5:                 WHERE city = :city
+                                     ^
+ | Path: /city/London/listings_by_categories
+[2025-01-26 23:27:13,688] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 500 | Duration: 0.018s
+[2025-01-26 23:27:13,703] ERROR in main: HTTP Exception: 500 - syntax error at or near ":"
+LINE 5:                 WHERE city = :city
+                                     ^
+ | Path: /city/London/listings_by_categories
+[2025-01-26 23:27:13,703] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 500 | Duration: 0.014s
+[2025-01-26 23:27:14,270] ERROR in main: HTTP Exception: 500 - syntax error at or near ":"
+LINE 5:                 WHERE city = :city
+                                     ^
+ | Path: /city/London/listings_by_categories
+[2025-01-26 23:27:14,271] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 500 | Duration: 0.025s
+[2025-01-26 23:27:14,291] ERROR in main: HTTP Exception: 500 - syntax error at or near ":"
+LINE 5:                 WHERE city = :city
+                                     ^
+ | Path: /city/London/listings_by_categories
+[2025-01-26 23:27:14,292] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 500 | Duration: 0.020s
+[2025-01-26 23:27:14,307] ERROR in main: HTTP Exception: 500 - syntax error at or near ":"
+LINE 5:                 WHERE city = :city
+                                     ^
+ | Path: /city/London/listings_by_categories
+[2025-01-26 23:27:14,308] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 500 | Duration: 0.015s
+[2025-01-26 23:27:14,327] ERROR in main: HTTP Exception: 500 - syntax error at or near ":"
+LINE 5:                 WHERE city = :city
+                                     ^
+ | Path: /city/London/listings_by_categories
+[2025-01-26 23:27:14,328] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 500 | Duration: 0.019s
+[2025-01-26 23:27:14,344] ERROR in main: HTTP Exception: 500 - syntax error at or near ":"
+LINE 5:                 WHERE city = :city
+                                     ^
+ | Path: /city/London/listings_by_categories
+[2025-01-26 23:27:14,345] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 500 | Duration: 0.015s
+[2025-01-26 23:27:14,358] ERROR in main: HTTP Exception: 500 - syntax error at or near ":"
+LINE 5:                 WHERE city = :city
+                                     ^
+ | Path: /city/London/listings_by_categories
+[2025-01-26 23:27:14,358] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 500 | Duration: 0.013s
+[2025-01-26 23:27:14,375] ERROR in main: HTTP Exception: 500 - syntax error at or near ":"
+LINE 5:                 WHERE city = :city
+                                     ^
+ | Path: /city/London/listings_by_categories
+[2025-01-26 23:27:14,376] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 500 | Duration: 0.017s
+[2025-01-26 23:27:14,392] ERROR in main: HTTP Exception: 500 - syntax error at or near ":"
+LINE 5:                 WHERE city = :city
+                                     ^
+ | Path: /city/London/listings_by_categories
+[2025-01-26 23:27:14,392] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 500 | Duration: 0.016s
+[2025-01-26 23:27:14,407] ERROR in main: HTTP Exception: 500 - syntax error at or near ":"
+LINE 5:                 WHERE city = :city
+                                     ^
+ | Path: /city/London/listings_by_categories
+[2025-01-26 23:27:14,408] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 500 | Duration: 0.015s
+[2025-01-26 23:27:14,422] ERROR in main: HTTP Exception: 500 - syntax error at or near ":"
+LINE 5:                 WHERE city = :city
+                                     ^
+ | Path: /city/London/listings_by_categories
+[2025-01-26 23:27:14,422] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 500 | Duration: 0.014s
+[2025-01-26 23:27:14,436] ERROR in main: HTTP Exception: 500 - syntax error at or near ":"
+LINE 5:                 WHERE city = :city
+                                     ^
+ | Path: /city/London/listings_by_categories
+[2025-01-26 23:27:14,437] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 500 | Duration: 0.015s
+[2025-01-26 23:27:14,450] ERROR in main: HTTP Exception: 500 - syntax error at or near ":"
+LINE 5:                 WHERE city = :city
+                                     ^
+ | Path: /city/London/listings_by_categories
+[2025-01-26 23:27:14,451] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 500 | Duration: 0.014s
+[2025-01-26 23:27:14,464] ERROR in main: HTTP Exception: 500 - syntax error at or near ":"
+LINE 5:                 WHERE city = :city
+                                     ^
+ | Path: /city/London/listings_by_categories
+[2025-01-26 23:27:14,465] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 500 | Duration: 0.013s
+[2025-01-26 23:28:11,590] INFO in main: Successfully preloaded data for Amsterdam
+[2025-01-26 23:28:11,606] INFO in main: Successfully preloaded data for Athens
+[2025-01-26 23:28:11,628] INFO in main: Successfully preloaded data for Bangkok
+[2025-01-26 23:28:11,648] INFO in main: Successfully preloaded data for Barcelona
+[2025-01-26 23:28:11,664] INFO in main: Successfully preloaded data for Berlin
+[2025-01-26 23:28:11,712] INFO in main: Successfully preloaded data for Buenosaires
+[2025-01-26 23:28:11,738] INFO in main: Successfully preloaded data for CapeTown
+[2025-01-26 23:28:11,796] INFO in main: Successfully preloaded data for Istanbul
+[2025-01-26 23:28:11,882] INFO in main: Successfully preloaded data for London
+[2025-01-26 23:28:11,907] INFO in main: Successfully preloaded data for Madrid
+[2025-01-26 23:28:11,931] INFO in main: Successfully preloaded data for Melbourne
+[2025-01-26 23:28:11,956] INFO in main: Successfully preloaded data for MexicoCity
+[2025-01-26 23:28:11,978] INFO in main: Successfully preloaded data for Milan
+[2025-01-26 23:28:12,013] INFO in main: Successfully preloaded data for Newyorkcity
+[2025-01-26 23:28:12,093] INFO in main: Successfully preloaded data for Paris
+[2025-01-26 23:28:12,125] INFO in main: Successfully preloaded data for RiodeJaneiro
+[2025-01-26 23:28:12,157] INFO in main: Successfully preloaded data for Rome
+[2025-01-26 23:28:12,204] INFO in main: Successfully preloaded data for Sicily
+[2025-01-26 23:28:12,220] INFO in main: Successfully preloaded data for Sydney
+[2025-01-26 23:28:12,236] INFO in main: Successfully preloaded data for Tokyo
+[2025-01-26 23:28:12,256] INFO in main: Successfully preloaded data for Toronto
+[2025-01-26 23:28:12,262] INFO in main: Path: /city/Newyorkcity | Method: GET | Status: 200 | Duration: 0.001s
+[2025-01-26 23:28:12,503] INFO in main: Path: /city/Newyorkcity/yearly_stats | Method: GET | Status: 200 | Duration: 0.176s
+[2025-01-26 23:28:12,738] ERROR in main: HTTP Exception: 500 - 'listing_count' | Path: /city/Newyorkcity/listings_by_categories
+[2025-01-26 23:28:12,738] INFO in main: Path: /city/Newyorkcity/listings_by_categories | Method: GET | Status: 500 | Duration: 0.085s
+[2025-01-26 23:28:12,807] ERROR in main: HTTP Exception: 500 - 'listing_count' | Path: /city/Newyorkcity/listings_by_categories
+[2025-01-26 23:28:12,808] INFO in main: Path: /city/Newyorkcity/listings_by_categories | Method: GET | Status: 500 | Duration: 0.068s
+[2025-01-26 23:28:12,909] ERROR in main: HTTP Exception: 500 - 'listing_count' | Path: /city/Newyorkcity/listings_by_categories
+[2025-01-26 23:28:12,913] INFO in main: Path: /city/Newyorkcity/listings_by_categories | Method: GET | Status: 500 | Duration: 0.104s
+[2025-01-26 23:28:12,975] INFO in main: Path: /city/Newyorkcity/host_ranking | Method: GET | Status: 200 | Duration: 0.061s
+[2025-01-26 23:28:13,064] ERROR in main: HTTP Exception: 500 - 'listing_count' | Path: /city/Newyorkcity/listings_by_categories
+[2025-01-26 23:28:13,065] INFO in main: Path: /city/Newyorkcity/listings_by_categories | Method: GET | Status: 500 | Duration: 0.089s
+[2025-01-26 23:28:13,109] ERROR in main: HTTP Exception: 500 - 'listing_count' | Path: /city/Newyorkcity/listings_by_categories
+[2025-01-26 23:28:13,111] INFO in main: Path: /city/Newyorkcity/listings_by_categories | Method: GET | Status: 500 | Duration: 0.045s
+[2025-01-26 23:28:13,173] ERROR in main: HTTP Exception: 500 - 'listing_count' | Path: /city/Newyorkcity/listings_by_categories
+[2025-01-26 23:28:13,174] INFO in main: Path: /city/Newyorkcity/listings_by_categories | Method: GET | Status: 500 | Duration: 0.046s
+[2025-01-26 23:28:13,269] ERROR in main: HTTP Exception: 500 - 'listing_count' | Path: /city/Newyorkcity/listings_by_categories
+[2025-01-26 23:28:13,270] INFO in main: Path: /city/Newyorkcity/listings_by_categories | Method: GET | Status: 500 | Duration: 0.096s
+[2025-01-26 23:28:13,380] ERROR in main: HTTP Exception: 500 - 'listing_count' | Path: /city/Newyorkcity/listings_by_categories
+[2025-01-26 23:28:13,381] INFO in main: Path: /city/Newyorkcity/listings_by_categories | Method: GET | Status: 500 | Duration: 0.111s
+[2025-01-26 23:28:13,454] ERROR in main: HTTP Exception: 500 - 'listing_count' | Path: /city/Newyorkcity/listings_by_categories
+[2025-01-26 23:28:13,454] INFO in main: Path: /city/Newyorkcity/listings_by_categories | Method: GET | Status: 500 | Duration: 0.073s
+[2025-01-26 23:28:13,501] ERROR in main: HTTP Exception: 500 - 'listing_count' | Path: /city/Newyorkcity/listings_by_categories
+[2025-01-26 23:28:13,572] ERROR in main: HTTP Exception: 500 - 'listing_count' | Path: /city/Newyorkcity/listings_by_categories
+[2025-01-26 23:28:13,573] INFO in main: Path: /city/Newyorkcity/listings_by_categories | Method: GET | Status: 500 | Duration: 0.118s
+[2025-01-26 23:28:13,573] INFO in main: Path: /city/Newyorkcity/listings_by_categories | Method: GET | Status: 500 | Duration: 0.118s
+[2025-01-26 23:28:13,650] ERROR in main: HTTP Exception: 500 - 'listing_count' | Path: /city/Newyorkcity/listings_by_categories
+[2025-01-26 23:28:13,651] INFO in main: Path: /city/Newyorkcity/listings_by_categories | Method: GET | Status: 500 | Duration: 0.078s
+[2025-01-26 23:28:13,769] ERROR in main: HTTP Exception: 500 - 'listing_count' | Path: /city/Newyorkcity/listings_by_categories
+[2025-01-26 23:28:13,770] INFO in main: Path: /city/Newyorkcity/listings_by_categories | Method: GET | Status: 500 | Duration: 0.119s
+[2025-01-26 23:28:13,839] ERROR in main: HTTP Exception: 500 - 'listing_count' | Path: /city/Newyorkcity/listings_by_categories
+[2025-01-26 23:28:13,885] ERROR in main: HTTP Exception: 500 - 'listing_count' | Path: /city/Newyorkcity/listings_by_categories
+[2025-01-26 23:28:13,886] INFO in main: Path: /city/Newyorkcity/listings_by_categories | Method: GET | Status: 500 | Duration: 0.116s
+[2025-01-26 23:28:13,886] INFO in main: Path: /city/Newyorkcity/listings_by_categories | Method: GET | Status: 500 | Duration: 0.116s
+[2025-01-26 23:28:13,947] ERROR in main: HTTP Exception: 500 - 'listing_count' | Path: /city/Newyorkcity/listings_by_categories
+[2025-01-26 23:28:13,948] INFO in main: Path: /city/Newyorkcity/listings_by_categories | Method: GET | Status: 500 | Duration: 0.062s
+[2025-01-26 23:28:13,994] ERROR in main: HTTP Exception: 500 - 'listing_count' | Path: /city/Newyorkcity/listings_by_categories
+[2025-01-26 23:28:14,083] ERROR in main: HTTP Exception: 500 - 'listing_count' | Path: /city/Newyorkcity/listings_by_categories
+[2025-01-26 23:28:14,084] INFO in main: Path: /city/Newyorkcity/listings_by_categories | Method: GET | Status: 500 | Duration: 0.137s
+[2025-01-26 23:28:14,085] INFO in main: Path: /city/Newyorkcity/listings_by_categories | Method: GET | Status: 500 | Duration: 0.137s
+[2025-01-26 23:28:14,156] ERROR in main: HTTP Exception: 500 - 'listing_count' | Path: /city/Newyorkcity/listings_by_categories
+[2025-01-26 23:28:14,221] ERROR in main: HTTP Exception: 500 - 'listing_count' | Path: /city/Newyorkcity/listings_by_categories
+[2025-01-26 23:28:14,222] INFO in main: Path: /city/Newyorkcity/listings_by_categories | Method: GET | Status: 500 | Duration: 0.137s
+[2025-01-26 23:28:14,222] INFO in main: Path: /city/Newyorkcity/listings_by_categories | Method: GET | Status: 500 | Duration: 0.138s
+[2025-01-26 23:28:14,271] ERROR in main: HTTP Exception: 500 - 'listing_count' | Path: /city/Newyorkcity/listings_by_categories
+[2025-01-26 23:28:14,272] INFO in main: Path: /city/Newyorkcity/listings_by_categories | Method: GET | Status: 500 | Duration: 0.050s
+[2025-01-26 23:28:14,337] ERROR in main: HTTP Exception: 500 - 'listing_count' | Path: /city/Newyorkcity/listings_by_categories
+[2025-01-26 23:28:14,439] ERROR in main: HTTP Exception: 500 - 'listing_count' | Path: /city/Newyorkcity/listings_by_categories
+[2025-01-26 23:28:14,439] INFO in main: Path: /city/Newyorkcity/listings_by_categories | Method: GET | Status: 500 | Duration: 0.167s
+[2025-01-26 23:28:14,439] INFO in main: Path: /city/Newyorkcity/listings_by_categories | Method: GET | Status: 500 | Duration: 0.167s
+[2025-01-26 23:28:14,485] ERROR in main: HTTP Exception: 500 - 'listing_count' | Path: /city/Newyorkcity/listings_by_categories
+[2025-01-26 23:28:14,485] INFO in main: Path: /city/Newyorkcity/listings_by_categories | Method: GET | Status: 500 | Duration: 0.046s
+[2025-01-26 23:28:14,546] ERROR in main: HTTP Exception: 500 - 'listing_count' | Path: /city/Newyorkcity/listings_by_categories
+[2025-01-26 23:28:14,547] INFO in main: Path: /city/Newyorkcity/listings_by_categories | Method: GET | Status: 500 | Duration: 0.061s
+[2025-01-26 23:28:14,607] ERROR in main: HTTP Exception: 500 - 'listing_count' | Path: /city/Newyorkcity/listings_by_categories
+[2025-01-26 23:28:14,608] INFO in main: Path: /city/Newyorkcity/listings_by_categories | Method: GET | Status: 500 | Duration: 0.060s
+[2025-01-26 23:28:14,667] ERROR in main: HTTP Exception: 500 - 'listing_count' | Path: /city/Newyorkcity/listings_by_categories
+[2025-01-26 23:28:14,667] INFO in main: Path: /city/Newyorkcity/listings_by_categories | Method: GET | Status: 500 | Duration: 0.059s
+[2025-01-26 23:28:14,726] ERROR in main: HTTP Exception: 500 - 'listing_count' | Path: /city/Newyorkcity/listings_by_categories
+[2025-01-26 23:28:14,726] INFO in main: Path: /city/Newyorkcity/listings_by_categories | Method: GET | Status: 500 | Duration: 0.059s
+[2025-01-26 23:28:14,786] ERROR in main: HTTP Exception: 500 - 'listing_count' | Path: /city/Newyorkcity/listings_by_categories
+[2025-01-26 23:28:14,786] INFO in main: Path: /city/Newyorkcity/listings_by_categories | Method: GET | Status: 500 | Duration: 0.060s
+[2025-01-26 23:28:14,854] ERROR in main: HTTP Exception: 500 - 'listing_count' | Path: /city/Newyorkcity/listings_by_categories
+[2025-01-26 23:28:14,854] INFO in main: Path: /city/Newyorkcity/listings_by_categories | Method: GET | Status: 500 | Duration: 0.067s
+[2025-01-26 23:28:14,916] ERROR in main: HTTP Exception: 500 - 'listing_count' | Path: /city/Newyorkcity/listings_by_categories
+[2025-01-26 23:28:14,916] INFO in main: Path: /city/Newyorkcity/listings_by_categories | Method: GET | Status: 500 | Duration: 0.061s
+[2025-01-26 23:28:14,978] ERROR in main: HTTP Exception: 500 - 'listing_count' | Path: /city/Newyorkcity/listings_by_categories
+[2025-01-26 23:28:14,979] INFO in main: Path: /city/Newyorkcity/listings_by_categories | Method: GET | Status: 500 | Duration: 0.062s
+[2025-01-26 23:28:15,045] ERROR in main: HTTP Exception: 500 - 'listing_count' | Path: /city/Newyorkcity/listings_by_categories
+[2025-01-26 23:28:15,045] INFO in main: Path: /city/Newyorkcity/listings_by_categories | Method: GET | Status: 500 | Duration: 0.066s
+[2025-01-26 23:28:15,116] ERROR in main: HTTP Exception: 500 - 'listing_count' | Path: /city/Newyorkcity/listings_by_categories
+[2025-01-26 23:28:15,116] INFO in main: Path: /city/Newyorkcity/listings_by_categories | Method: GET | Status: 500 | Duration: 0.070s
+[2025-01-26 23:28:15,179] ERROR in main: HTTP Exception: 500 - 'listing_count' | Path: /city/Newyorkcity/listings_by_categories
+[2025-01-26 23:28:15,179] INFO in main: Path: /city/Newyorkcity/listings_by_categories | Method: GET | Status: 500 | Duration: 0.062s
+[2025-01-26 23:28:15,240] ERROR in main: HTTP Exception: 500 - 'listing_count' | Path: /city/Newyorkcity/listings_by_categories
+[2025-01-26 23:28:15,240] INFO in main: Path: /city/Newyorkcity/listings_by_categories | Method: GET | Status: 500 | Duration: 0.060s
+[2025-01-26 23:28:15,303] ERROR in main: HTTP Exception: 500 - 'listing_count' | Path: /city/Newyorkcity/listings_by_categories
+[2025-01-26 23:28:15,303] INFO in main: Path: /city/Newyorkcity/listings_by_categories | Method: GET | Status: 500 | Duration: 0.062s
+[2025-01-26 23:28:15,366] ERROR in main: HTTP Exception: 500 - 'listing_count' | Path: /city/Newyorkcity/listings_by_categories
+[2025-01-26 23:28:15,367] INFO in main: Path: /city/Newyorkcity/listings_by_categories | Method: GET | Status: 500 | Duration: 0.063s
+[2025-01-26 23:28:15,428] ERROR in main: HTTP Exception: 500 - 'listing_count' | Path: /city/Newyorkcity/listings_by_categories
+[2025-01-26 23:28:15,429] INFO in main: Path: /city/Newyorkcity/listings_by_categories | Method: GET | Status: 500 | Duration: 0.061s
+[2025-01-26 23:28:15,490] ERROR in main: HTTP Exception: 500 - 'listing_count' | Path: /city/Newyorkcity/listings_by_categories
+[2025-01-26 23:28:15,490] INFO in main: Path: /city/Newyorkcity/listings_by_categories | Method: GET | Status: 500 | Duration: 0.061s
+[2025-01-26 23:28:15,550] ERROR in main: HTTP Exception: 500 - 'listing_count' | Path: /city/Newyorkcity/listings_by_categories
+[2025-01-26 23:28:15,551] INFO in main: Path: /city/Newyorkcity/listings_by_categories | Method: GET | Status: 500 | Duration: 0.060s
+[2025-01-26 23:28:15,633] ERROR in main: HTTP Exception: 500 - 'listing_count' | Path: /city/Newyorkcity/listings_by_categories
+[2025-01-26 23:28:15,633] INFO in main: Path: /city/Newyorkcity/listings_by_categories | Method: GET | Status: 500 | Duration: 0.082s
+[2025-01-26 23:29:07,182] INFO in main: Successfully preloaded data for Amsterdam
+[2025-01-26 23:29:07,198] INFO in main: Successfully preloaded data for Athens
+[2025-01-26 23:29:07,222] INFO in main: Successfully preloaded data for Bangkok
+[2025-01-26 23:29:07,242] INFO in main: Successfully preloaded data for Barcelona
+[2025-01-26 23:29:07,258] INFO in main: Successfully preloaded data for Berlin
+[2025-01-26 23:29:07,300] INFO in main: Successfully preloaded data for Buenosaires
+[2025-01-26 23:29:07,326] INFO in main: Successfully preloaded data for CapeTown
+[2025-01-26 23:29:07,355] INFO in main: Successfully preloaded data for Istanbul
+[2025-01-26 23:29:07,441] INFO in main: Successfully preloaded data for London
+[2025-01-26 23:29:07,466] INFO in main: Successfully preloaded data for Madrid
+[2025-01-26 23:29:07,488] INFO in main: Successfully preloaded data for Melbourne
+[2025-01-26 23:29:07,515] INFO in main: Successfully preloaded data for MexicoCity
+[2025-01-26 23:29:07,538] INFO in main: Successfully preloaded data for Milan
+[2025-01-26 23:29:07,569] INFO in main: Successfully preloaded data for Newyorkcity
+[2025-01-26 23:29:07,649] INFO in main: Successfully preloaded data for Paris
+[2025-01-26 23:29:07,680] INFO in main: Successfully preloaded data for RiodeJaneiro
+[2025-01-26 23:29:07,710] INFO in main: Successfully preloaded data for Rome
+[2025-01-26 23:29:07,761] INFO in main: Successfully preloaded data for Sicily
+[2025-01-26 23:29:07,777] INFO in main: Successfully preloaded data for Sydney
+[2025-01-26 23:29:07,793] INFO in main: Successfully preloaded data for Tokyo
+[2025-01-26 23:29:07,812] INFO in main: Successfully preloaded data for Toronto
+[2025-01-26 23:30:07,923] INFO in main: Successfully preloaded data for Amsterdam
+[2025-01-26 23:30:07,938] INFO in main: Successfully preloaded data for Athens
+[2025-01-26 23:30:07,961] INFO in main: Successfully preloaded data for Bangkok
+[2025-01-26 23:30:07,982] INFO in main: Successfully preloaded data for Barcelona
+[2025-01-26 23:30:07,997] INFO in main: Successfully preloaded data for Berlin
+[2025-01-26 23:30:08,037] INFO in main: Successfully preloaded data for Buenosaires
+[2025-01-26 23:30:08,061] INFO in main: Successfully preloaded data for CapeTown
+[2025-01-26 23:30:08,090] INFO in main: Successfully preloaded data for Istanbul
+[2025-01-26 23:30:08,178] INFO in main: Successfully preloaded data for London
+[2025-01-26 23:30:08,203] INFO in main: Successfully preloaded data for Madrid
+[2025-01-26 23:30:08,226] INFO in main: Successfully preloaded data for Melbourne
+[2025-01-26 23:30:08,251] INFO in main: Successfully preloaded data for MexicoCity
+[2025-01-26 23:30:08,275] INFO in main: Successfully preloaded data for Milan
+[2025-01-26 23:30:08,307] INFO in main: Successfully preloaded data for Newyorkcity
+[2025-01-26 23:30:08,387] INFO in main: Successfully preloaded data for Paris
+[2025-01-26 23:30:08,418] INFO in main: Successfully preloaded data for RiodeJaneiro
+[2025-01-26 23:30:08,450] INFO in main: Successfully preloaded data for Rome
+[2025-01-26 23:30:08,498] INFO in main: Successfully preloaded data for Sicily
+[2025-01-26 23:30:08,514] INFO in main: Successfully preloaded data for Sydney
+[2025-01-26 23:30:08,530] INFO in main: Successfully preloaded data for Tokyo
+[2025-01-26 23:30:08,549] INFO in main: Successfully preloaded data for Toronto
+[2025-01-26 23:30:08,554] INFO in main: Path: /city/London | Method: GET | Status: 200 | Duration: 0.000s
+[2025-01-26 23:30:08,982] INFO in main: Path: /city/London/yearly_stats | Method: GET | Status: 200 | Duration: 0.363s
+[2025-01-26 23:30:09,185] INFO in main: Path: /city/London/host_ranking | Method: GET | Status: 200 | Duration: 0.068s
+[2025-01-26 23:31:24,934] INFO in main: Successfully preloaded data for Amsterdam
+[2025-01-26 23:31:24,949] INFO in main: Successfully preloaded data for Athens
+[2025-01-26 23:31:24,971] INFO in main: Successfully preloaded data for Bangkok
+[2025-01-26 23:31:24,990] INFO in main: Successfully preloaded data for Barcelona
+[2025-01-26 23:31:25,005] INFO in main: Successfully preloaded data for Berlin
+[2025-01-26 23:31:25,044] INFO in main: Successfully preloaded data for Buenosaires
+[2025-01-26 23:31:25,068] INFO in main: Successfully preloaded data for CapeTown
+[2025-01-26 23:31:25,096] INFO in main: Successfully preloaded data for Istanbul
+[2025-01-26 23:31:25,184] INFO in main: Successfully preloaded data for London
+[2025-01-26 23:31:25,207] INFO in main: Successfully preloaded data for Madrid
+[2025-01-26 23:31:25,230] INFO in main: Successfully preloaded data for Melbourne
+[2025-01-26 23:31:25,255] INFO in main: Successfully preloaded data for MexicoCity
+[2025-01-26 23:31:25,277] INFO in main: Successfully preloaded data for Milan
+[2025-01-26 23:31:25,310] INFO in main: Successfully preloaded data for Newyorkcity
+[2025-01-26 23:31:25,391] INFO in main: Successfully preloaded data for Paris
+[2025-01-26 23:31:25,422] INFO in main: Successfully preloaded data for RiodeJaneiro
+[2025-01-26 23:31:25,453] INFO in main: Successfully preloaded data for Rome
+[2025-01-26 23:31:25,502] INFO in main: Successfully preloaded data for Sicily
+[2025-01-26 23:31:25,518] INFO in main: Successfully preloaded data for Sydney
+[2025-01-26 23:31:25,533] INFO in main: Successfully preloaded data for Tokyo
+[2025-01-26 23:31:25,552] INFO in main: Successfully preloaded data for Toronto
+[2025-01-26 23:31:25,555] INFO in main: Fetching cities list
+[2025-01-26 23:31:25,620] INFO in main: Found 21 cities
+[2025-01-26 23:31:25,621] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.066s
+[2025-01-26 23:33:03,539] INFO in main: Successfully preloaded data for Amsterdam
+[2025-01-26 23:33:03,554] INFO in main: Successfully preloaded data for Athens
+[2025-01-26 23:33:03,575] INFO in main: Successfully preloaded data for Bangkok
+[2025-01-26 23:33:03,595] INFO in main: Successfully preloaded data for Barcelona
+[2025-01-26 23:33:03,609] INFO in main: Successfully preloaded data for Berlin
+[2025-01-26 23:33:03,649] INFO in main: Successfully preloaded data for Buenosaires
+[2025-01-26 23:33:03,674] INFO in main: Successfully preloaded data for CapeTown
+[2025-01-26 23:33:03,703] INFO in main: Successfully preloaded data for Istanbul
+[2025-01-26 23:33:03,791] INFO in main: Successfully preloaded data for London
+[2025-01-26 23:33:03,815] INFO in main: Successfully preloaded data for Madrid
+[2025-01-26 23:33:03,837] INFO in main: Successfully preloaded data for Melbourne
+[2025-01-26 23:33:03,863] INFO in main: Successfully preloaded data for MexicoCity
+[2025-01-26 23:33:03,885] INFO in main: Successfully preloaded data for Milan
+[2025-01-26 23:33:03,917] INFO in main: Successfully preloaded data for Newyorkcity
+[2025-01-26 23:33:03,997] INFO in main: Successfully preloaded data for Paris
+[2025-01-26 23:33:04,027] INFO in main: Successfully preloaded data for RiodeJaneiro
+[2025-01-26 23:33:04,059] INFO in main: Successfully preloaded data for Rome
+[2025-01-26 23:33:04,109] INFO in main: Successfully preloaded data for Sicily
+[2025-01-26 23:33:04,124] INFO in main: Successfully preloaded data for Sydney
+[2025-01-26 23:33:04,141] INFO in main: Successfully preloaded data for Tokyo
+[2025-01-26 23:33:04,163] INFO in main: Successfully preloaded data for Toronto
+[2025-01-26 23:33:04,169] INFO in main: Fetching cities list
+[2025-01-26 23:33:04,241] INFO in main: Found 21 cities
+[2025-01-26 23:33:04,242] INFO in main: Fetching cities list
+[2025-01-26 23:33:04,297] INFO in main: Found 21 cities
+[2025-01-26 23:33:04,297] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.129s
+[2025-01-26 23:33:04,298] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.129s
+[2025-01-26 23:33:42,866] INFO in main: Fetching cities list
+[2025-01-26 23:33:42,932] INFO in main: Found 21 cities
+[2025-01-26 23:33:42,933] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.067s
+[2025-01-26 23:33:45,279] INFO in main: Fetching cities list
+[2025-01-26 23:33:45,360] INFO in main: Found 21 cities
+[2025-01-26 23:33:45,361] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.082s
+[2025-01-26 23:33:47,396] INFO in main: Path: /city/London | Method: GET | Status: 200 | Duration: 0.001s
+[2025-01-26 23:33:47,774] INFO in main: Path: /city/London/yearly_stats | Method: GET | Status: 200 | Duration: 0.352s
+[2025-01-26 23:33:47,972] INFO in main: Path: /city/London/host_ranking | Method: GET | Status: 200 | Duration: 0.069s
+[2025-01-26 23:33:50,292] INFO in main: Sample listing data: {'host_id': 216660, 'latitude': 51.4934, 'longitude': -0.22929, 'name': 'Cosy Double studio in Zone 2 Hammersmith (6)', 'price': '$87.00', 'processed_price': 10, 'geom': '{"type":"Point","coordinates":[-0.22929,51.4934]}'}
+[2025-01-26 23:33:50,296] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 200 | Duration: 0.078s
+[2025-01-26 23:34:05,167] INFO in main: Path: /city/London/host_ranking | Method: GET | Status: 200 | Duration: 0.158s
+[2025-01-26 23:34:05,676] INFO in main: Sample listing data: {'host_id': 580475, 'latitude': 51.48962, 'longitude': -0.13924, 'name': 'Double Studio in Victoria 5A', 'price': None, 'processed_price': 10, 'geom': '{"type":"Point","coordinates":[-0.13924,51.48962]}'}
+[2025-01-26 23:34:05,697] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 200 | Duration: 0.117s
+[2025-01-26 23:34:08,364] INFO in main: Path: /city/London/host_ranking | Method: GET | Status: 200 | Duration: 0.031s
+[2025-01-26 23:34:08,921] INFO in main: Sample listing data: {'host_id': 580475, 'latitude': 51.48962, 'longitude': -0.13924, 'name': 'Double Studio in Victoria 5A', 'price': None, 'processed_price': 10, 'geom': '{"type":"Point","coordinates":[-0.13924,51.48962]}'}
+[2025-01-26 23:34:08,922] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 200 | Duration: 0.046s
+[2025-01-26 23:34:10,732] INFO in main: Path: /city/London/host_ranking | Method: GET | Status: 200 | Duration: 0.035s
+[2025-01-26 23:34:11,335] INFO in main: Sample listing data: {'host_id': 216660, 'latitude': 51.4934, 'longitude': -0.22929, 'name': 'Cosy Double studio in Zone 2 Hammersmith (6)', 'price': '$87.00', 'processed_price': 10, 'geom': '{"type":"Point","coordinates":[-0.22929,51.4934]}'}
+[2025-01-26 23:34:11,336] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 200 | Duration: 0.053s
+[2025-01-26 23:34:12,782] INFO in main: Path: /city/London/host_ranking | Method: GET | Status: 200 | Duration: 0.065s
+[2025-01-26 23:34:13,392] INFO in main: Sample listing data: {'host_id': 216660, 'latitude': 51.4934, 'longitude': -0.22929, 'name': 'Cosy Double studio in Zone 2 Hammersmith (6)', 'price': '$87.00', 'processed_price': 10, 'geom': '{"type":"Point","coordinates":[-0.22929,51.4934]}'}
+[2025-01-26 23:34:13,395] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 200 | Duration: 0.087s
+[2025-01-26 23:34:14,753] INFO in main: Sample listing data: {'host_id': 381894, 'latitude': 51.42328, 'longitude': -0.17789, 'name': 'Large 2Bedroom  Apartment (B), 4 Beds, sleeps 6', 'price': '$150.00', 'processed_price': 15, 'geom': '{"type":"Point","coordinates":[-0.17789,51.42328]}'}
+[2025-01-26 23:34:14,756] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 200 | Duration: 0.072s
+[2025-01-26 23:34:16,565] INFO in main: Sample listing data: {'host_id': 67564, 'latitude': 51.52195, 'longitude': -0.14094, 'name': 'Fab 3-Bed/2 Bath & Wifi: Trendy W1', 'price': '$493.00', 'processed_price': 20, 'geom': '{"type":"Point","coordinates":[-0.14094,51.52195]}'}
+[2025-01-26 23:34:16,575] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 200 | Duration: 0.074s
+[2025-01-26 23:34:17,932] INFO in main: Sample listing data: {'host_id': 4775, 'latitude': 51.526448, 'longitude': -0.088015, 'name': 'Old St tube 2mins Dbl  balcony in iconic building', 'price': '$88.00', 'processed_price': 10, 'geom': '{"type":"Point","coordinates":[-0.088015,51.526448]}'}
+[2025-01-26 23:34:17,948] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 200 | Duration: 0.085s
+[2025-01-26 23:34:19,255] INFO in main: Sample listing data: {'host_id': 44775341, 'latitude': 51.39926, 'longitude': -0.09785, 'name': 'Cosy Flat for two', 'price': None, 'processed_price': 10, 'geom': '{"type":"Point","coordinates":[-0.09785,51.39926]}'}
+[2025-01-26 23:34:19,358] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 200 | Duration: 0.242s
+[2025-01-26 23:35:10,259] INFO in main: Path: /city/Newyorkcity | Method: GET | Status: 200 | Duration: 0.000s
+[2025-01-26 23:35:10,503] INFO in main: Path: /city/Newyorkcity/yearly_stats | Method: GET | Status: 200 | Duration: 0.187s
+[2025-01-26 23:35:10,954] INFO in main: Path: /city/Newyorkcity/host_ranking | Method: GET | Status: 200 | Duration: 0.078s
+[2025-01-26 23:35:15,139] INFO in main: Sample listing data: {'host_id': 417504, 'latitude': 40.73777, 'longitude': -73.95366, 'name': 'Loft w/ Terrace @ Box House Hotel', 'price': None, 'processed_price': 10, 'geom': '{"type":"Point","coordinates":[-73.95366,40.73777]}'}
+[2025-01-26 23:35:15,142] INFO in main: Path: /city/Newyorkcity/listings_by_categories | Method: GET | Status: 200 | Duration: 0.059s
+[2025-01-26 23:35:15,510] INFO in main: Sample listing data: {'host_id': 836168, 'latitude': 40.7751, 'longitude': -73.98595, 'name': 'Luxury 2Bed/2.5Bath Central Park View', 'price': '$2,500.00', 'processed_price': 20, 'geom': '{"type":"Point","coordinates":[-73.98595,40.7751]}'}
+[2025-01-26 23:35:15,513] INFO in main: Path: /city/Newyorkcity/listings_by_categories | Method: GET | Status: 200 | Duration: 0.064s
+[2025-01-26 23:35:15,994] INFO in main: Sample listing data: {'host_id': 2787, 'latitude': 40.64733, 'longitude': -73.97281, 'name': 'Clean apt home near Prospect Park', 'price': '$249.00', 'processed_price': 15, 'geom': '{"type":"Point","coordinates":[-73.97281,40.64733]}'}
+[2025-01-26 23:35:15,999] INFO in main: Path: /city/Newyorkcity/listings_by_categories | Method: GET | Status: 200 | Duration: 0.065s
+[2025-01-26 23:35:16,284] INFO in main: Sample listing data: {'host_id': 15523, 'latitude': 40.63139, 'longitude': -74.08169, 'name': 'Enjoy and discover New York Citi', 'price': '$71.00', 'processed_price': 5, 'geom': '{"type":"Point","coordinates":[-74.08169,40.63139]}'}
+[2025-01-26 23:35:16,293] INFO in main: Path: /city/Newyorkcity/listings_by_categories | Method: GET | Status: 200 | Duration: 0.073s
+[2025-01-26 23:35:16,600] INFO in main: Sample listing data: {'host_id': 87494, 'latitude': 40.83455, 'longitude': -73.9387, 'name': 'Private Bedroom in Renovated Apt', 'price': None, 'processed_price': 10, 'geom': '{"type":"Point","coordinates":[-73.9387,40.83455]}'}
+[2025-01-26 23:35:16,668] INFO in main: Path: /city/Newyorkcity/listings_by_categories | Method: GET | Status: 200 | Duration: 0.159s
+[2025-01-26 23:35:19,141] INFO in main: Path: /city/Newyorkcity/host_ranking | Method: GET | Status: 200 | Duration: 0.099s
+[2025-01-26 23:35:19,714] INFO in main: Sample listing data: {'host_id': 417504, 'latitude': 40.73777, 'longitude': -73.95366, 'name': 'Loft w/ Terrace @ Box House Hotel', 'price': None, 'processed_price': 10, 'geom': '{"type":"Point","coordinates":[-73.95366,40.73777]}'}
+[2025-01-26 23:35:19,720] INFO in main: Path: /city/Newyorkcity/listings_by_categories | Method: GET | Status: 200 | Duration: 0.076s
+[2025-01-26 23:35:19,773] INFO in main: Sample listing data: {'host_id': 836168, 'latitude': 40.7751, 'longitude': -73.98595, 'name': 'Luxury 2Bed/2.5Bath Central Park View', 'price': '$2,500.00', 'processed_price': 20, 'geom': '{"type":"Point","coordinates":[-73.98595,40.7751]}'}
+[2025-01-26 23:35:19,836] INFO in main: Sample listing data: {'host_id': 2787, 'latitude': 40.64733, 'longitude': -73.97281, 'name': 'Clean apt home near Prospect Park', 'price': '$249.00', 'processed_price': 15, 'geom': '{"type":"Point","coordinates":[-73.97281,40.64733]}'}
+[2025-01-26 23:35:19,935] INFO in main: Sample listing data: {'host_id': 2845, 'latitude': 40.75356, 'longitude': -73.98559, 'name': 'Skylit Midtown Castle', 'price': '$240.00', 'processed_price': 15, 'geom': '{"type":"Point","coordinates":[-73.98559,40.75356]}'}
+[2025-01-26 23:35:20,071] INFO in main: Sample listing data: {'host_id': 2234, 'latitude': 40.63947, 'longitude': -74.08374, 'name': 'St George Sunny, large 2 bdrm w/yard Monthly only', 'price': '$100.00', 'processed_price': 10, 'geom': '{"type":"Point","coordinates":[-74.08374,40.63947]}'}
+[2025-01-26 23:35:20,206] INFO in main: Path: /city/Newyorkcity/listings_by_categories | Method: GET | Status: 200 | Duration: 0.485s
+[2025-01-26 23:35:20,206] INFO in main: Path: /city/Newyorkcity/listings_by_categories | Method: GET | Status: 200 | Duration: 0.486s
+[2025-01-26 23:35:20,206] INFO in main: Path: /city/Newyorkcity/listings_by_categories | Method: GET | Status: 200 | Duration: 0.486s
+[2025-01-26 23:35:20,206] INFO in main: Path: /city/Newyorkcity/listings_by_categories | Method: GET | Status: 200 | Duration: 0.486s
+[2025-01-26 23:35:26,013] INFO in main: Path: /city/Newyorkcity/host_ranking | Method: GET | Status: 200 | Duration: 0.099s
+[2025-01-26 23:35:26,624] INFO in main: Sample listing data: {'host_id': 417504, 'latitude': 40.73777, 'longitude': -73.95366, 'name': 'Loft w/ Terrace @ Box House Hotel', 'price': None, 'processed_price': 10, 'geom': '{"type":"Point","coordinates":[-73.95366,40.73777]}'}
+[2025-01-26 23:35:26,670] INFO in main: Path: /city/Newyorkcity/listings_by_categories | Method: GET | Status: 200 | Duration: 0.155s
+[2025-01-26 23:35:26,767] INFO in main: Sample listing data: {'host_id': 546370, 'latitude': 40.688014, 'longitude': -73.9429521, 'name': 'Cozy Room with in trendy Bed-Stuy Brooklyn', 'price': '$49.00', 'processed_price': 5, 'geom': '{"type":"Point","coordinates":[-73.9429521,40.688014]}'}
+[2025-01-26 23:35:26,847] INFO in main: Sample listing data: {'host_id': 2787, 'latitude': 40.64733, 'longitude': -73.97281, 'name': 'Clean apt home near Prospect Park', 'price': '$249.00', 'processed_price': 15, 'geom': '{"type":"Point","coordinates":[-73.97281,40.64733]}'}
+[2025-01-26 23:35:26,951] INFO in main: Sample listing data: {'host_id': 4396, 'latitude': 40.72281, 'longitude': -73.98501, 'name': 'Charming Room in Amazing East Village Apt. (B)', 'price': '$159.00', 'processed_price': 15, 'geom': '{"type":"Point","coordinates":[-73.98501,40.72281]}'}
+[2025-01-26 23:35:27,146] INFO in main: Sample listing data: {'host_id': 2234, 'latitude': 40.63947, 'longitude': -74.08374, 'name': 'St George Sunny, large 2 bdrm w/yard Monthly only', 'price': '$100.00', 'processed_price': 10, 'geom': '{"type":"Point","coordinates":[-74.08374,40.63947]}'}
+[2025-01-26 23:35:27,321] INFO in main: Path: /city/Newyorkcity/listings_by_categories | Method: GET | Status: 200 | Duration: 0.650s
+[2025-01-26 23:35:27,321] INFO in main: Path: /city/Newyorkcity/listings_by_categories | Method: GET | Status: 200 | Duration: 0.651s
+[2025-01-26 23:35:27,321] INFO in main: Path: /city/Newyorkcity/listings_by_categories | Method: GET | Status: 200 | Duration: 0.651s
+[2025-01-26 23:35:27,321] INFO in main: Path: /city/Newyorkcity/listings_by_categories | Method: GET | Status: 200 | Duration: 0.651s
+[2025-01-26 23:35:30,005] INFO in main: Sample listing data: {'host_id': 417504, 'latitude': 40.73777, 'longitude': -73.95366, 'name': 'Loft w/ Terrace @ Box House Hotel', 'price': None, 'processed_price': 10, 'geom': '{"type":"Point","coordinates":[-73.95366,40.73777]}'}
+[2025-01-26 23:35:30,025] INFO in main: Path: /city/Newyorkcity/listings_by_categories | Method: GET | Status: 200 | Duration: 0.101s
+[2025-01-26 23:35:32,079] INFO in main: Sample listing data: {'host_id': 417504, 'latitude': 40.73777, 'longitude': -73.95366, 'name': 'Loft w/ Terrace @ Box House Hotel', 'price': None, 'processed_price': 10, 'geom': '{"type":"Point","coordinates":[-73.95366,40.73777]}'}
+[2025-01-26 23:35:32,099] INFO in main: Path: /city/Newyorkcity/listings_by_categories | Method: GET | Status: 200 | Duration: 0.129s
+[2025-01-26 23:35:33,960] INFO in main: Sample listing data: {'host_id': 417504, 'latitude': 40.73777, 'longitude': -73.95366, 'name': 'Loft w/ Terrace @ Box House Hotel', 'price': None, 'processed_price': 10, 'geom': '{"type":"Point","coordinates":[-73.95366,40.73777]}'}
+[2025-01-26 23:35:33,980] INFO in main: Path: /city/Newyorkcity/listings_by_categories | Method: GET | Status: 200 | Duration: 0.112s
+[2025-01-26 23:35:35,900] INFO in main: Sample listing data: {'host_id': 417504, 'latitude': 40.73777, 'longitude': -73.95366, 'name': 'Loft w/ Terrace @ Box House Hotel', 'price': None, 'processed_price': 10, 'geom': '{"type":"Point","coordinates":[-73.95366,40.73777]}'}
+[2025-01-26 23:35:35,921] INFO in main: Path: /city/Newyorkcity/listings_by_categories | Method: GET | Status: 200 | Duration: 0.101s
+[2025-01-26 23:37:49,999] INFO in main: Fetching cities list
+[2025-01-26 23:37:50,091] INFO in main: Found 21 cities
+[2025-01-26 23:37:50,092] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.093s
+[2025-01-26 23:37:51,867] INFO in main: Fetching cities list
+[2025-01-26 23:37:51,960] INFO in main: Found 21 cities
+[2025-01-26 23:37:51,961] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.094s
+[2025-01-26 23:37:54,265] INFO in main: Path: /city/MexicoCity | Method: GET | Status: 200 | Duration: 0.001s
+[2025-01-26 23:37:54,430] INFO in main: Path: /city/MexicoCity/yearly_stats | Method: GET | Status: 200 | Duration: 0.138s
+[2025-01-26 23:37:54,880] INFO in main: Path: /city/MexicoCity/host_ranking | Method: GET | Status: 200 | Duration: 0.051s
+[2025-01-26 23:37:56,748] INFO in main: Path: /city/Newyorkcity | Method: GET | Status: 200 | Duration: 0.000s
+[2025-01-26 23:37:56,948] INFO in main: Path: /city/Newyorkcity/yearly_stats | Method: GET | Status: 200 | Duration: 0.147s
+[2025-01-26 23:37:57,374] INFO in main: Path: /city/Newyorkcity/host_ranking | Method: GET | Status: 200 | Duration: 0.070s
+[2025-01-26 23:38:06,547] INFO in main: Path: /city/London | Method: GET | Status: 200 | Duration: 0.000s
+[2025-01-26 23:38:06,958] INFO in main: Path: /city/London/yearly_stats | Method: GET | Status: 200 | Duration: 0.352s
+[2025-01-26 23:38:07,179] INFO in main: Path: /city/London/host_ranking | Method: GET | Status: 200 | Duration: 0.076s
+[2025-01-26 23:38:11,810] INFO in main: Path: /city/Newyorkcity | Method: GET | Status: 200 | Duration: 0.001s
+[2025-01-26 23:38:12,045] INFO in main: Path: /city/Newyorkcity/yearly_stats | Method: GET | Status: 200 | Duration: 0.174s
+[2025-01-26 23:38:12,521] INFO in main: Path: /city/Newyorkcity/host_ranking | Method: GET | Status: 200 | Duration: 0.163s
+[2025-01-26 23:38:13,577] INFO in main: Sample listing data: {'host_id': 417504, 'latitude': 40.73777, 'longitude': -73.95366, 'name': 'Loft w/ Terrace @ Box House Hotel', 'price': None, 'processed_price': 10, 'geom': '{"type":"Point","coordinates":[-73.95366,40.73777]}'}
+[2025-01-26 23:38:13,579] INFO in main: Path: /city/Newyorkcity/listings_by_categories | Method: GET | Status: 200 | Duration: 0.059s
+[2025-01-26 23:38:14,780] INFO in main: Sample listing data: {'host_id': 836168, 'latitude': 40.7751, 'longitude': -73.98595, 'name': 'Luxury 2Bed/2.5Bath Central Park View', 'price': '$2,500.00', 'processed_price': 20, 'geom': '{"type":"Point","coordinates":[-73.98595,40.7751]}'}
+[2025-01-26 23:38:14,782] INFO in main: Path: /city/Newyorkcity/listings_by_categories | Method: GET | Status: 200 | Duration: 0.063s
+[2025-01-26 23:38:15,113] INFO in main: Sample listing data: {'host_id': 2787, 'latitude': 40.64733, 'longitude': -73.97281, 'name': 'Clean apt home near Prospect Park', 'price': '$249.00', 'processed_price': 15, 'geom': '{"type":"Point","coordinates":[-73.97281,40.64733]}'}
+[2025-01-26 23:38:15,119] INFO in main: Path: /city/Newyorkcity/listings_by_categories | Method: GET | Status: 200 | Duration: 0.067s
+[2025-01-26 23:38:25,955] INFO in main: Fetching cities list
+[2025-01-26 23:38:26,047] INFO in main: Found 21 cities
+[2025-01-26 23:38:26,054] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.100s
+[2025-01-26 23:38:28,523] INFO in main: Path: /city/London | Method: GET | Status: 200 | Duration: 0.000s
+[2025-01-26 23:38:28,878] INFO in main: Path: /city/London/yearly_stats | Method: GET | Status: 200 | Duration: 0.331s
+[2025-01-26 23:38:29,113] INFO in main: Path: /city/London/host_ranking | Method: GET | Status: 200 | Duration: 0.085s
+[2025-01-26 23:38:30,360] INFO in main: Sample listing data: {'host_id': 216660, 'latitude': 51.4934, 'longitude': -0.22929, 'name': 'Cosy Double studio in Zone 2 Hammersmith (6)', 'price': '$87.00', 'processed_price': 10, 'geom': '{"type":"Point","coordinates":[-0.22929,51.4934]}'}
+[2025-01-26 23:38:30,364] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 200 | Duration: 0.101s
+[2025-01-26 23:38:31,804] INFO in main: Sample listing data: {'host_id': 381894, 'latitude': 51.42328, 'longitude': -0.17789, 'name': 'Large 2Bedroom  Apartment (B), 4 Beds, sleeps 6', 'price': '$150.00', 'processed_price': 15, 'geom': '{"type":"Point","coordinates":[-0.17789,51.42328]}'}
+[2025-01-26 23:38:31,807] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 200 | Duration: 0.072s
+[2025-01-26 23:38:32,178] INFO in main: Sample listing data: {'host_id': 4775, 'latitude': 51.526448, 'longitude': -0.088015, 'name': 'Old St tube 2mins Dbl  balcony in iconic building', 'price': '$88.00', 'processed_price': 10, 'geom': '{"type":"Point","coordinates":[-0.088015,51.526448]}'}
+[2025-01-26 23:38:32,190] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 200 | Duration: 0.080s
+[2025-01-26 23:38:37,421] INFO in main: Sample listing data: {'host_id': 32851, 'latitude': 51.54588, 'longitude': -0.0684, 'name': 'Stunning Bright Architect’s Home & Garden Hackney', 'price': '$280.00', 'processed_price': 18, 'geom': '{"type":"Point","coordinates":[-0.0684,51.54588]}'}
+[2025-01-26 23:38:37,439] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 200 | Duration: 0.091s
+[2025-01-26 23:38:37,725] INFO in main: Sample listing data: {'host_id': 44775341, 'latitude': 51.39926, 'longitude': -0.09785, 'name': 'Cosy Flat for two', 'price': None, 'processed_price': 10, 'geom': '{"type":"Point","coordinates":[-0.09785,51.39926]}'}
+[2025-01-26 23:38:37,835] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 200 | Duration: 0.237s
+[2025-01-26 23:39:46,801] INFO in main: Fetching cities list
+[2025-01-26 23:39:46,871] INFO in main: Found 21 cities
+[2025-01-26 23:39:46,872] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.071s
+[2025-01-26 23:40:51,755] INFO in main: Successfully preloaded data for Amsterdam
+[2025-01-26 23:40:51,775] INFO in main: Successfully preloaded data for Athens
+[2025-01-26 23:40:51,798] INFO in main: Successfully preloaded data for Bangkok
+[2025-01-26 23:40:51,821] INFO in main: Successfully preloaded data for Barcelona
+[2025-01-26 23:40:51,836] INFO in main: Successfully preloaded data for Berlin
+[2025-01-26 23:40:51,876] INFO in main: Successfully preloaded data for Buenosaires
+[2025-01-26 23:40:51,900] INFO in main: Successfully preloaded data for CapeTown
+[2025-01-26 23:40:51,929] INFO in main: Successfully preloaded data for Istanbul
+[2025-01-26 23:40:52,015] INFO in main: Successfully preloaded data for London
+[2025-01-26 23:40:52,039] INFO in main: Successfully preloaded data for Madrid
+[2025-01-26 23:40:52,061] INFO in main: Successfully preloaded data for Melbourne
+[2025-01-26 23:40:52,086] INFO in main: Successfully preloaded data for MexicoCity
+[2025-01-26 23:40:52,108] INFO in main: Successfully preloaded data for Milan
+[2025-01-26 23:40:52,140] INFO in main: Successfully preloaded data for Newyorkcity
+[2025-01-26 23:40:52,220] INFO in main: Successfully preloaded data for Paris
+[2025-01-26 23:40:52,249] INFO in main: Successfully preloaded data for RiodeJaneiro
+[2025-01-26 23:40:52,281] INFO in main: Successfully preloaded data for Rome
+[2025-01-26 23:40:52,328] INFO in main: Successfully preloaded data for Sicily
+[2025-01-26 23:40:52,343] INFO in main: Successfully preloaded data for Sydney
+[2025-01-26 23:40:52,359] INFO in main: Successfully preloaded data for Tokyo
+[2025-01-26 23:40:52,377] INFO in main: Successfully preloaded data for Toronto
+[2025-01-26 23:41:13,361] INFO in main: Fetching cities list
+[2025-01-26 23:41:13,558] INFO in main: Found 21 cities
+[2025-01-26 23:41:13,559] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.198s
+[2025-01-26 23:41:17,154] INFO in main: Fetching cities list
+[2025-01-26 23:41:17,272] INFO in main: Found 21 cities
+[2025-01-26 23:41:17,276] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.122s
+[2025-01-26 23:41:18,819] INFO in main: Path: /city/London | Method: GET | Status: 200 | Duration: 0.001s
+[2025-01-26 23:41:19,202] INFO in main: Path: /city/London/yearly_stats | Method: GET | Status: 200 | Duration: 0.356s
+[2025-01-26 23:41:19,405] INFO in main: Path: /city/London/host_ranking | Method: GET | Status: 200 | Duration: 0.079s
+[2025-01-26 23:41:25,908] INFO in main: Sample listing data: {'host_id': 216660, 'latitude': 51.4934, 'longitude': -0.22929, 'name': 'Cosy Double studio in Zone 2 Hammersmith (6)', 'price': '$87.00', 'processed_price': 10, 'geom': '{"type":"Point","coordinates":[-0.22929,51.4934]}'}
+[2025-01-26 23:41:25,912] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 200 | Duration: 0.077s
+[2025-01-26 23:41:26,364] INFO in main: Sample listing data: {'host_id': 381894, 'latitude': 51.42328, 'longitude': -0.17789, 'name': 'Large 2Bedroom  Apartment (B), 4 Beds, sleeps 6', 'price': '$150.00', 'processed_price': 15, 'geom': '{"type":"Point","coordinates":[-0.17789,51.42328]}'}
+[2025-01-26 23:41:26,368] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 200 | Duration: 0.072s
+[2025-01-26 23:41:26,958] INFO in main: Sample listing data: {'host_id': 4775, 'latitude': 51.526448, 'longitude': -0.088015, 'name': 'Old St tube 2mins Dbl  balcony in iconic building', 'price': '$88.00', 'processed_price': 10, 'geom': '{"type":"Point","coordinates":[-0.088015,51.526448]}'}
+[2025-01-26 23:41:26,970] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 200 | Duration: 0.089s
+[2025-01-26 23:41:27,426] INFO in main: Sample listing data: {'host_id': 32851, 'latitude': 51.54588, 'longitude': -0.0684, 'name': 'Stunning Bright Architect’s Home & Garden Hackney', 'price': '$280.00', 'processed_price': 18, 'geom': '{"type":"Point","coordinates":[-0.0684,51.54588]}'}
+[2025-01-26 23:41:27,443] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 200 | Duration: 0.127s
+[2025-01-26 23:41:27,754] INFO in main: Sample listing data: {'host_id': 44775341, 'latitude': 51.39926, 'longitude': -0.09785, 'name': 'Cosy Flat for two', 'price': None, 'processed_price': 10, 'geom': '{"type":"Point","coordinates":[-0.09785,51.39926]}'}
+[2025-01-26 23:41:27,863] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 200 | Duration: 0.259s
+[2025-01-26 23:42:03,095] INFO in main: Fetching cities list
+[2025-01-26 23:42:03,231] INFO in main: Found 21 cities
+[2025-01-26 23:42:03,232] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.145s
+[2025-01-26 23:42:04,885] INFO in main: Fetching cities list
+[2025-01-26 23:42:05,028] INFO in main: Found 21 cities
+[2025-01-26 23:42:05,029] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.144s
+[2025-01-26 23:42:06,892] INFO in main: Path: /city/London | Method: GET | Status: 200 | Duration: 0.000s
+[2025-01-26 23:42:07,267] INFO in main: Path: /city/London/yearly_stats | Method: GET | Status: 200 | Duration: 0.347s
+[2025-01-26 23:42:07,476] INFO in main: Path: /city/London/host_ranking | Method: GET | Status: 200 | Duration: 0.078s
+[2025-01-26 23:42:10,941] INFO in main: Sample listing data: {'host_id': 216660, 'latitude': 51.4934, 'longitude': -0.22929, 'name': 'Cosy Double studio in Zone 2 Hammersmith (6)', 'price': '$87.00', 'processed_price': 10, 'geom': '{"type":"Point","coordinates":[-0.22929,51.4934]}'}
+[2025-01-26 23:42:10,944] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 200 | Duration: 0.074s
+[2025-01-26 23:42:11,395] INFO in main: Sample listing data: {'host_id': 381894, 'latitude': 51.42328, 'longitude': -0.17789, 'name': 'Large 2Bedroom  Apartment (B), 4 Beds, sleeps 6', 'price': '$150.00', 'processed_price': 15, 'geom': '{"type":"Point","coordinates":[-0.17789,51.42328]}'}
+[2025-01-26 23:42:11,398] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 200 | Duration: 0.073s
+[2025-01-26 23:42:11,719] INFO in main: Sample listing data: {'host_id': 4775, 'latitude': 51.526448, 'longitude': -0.088015, 'name': 'Old St tube 2mins Dbl  balcony in iconic building', 'price': '$88.00', 'processed_price': 10, 'geom': '{"type":"Point","coordinates":[-0.088015,51.526448]}'}
+[2025-01-26 23:42:11,731] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 200 | Duration: 0.084s
+[2025-01-26 23:42:11,988] INFO in main: Sample listing data: {'host_id': 32851, 'latitude': 51.54588, 'longitude': -0.0684, 'name': 'Stunning Bright Architect’s Home & Garden Hackney', 'price': '$280.00', 'processed_price': 18, 'geom': '{"type":"Point","coordinates":[-0.0684,51.54588]}'}
+[2025-01-26 23:42:12,005] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 200 | Duration: 0.097s
+[2025-01-26 23:43:01,256] INFO in main: Path: /city/Newyorkcity | Method: GET | Status: 200 | Duration: 0.001s
+[2025-01-26 23:43:01,524] INFO in main: Path: /city/Newyorkcity/yearly_stats | Method: GET | Status: 200 | Duration: 0.207s
+[2025-01-26 23:43:01,896] INFO in main: Path: /city/Newyorkcity/host_ranking | Method: GET | Status: 200 | Duration: 0.064s
+[2025-01-26 23:43:03,074] INFO in main: Sample listing data: {'host_id': 417504, 'latitude': 40.73777, 'longitude': -73.95366, 'name': 'Loft w/ Terrace @ Box House Hotel', 'price': None, 'processed_price': 10, 'geom': '{"type":"Point","coordinates":[-73.95366,40.73777]}'}
+[2025-01-26 23:43:03,076] INFO in main: Path: /city/Newyorkcity/listings_by_categories | Method: GET | Status: 200 | Duration: 0.071s
+[2025-01-26 23:43:03,278] INFO in main: Sample listing data: {'host_id': 836168, 'latitude': 40.7751, 'longitude': -73.98595, 'name': 'Luxury 2Bed/2.5Bath Central Park View', 'price': '$2,500.00', 'processed_price': 20, 'geom': '{"type":"Point","coordinates":[-73.98595,40.7751]}'}
+[2025-01-26 23:43:03,280] INFO in main: Path: /city/Newyorkcity/listings_by_categories | Method: GET | Status: 200 | Duration: 0.068s
+[2025-01-26 23:44:02,788] INFO in main: Fetching cities list
+[2025-01-26 23:44:02,909] INFO in main: Found 21 cities
+[2025-01-26 23:44:02,913] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.129s
+[2025-01-26 23:44:04,566] INFO in main: Path: /city/London | Method: GET | Status: 200 | Duration: 0.000s
+[2025-01-26 23:44:04,926] INFO in main: Path: /city/London/yearly_stats | Method: GET | Status: 200 | Duration: 0.336s
+[2025-01-26 23:44:05,182] INFO in main: Path: /city/London/host_ranking | Method: GET | Status: 200 | Duration: 0.106s
+[2025-01-26 23:44:06,518] INFO in main: Sample listing data: {'host_id': 216660, 'latitude': 51.4934, 'longitude': -0.22929, 'name': 'Cosy Double studio in Zone 2 Hammersmith (6)', 'price': '$87.00', 'processed_price': 10, 'geom': '{"type":"Point","coordinates":[-0.22929,51.4934]}'}
+[2025-01-26 23:44:06,521] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 200 | Duration: 0.092s
+[2025-01-26 23:44:06,945] INFO in main: Sample listing data: {'host_id': 381894, 'latitude': 51.42328, 'longitude': -0.17789, 'name': 'Large 2Bedroom  Apartment (B), 4 Beds, sleeps 6', 'price': '$150.00', 'processed_price': 15, 'geom': '{"type":"Point","coordinates":[-0.17789,51.42328]}'}
+[2025-01-26 23:44:06,949] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 200 | Duration: 0.078s
+[2025-01-26 23:44:07,258] INFO in main: Sample listing data: {'host_id': 4775, 'latitude': 51.526448, 'longitude': -0.088015, 'name': 'Old St tube 2mins Dbl  balcony in iconic building', 'price': '$88.00', 'processed_price': 10, 'geom': '{"type":"Point","coordinates":[-0.088015,51.526448]}'}
+[2025-01-26 23:44:07,270] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 200 | Duration: 0.088s
+[2025-01-26 23:45:32,508] INFO in main: Path: /city/Paris | Method: GET | Status: 200 | Duration: 0.000s
+[2025-01-26 23:45:33,002] INFO in main: Path: /city/Paris/yearly_stats | Method: GET | Status: 200 | Duration: 0.428s
+[2025-01-26 23:45:33,235] INFO in main: Path: /city/Paris/host_ranking | Method: GET | Status: 200 | Duration: 0.078s
+[2025-01-26 23:45:34,660] INFO in main: Sample listing data: {'host_id': 152242, 'latitude': 48.86751965494359, 'longitude': 2.331969013773704, 'name': 'Saint-Honoré Louvre Vendôme', 'price': '$182.00', 'processed_price': 15, 'geom': '{"type":"Point","coordinates":[2.331969014,48.867519655]}'}
+[2025-01-26 23:45:34,663] INFO in main: Path: /city/Paris/listings_by_categories | Method: GET | Status: 200 | Duration: 0.073s
+[2025-01-26 23:45:35,231] INFO in main: Sample listing data: {'host_id': 13013633, 'latitude': 48.87983, 'longitude': 2.31391, 'name': 'Loft du Parc Monceau - (Mobility lease)', 'price': '$70.00', 'processed_price': 5, 'geom': '{"type":"Point","coordinates":[2.31391,48.87983]}'}
+[2025-01-26 23:45:35,233] INFO in main: Path: /city/Paris/listings_by_categories | Method: GET | Status: 200 | Duration: 0.075s
+[2025-01-26 23:45:35,555] INFO in main: Sample listing data: {'host_id': 37107, 'latitude': 48.887, 'longitude': 2.34531, 'name': 'Studio 7 Montmartre', 'price': '$80.00', 'processed_price': 5, 'geom': '{"type":"Point","coordinates":[2.34531,48.887]}'}
+[2025-01-26 23:45:35,561] INFO in main: Path: /city/Paris/listings_by_categories | Method: GET | Status: 200 | Duration: 0.088s
+[2025-01-26 23:46:30,021] INFO in main: Fetching cities list
+[2025-01-26 23:46:30,108] INFO in main: Found 21 cities
+[2025-01-26 23:46:30,110] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.090s
+[2025-01-26 23:46:31,422] INFO in main: Path: /city/Istanbul | Method: GET | Status: 200 | Duration: 0.001s
+[2025-01-26 23:46:31,590] INFO in main: Path: /city/Istanbul/yearly_stats | Method: GET | Status: 200 | Duration: 0.140s
+[2025-01-26 23:46:32,014] INFO in main: Path: /city/Istanbul/host_ranking | Method: GET | Status: 200 | Duration: 0.068s
+[2025-01-26 23:46:33,168] INFO in main: Sample listing data: {'host_id': 1605466, 'latitude': 41.03948, 'longitude': 28.98233, 'name': 'Flat near Taksim Square (9)', 'price': '$1,409.00', 'processed_price': 10, 'geom': '{"type":"Point","coordinates":[28.98233,41.03948]}'}
+[2025-01-26 23:46:33,170] INFO in main: Path: /city/Istanbul/listings_by_categories | Method: GET | Status: 200 | Duration: 0.058s
+[2025-01-26 23:46:33,439] INFO in main: Sample listing data: {'host_id': 466302, 'latitude': 41.02802, 'longitude': 28.97515, 'name': 'Charming Delightful Studio@Centre 4', 'price': '$1,456.00', 'processed_price': 10, 'geom': '{"type":"Point","coordinates":[28.97515,41.02802]}'}
+[2025-01-26 23:46:33,441] INFO in main: Path: /city/Istanbul/listings_by_categories | Method: GET | Status: 200 | Duration: 0.055s
+[2025-01-26 23:46:33,754] INFO in main: Sample listing data: {'host_id': 121607, 'latitude': 41.04572, 'longitude': 28.98486, 'name': 'Serviced & Furnished Apartment 10 in Taksim', 'price': '$2,078.00', 'processed_price': 15, 'geom': '{"type":"Point","coordinates":[28.98486,41.04572]}'}
+[2025-01-26 23:46:33,759] INFO in main: Path: /city/Istanbul/listings_by_categories | Method: GET | Status: 200 | Duration: 0.066s
+[2025-01-26 23:49:24,090] INFO in main: Successfully preloaded data for Amsterdam
+[2025-01-26 23:49:24,171] INFO in main: Successfully preloaded data for Athens
+[2025-01-26 23:49:24,279] INFO in main: Successfully preloaded data for Bangkok
+[2025-01-26 23:49:24,387] INFO in main: Successfully preloaded data for Barcelona
+[2025-01-26 23:49:24,446] INFO in main: Successfully preloaded data for Berlin
+[2025-01-26 23:49:24,642] INFO in main: Successfully preloaded data for Buenosaires
+[2025-01-26 23:49:24,766] INFO in main: Successfully preloaded data for CapeTown
+[2025-01-26 23:49:24,904] INFO in main: Successfully preloaded data for Istanbul
+[2025-01-26 23:49:25,155] INFO in main: Successfully preloaded data for London
+[2025-01-26 23:49:25,191] INFO in main: Successfully preloaded data for Madrid
+[2025-01-26 23:49:25,226] INFO in main: Successfully preloaded data for Melbourne
+[2025-01-26 23:49:25,271] INFO in main: Successfully preloaded data for MexicoCity
+[2025-01-26 23:49:25,305] INFO in main: Successfully preloaded data for Milan
+[2025-01-26 23:49:25,361] INFO in main: Successfully preloaded data for Newyorkcity
+[2025-01-26 23:49:25,501] INFO in main: Successfully preloaded data for Paris
+[2025-01-26 23:49:25,554] INFO in main: Successfully preloaded data for RiodeJaneiro
+[2025-01-26 23:49:25,605] INFO in main: Successfully preloaded data for Rome
+[2025-01-26 23:49:25,702] INFO in main: Successfully preloaded data for Sicily
+[2025-01-26 23:49:25,727] INFO in main: Successfully preloaded data for Sydney
+[2025-01-26 23:49:25,757] INFO in main: Successfully preloaded data for Tokyo
+[2025-01-26 23:49:25,817] INFO in main: Successfully preloaded data for Toronto
+[2025-01-26 23:49:25,820] INFO in main: Fetching cities list
+[2025-01-26 23:49:25,887] INFO in main: Found 21 cities
+[2025-01-26 23:49:25,888] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.068s
+[2025-01-26 23:49:25,890] INFO in main: Fetching cities list
+[2025-01-26 23:49:25,936] INFO in main: Found 21 cities
+[2025-01-26 23:49:25,936] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.046s

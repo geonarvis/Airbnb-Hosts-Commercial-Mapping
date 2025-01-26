@@ -133,14 +133,14 @@
           <div class="control-group mb-3">
             <div class="flex justify-between text-xs text-gray-500 mb-1">
               <span>Point Size</span>
-              <span>{{ pointSize }}px</span>
+              <span>{{ pointStyle.size }}x</span>
             </div>
             <input
               type="range"
-              v-model="pointSize"
-              min="2"
-              max="8"
-              step="0.5"
+              v-model="pointStyle.size"
+              min="0.5"
+              max="5"
+              step="0.1"
               class="w-full range-slider"
               @input="updatePointStyle"
             />
@@ -149,14 +149,14 @@
           <div class="control-group">
             <div class="flex justify-between text-xs text-gray-500 mb-1">
               <span>Opacity</span>
-              <span>{{ Math.round(pointOpacity * 100) }}%</span>
+              <span>{{ (pointOpacity * 100).toFixed(0) }}%</span>
             </div>
             <input
               type="range"
               v-model="pointOpacity"
               min="0.1"
               max="1"
-              step="0.1"
+              step="0.01"
               class="w-full range-slider"
               @input="updatePointStyle"
             />
@@ -201,7 +201,7 @@ export default {
   },
   setup(props, { emit }) {
     const store = useStore()
-    const version = computed(() => store.state.version)
+    const version = ref('1.0.5')  // 直接使用固定版本号
     const isCollapsed = ref(false)
     const cities = ref([])
     const selectedCity = ref('')
@@ -221,8 +221,11 @@ export default {
     const internalTime = ref(0)
     const isListingMode = ref(true)  // 默认显示房源数据
 
-    const pointSize = ref(4)
-    const pointOpacity = ref(0.8)
+    const pointStyle = ref({
+      size: 1.5,
+      opacity: 0.5
+    })
+    const pointOpacity = ref(0.5)
 
     const debouncedTimeChange = debounce((value) => {
       emit('time-changed', value)
@@ -289,6 +292,7 @@ export default {
         )
         currentTime.value = timeWindowMiddle
         internalTime.value = timeWindowMiddle
+        onTimeChange()
         
         emit('loading', { 
           show: true, 
@@ -383,7 +387,7 @@ export default {
       emit('view-mode-changed', isHexMode.value)
     }
 
-    const chartOptions = ref({
+    const chartOptions = computed(() => ({
       chart: {
         stacked: true,
         toolbar: { show: false },
@@ -423,7 +427,13 @@ export default {
           }
         }
       ],
-      colors: ['#4169E1', '#32CD32', '#FFD700', '#FFA500', '#FF4500'],
+      colors: [
+        '#f4ab33',  // single_host
+        '#ec7176',  // dual_host
+        '#c068a8',  // semi_commercial
+        '#5c63a2',  // commercial
+        '#1b4e6b'   // highly_commercial
+      ],
       dataLabels: {
         enabled: true,
         formatter: function(val) {
@@ -458,7 +468,7 @@ export default {
           show: false
         }
       }
-    })
+    }))
 
     const chartSeries = ref([])
     const lineChartSeries = ref([])
@@ -491,7 +501,13 @@ export default {
           formatter: (val) => Math.round(val)
         }
       },
-      colors: ['#4169E1', '#32CD32', '#FFD700', '#FFA500', '#FF4500'],
+      colors: [
+        '#f4ab33',  // single_host
+        '#ec7176',  // dual_host
+        '#c068a8',  // semi_commercial
+        '#5c63a2',  // commercial
+        '#1b4e6b'   // highly_commercial
+      ],
       legend: {
         position: 'bottom'
       },
@@ -611,7 +627,7 @@ export default {
 
     const updatePointStyle = () => {
       emit('style-changed', {
-        size: Number(pointSize.value),
+        size: Number(pointStyle.value.size),
         opacity: Number(pointOpacity.value)
       })
     }
@@ -647,7 +663,7 @@ export default {
       lineChartOptions,
       lineChartSeries,
       isListingMode,
-      pointSize,
+      pointStyle,
       pointOpacity,
       updatePointStyle
     }
