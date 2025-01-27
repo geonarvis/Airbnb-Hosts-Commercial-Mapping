@@ -13,7 +13,16 @@ export default {
     return {
       markdown: `# Welcome to Geonarvis' First Project  
 
-The data source of this project is [Inside Airbnb](https://insideairbnb.com/).  
+Created by [Jia Zhao](https://github.com/jiazhao23)
+
+The data source of this project is [Inside Airbnb](https://insideairbnb.com/). The basemap comes from a custom Mapbox Studio project, including:
+
+1. Increased the grayscale of logos, names, and land features
+
+2. Increased the density of POIs of interest to tourists, such as attractions, landmarks, and transportation stations
+
+You can preview this style through this link [Mapbox Studio](https://api.mapbox.com/styles/v1/zhaojia2024/cm6cri5yh007h01s2dy643axe.html?title=view&access_token=pk.eyJ1Ijoiemhhb2ppYTIwMjQiLCJhIjoiY200ZmhzamIyMDgwNjJtcXIwaWNudWllbSJ9._-NLC8BDDwDt__sVALSBXg&zoomwheel=true&fresh=true#14.38/51.50244/-0.13334).
+In the scatter plot, the size of the scatter points represents the high or low housing prices. At the bottom of the sidebar, you can find a slider to adjust the scatter point style. Here are the steps to use this map:
 
 ## Interactive Steps of the Project  
 
