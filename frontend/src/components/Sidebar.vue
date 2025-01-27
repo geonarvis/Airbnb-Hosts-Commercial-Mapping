@@ -154,7 +154,7 @@
             <input
               type="range"
               v-model="pointOpacity"
-              min="0.1"
+              min="0"
               max="1"
               step="0.01"
               class="w-full range-slider"
@@ -223,9 +223,9 @@ export default {
 
     const pointStyle = ref({
       size: 1.5,
-      opacity: 0.5
+      opacity: 0.1
     })
-    const pointOpacity = ref(0.5)
+    const pointOpacity = ref(0.1)
 
     const debouncedTimeChange = debounce((value) => {
       emit('time-changed', value)
@@ -293,6 +293,10 @@ export default {
         currentTime.value = timeWindowMiddle
         internalTime.value = timeWindowMiddle
         onTimeChange()
+        
+        // 确保点样式设置被应用
+        pointStyle.value.opacity = pointOpacity.value
+        updatePointStyle()
         
         emit('loading', { 
           show: true, 
@@ -626,14 +630,16 @@ export default {
     })
 
     const updatePointStyle = () => {
+      pointStyle.value.opacity = pointOpacity.value
       emit('style-changed', {
         size: Number(pointStyle.value.size),
-        opacity: Number(pointOpacity.value)
+        opacity: Number(pointStyle.value.opacity)
       })
     }
 
     onMounted(() => {
       fetchCities()
+      updatePointStyle()
     })
 
     onUnmounted(() => {

@@ -38,8 +38,8 @@ export default {
     pointStyle: {
       type: Object,
       default: () => ({
-        size: 2.5,
-        opacity: 0.5
+        size: 1.5,
+        opacity: 0.1
       })
     }
   },

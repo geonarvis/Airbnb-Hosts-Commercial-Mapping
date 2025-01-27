@@ -1171,3 +1171,141 @@
 [2025-01-27 21:59:44,062] INFO in main: Path: /city/CapeTown/listings_by_categories | Method: GET | Status: 200 | Duration: 0.836s
 [2025-01-27 21:59:47,282] INFO in main: Sample listing data: {'host_id': 20166504, 'latitude': -33.956585, 'longitude': 18.378803, 'name': 'Villa on 1st Crescent', 'price': '$9,160.00', 'processed_price': 20, 'geom': '{"type":"Point","coordinates":[18.378803,-33.956585]}'}
 [2025-01-27 21:59:47,440] INFO in main: Path: /city/CapeTown/listings_by_categories | Method: GET | Status: 200 | Duration: 0.340s
+[2025-01-27 22:40:09,402] INFO in main: Successfully preloaded data for Amsterdam
+[2025-01-27 22:40:09,573] INFO in main: Successfully preloaded data for Athens
+[2025-01-27 22:40:09,809] INFO in main: Successfully preloaded data for Bangkok
+[2025-01-27 22:40:10,044] INFO in main: Successfully preloaded data for Barcelona
+[2025-01-27 22:40:10,193] INFO in main: Successfully preloaded data for Berlin
+[2025-01-27 22:40:10,601] INFO in main: Successfully preloaded data for Buenosaires
+[2025-01-27 22:40:10,886] INFO in main: Successfully preloaded data for CapeTown
+[2025-01-27 22:40:11,190] INFO in main: Successfully preloaded data for Istanbul
+[2025-01-27 22:40:11,752] INFO in main: Successfully preloaded data for London
+[2025-01-27 22:40:11,836] INFO in main: Successfully preloaded data for Madrid
+[2025-01-27 22:40:11,938] INFO in main: Successfully preloaded data for Melbourne
+[2025-01-27 22:40:12,053] INFO in main: Successfully preloaded data for MexicoCity
+[2025-01-27 22:40:12,154] INFO in main: Successfully preloaded data for Milan
+[2025-01-27 22:40:12,315] INFO in main: Successfully preloaded data for Newyorkcity
+[2025-01-27 22:40:12,606] INFO in main: Successfully preloaded data for Paris
+[2025-01-27 22:40:12,735] INFO in main: Successfully preloaded data for RiodeJaneiro
+[2025-01-27 22:40:12,869] INFO in main: Successfully preloaded data for Rome
+[2025-01-27 22:40:13,075] INFO in main: Successfully preloaded data for Sicily
+[2025-01-27 22:40:13,136] INFO in main: Successfully preloaded data for Sydney
+[2025-01-27 22:40:13,193] INFO in main: Successfully preloaded data for Tokyo
+[2025-01-27 22:40:13,260] INFO in main: Successfully preloaded data for Toronto
+[2025-01-27 22:40:15,705] INFO in main: Fetching cities list
+[2025-01-27 22:40:15,918] INFO in main: Found 21 cities
+[2025-01-27 22:40:15,919] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.215s
+[2025-01-27 22:40:18,124] INFO in main: Path: /city/Istanbul | Method: GET | Status: 200 | Duration: 0.001s
+[2025-01-27 22:40:18,272] INFO in main: Path: /city/Istanbul/yearly_stats | Method: GET | Status: 200 | Duration: 0.120s
+[2025-01-27 22:40:18,710] INFO in main: Path: /city/Istanbul/host_ranking | Method: GET | Status: 200 | Duration: 0.057s
+[2025-01-27 22:40:21,259] INFO in main: Sample listing data: {'host_id': 1605466, 'latitude': 41.03948, 'longitude': 28.98233, 'name': 'Flat near Taksim Square (9)', 'price': '$1,409.00', 'processed_price': 10, 'geom': '{"type":"Point","coordinates":[28.98233,41.03948]}'}
+[2025-01-27 22:40:21,261] INFO in main: Path: /city/Istanbul/listings_by_categories | Method: GET | Status: 200 | Duration: 0.057s
+[2025-01-27 22:40:21,711] INFO in main: Sample listing data: {'host_id': 466302, 'latitude': 41.02802, 'longitude': 28.97515, 'name': 'Charming Delightful Studio@Centre 4', 'price': '$1,456.00', 'processed_price': 10, 'geom': '{"type":"Point","coordinates":[28.97515,41.02802]}'}
+[2025-01-27 22:40:21,712] INFO in main: Path: /city/Istanbul/listings_by_categories | Method: GET | Status: 200 | Duration: 0.050s
+[2025-01-27 22:40:56,183] INFO in main: Fetching cities list
+[2025-01-27 22:40:56,281] INFO in main: Found 21 cities
+[2025-01-27 22:40:56,282] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.100s
+[2025-01-27 22:41:02,109] INFO in main: Fetching cities list
+[2025-01-27 22:41:02,227] INFO in main: Found 21 cities
+[2025-01-27 22:41:02,229] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.124s
+[2025-01-27 22:41:03,766] INFO in main: Path: /city/Istanbul | Method: GET | Status: 200 | Duration: 0.000s
+[2025-01-27 22:41:03,921] INFO in main: Path: /city/Istanbul/yearly_stats | Method: GET | Status: 200 | Duration: 0.127s
+[2025-01-27 22:41:04,352] INFO in main: Path: /city/Istanbul/host_ranking | Method: GET | Status: 200 | Duration: 0.043s
+[2025-01-27 22:41:06,611] INFO in main: Sample listing data: {'host_id': 1605466, 'latitude': 41.03948, 'longitude': 28.98233, 'name': 'Flat near Taksim Square (9)', 'price': '$1,409.00', 'processed_price': 10, 'geom': '{"type":"Point","coordinates":[28.98233,41.03948]}'}
+[2025-01-27 22:41:06,613] INFO in main: Path: /city/Istanbul/listings_by_categories | Method: GET | Status: 200 | Duration: 0.055s
+[2025-01-27 22:41:07,227] INFO in main: Sample listing data: {'host_id': 466302, 'latitude': 41.02802, 'longitude': 28.97515, 'name': 'Charming Delightful Studio@Centre 4', 'price': '$1,456.00', 'processed_price': 10, 'geom': '{"type":"Point","coordinates":[28.97515,41.02802]}'}
+[2025-01-27 22:41:07,229] INFO in main: Path: /city/Istanbul/listings_by_categories | Method: GET | Status: 200 | Duration: 0.058s
+[2025-01-27 22:41:16,677] INFO in main: Fetching cities list
+[2025-01-27 22:41:16,776] INFO in main: Found 21 cities
+[2025-01-27 22:41:16,777] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.101s
+[2025-01-27 22:41:31,271] INFO in main: Fetching cities list
+[2025-01-27 22:41:31,350] INFO in main: Found 21 cities
+[2025-01-27 22:41:31,351] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.080s
+[2025-01-27 22:41:42,751] INFO in main: Path: /city/Barcelona | Method: GET | Status: 200 | Duration: 0.001s
+[2025-01-27 22:41:42,878] INFO in main: Path: /city/Barcelona/yearly_stats | Method: GET | Status: 200 | Duration: 0.096s
+[2025-01-27 22:41:43,370] INFO in main: Path: /city/Barcelona/host_ranking | Method: GET | Status: 200 | Duration: 0.070s
+[2025-01-27 22:42:02,953] INFO in main: Fetching cities list
+[2025-01-27 22:42:03,051] INFO in main: Found 21 cities
+[2025-01-27 22:42:03,051] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.099s
+[2025-01-27 22:42:04,708] INFO in main: Fetching cities list
+[2025-01-27 22:42:04,796] INFO in main: Found 21 cities
+[2025-01-27 22:42:04,797] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.091s
+[2025-01-27 22:42:06,714] INFO in main: Path: /city/Berlin | Method: GET | Status: 200 | Duration: 0.000s
+[2025-01-27 22:42:06,825] INFO in main: Path: /city/Berlin/yearly_stats | Method: GET | Status: 200 | Duration: 0.085s
+[2025-01-27 22:42:07,289] INFO in main: Path: /city/Berlin/host_ranking | Method: GET | Status: 200 | Duration: 0.049s
+[2025-01-27 22:42:08,374] INFO in main: Sample listing data: {'host_id': 1391772, 'latitude': 52.50977, 'longitude': 13.44602, 'name': 'Nice apartment in Berlin', 'price': None, 'processed_price': 10, 'geom': '{"type":"Point","coordinates":[13.44602,52.50977]}'}
+[2025-01-27 22:42:08,375] INFO in main: Path: /city/Berlin/listings_by_categories | Method: GET | Status: 200 | Duration: 0.058s
+[2025-01-27 22:42:20,250] INFO in main: Fetching cities list
+[2025-01-27 22:42:20,331] INFO in main: Found 21 cities
+[2025-01-27 22:42:20,333] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.084s
+[2025-01-27 22:42:21,525] INFO in main: Path: /city/CapeTown | Method: GET | Status: 200 | Duration: 0.000s
+[2025-01-27 22:42:21,671] INFO in main: Path: /city/CapeTown/yearly_stats | Method: GET | Status: 200 | Duration: 0.122s
+[2025-01-27 22:42:22,107] INFO in main: Path: /city/CapeTown/host_ranking | Method: GET | Status: 200 | Duration: 0.047s
+[2025-01-27 22:42:23,290] INFO in main: Sample listing data: {'host_id': 2516345, 'latitude': -33.91577, 'longitude': 18.41777, 'name': '312 Rockwell - Sunny + Modern with Balcony, AirCon and WiFi', 'price': '$2,087.00', 'processed_price': 15, 'geom': '{"type":"Point","coordinates":[18.41777,-33.91577]}'}
+[2025-01-27 22:42:23,292] INFO in main: Path: /city/CapeTown/listings_by_categories | Method: GET | Status: 200 | Duration: 0.057s
+[2025-01-27 22:43:16,919] INFO in main: Fetching cities list
+[2025-01-27 22:43:16,989] INFO in main: Found 21 cities
+[2025-01-27 22:43:16,989] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.071s
+[2025-01-27 22:43:18,457] INFO in main: Fetching cities list
+[2025-01-27 22:43:18,559] INFO in main: Found 21 cities
+[2025-01-27 22:43:18,560] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.103s
+[2025-01-27 22:43:19,811] INFO in main: Path: /city/Istanbul | Method: GET | Status: 200 | Duration: 0.000s
+[2025-01-27 22:43:19,977] INFO in main: Path: /city/Istanbul/yearly_stats | Method: GET | Status: 200 | Duration: 0.141s
+[2025-01-27 22:43:20,409] INFO in main: Path: /city/Istanbul/host_ranking | Method: GET | Status: 200 | Duration: 0.050s
+[2025-01-27 22:43:21,257] INFO in main: Sample listing data: {'host_id': 1605466, 'latitude': 41.03948, 'longitude': 28.98233, 'name': 'Flat near Taksim Square (9)', 'price': '$1,409.00', 'processed_price': 10, 'geom': '{"type":"Point","coordinates":[28.98233,41.03948]}'}
+[2025-01-27 22:43:21,258] INFO in main: Path: /city/Istanbul/listings_by_categories | Method: GET | Status: 200 | Duration: 0.053s
+[2025-01-27 22:43:23,093] INFO in main: Sample listing data: {'host_id': 466302, 'latitude': 41.02802, 'longitude': 28.97515, 'name': 'Charming Delightful Studio@Centre 4', 'price': '$1,456.00', 'processed_price': 10, 'geom': '{"type":"Point","coordinates":[28.97515,41.02802]}'}
+[2025-01-27 22:43:23,095] INFO in main: Path: /city/Istanbul/listings_by_categories | Method: GET | Status: 200 | Duration: 0.050s
+[2025-01-27 22:43:24,700] INFO in main: Sample listing data: {'host_id': 213410, 'latitude': 41.02619560881711, 'longitude': 28.974710279645116, 'name': 'Family reunion-4Bdrm- 4Bth -8people-Galata Tower', 'price': '$7,395.00', 'processed_price': 18, 'geom': '{"type":"Point","coordinates":[28.97471028,41.026195609]}'}
+[2025-01-27 22:43:24,702] INFO in main: Path: /city/Istanbul/listings_by_categories | Method: GET | Status: 200 | Duration: 0.063s
+[2025-01-27 22:43:26,245] INFO in main: Sample listing data: {'host_id': 121607, 'latitude': 41.04572, 'longitude': 28.98486, 'name': 'Serviced & Furnished Apartment 10 in Taksim', 'price': '$2,078.00', 'processed_price': 15, 'geom': '{"type":"Point","coordinates":[28.98486,41.04572]}'}
+[2025-01-27 22:43:26,250] INFO in main: Path: /city/Istanbul/listings_by_categories | Method: GET | Status: 200 | Duration: 0.071s
+[2025-01-27 22:43:26,521] INFO in main: Sample listing data: {'host_id': 127160, 'latitude': 41.0304, 'longitude': 28.98522, 'name': 'New flat with spectacular views in Cihangir', 'price': '$4,226.00', 'processed_price': 15, 'geom': '{"type":"Point","coordinates":[28.98522,41.0304]}'}
+[2025-01-27 22:43:26,526] INFO in main: Path: /city/Istanbul/listings_by_categories | Method: GET | Status: 200 | Duration: 0.089s
+[2025-01-27 22:43:27,946] INFO in main: Fetching cities list
+[2025-01-27 22:43:28,032] INFO in main: Found 21 cities
+[2025-01-27 22:43:28,033] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.087s
+[2025-01-27 22:43:29,953] INFO in main: Path: /city/London | Method: GET | Status: 200 | Duration: 0.000s
+[2025-01-27 22:43:30,350] INFO in main: Path: /city/London/yearly_stats | Method: GET | Status: 200 | Duration: 0.373s
+[2025-01-27 22:43:30,531] INFO in main: Path: /city/London/host_ranking | Method: GET | Status: 200 | Duration: 0.067s
+[2025-01-27 22:43:31,727] INFO in main: Sample listing data: {'host_id': 4775, 'latitude': 51.526448, 'longitude': -0.088015, 'name': 'Old St tube 2mins Dbl  balcony in iconic building', 'price': '$88.00', 'processed_price': 10, 'geom': '{"type":"Point","coordinates":[-0.088015,51.526448]}'}
+[2025-01-27 22:43:31,739] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 200 | Duration: 0.110s
+[2025-01-27 22:52:19,941] INFO in main: Fetching cities list
+[2025-01-27 22:52:20,027] INFO in main: Found 21 cities
+[2025-01-27 22:52:20,027] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.087s
+[2025-01-27 22:52:22,173] INFO in main: Path: /city/London | Method: GET | Status: 200 | Duration: 0.001s
+[2025-01-27 22:52:22,589] INFO in main: Path: /city/London/yearly_stats | Method: GET | Status: 200 | Duration: 0.392s
+[2025-01-27 22:52:22,751] INFO in main: Path: /city/London/host_ranking | Method: GET | Status: 200 | Duration: 0.066s
+[2025-01-27 22:52:25,668] INFO in main: Sample listing data: {'host_id': 216660, 'latitude': 51.4934, 'longitude': -0.22929, 'name': 'Cosy Double studio in Zone 2 Hammersmith (6)', 'price': '$87.00', 'processed_price': 10, 'geom': '{"type":"Point","coordinates":[-0.22929,51.4934]}'}
+[2025-01-27 22:52:25,671] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 200 | Duration: 0.101s
+[2025-01-27 22:52:33,106] INFO in main: Sample listing data: {'host_id': 216660, 'latitude': 51.4934, 'longitude': -0.22929, 'name': 'Cosy Double studio in Zone 2 Hammersmith (6)', 'price': '$87.00', 'processed_price': 10, 'geom': '{"type":"Point","coordinates":[-0.22929,51.4934]}'}
+[2025-01-27 22:52:33,109] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 200 | Duration: 0.097s
+[2025-01-27 22:52:34,592] INFO in main: Sample listing data: {'host_id': 216660, 'latitude': 51.4934, 'longitude': -0.22929, 'name': 'Cosy Double studio in Zone 2 Hammersmith (6)', 'price': '$87.00', 'processed_price': 10, 'geom': '{"type":"Point","coordinates":[-0.22929,51.4934]}'}
+[2025-01-27 22:52:34,595] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 200 | Duration: 0.068s
+[2025-01-27 22:52:39,943] INFO in main: Sample listing data: {'host_id': 216660, 'latitude': 51.4934, 'longitude': -0.22929, 'name': 'Cosy Double studio in Zone 2 Hammersmith (6)', 'price': '$87.00', 'processed_price': 10, 'geom': '{"type":"Point","coordinates":[-0.22929,51.4934]}'}
+[2025-01-27 22:52:39,947] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 200 | Duration: 0.066s
+[2025-01-27 22:52:41,621] INFO in main: Sample listing data: {'host_id': 216660, 'latitude': 51.4934, 'longitude': -0.22929, 'name': 'Cosy Double studio in Zone 2 Hammersmith (6)', 'price': '$87.00', 'processed_price': 10, 'geom': '{"type":"Point","coordinates":[-0.22929,51.4934]}'}
+[2025-01-27 22:52:41,624] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 200 | Duration: 0.074s
+[2025-01-27 22:52:55,719] INFO in main: Sample listing data: {'host_id': 381894, 'latitude': 51.42328, 'longitude': -0.17789, 'name': 'Large 2Bedroom  Apartment (B), 4 Beds, sleeps 6', 'price': '$150.00', 'processed_price': 15, 'geom': '{"type":"Point","coordinates":[-0.17789,51.42328]}'}
+[2025-01-27 22:52:55,722] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 200 | Duration: 0.071s
+[2025-01-27 22:52:57,003] INFO in main: Sample listing data: {'host_id': 381894, 'latitude': 51.42328, 'longitude': -0.17789, 'name': 'Large 2Bedroom  Apartment (B), 4 Beds, sleeps 6', 'price': '$150.00', 'processed_price': 15, 'geom': '{"type":"Point","coordinates":[-0.17789,51.42328]}'}
+[2025-01-27 22:52:57,006] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 200 | Duration: 0.063s
+[2025-01-27 22:52:57,971] INFO in main: Sample listing data: {'host_id': 216660, 'latitude': 51.4934, 'longitude': -0.22929, 'name': 'Cosy Double studio in Zone 2 Hammersmith (6)', 'price': '$87.00', 'processed_price': 10, 'geom': '{"type":"Point","coordinates":[-0.22929,51.4934]}'}
+[2025-01-27 22:52:57,974] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 200 | Duration: 0.087s
+[2025-01-27 22:52:59,104] INFO in main: Path: /city/London/host_ranking | Method: GET | Status: 200 | Duration: 0.136s
+[2025-01-27 22:52:59,673] INFO in main: Sample listing data: {'host_id': 580475, 'latitude': 51.48962, 'longitude': -0.13924, 'name': 'Double Studio in Victoria 5A', 'price': None, 'processed_price': 10, 'geom': '{"type":"Point","coordinates":[-0.13924,51.48962]}'}
+[2025-01-27 22:52:59,697] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 200 | Duration: 0.141s
+[2025-01-27 22:53:02,462] INFO in main: Path: /city/London/host_ranking | Method: GET | Status: 200 | Duration: 0.194s
+[2025-01-27 22:53:03,015] INFO in main: Sample listing data: {'host_id': 580475, 'latitude': 51.48962, 'longitude': -0.13924, 'name': 'Double Studio in Victoria 5A', 'price': None, 'processed_price': 10, 'geom': '{"type":"Point","coordinates":[-0.13924,51.48962]}'}
+[2025-01-27 22:53:03,062] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 200 | Duration: 0.209s
+[2025-01-27 22:53:05,168] INFO in main: Path: /city/London/host_ranking | Method: GET | Status: 200 | Duration: 0.058s
+[2025-01-27 22:53:05,778] INFO in main: Sample listing data: {'host_id': 216660, 'latitude': 51.4934, 'longitude': -0.22929, 'name': 'Cosy Double studio in Zone 2 Hammersmith (6)', 'price': '$87.00', 'processed_price': 10, 'geom': '{"type":"Point","coordinates":[-0.22929,51.4934]}'}
+[2025-01-27 22:53:05,780] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 200 | Duration: 0.060s
+[2025-01-27 22:53:09,503] INFO in main: Sample listing data: {'host_id': 67564, 'latitude': 51.52195, 'longitude': -0.14094, 'name': 'Fab 3-Bed/2 Bath & Wifi: Trendy W1', 'price': '$493.00', 'processed_price': 20, 'geom': '{"type":"Point","coordinates":[-0.14094,51.52195]}'}
+[2025-01-27 22:53:09,511] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 200 | Duration: 0.078s
+[2025-01-27 22:53:12,758] INFO in main: Sample listing data: {'host_id': 67564, 'latitude': 51.52195, 'longitude': -0.14094, 'name': 'Fab 3-Bed/2 Bath & Wifi: Trendy W1', 'price': '$493.00', 'processed_price': 20, 'geom': '{"type":"Point","coordinates":[-0.14094,51.52195]}'}
+[2025-01-27 22:53:12,766] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 200 | Duration: 0.071s
+[2025-01-27 22:53:15,039] INFO in main: Sample listing data: {'host_id': 4775, 'latitude': 51.526448, 'longitude': -0.088015, 'name': 'Old St tube 2mins Dbl  balcony in iconic building', 'price': '$88.00', 'processed_price': 10, 'geom': '{"type":"Point","coordinates":[-0.088015,51.526448]}'}
+[2025-01-27 22:53:15,053] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 200 | Duration: 0.115s
+[2025-01-27 22:53:17,162] INFO in main: Sample listing data: {'host_id': 44775341, 'latitude': 51.39926, 'longitude': -0.09785, 'name': 'Cosy Flat for two', 'price': None, 'processed_price': 10, 'geom': '{"type":"Point","coordinates":[-0.09785,51.39926]}'}
+[2025-01-27 22:53:17,248] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 200 | Duration: 0.307s
