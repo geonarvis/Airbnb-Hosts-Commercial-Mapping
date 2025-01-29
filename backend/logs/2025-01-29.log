@@ -1,0 +1,186 @@
+[2025-01-29 14:46:04,897] INFO in main: Successfully preloaded data for Amsterdam
+[2025-01-29 14:46:05,072] INFO in main: Successfully preloaded data for Athens
+[2025-01-29 14:46:05,324] INFO in main: Successfully preloaded data for Bangkok
+[2025-01-29 14:46:05,560] INFO in main: Successfully preloaded data for Barcelona
+[2025-01-29 14:46:05,722] INFO in main: Successfully preloaded data for Berlin
+[2025-01-29 14:46:06,134] INFO in main: Successfully preloaded data for Buenosaires
+[2025-01-29 14:46:06,399] INFO in main: Successfully preloaded data for CapeTown
+[2025-01-29 14:46:06,704] INFO in main: Successfully preloaded data for Istanbul
+[2025-01-29 14:46:07,230] INFO in main: Successfully preloaded data for London
+[2025-01-29 14:46:07,327] INFO in main: Successfully preloaded data for Madrid
+[2025-01-29 14:46:07,425] INFO in main: Successfully preloaded data for Melbourne
+[2025-01-29 14:46:07,542] INFO in main: Successfully preloaded data for MexicoCity
+[2025-01-29 14:46:07,645] INFO in main: Successfully preloaded data for Milan
+[2025-01-29 14:46:07,789] INFO in main: Successfully preloaded data for Newyorkcity
+[2025-01-29 14:46:08,096] INFO in main: Successfully preloaded data for Paris
+[2025-01-29 14:46:08,226] INFO in main: Successfully preloaded data for RiodeJaneiro
+[2025-01-29 14:46:08,362] INFO in main: Successfully preloaded data for Rome
+[2025-01-29 14:46:08,559] INFO in main: Successfully preloaded data for Sicily
+[2025-01-29 14:46:08,619] INFO in main: Successfully preloaded data for Sydney
+[2025-01-29 14:46:08,672] INFO in main: Successfully preloaded data for Tokyo
+[2025-01-29 14:46:08,749] INFO in main: Successfully preloaded data for Toronto
+[2025-01-29 14:46:49,743] INFO in main: Fetching cities list
+[2025-01-29 14:46:49,904] INFO in main: Found 21 cities
+[2025-01-29 14:46:49,905] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.162s
+[2025-01-29 14:46:51,785] INFO in main: Path: /city/Berlin | Method: GET | Status: 200 | Duration: 0.001s
+[2025-01-29 14:46:51,907] INFO in main: Path: /city/Berlin/yearly_stats | Method: GET | Status: 200 | Duration: 0.091s
+[2025-01-29 14:46:52,376] INFO in main: Path: /city/Berlin/host_ranking | Method: GET | Status: 200 | Duration: 0.059s
+[2025-01-29 14:47:12,935] INFO in main: Sample listing data: {'host_id': 1391772, 'latitude': 52.50977, 'longitude': 13.44602, 'name': 'Nice apartment in Berlin', 'price': None, 'processed_price': 10, 'geom': '{"type":"Point","coordinates":[13.44602,52.50977]}'}
+[2025-01-29 14:47:12,936] INFO in main: Path: /city/Berlin/listings_by_categories | Method: GET | Status: 200 | Duration: 0.055s
+[2025-01-29 14:47:13,214] INFO in main: Sample listing data: {'host_id': 163384, 'latitude': 52.55004, 'longitude': 13.41518, 'name': 'Quiet studio in Prenzlauer Berg near Mauerpark', 'price': '$152.00', 'processed_price': 15, 'geom': '{"type":"Point","coordinates":[13.41518,52.55004]}'}
+[2025-01-29 14:47:13,215] INFO in main: Path: /city/Berlin/listings_by_categories | Method: GET | Status: 200 | Duration: 0.051s
+[2025-01-29 14:47:14,420] INFO in main: Sample listing data: {'host_id': 54283, 'latitude': 52.54367, 'longitude': 13.42431, 'name': 'Quiet 2 rooms next Helmholtzplatz', 'price': '$120.00', 'processed_price': 15, 'geom': '{"type":"Point","coordinates":[13.42431,52.54367]}'}
+[2025-01-29 14:47:14,422] INFO in main: Path: /city/Berlin/listings_by_categories | Method: GET | Status: 200 | Duration: 0.067s
+[2025-01-29 14:47:15,922] INFO in main: Sample listing data: {'host_id': 1581, 'latitude': 52.49139, 'longitude': 13.41524, 'name': 'Temporary living 1 bdrm apt - Beauty & Comfort', 'price': '$48.00', 'processed_price': 5, 'geom': '{"type":"Point","coordinates":[13.41524,52.49139]}'}
+[2025-01-29 14:47:15,926] INFO in main: Path: /city/Berlin/listings_by_categories | Method: GET | Status: 200 | Duration: 0.068s
+[2025-01-29 14:47:24,274] INFO in main: Sample listing data: {'host_id': 40683740, 'latitude': 52.51508, 'longitude': 13.46694, 'name': 'Zimmer im Herzen Friedrichshains', 'price': None, 'processed_price': 10, 'geom': '{"type":"Point","coordinates":[13.46694,52.51508]}'}
+[2025-01-29 14:47:24,301] INFO in main: Path: /city/Berlin/listings_by_categories | Method: GET | Status: 200 | Duration: 0.146s
+[2025-01-29 14:48:49,149] INFO in main: Fetching cities list
+[2025-01-29 14:48:49,214] INFO in main: Found 21 cities
+[2025-01-29 14:48:49,215] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.066s
+[2025-01-29 14:48:50,747] INFO in main: Fetching cities list
+[2025-01-29 14:48:50,845] INFO in main: Found 21 cities
+[2025-01-29 14:48:50,845] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.098s
+[2025-01-29 14:48:52,124] INFO in main: Path: /city/Berlin | Method: GET | Status: 200 | Duration: 0.000s
+[2025-01-29 14:48:52,256] INFO in main: Path: /city/Berlin/yearly_stats | Method: GET | Status: 200 | Duration: 0.107s
+[2025-01-29 14:48:52,719] INFO in main: Path: /city/Berlin/host_ranking | Method: GET | Status: 200 | Duration: 0.072s
+[2025-01-29 14:48:53,314] INFO in main: Sample listing data: {'host_id': 1391772, 'latitude': 52.50977, 'longitude': 13.44602, 'name': 'Nice apartment in Berlin', 'price': None, 'processed_price': 10, 'geom': '{"type":"Point","coordinates":[13.44602,52.50977]}'}
+[2025-01-29 14:48:53,316] INFO in main: Path: /city/Berlin/listings_by_categories | Method: GET | Status: 200 | Duration: 0.055s
+[2025-01-29 14:48:53,362] INFO in main: Sample listing data: {'host_id': 163384, 'latitude': 52.55004, 'longitude': 13.41518, 'name': 'Quiet studio in Prenzlauer Berg near Mauerpark', 'price': '$152.00', 'processed_price': 15, 'geom': '{"type":"Point","coordinates":[13.41518,52.55004]}'}
+[2025-01-29 14:48:53,364] INFO in main: Path: /city/Berlin/listings_by_categories | Method: GET | Status: 200 | Duration: 0.047s
+[2025-01-29 14:48:53,410] INFO in main: Sample listing data: {'host_id': 54283, 'latitude': 52.54367, 'longitude': 13.42431, 'name': 'Quiet 2 rooms next Helmholtzplatz', 'price': '$120.00', 'processed_price': 15, 'geom': '{"type":"Point","coordinates":[13.42431,52.54367]}'}
+[2025-01-29 14:48:53,448] INFO in main: Sample listing data: {'host_id': 1581, 'latitude': 52.49139, 'longitude': 13.41524, 'name': 'Temporary living 1 bdrm apt - Beauty & Comfort', 'price': '$48.00', 'processed_price': 5, 'geom': '{"type":"Point","coordinates":[13.41524,52.49139]}'}
+[2025-01-29 14:48:53,497] INFO in main: Sample listing data: {'host_id': 40683740, 'latitude': 52.51508, 'longitude': 13.46694, 'name': 'Zimmer im Herzen Friedrichshains', 'price': None, 'processed_price': 10, 'geom': '{"type":"Point","coordinates":[13.46694,52.51508]}'}
+[2025-01-29 14:48:53,524] INFO in main: Path: /city/Berlin/listings_by_categories | Method: GET | Status: 200 | Duration: 0.161s
+[2025-01-29 14:48:53,524] INFO in main: Path: /city/Berlin/listings_by_categories | Method: GET | Status: 200 | Duration: 0.161s
+[2025-01-29 14:48:53,524] INFO in main: Path: /city/Berlin/listings_by_categories | Method: GET | Status: 200 | Duration: 0.161s
+[2025-01-29 14:50:57,173] INFO in main: Path: /city/Berlin/yearly_stats | Method: GET | Status: 200 | Duration: 0.085s
+[2025-01-29 14:51:02,145] INFO in main: Path: /city/Madrid | Method: GET | Status: 200 | Duration: 0.000s
+[2025-01-29 14:51:02,338] INFO in main: Path: /city/Madrid/yearly_stats | Method: GET | Status: 200 | Duration: 0.116s
+[2025-01-29 14:51:02,800] INFO in main: Path: /city/Madrid/host_ranking | Method: GET | Status: 200 | Duration: 0.068s
+[2025-01-29 14:51:03,352] INFO in main: Sample listing data: {'host_id': 901218, 'latitude': 40.41849, 'longitude': -3.70743, 'name': 'BA1-Priv bathroom B2', 'price': '$129.00', 'processed_price': 15, 'geom': '{"type":"Point","coordinates":[-3.70743,40.41849]}'}
+[2025-01-29 14:51:03,354] INFO in main: Path: /city/Madrid/listings_by_categories | Method: GET | Status: 200 | Duration: 0.060s
+[2025-01-29 14:51:03,413] INFO in main: Sample listing data: {'host_id': 596469, 'latitude': 40.42855453491211, 'longitude': -3.7027840614318848, 'name': 'Estudio en Malasaña - Fuencarral', 'price': None, 'processed_price': 15, 'geom': '{"type":"Point","coordinates":[-3.702784061,40.428554535]}'}
+[2025-01-29 14:51:03,473] INFO in main: Sample listing data: {'host_id': 130907, 'latitude': 40.41476, 'longitude': -3.70418, 'name': 'Great Vacational Apartments', 'price': None, 'processed_price': 15, 'geom': '{"type":"Point","coordinates":[-3.70418,40.41476]}'}
+[2025-01-29 14:51:03,553] INFO in main: Sample listing data: {'host_id': 53526, 'latitude': 40.42453, 'longitude': -3.70058, 'name': 'Lovely & Chic oasis in the best of downtown', 'price': '$180.00', 'processed_price': 15, 'geom': '{"type":"Point","coordinates":[-3.70058,40.42453]}'}
+[2025-01-29 14:51:03,651] INFO in main: Sample listing data: {'host_id': 54386514, 'latitude': 40.43912, 'longitude': -3.6948, 'name': 'ATICO EN MADRID CENTRO', 'price': None, 'processed_price': 15, 'geom': '{"type":"Point","coordinates":[-3.6948,40.43912]}'}
+[2025-01-29 14:51:03,676] INFO in main: Path: /city/Madrid/listings_by_categories | Method: GET | Status: 200 | Duration: 0.322s
+[2025-01-29 14:51:03,676] INFO in main: Path: /city/Madrid/listings_by_categories | Method: GET | Status: 200 | Duration: 0.322s
+[2025-01-29 14:51:03,676] INFO in main: Path: /city/Madrid/listings_by_categories | Method: GET | Status: 200 | Duration: 0.322s
+[2025-01-29 14:51:03,677] INFO in main: Path: /city/Madrid/listings_by_categories | Method: GET | Status: 200 | Duration: 0.116s
+[2025-01-29 14:51:13,337] INFO in main: Path: /city/Madrid/host_ranking | Method: GET | Status: 200 | Duration: 0.076s
+[2025-01-29 14:51:13,950] INFO in main: Sample listing data: {'host_id': 596469, 'latitude': 40.42855453491211, 'longitude': -3.7027840614318848, 'name': 'Estudio en Malasaña - Fuencarral', 'price': None, 'processed_price': 15, 'geom': '{"type":"Point","coordinates":[-3.702784061,40.428554535]}'}
+[2025-01-29 14:51:13,994] INFO in main: Path: /city/Madrid/listings_by_categories | Method: GET | Status: 200 | Duration: 0.143s
+[2025-01-29 14:51:14,070] INFO in main: Sample listing data: {'host_id': 142578, 'latitude': 40.42654, 'longitude': -3.70193, 'name': 'Room2  in lovely 3 bedroom apt, centre of town', 'price': '$41.00', 'processed_price': 5, 'geom': '{"type":"Point","coordinates":[-3.70193,40.42654]}'}
+[2025-01-29 14:51:14,283] INFO in main: Sample listing data: {'host_id': 53526, 'latitude': 40.42453, 'longitude': -3.70058, 'name': 'Lovely & Chic oasis in the best of downtown', 'price': '$180.00', 'processed_price': 15, 'geom': '{"type":"Point","coordinates":[-3.70058,40.42453]}'}
+[2025-01-29 14:51:14,482] INFO in main: Sample listing data: {'host_id': 31622, 'latitude': 40.43268, 'longitude': -3.71659, 'name': 'Central, fastest WiFi & private bathroom -Bdr', 'price': '$40.00', 'processed_price': 5, 'geom': '{"type":"Point","coordinates":[-3.71659,40.43268]}'}
+[2025-01-29 14:51:14,754] INFO in main: Sample listing data: {'host_id': 7952, 'latitude': 40.42435, 'longitude': -3.71655, 'name': 'Extraordinario piso con vistas al Templo de Debod', 'price': '$259.00', 'processed_price': 18, 'geom': '{"type":"Point","coordinates":[-3.71655,40.42435]}'}
+[2025-01-29 14:51:14,864] INFO in main: Path: /city/Madrid/listings_by_categories | Method: GET | Status: 200 | Duration: 0.869s
+[2025-01-29 14:51:14,864] INFO in main: Path: /city/Madrid/listings_by_categories | Method: GET | Status: 200 | Duration: 0.869s
+[2025-01-29 14:51:14,865] INFO in main: Path: /city/Madrid/listings_by_categories | Method: GET | Status: 200 | Duration: 0.869s
+[2025-01-29 14:51:14,865] INFO in main: Path: /city/Madrid/listings_by_categories | Method: GET | Status: 200 | Duration: 0.869s
+[2025-01-29 14:51:21,020] INFO in main: Path: /city/London | Method: GET | Status: 200 | Duration: 0.000s
+[2025-01-29 14:51:21,444] INFO in main: Path: /city/London/yearly_stats | Method: GET | Status: 200 | Duration: 0.373s
+[2025-01-29 14:51:21,674] INFO in main: Path: /city/London/host_ranking | Method: GET | Status: 200 | Duration: 0.093s
+[2025-01-29 14:51:22,319] INFO in main: Sample listing data: {'host_id': 216660, 'latitude': 51.4934, 'longitude': -0.22929, 'name': 'Cosy Double studio in Zone 2 Hammersmith (6)', 'price': '$87.00', 'processed_price': 10, 'geom': '{"type":"Point","coordinates":[-0.22929,51.4934]}'}
+[2025-01-29 14:51:22,324] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 200 | Duration: 0.123s
+[2025-01-29 14:51:22,379] INFO in main: Sample listing data: {'host_id': 381894, 'latitude': 51.42328, 'longitude': -0.17789, 'name': 'Large 2Bedroom  Apartment (B), 4 Beds, sleeps 6', 'price': '$150.00', 'processed_price': 15, 'geom': '{"type":"Point","coordinates":[-0.17789,51.42328]}'}
+[2025-01-29 14:51:22,450] INFO in main: Sample listing data: {'host_id': 4775, 'latitude': 51.526448, 'longitude': -0.088015, 'name': 'Old St tube 2mins Dbl  balcony in iconic building', 'price': '$88.00', 'processed_price': 10, 'geom': '{"type":"Point","coordinates":[-0.088015,51.526448]}'}
+[2025-01-29 14:51:22,541] INFO in main: Sample listing data: {'host_id': 32851, 'latitude': 51.54588, 'longitude': -0.0684, 'name': 'Stunning Bright Architect’s Home & Garden Hackney', 'price': '$280.00', 'processed_price': 18, 'geom': '{"type":"Point","coordinates":[-0.0684,51.54588]}'}
+[2025-01-29 14:51:22,804] INFO in main: Sample listing data: {'host_id': 44775341, 'latitude': 51.39926, 'longitude': -0.09785, 'name': 'Cosy Flat for two', 'price': None, 'processed_price': 10, 'geom': '{"type":"Point","coordinates":[-0.09785,51.39926]}'}
+[2025-01-29 14:51:22,912] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 200 | Duration: 0.588s
+[2025-01-29 14:51:22,912] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 200 | Duration: 0.588s
+[2025-01-29 14:51:22,912] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 200 | Duration: 0.588s
+[2025-01-29 14:51:22,913] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 200 | Duration: 0.588s
+[2025-01-29 14:51:29,620] INFO in main: Path: /city/London/yearly_stats | Method: GET | Status: 200 | Duration: 0.332s
+[2025-01-29 14:51:36,637] INFO in main: Path: /city/London/yearly_stats | Method: GET | Status: 200 | Duration: 0.359s
+[2025-01-29 14:51:38,950] INFO in main: Path: /city/London/yearly_stats | Method: GET | Status: 200 | Duration: 0.341s
+[2025-01-29 14:51:41,058] INFO in main: Fetching cities list
+[2025-01-29 14:51:41,228] INFO in main: Found 21 cities
+[2025-01-29 14:51:41,229] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.171s
+[2025-01-29 14:51:42,539] INFO in main: Path: /city/London | Method: GET | Status: 200 | Duration: 0.000s
+[2025-01-29 14:51:42,916] INFO in main: Path: /city/London/yearly_stats | Method: GET | Status: 200 | Duration: 0.350s
+[2025-01-29 14:51:43,143] INFO in main: Path: /city/London/host_ranking | Method: GET | Status: 200 | Duration: 0.082s
+[2025-01-29 14:51:43,767] INFO in main: Sample listing data: {'host_id': 216660, 'latitude': 51.4934, 'longitude': -0.22929, 'name': 'Cosy Double studio in Zone 2 Hammersmith (6)', 'price': '$87.00', 'processed_price': 10, 'geom': '{"type":"Point","coordinates":[-0.22929,51.4934]}'}
+[2025-01-29 14:51:43,771] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 200 | Duration: 0.094s
+[2025-01-29 14:51:43,819] INFO in main: Sample listing data: {'host_id': 381894, 'latitude': 51.42328, 'longitude': -0.17789, 'name': 'Large 2Bedroom  Apartment (B), 4 Beds, sleeps 6', 'price': '$150.00', 'processed_price': 15, 'geom': '{"type":"Point","coordinates":[-0.17789,51.42328]}'}
+[2025-01-29 14:51:43,876] INFO in main: Sample listing data: {'host_id': 4775, 'latitude': 51.526448, 'longitude': -0.088015, 'name': 'Old St tube 2mins Dbl  balcony in iconic building', 'price': '$88.00', 'processed_price': 10, 'geom': '{"type":"Point","coordinates":[-0.088015,51.526448]}'}
+[2025-01-29 14:51:43,939] INFO in main: Sample listing data: {'host_id': 32851, 'latitude': 51.54588, 'longitude': -0.0684, 'name': 'Stunning Bright Architect’s Home & Garden Hackney', 'price': '$280.00', 'processed_price': 18, 'geom': '{"type":"Point","coordinates":[-0.0684,51.54588]}'}
+[2025-01-29 14:51:44,081] INFO in main: Sample listing data: {'host_id': 44775341, 'latitude': 51.39926, 'longitude': -0.09785, 'name': 'Cosy Flat for two', 'price': None, 'processed_price': 10, 'geom': '{"type":"Point","coordinates":[-0.09785,51.39926]}'}
+[2025-01-29 14:51:44,188] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 200 | Duration: 0.416s
+[2025-01-29 14:51:44,188] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 200 | Duration: 0.417s
+[2025-01-29 14:51:44,189] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 200 | Duration: 0.417s
+[2025-01-29 14:51:44,189] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 200 | Duration: 0.417s
+[2025-01-29 14:51:50,584] INFO in main: Fetching cities list
+[2025-01-29 14:51:50,660] INFO in main: Found 21 cities
+[2025-01-29 14:51:50,661] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.077s
+[2025-01-29 14:51:53,241] INFO in main: Path: /city/Newyorkcity | Method: GET | Status: 200 | Duration: 0.000s
+[2025-01-29 14:51:53,426] INFO in main: Path: /city/Newyorkcity/yearly_stats | Method: GET | Status: 200 | Duration: 0.161s
+[2025-01-29 14:51:53,834] INFO in main: Path: /city/Newyorkcity/host_ranking | Method: GET | Status: 200 | Duration: 0.073s
+[2025-01-29 14:51:54,462] INFO in main: Sample listing data: {'host_id': 417504, 'latitude': 40.73777, 'longitude': -73.95366, 'name': 'Loft w/ Terrace @ Box House Hotel', 'price': None, 'processed_price': 10, 'geom': '{"type":"Point","coordinates":[-73.95366,40.73777]}'}
+[2025-01-29 14:51:54,464] INFO in main: Path: /city/Newyorkcity/listings_by_categories | Method: GET | Status: 200 | Duration: 0.060s
+[2025-01-29 14:51:54,505] INFO in main: Sample listing data: {'host_id': 836168, 'latitude': 40.7751, 'longitude': -73.98595, 'name': 'Luxury 2Bed/2.5Bath Central Park View', 'price': '$2,500.00', 'processed_price': 20, 'geom': '{"type":"Point","coordinates":[-73.98595,40.7751]}'}
+[2025-01-29 14:51:54,583] INFO in main: Sample listing data: {'host_id': 2787, 'latitude': 40.64733, 'longitude': -73.97281, 'name': 'Clean apt home near Prospect Park', 'price': '$249.00', 'processed_price': 15, 'geom': '{"type":"Point","coordinates":[-73.97281,40.64733]}'}
+[2025-01-29 14:51:54,688] INFO in main: Sample listing data: {'host_id': 15523, 'latitude': 40.63139, 'longitude': -74.08169, 'name': 'Enjoy and discover New York Citi', 'price': '$71.00', 'processed_price': 5, 'geom': '{"type":"Point","coordinates":[-74.08169,40.63139]}'}
+[2025-01-29 14:51:54,800] INFO in main: Sample listing data: {'host_id': 87494, 'latitude': 40.83455, 'longitude': -73.9387, 'name': 'Private Bedroom in Renovated Apt', 'price': None, 'processed_price': 10, 'geom': '{"type":"Point","coordinates":[-73.9387,40.83455]}'}
+[2025-01-29 14:51:54,867] INFO in main: Path: /city/Newyorkcity/listings_by_categories | Method: GET | Status: 200 | Duration: 0.402s
+[2025-01-29 14:51:54,867] INFO in main: Path: /city/Newyorkcity/listings_by_categories | Method: GET | Status: 200 | Duration: 0.402s
+[2025-01-29 14:51:54,867] INFO in main: Path: /city/Newyorkcity/listings_by_categories | Method: GET | Status: 200 | Duration: 0.402s
+[2025-01-29 14:51:54,867] INFO in main: Path: /city/Newyorkcity/listings_by_categories | Method: GET | Status: 200 | Duration: 0.402s
+[2025-01-29 14:52:03,420] INFO in main: Path: /city/Newyorkcity/yearly_stats | Method: GET | Status: 200 | Duration: 0.144s
+[2025-01-29 14:52:08,744] INFO in main: Path: /city/Newyorkcity/yearly_stats | Method: GET | Status: 200 | Duration: 0.164s
+[2025-01-29 14:52:10,902] INFO in main: Path: /city/Newyorkcity/host_ranking | Method: GET | Status: 200 | Duration: 0.136s
+[2025-01-29 14:52:11,460] INFO in main: Sample listing data: {'host_id': 417504, 'latitude': 40.73777, 'longitude': -73.95366, 'name': 'Loft w/ Terrace @ Box House Hotel', 'price': None, 'processed_price': 10, 'geom': '{"type":"Point","coordinates":[-73.95366,40.73777]}'}
+[2025-01-29 14:52:11,519] INFO in main: Path: /city/Newyorkcity/listings_by_categories | Method: GET | Status: 200 | Duration: 0.169s
+[2025-01-29 14:52:11,608] INFO in main: Sample listing data: {'host_id': 204539, 'latitude': 40.71567, 'longitude': -73.87842, 'name': 'cozy studio with parking spot', 'price': '$130.00', 'processed_price': 10, 'geom': '{"type":"Point","coordinates":[-73.87842,40.71567]}'}
+[2025-01-29 14:52:11,809] INFO in main: Sample listing data: {'host_id': 2787, 'latitude': 40.64733, 'longitude': -73.97281, 'name': 'Clean apt home near Prospect Park', 'price': '$249.00', 'processed_price': 15, 'geom': '{"type":"Point","coordinates":[-73.97281,40.64733]}'}
+[2025-01-29 14:52:12,105] INFO in main: Sample listing data: {'host_id': 4396, 'latitude': 40.72281, 'longitude': -73.98501, 'name': 'Charming Room in Amazing East Village Apt. (B)', 'price': '$159.00', 'processed_price': 15, 'geom': '{"type":"Point","coordinates":[-73.98501,40.72281]}'}
+[2025-01-29 14:52:12,476] INFO in main: Sample listing data: {'host_id': 1678, 'latitude': 40.73104379975901, 'longitude': -73.95668880232475, 'name': 'Charming Garden Level Ensuite Guest Room', 'price': '$189.00', 'processed_price': 15, 'geom': '{"type":"Point","coordinates":[-73.956688802,40.7310438]}'}
+[2025-01-29 14:52:12,694] INFO in main: Path: /city/Newyorkcity/listings_by_categories | Method: GET | Status: 200 | Duration: 1.173s
+[2025-01-29 14:52:12,694] INFO in main: Path: /city/Newyorkcity/listings_by_categories | Method: GET | Status: 200 | Duration: 1.174s
+[2025-01-29 14:52:12,694] INFO in main: Path: /city/Newyorkcity/listings_by_categories | Method: GET | Status: 200 | Duration: 1.174s
+[2025-01-29 14:52:12,694] INFO in main: Path: /city/Newyorkcity/listings_by_categories | Method: GET | Status: 200 | Duration: 1.174s
+[2025-01-29 14:52:12,694] INFO in main: Fetching cities list
+[2025-01-29 14:52:12,782] INFO in main: Found 21 cities
+[2025-01-29 14:52:12,782] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.088s
+[2025-01-29 14:52:15,991] INFO in main: Path: /city/Milan | Method: GET | Status: 200 | Duration: 0.000s
+[2025-01-29 14:52:16,154] INFO in main: Path: /city/Milan/yearly_stats | Method: GET | Status: 200 | Duration: 0.141s
+[2025-01-29 14:52:16,584] INFO in main: Path: /city/Milan/host_ranking | Method: GET | Status: 200 | Duration: 0.051s
+[2025-01-29 14:52:17,178] INFO in main: Sample listing data: {'host_id': 2718914, 'latitude': 45.48309, 'longitude': 9.20435, 'name': 'MILANO CENTRAL LUXURY - 3 BDR - 7 Guests', 'price': '$395.00', 'processed_price': 20, 'geom': '{"type":"Point","coordinates":[9.20435,45.48309]}'}
+[2025-01-29 14:52:17,179] INFO in main: Path: /city/Milan/listings_by_categories | Method: GET | Status: 200 | Duration: 0.058s
+[2025-01-29 14:52:17,216] INFO in main: Sample listing data: {'host_id': 2504885, 'latitude': 45.45993, 'longitude': 9.1718, 'name': 'PrimoPiano - Ariberto', 'price': '$110.00', 'processed_price': 10, 'geom': '{"type":"Point","coordinates":[9.1718,45.45993]}'}
+[2025-01-29 14:52:17,254] INFO in main: Sample listing data: {'host_id': 138138, 'latitude': 45.46001, 'longitude': 9.18582, 'name': 'Fancy apt in historical building in Duomo Area (3)', 'price': None, 'processed_price': 10, 'geom': '{"type":"Point","coordinates":[9.18582,45.46001]}'}
+[2025-01-29 14:52:17,306] INFO in main: Sample listing data: {'host_id': 174203, 'latitude': 45.52023, 'longitude': 9.22747, 'name': 'Giacinto Cosy & clean flat near MM1', 'price': '$95.00', 'processed_price': 10, 'geom': '{"type":"Point","coordinates":[9.22747,45.52023]}'}
+[2025-01-29 14:52:17,402] INFO in main: Sample listing data: {'host_id': 10150511, 'latitude': 45.47713, 'longitude': 9.16145, 'name': 'MiniLoft Sempione CityLife', 'price': '$63.00', 'processed_price': 5, 'geom': '{"type":"Point","coordinates":[9.16145,45.47713]}'}
+[2025-01-29 14:52:17,429] INFO in main: Path: /city/Milan/listings_by_categories | Method: GET | Status: 200 | Duration: 0.249s
+[2025-01-29 14:52:17,429] INFO in main: Path: /city/Milan/listings_by_categories | Method: GET | Status: 200 | Duration: 0.249s
+[2025-01-29 14:52:17,429] INFO in main: Path: /city/Milan/listings_by_categories | Method: GET | Status: 200 | Duration: 0.249s
+[2025-01-29 14:52:17,430] INFO in main: Path: /city/Milan/listings_by_categories | Method: GET | Status: 200 | Duration: 0.250s
+[2025-01-29 14:52:18,762] INFO in main: Path: /city/London | Method: GET | Status: 200 | Duration: 0.000s
+[2025-01-29 14:52:19,186] INFO in main: Path: /city/London/yearly_stats | Method: GET | Status: 200 | Duration: 0.370s
+[2025-01-29 14:52:19,393] INFO in main: Path: /city/London/host_ranking | Method: GET | Status: 200 | Duration: 0.080s
+[2025-01-29 14:52:20,065] INFO in main: Sample listing data: {'host_id': 216660, 'latitude': 51.4934, 'longitude': -0.22929, 'name': 'Cosy Double studio in Zone 2 Hammersmith (6)', 'price': '$87.00', 'processed_price': 10, 'geom': '{"type":"Point","coordinates":[-0.22929,51.4934]}'}
+[2025-01-29 14:52:20,116] INFO in main: Sample listing data: {'host_id': 381894, 'latitude': 51.42328, 'longitude': -0.17789, 'name': 'Large 2Bedroom  Apartment (B), 4 Beds, sleeps 6', 'price': '$150.00', 'processed_price': 15, 'geom': '{"type":"Point","coordinates":[-0.17789,51.42328]}'}
+[2025-01-29 14:52:20,173] INFO in main: Sample listing data: {'host_id': 4775, 'latitude': 51.526448, 'longitude': -0.088015, 'name': 'Old St tube 2mins Dbl  balcony in iconic building', 'price': '$88.00', 'processed_price': 10, 'geom': '{"type":"Point","coordinates":[-0.088015,51.526448]}'}
+[2025-01-29 14:52:20,266] INFO in main: Sample listing data: {'host_id': 32851, 'latitude': 51.54588, 'longitude': -0.0684, 'name': 'Stunning Bright Architect’s Home & Garden Hackney', 'price': '$280.00', 'processed_price': 18, 'geom': '{"type":"Point","coordinates":[-0.0684,51.54588]}'}
+[2025-01-29 14:52:20,445] INFO in main: Sample listing data: {'host_id': 44775341, 'latitude': 51.39926, 'longitude': -0.09785, 'name': 'Cosy Flat for two', 'price': None, 'processed_price': 10, 'geom': '{"type":"Point","coordinates":[-0.09785,51.39926]}'}
+[2025-01-29 14:52:20,552] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 200 | Duration: 0.601s
+[2025-01-29 14:52:20,552] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 200 | Duration: 0.601s
+[2025-01-29 14:52:20,552] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 200 | Duration: 0.432s
+[2025-01-29 14:52:20,553] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 200 | Duration: 0.433s
+[2025-01-29 14:52:20,553] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 200 | Duration: 0.433s
+[2025-01-29 14:52:22,478] INFO in main: Path: /city/London/host_ranking | Method: GET | Status: 200 | Duration: 0.276s
+[2025-01-29 14:52:23,064] INFO in main: Sample listing data: {'host_id': 54987, 'latitude': 51.50168, 'longitude': -0.02068, 'name': 'Spacious One Bedroom Flat in Canary Wharf', 'price': '$188.00', 'processed_price': 15, 'geom': '{"type":"Point","coordinates":[-0.02068,51.50168]}'}
+[2025-01-29 14:52:23,380] INFO in main: Sample listing data: {'host_id': 216660, 'latitude': 51.4934, 'longitude': -0.22929, 'name': 'Cosy Double studio in Zone 2 Hammersmith (6)', 'price': '$87.00', 'processed_price': 10, 'geom': '{"type":"Point","coordinates":[-0.22929,51.4934]}'}
+[2025-01-29 14:52:23,738] INFO in main: Sample listing data: {'host_id': 4775, 'latitude': 51.526448, 'longitude': -0.088015, 'name': 'Old St tube 2mins Dbl  balcony in iconic building', 'price': '$88.00', 'processed_price': 10, 'geom': '{"type":"Point","coordinates":[-0.088015,51.526448]}'}
+[2025-01-29 14:52:24,234] INFO in main: Sample listing data: {'host_id': 25235, 'latitude': 51.53733, 'longitude': -0.153, 'name': 'Luxurious Houseboat Central London (Regents Canal)', 'price': '$475.00', 'processed_price': 20, 'geom': '{"type":"Point","coordinates":[-0.153,51.53733]}'}
+[2025-01-29 14:52:24,935] INFO in main: Sample listing data: {'host_id': 9089, 'latitude': 51.52389890028745, 'longitude': -0.10496568042602572, 'name': 'Stylish, spacious launchpad for urban village life', 'price': '$324.00', 'processed_price': 18, 'geom': '{"type":"Point","coordinates":[-0.10496568,51.5238989]}'}
+[2025-01-29 14:52:25,489] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 200 | Duration: 2.691s
+[2025-01-29 14:52:25,489] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 200 | Duration: 2.305s
+[2025-01-29 14:52:25,489] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 200 | Duration: 2.305s
+[2025-01-29 14:52:25,489] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 200 | Duration: 2.305s
+[2025-01-29 14:52:25,489] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 200 | Duration: 2.305s
+[2025-01-29 14:52:36,042] INFO in main: Path: /city/London/yearly_stats | Method: GET | Status: 200 | Duration: 0.398s
+[2025-01-29 14:52:42,251] INFO in main: Path: /city/London/yearly_stats | Method: GET | Status: 200 | Duration: 0.348s
+[2025-01-29 14:52:50,937] INFO in main: Path: /city/London/yearly_stats | Method: GET | Status: 200 | Duration: 0.366s
+[2025-01-29 14:52:55,989] INFO in main: Path: /city/London/yearly_stats | Method: GET | Status: 200 | Duration: 0.338s

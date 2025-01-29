@@ -1309,3 +1309,6 @@
 [2025-01-27 22:53:15,053] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 200 | Duration: 0.115s
 [2025-01-27 22:53:17,162] INFO in main: Sample listing data: {'host_id': 44775341, 'latitude': 51.39926, 'longitude': -0.09785, 'name': 'Cosy Flat for two', 'price': None, 'processed_price': 10, 'geom': '{"type":"Point","coordinates":[-0.09785,51.39926]}'}
 [2025-01-27 22:53:17,248] INFO in main: Path: /city/London/listings_by_categories | Method: GET | Status: 200 | Duration: 0.307s
+[2025-01-27 23:26:08,324] INFO in main: Fetching cities list
+[2025-01-27 23:26:08,401] INFO in main: Found 21 cities
+[2025-01-27 23:26:08,403] INFO in main: Path: /cities | Method: GET | Status: 200 | Duration: 0.079s

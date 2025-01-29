@@ -257,7 +257,7 @@ export default {
       console.log('City change started:', selectedCity.value)
       if (!selectedCity.value) {
         cityInfo.value = null
-        selectedHostTypes.value = []
+        selectedHostTypes.value = []  // 先清空
         emit('loading', { show: false })
         return
       }
@@ -279,7 +279,14 @@ export default {
         })
         
         cityInfo.value = response.data
-        selectedHostTypes.value = []
+        // 默认选中所有房东类型
+        selectedHostTypes.value = [
+          'highly_commercial',
+          'commercial',
+          'semi_commercial',
+          'dual_host',
+          'single_host'
+        ]
         
         // Update time range
         timeRange.value = [
