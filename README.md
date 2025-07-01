@@ -2,7 +2,7 @@
 
 https://www.geonarvis.com/airbnb-hosts-visualization/
 
-<img width="1683" alt="image" src="https://github.com/user-attachments/assets/11f6d559-f69c-48ef-a9f2-f6737c285f4b" />
+<img width="1674" alt="image" src="https://github.com/user-attachments/assets/2dd1db21-cae8-4ef3-91dc-1fc2b3dca2b2" />
 
 The data source of this project is [Inside Airbnb](https://insideairbnb.com/). The basemap comes from a custom Mapbox Studio project, including:
 
